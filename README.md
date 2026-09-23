@@ -1,26 +1,57 @@
 # Ka-CSE Reviewer
 
-A student-friendly, minimalist, and front-end only web application designed to help CSE examinees review and prepare for the Civil Service Examination. The platform features practice quizzes, full mock exams, and a daily vocabulary digest that includes a quick review quiz after every single entry to test retention.
+Ka-CSE Reviewer is a student-friendly web application built to help Philippine Civil Service Examination (CSE) examinees practice, review, and track their progress.
 
-**Live Link**: *[kacsereviewer.netlify.app](kacsereviewer.netlify.app)*
+It provides focused practice quizzes, a full exam simulator, daily vocabulary challenges, and browser-based progress persistence.
 
----
+**Live Demo:** https://kacsereviewer.netlify.app/
 
-## Key Features
+## Features
 
-* **Practice Mode**: Study specific exam subtests (Numerical, Verbal, Analytical, Clerical, and General Info) with step-by-step solutions and explanations.
-* **Full Exam Simulator**: A realistic simulation of the official Civil Service Exam with a 3-hour-10-minute timer, a question navigator grid, and review flagging options.
-* **Daily Vocabulary Challenge**: A decoupled daily vocabulary digest quiz matching terms to keep synonyms and antonyms sharp.
-* **Session Persistence**: Built-in automatic state recovery using browser standard `LocalStorage` so users never lose their practice quiz or exam simulation progress on page refreshes or accidental tab closures.
-* **Performance Dashboard**: Real-time high-score tracking, streaks, vocabulary digests, and historical exam reviews.
-* **Randomized Questions**: Leverages the Fisher-Yates shuffle algorithm to randomize questions within practice categories or mix them across the entire exam simulation, replicating the layout of the actual Civil Service Examination.
-
----
+* **Practice Mode** — Review specific CSE areas including Numerical, Verbal, Analytical, Clerical, and General Information.
+* **Full Exam Simulator** — Take a timed CSE simulation with question navigation, flagging, and randomized questions.
+* **Daily Vocabulary Challenge** — Practice vocabulary through daily synonym and antonym quizzes.
+* **Session Persistence** — Automatically saves quiz and exam progress using the browser's `LocalStorage` API.
+* **Performance Tracking** — Track scores, streaks, vocabulary progress, and previous exam results.
+* **Question Randomization** — Uses the Fisher-Yates shuffle algorithm to randomize questions during practice and exam simulations.
+* **Responsive Interface** — Designed for students to use across desktop and mobile devices.
 
 ## Tech Stack
 
-* **Structure & Layout**: Pure HTML5 & [Tailwind CSS](https://tailwindcss.com) (via CDN)
-* **Logic & Engine**: Modern Vanilla JavaScript (ES6+)
-* **Local Storage Layer**: Client-side state saving using standard browser `LocalStorage` API
+* HTML5
+* JavaScript (ES6+)
+* Tailwind CSS
+* LocalStorage
+  
+## Why I Built It
 
----
+I built Ka-CSE Reviewer while preparing for the Philippine Civil Service Examination.
+
+I wanted a more convenient way to practice than relying entirely on static review materials, so I built a browser-based reviewer that combines practice questions, a full exam simulation, vocabulary exercises, and progress tracking in one place.
+
+The project was also an opportunity for me to practice building a complete frontend application with JavaScript, managing client-side state, working with structured data, and designing an application around an actual user need.
+
+After deploying it, I shared the reviewer with classmates who used it for their own CSE preparation.
+
+## What I Learned
+
+This project helped me strengthen my understanding of:
+
+* JavaScript application logic and state management
+* DOM manipulation and event handling
+* Browser `LocalStorage`
+* Data organization and client-side persistence
+* The Fisher-Yates shuffle algorithm
+* Building reusable UI and quiz components
+* Deploying a web application with Netlify
+* Designing software around a real-world use case
+
+## Status
+
+**Completed — v1**
+
+The current version is a functional frontend-only CSE reviewer. Future improvements may include a backend, user accounts, cloud-based progress synchronization, and additional study features.
+
+## License
+
+This project is licensed under the MIT License.
