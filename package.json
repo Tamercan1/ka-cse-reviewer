@@ -1,0 +1,15 @@
+{
+  "name": "cse-reviewer",
+  "version": "1.0.0",
+  "description": "Philippine Civil Service Exam Reviewer — Practice Quiz, Exam Simulation, and Vocabulary Digest.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  }
+}
