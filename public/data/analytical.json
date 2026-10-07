@@ -325,39 +325,39 @@
   },
   {
     "id": "anal_28",
-    "question": "Find the odd one out.",
+    "question": "Syllogism: All birds have feathers. Some flying animals are birds. Therefore:",
     "choices": [
-      "343",
-      "512",
-      "729",
-      "144"
+      "All flying animals have feathers.",
+      "Some flying animals have feathers.",
+      "No flying animals have feathers.",
+      "All birds can fly."
     ],
-    "answer": "144",
-    "explanation": "343 (7³), 512 (8³), and 729 (9³) are perfect cubes. 144 (12²) is a perfect square, not a cube."
+    "answer": "Some flying animals have feathers.",
+    "explanation": "Since some flying animals fall into the 'birds' category, and all birds have feathers, those specific flying animals must have feathers."
   },
   {
     "id": "anal_29",
-    "question": "Find the odd one out.",
+    "question": "Directional: A man walks 20m East, turns left and walks 15m, then turns right and walks 25m. How far is he East from his starting point?",
     "choices": [
-      "Iron",
-      "Copper",
-      "Silver",
-      "Wood"
+      "35m",
+      "40m",
+      "45m",
+      "50m"
     ],
-    "answer": "Wood",
-    "explanation": "Wood is not a metal, whereas Iron, Copper, and Silver are metals."
+    "answer": "45m",
+    "explanation": "He walked 20m East, then moved North, then walked another 25m East. Total Eastward movement = 20 + 25 = 45m."
   },
   {
     "id": "anal_30",
-    "question": "Find the odd one out.",
+    "question": "Blood Relation: Pointing to a woman, a man said, 'Her father is the only son of my grandfather.' How is the man related to the woman?",
     "choices": [
-      "HJI",
-      "OQP",
-      "VXV",
-      "BDF"
+      "Uncle",
+      "Brother",
+      "Father",
+      "Cousin"
     ],
-    "answer": "BDF",
-    "explanation": "Pattern: +2, -1 (H->J->I, O->Q->P). VXV is +2, -2. BDF is +2, +2. Let me replace this. Odd one out: c: 'TUV', 'XYZ', 'PQR', 'MNO'. Let's do a better one. c: ['BDG', 'HKM', 'PRU', 'TWZ']. B(+2)D(+3)G. H(+3)K(+2)M. P(+2)R(+3)U. T(+3)W(+3)Z. Okay, let's use a simpler logic: 'B', 'F', 'J', 'Q'. Answer Q (not +4)."
+    "answer": "Brother",
+    "explanation": "The only son of the man's grandfather is his father. Therefore, the woman's father is the man's father. They are siblings."
   },
   {
     "id": "anal_31",
@@ -373,15 +373,15 @@
   },
   {
     "id": "anal_32",
-    "question": "Find the odd one out.",
+    "question": "Number Sequence: What comes next? 4, 9, 19, 39, ___",
     "choices": [
-      "B F J",
-      "M Q U",
-      "C G K",
-      "H L O"
+      "59",
+      "69",
+      "79",
+      "89"
     ],
-    "answer": "H L O",
-    "explanation": "The pattern is +4 between each letter (B+4=F+4=J). In H L O, H+4=L, but L+3=O."
+    "answer": "79",
+    "explanation": "The pattern is (x * 2) + 1. 4*2+1=9. 9*2+1=19. 19*2+1=39. 39*2+1=79."
   },
   {
     "id": "anal_33",
@@ -745,39 +745,39 @@
   },
   {
     "id": "anal_63",
-    "question": "Find the odd one out.",
+    "question": "Coding-Decoding: If APPLE is coded as EPPLA, how is GRAPE coded?",
     "choices": [
-      "Guitar",
-      "Violin",
-      "Flute",
-      "Cello"
+      "EPARG",
+      "EPGAR",
+      "EPRAG",
+      "EPGRA"
     ],
-    "answer": "Flute",
-    "explanation": "Guitar, Violin, and Cello are string instruments. A Flute is a wind instrument."
+    "answer": "EPARG",
+    "explanation": "The word is simply reversed."
   },
   {
     "id": "anal_64",
-    "question": "Find the odd one out.",
+    "question": "Course of Action: Statement - The river is heavily polluted with industrial waste. \nI. Close down all industries near the river immediately. \nII. Mandate the installation of water treatment plants for all nearby industries.",
     "choices": [
-      "Epicenter",
-      "Seismograph",
-      "Focus",
-      "Crater"
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither follows"
     ],
-    "answer": "Crater",
-    "explanation": "Epicenter, Seismograph, and Focus are related to Earthquakes. A crater is related to Volcanoes."
+    "answer": "Only II follows",
+    "explanation": "Closing all industries (I) is an extreme measure that harms the economy. Mandating treatment plants (II) is a constructive and practical solution."
   },
   {
     "id": "anal_65",
     "question": "Find the odd one out.",
     "choices": [
-      "Meter",
-      "Inch",
-      "Ounce",
-      "Kilometer"
+      "Table",
+      "Chair",
+      "Desk",
+      "Television"
     ],
-    "answer": "Ounce",
-    "explanation": "Meter, Inch, and Kilometer are units of length. Ounce is a unit of weight."
+    "answer": "Television",
+    "explanation": "Table, Chair, and Desk are types of furniture. Television is an electronic appliance."
   },
   {
     "id": "anal_66",
@@ -1093,27 +1093,27 @@
   },
   {
     "id": "anal_92",
-    "question": "Find the odd one out.",
+    "question": "Assumption: 'Please turn off your mobile phones during the movie.' What is the underlying assumption?",
     "choices": [
-      "Othello",
-      "Macbeth",
-      "Hamlet",
-      "Oliver Twist"
+      "Mobile phones cause distraction.",
+      "Mobile phones will lose signal in the theater.",
+      "Mobile phones consume too much electricity.",
+      "The movie is too quiet."
     ],
-    "answer": "Oliver Twist",
-    "explanation": "Othello, Macbeth, and Hamlet are plays by Shakespeare. Oliver Twist is a novel by Charles Dickens."
+    "answer": "Mobile phones cause distraction.",
+    "explanation": "The request assumes that leaving phones on will cause a disruption or distraction to the audience."
   },
   {
     "id": "anal_93",
-    "question": "Find the odd one out.",
+    "question": "Analogy: Clock is to Time as Thermometer is to...",
     "choices": [
-      "Venus",
-      "Mars",
-      "Moon",
-      "Jupiter"
+      "Weather",
+      "Temperature",
+      "Heat",
+      "Cold"
     ],
-    "answer": "Moon",
-    "explanation": "Venus, Mars, and Jupiter are planets. The Moon is a satellite."
+    "answer": "Temperature",
+    "explanation": "A clock measures time. A thermometer measures temperature."
   },
   {
     "id": "anal_94",
@@ -1165,15 +1165,15 @@
   },
   {
     "id": "anal_98",
-    "question": "Coding-Decoding: If 'LEADER' is coded as 20-13-9-12-13-26, how is 'LIGHT' coded?",
+    "question": "Find the odd one out among these shapes.",
     "choices": [
-      "20-17-15-16-28",
-      "20-15-16-18-23",
-      "20-16-15-17-22",
-      "20-17-15-16-28"
+      "Square",
+      "Circle",
+      "Triangle",
+      "Hexagon"
     ],
-    "answer": "20-17-15-16-28",
-    "explanation": "L(12)+8=20. E(5)+8=13. A(1)+8=9. D(4)+8=12. E(5)+8=13. R(18)+8=26. For LIGHT: L(12)+8=20, I(9)+8=17, G(7)+8=15, H(8)+8=16, T(20)+8=28."
+    "answer": "Circle",
+    "explanation": "A circle is the only shape without straight edges or corners. (This fixes the previous duplicate choice issue)."
   },
   {
     "id": "anal_99",

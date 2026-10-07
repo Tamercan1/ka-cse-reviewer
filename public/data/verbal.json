@@ -493,15 +493,15 @@
   },
   {
     "id": "verb_42",
-    "question": "Choose the correct spelling.",
+    "question": "Choose the word most similar in meaning to 'EPHEMERAL'.",
     "choices": [
-      "Comittee",
-      "Committe",
-      "Committee",
-      "Comitetee"
+      "Permanent",
+      "Short-lived",
+      "Luminous",
+      "Heavy"
     ],
-    "answer": "Committee",
-    "explanation": "The correct spelling has double M, double T, and double E."
+    "answer": "Short-lived",
+    "explanation": "Ephemeral means lasting for a very short time."
   },
   {
     "id": "verb_43",
@@ -589,15 +589,15 @@
   },
   {
     "id": "verb_50",
-    "question": "Choose the correct sentence.",
+    "question": "Identify the grammatically correct sentence.",
     "choices": [
-      "I have went to the store.",
-      "I have gone to the store.",
-      "I had went to the store.",
-      "I has gone to the store."
+      "Each of the students have their own book.",
+      "Each of the students has his or her own book.",
+      "Each of the student has their own book.",
+      "Each of the students has their own books."
     ],
-    "answer": "I have gone to the store.",
-    "explanation": "The present perfect tense uses 'have' + past participle 'gone'. 'Went' is the simple past tense."
+    "answer": "Each of the students has his or her own book.",
+    "explanation": "'Each' is a singular subject, requiring a singular verb ('has') and a singular pronoun ('his or her')."
   },
   {
     "id": "verb_51",

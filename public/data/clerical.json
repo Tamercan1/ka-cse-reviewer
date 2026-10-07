@@ -181,15 +181,15 @@
   },
   {
     "id": "cler_16",
-    "question": "Which name comes LAST in alphabetical order?",
+    "question": "Which word is correctly spelled?",
     "choices": [
-      "Villanueva, J.",
-      "Villacorta, J.",
-      "Villamor, J.",
-      "Villareal, J."
+      "Noticeable",
+      "Noticable",
+      "Noticeble",
+      "Notticeable"
     ],
-    "answer": "Villanueva, J.",
-    "explanation": "Villacorta (c), Villamor (m), Villanueva (n), Villareal (r). Wait! R comes after N. So Villareal is last."
+    "answer": "Noticeable",
+    "explanation": "The correct spelling keeps the 'e' to maintain the soft 'c' sound: Noticeable."
   },
   {
     "id": "cler_17",
@@ -361,15 +361,15 @@
   },
   {
     "id": "cler_31",
-    "question": "Which word is correctly spelled?",
+    "question": "Compare the alphanumeric strings:\nA: ZXT-998-LMO\nB: ZXT-998-LM0",
     "choices": [
-      "Occured",
-      "Occurred",
-      "Ocurred",
-      "Ocurred"
+      "Identical",
+      "Not Identical",
+      "Same",
+      "Matched"
     ],
-    "answer": "Occurred",
-    "explanation": "Double C, double R."
+    "answer": "Not Identical",
+    "explanation": "The first string ends with the letter 'O', while the second ends with the number '0'."
   },
   {
     "id": "cler_32",
@@ -445,27 +445,27 @@
   },
   {
     "id": "cler_38",
-    "question": "Which spelling is correct?",
+    "question": "Which of the following is filed correctly?",
     "choices": [
-      "Maneuver",
-      "Maneouver",
-      "Maneuvor",
-      "Manuever"
+      "Dr. Alan Grant",
+      "Grant, Alan (Dr.)",
+      "Alan Grant, Dr.",
+      "Grant, Dr. Alan"
     ],
-    "answer": "Maneuver",
-    "explanation": "The correct American spelling is Maneuver."
+    "answer": "Grant, Alan (Dr.)",
+    "explanation": "In standard filing, titles are placed in parentheses after the given name."
   },
   {
     "id": "cler_39",
-    "question": "Which word is spelled incorrectly?",
+    "question": "Arrange alphabetically: 1. MacMillan, A. 2. McDonald, B. 3. Machado, C.",
     "choices": [
-      "Definite",
-      "Separate",
-      "Questionaire",
-      "Necessary"
+      "3, 1, 2",
+      "3, 2, 1",
+      "1, 2, 3",
+      "2, 1, 3"
     ],
-    "answer": "Questionaire",
-    "explanation": "The correct spelling is Questionnaire (double N)."
+    "answer": "3, 1, 2",
+    "explanation": "M-a-c-h (Machado) comes before M-a-c-M (MacMillan). M-c (McDonald) comes last."
   },
   {
     "id": "cler_40",
@@ -769,15 +769,15 @@
   },
   {
     "id": "cler_65",
-    "question": "Identify the string that is NOT identical to the others.",
+    "question": "Which word is spelled correctly?",
     "choices": [
-      "5567-XYZ-889",
-      "5567-XYZ-889",
-      "5567-XYZ-889",
-      "5567-XYZ-898"
+      "Gauranteed",
+      "Guaranteed",
+      "Garanted",
+      "Guarantied"
     ],
-    "answer": "5567-XYZ-898",
-    "explanation": "The fourth option ends in 898 instead of 889."
+    "answer": "Guaranteed",
+    "explanation": "The correct spelling is Guaranteed."
   },
   {
     "id": "cler_66",
@@ -829,15 +829,15 @@
   },
   {
     "id": "cler_70",
-    "question": "Identify the string that is NOT identical to the others.",
+    "question": "Which word is spelled correctly?",
     "choices": [
-      "@User_Name123",
-      "@User_Name123",
-      "@User-Name123",
-      "@User_Name123"
+      "Ocassion",
+      "Occasion",
+      "Occassion",
+      "Ocasion"
     ],
-    "answer": "@User-Name123",
-    "explanation": "The third option uses a hyphen instead of an underscore."
+    "answer": "Occasion",
+    "explanation": "Occasion is spelled with a double 'c' and a single 's'."
   },
   {
     "id": "cler_71",
@@ -877,27 +877,27 @@
   },
   {
     "id": "cler_74",
-    "question": "Which of the following words is spelled CORRECTLY?",
+    "question": "Arrange alphabetically: 1. Apple, Inc. 2. Apple Corp. 3. Apple Co.",
     "choices": [
-      "Liaison",
-      "Liason",
-      "Liasion",
-      "Liasson"
+      "3, 2, 1",
+      "3, 1, 2",
+      "2, 1, 3",
+      "1, 2, 3"
     ],
-    "answer": "Liaison",
-    "explanation": "The correct spelling is Liaison (L-i-a-i-s-o-n)."
+    "answer": "3, 2, 1",
+    "explanation": "C-o comes before C-o-r. C-o-r comes before I-n-c."
   },
   {
     "id": "cler_75",
-    "question": "Which of the following words is spelled INCORRECTLY?",
+    "question": "Compare the two amounts:\n1: ₱ 5,000.50\n2: ₱ 5,000.50",
     "choices": [
-      "Harass",
-      "Embarrass",
-      "Occasion",
-      "Ocurrence"
+      "Identical",
+      "Not Identical",
+      "Different",
+      "Cannot be determined"
     ],
-    "answer": "Ocurrence",
-    "explanation": "The correct spelling has two Cs and two Rs: Occurrence."
+    "answer": "Identical",
+    "explanation": "Every digit and punctuation mark matches exactly."
   },
   {
     "id": "cler_76",
@@ -913,27 +913,27 @@
   },
   {
     "id": "cler_77",
-    "question": "Which of the following words is spelled CORRECTLY?",
+    "question": "Which word is spelled correctly?",
     "choices": [
-      "Consensus",
-      "Concensus",
-      "Consencus",
-      "Concencus"
+      "Commitee",
+      "Comittee",
+      "Committee",
+      "Comitetee"
     ],
-    "answer": "Consensus",
-    "explanation": "The correct spelling is Consensus, derived from 'consent'."
+    "answer": "Committee",
+    "explanation": "Committee features a double M, double T, and double E."
   },
   {
     "id": "cler_78",
-    "question": "Which of the following words is spelled INCORRECTLY?",
+    "question": "Filing order for numbers: 1. 21st Century Fox 2. Twentieth Century 3. Twenty-First Century",
     "choices": [
-      "Supersede",
-      "Precede",
-      "Concede",
-      "Interceed"
+      "1, 2, 3",
+      "2, 3, 1",
+      "2, 1, 3",
+      "3, 1, 2"
     ],
-    "answer": "Interceed",
-    "explanation": "The correct spelling is Intercede. Only 'supersede' ends in -sede, and 'exceed, proceed, succeed' end in -ceed."
+    "answer": "2, 3, 1",
+    "explanation": "Numbers are spelled out for filing: 'Twentieth' comes before 'Twenty-first'."
   },
   {
     "id": "cler_79",
@@ -949,15 +949,15 @@
   },
   {
     "id": "cler_80",
-    "question": "Which of the following words is spelled CORRECTLY?",
+    "question": "Are these URLs exactly identical?\nA: www.google.com/search\nB: www.google.com/search/",
     "choices": [
-      "Pronounciation",
-      "Pronunciation",
-      "Pronunsiation",
-      "Pronounsiation"
+      "Yes",
+      "No",
+      "Maybe",
+      "Invalid"
     ],
-    "answer": "Pronunciation",
-    "explanation": "The correct spelling is Pronunciation (no 'o' in the second syllable)."
+    "answer": "No",
+    "explanation": "The second URL contains a trailing slash (/), making them technically not identical."
   },
   {
     "id": "cler_81",

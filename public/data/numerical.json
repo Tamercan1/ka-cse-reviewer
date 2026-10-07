@@ -1417,15 +1417,15 @@
   },
   {
     "id": "num_119",
-    "question": "Find the greatest number that will divide 43, 91, and 183 so as to leave the same remainder in each case.",
+    "question": "If 8 men can build a wall in 10 days, how many days will 5 men take to build the same wall?",
     "choices": [
-      "4",
-      "7",
-      "9",
-      "13"
+      "12 days",
+      "14 days",
+      "16 days",
+      "18 days"
     ],
-    "answer": "4",
-    "explanation": "Find the HCF of the differences: (91-43), (183-91), (183-43) -> HCF of 48, 92, 140. The HCF of 48, 92, 140 is 4. Thus, 4 is the greatest number."
+    "answer": "16 days",
+    "explanation": "This is an inverse proportion. 8 * 10 = 5 * d => 80 = 5d => d = 16."
   },
   {
     "id": "num_120",
