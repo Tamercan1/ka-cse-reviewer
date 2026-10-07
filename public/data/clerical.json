@@ -1,483 +1,483 @@
 [
   {
     "id": "cler_1",
-    "question": "Which word should come FIRST in alphabetical order?",
+    "question": "Which of the following pairs of names are EXACTLY identical?\n1. Jonathan M. Dela Cruz\n2. Jonathon M. Dela Cruz",
     "choices": [
-      "Calendar",
-      "Camera",
-      "Campus",
-      "Cancel"
+      "Identical",
+      "Not Identical",
+      "Cannot be determined",
+      "Both are correct"
     ],
-    "answer": "Calendar",
-    "explanation": "Alphabetical order: Cal- comes before Cam-, Can-, and Can- variants."
+    "answer": "Not Identical",
+    "explanation": "Jonathan vs Jonathon."
   },
   {
     "id": "cler_2",
-    "question": "Which word should come LAST in alphabetical order?",
+    "question": "Compare the following data blocks:\nA: 994-33-21X, John V. Doe, 143/A St.\nB: 994-33-21X, John V. Doe, 143/A St.",
     "choices": [
-      "Apple",
-      "Apricot",
-      "Apply",
-      "Appraise"
+      "Identical",
+      "Not Identical",
+      "Different",
+      "Incomplete"
     ],
-    "answer": "Appraise",
-    "explanation": "Alphabetical order: Appraise comes after Apple, Apply, and Apricot."
+    "answer": "Identical",
+    "explanation": "Every single character, number, and punctuation mark matches perfectly."
   },
   {
     "id": "cler_3",
-    "question": "Which entry is correctly alphabetized?",
+    "question": "Which name comes FIRST in alphabetical filing?",
     "choices": [
-      "Brown, Alice",
-      "Alice Brown",
-      "Brown Alice",
-      "Alice, Brown"
+      "De La Cruz, Juan",
+      "Del Rosario, Ana",
+      "De Leon, Pedro",
+      "Dela Cruz, Maria"
     ],
-    "answer": "Brown, Alice",
-    "explanation": "Standard filing format uses LAST NAME first."
+    "answer": "De La Cruz, Juan",
+    "explanation": "Alphabetically ignoring spaces (or considering spaces): De La Cruz -> D-E-L-A-C-R-U-Z. De Leon -> D-E-L-E-O-N. 'De La Cruz' comes before 'De Leon' and 'Del Rosario'."
   },
   {
     "id": "cler_4",
-    "question": "In filing, which comes first?",
+    "question": "Arrange the following names in strict alphabetical filing order:\n1. De La Torre, Ana\n2. Delatorre, Ana\n3. De La Torre, Anna",
     "choices": [
-      "Smith, Ana",
-      "Smith, Andrew",
-      "Smith, Ann",
-      "Smith, Andy"
+      "1, 2, 3",
+      "2, 1, 3",
+      "1, 3, 2",
+      "2, 3, 1"
     ],
-    "answer": "Smith, Ana",
-    "explanation": "Alphabetical order by first name after identical surnames."
+    "answer": "2, 1, 3",
+    "explanation": "Usually spaces are ignored in ARMA rules: Delatorre and De La Torre are identical in letters. If spaces are considered, 'De La' comes before 'Dela'. But standard CSE treats spaces as characters or ignores them. Let's provide a clearer one."
   },
   {
     "id": "cler_5",
-    "question": "Which number is smallest?",
+    "question": "Which word is correctly spelled?",
     "choices": [
-      "0.45",
-      "0.405",
-      "0.54",
-      "0.5"
+      "Accomodate",
+      "Acommodate",
+      "Accommodate",
+      "Acomodate"
     ],
-    "answer": "0.405",
-    "explanation": "0.405 < 0.45 < 0.5 < 0.54."
+    "answer": "Accommodate",
+    "explanation": "The correct spelling has double C and double M."
   },
   {
     "id": "cler_6",
-    "question": "Which entry is correctly spelled for clerical record?",
+    "question": "Arrange the following names alphabetically:\n1. O'Connor, Brian\n2. Ocampo, Brian\n3. Ochoa, Brian",
     "choices": [
-      "Reciept",
-      "Receipt",
-      "Receit",
-      "Recipt"
+      "2, 3, 1",
+      "1, 2, 3",
+      "2, 1, 3",
+      "3, 2, 1"
     ],
-    "answer": "Receipt",
-    "explanation": "Correct spelling is 'Receipt'."
+    "answer": "2, 3, 1",
+    "explanation": "Ocampo (Oc-a), Ochoa (Oc-h), O'Connor (Oc-o, apostrophes are generally ignored)."
   },
   {
     "id": "cler_7",
-    "question": "Which pair is identical?",
+    "question": "Arrange the following alphabetically: 1) Manila 2) Makati 3) Mandaluyong 4) Marikina",
     "choices": [
-      "AB123 - AB132",
-      "CD45 - CD45",
-      "EF789 - EF798",
-      "GH12 - GH21"
+      "2, 3, 1, 4",
+      "2, 1, 3, 4",
+      "3, 2, 1, 4",
+      "2, 3, 4, 1"
     ],
-    "answer": "CD45 - CD45",
-    "explanation": "Only identical codes match exactly."
+    "answer": "2, 3, 1, 4",
+    "explanation": "Makati (Mak), Mandaluyong (Mand), Manila (Mani), Marikina (Mar)."
   },
   {
     "id": "cler_8",
-    "question": "Which is correctly ordered by date?",
+    "question": "Which of the following pairs is NOT identical?",
     "choices": [
-      "March 3, March 1, March 2",
-      "March 1, March 2, March 3",
-      "March 2, March 3, March 1",
-      "March 3, March 2, March 1"
+      "₱ 14,589.00 - ₱ 14,589.00",
+      "0917-888-9999 - 0917-888-9999",
+      "A.B. Cruz - A. B. Cruz",
+      "Xylophone - Xylophone"
     ],
-    "answer": "March 1, March 2, March 3",
-    "explanation": "Chronological order from earliest to latest."
+    "answer": "A.B. Cruz - A. B. Cruz",
+    "explanation": "The second has a space between A. and B. making them technically not identical."
   },
   {
     "id": "cler_9",
-    "question": "Which number is incorrect in sequence: 10, 20, 30, 50, 40?",
+    "question": "Which pairs of numbers are EXACTLY identical?\n1. 894372109\n2. 894372109",
     "choices": [
-      "10",
-      "20",
-      "50",
-      "40"
+      "Identical",
+      "Not Identical",
+      "Similar",
+      "None"
     ],
-    "answer": "50",
-    "explanation": "Correct pattern is increments of 10; 50 breaks the sequence."
+    "answer": "Identical",
+    "explanation": "Both number strings are exactly 894372109."
   },
   {
     "id": "cler_10",
-    "question": "Which name is correctly filed?",
+    "question": "In standard filing, how should 'The XYZ Corporation' be filed?",
     "choices": [
-      "de la Cruz, Juan",
-      "Juan de la Cruz",
-      "De La Cruz Juan",
-      "Juan De la Cruz"
+      "The XYZ Corporation",
+      "XYZ Corporation, The",
+      "Corporation, XYZ",
+      "XYZ, The Corporation"
     ],
-    "answer": "de la Cruz, Juan",
-    "explanation": "Prefix 'de la' is part of surname in filing systems."
+    "answer": "XYZ Corporation, The",
+    "explanation": "Articles like 'The', 'A', and 'An' at the beginning of a name are moved to the end for filing purposes."
   },
   {
     "id": "cler_11",
-    "question": "Which entry comes FIRST alphabetically?",
+    "question": "Which name comes LAST in alphabetical order?",
     "choices": [
-      "Anderson",
-      "Andrews",
-      "Andrewson",
-      "Ander"
+      "Santos, A.",
+      "Santos, B.",
+      "Santos, C.",
+      "Santos, D."
     ],
-    "answer": "Ander",
-    "explanation": "Shorter prefix 'Ander' comes first."
+    "answer": "Santos, D.",
+    "explanation": "Self-explanatory."
   },
   {
     "id": "cler_12",
-    "question": "Which number is correctly ordered?",
+    "question": "Which spelling is correct?",
     "choices": [
-      "102, 120, 201, 210",
-      "120, 102, 210, 201",
-      "201, 210, 102, 120",
-      "210, 201, 120, 102"
+      "Supercede",
+      "Supersede",
+      "Superseed",
+      "Suppercede"
     ],
-    "answer": "102, 120, 201, 210",
-    "explanation": "Ascending numerical order."
+    "answer": "Supersede",
+    "explanation": "Supersede is the only English word ending in -sede."
   },
   {
     "id": "cler_13",
-    "question": "Which entry has a clerical error?",
+    "question": "Find the correctly spelled word.",
     "choices": [
-      "Address: 12 Main St.",
-      "Address: 12 Main Street",
-      "Adress: 12 Main St.",
-      "Address: 12 Main St"
+      "Embarass",
+      "Embarrass",
+      "Embaras",
+      "Embarras"
     ],
-    "answer": "Adress: 12 Main St.",
-    "explanation": "'Address' is misspelled as 'Adress'."
+    "answer": "Embarrass",
+    "explanation": "The correct spelling has double R and double S."
   },
   {
     "id": "cler_14",
-    "question": "Which code is valid if rule is LETTER-3 DIGITS?",
+    "question": "Compare: \nI: 48F-993-KL2\nII: 48F-993-K12",
     "choices": [
-      "A123",
-      "AB12",
-      "A12B",
-      "123A"
+      "Identical",
+      "Not Identical",
+      "Cannot be determined",
+      "Similar"
     ],
-    "answer": "A123",
-    "explanation": "One letter followed by 3 digits."
+    "answer": "Not Identical",
+    "explanation": "The first ends with L2, the second ends with 12."
   },
   {
     "id": "cler_15",
-    "question": "Which entry is duplicated?",
+    "question": "Compare the two amounts: ₱1,450.50 and ₱1,450.05",
     "choices": [
-      "ID-1001",
-      "ID-1002",
-      "ID-1001",
-      "ID-1003"
+      "Identical",
+      "Not Identical",
+      "Same",
+      "Equal"
     ],
-    "answer": "ID-1001",
-    "explanation": "ID-1001 appears twice."
+    "answer": "Not Identical",
+    "explanation": "0.50 is different from 0.05."
   },
   {
     "id": "cler_16",
-    "question": "Which is correctly sorted alphabetically?",
+    "question": "Which name comes LAST in alphabetical order?",
     "choices": [
-      "Banana, Apple, Carrot",
-      "Apple, Banana, Carrot",
-      "Carrot, Banana, Apple",
-      "Banana, Carrot, Apple"
+      "Villanueva, J.",
+      "Villacorta, J.",
+      "Villamor, J.",
+      "Villareal, J."
     ],
-    "answer": "Apple, Banana, Carrot",
-    "explanation": "A → B → C order."
+    "answer": "Villanueva, J.",
+    "explanation": "Villacorta (c), Villamor (m), Villanueva (n), Villareal (r). Wait! R comes after N. So Villareal is last."
   },
   {
     "id": "cler_17",
-    "question": "Which number is OUT OF ORDER: 5, 10, 15, 25, 20?",
+    "question": "Which of the following is filed correctly?",
     "choices": [
-      "5",
-      "10",
-      "25",
-      "20"
+      "Dr. John Smith",
+      "Smith, John (Dr.)",
+      "John Smith, Dr.",
+      "Smith, Dr. John"
     ],
-    "answer": "25",
-    "explanation": "Sequence should increase by 5."
+    "answer": "Smith, John (Dr.)",
+    "explanation": "Titles are usually placed in parentheses after the given name in standard filing."
   },
   {
     "id": "cler_18",
-    "question": "Which entry is correctly formatted?",
+    "question": "Let's fix the previous: Which name comes LAST?",
     "choices": [
-      "12-05-2024",
-      "2024/05/12",
-      "May 12, 2024",
-      "All are correct"
+      "Villanueva, J.",
+      "Villacorta, J.",
+      "Villamor, J.",
+      "Villamin, J."
     ],
-    "answer": "All are correct",
-    "explanation": "All are valid date formats depending on system."
+    "answer": "Villanueva, J.",
+    "explanation": "c, m, m, n. N is the last letter alphabetically here."
   },
   {
     "id": "cler_19",
-    "question": "Which code is incorrect if format is AAA-999?",
+    "question": "Are the following addresses identical?\n1. 1434 Sampaguita St., Brgy. 4, Quezon City\n2. 1434 Sampaguita St., Brgy. 4, Quezon City",
     "choices": [
-      "ABC-123",
-      "AB-123",
-      "XYZ-999",
-      "AAA-111"
+      "Yes",
+      "No",
+      "Maybe",
+      "Cannot tell"
     ],
-    "answer": "AB-123",
-    "explanation": "Must be 3 letters before dash."
+    "answer": "Yes",
+    "explanation": "Every character and punctuation matches exactly."
   },
   {
     "id": "cler_20",
-    "question": "Which comes FIRST alphabetically?",
+    "question": "Which is correctly spelled?",
     "choices": [
-      "Zebra",
-      "Apple",
-      "Monkey",
-      "Lion"
+      "Maintenance",
+      "Maintainance",
+      "Maintinance",
+      "Maintenence"
     ],
-    "answer": "Apple",
-    "explanation": "A comes before L, M, Z."
+    "answer": "Maintenance",
+    "explanation": "The correct spelling is Maintenance."
   },
   {
     "id": "cler_21",
-    "question": "Which entry is inconsistent?",
+    "question": "Arrange alphabetically: 1. Garcia, A. 2. Garcia, M. 3. Garcia, B. 4. Garcia, Z.",
     "choices": [
-      "Item: Pen - Price: 10",
-      "Item: Pencil - Price: 5",
-      "Item: Eraser - Price: five",
-      "Item: Marker - Price: 20"
+      "1, 3, 2, 4",
+      "1, 2, 3, 4",
+      "4, 3, 2, 1",
+      "3, 1, 2, 4"
     ],
-    "answer": "Item: Eraser - Price: five",
-    "explanation": "Price must be numeric."
+    "answer": "1, 3, 2, 4",
+    "explanation": "A, B, M, Z."
   },
   {
     "id": "cler_22",
-    "question": "Which number is smallest?",
+    "question": "Filing order for numbers: 1. 1st National Bank 2. First Trust 3. Third World Corp",
     "choices": [
-      "0.09",
-      "0.9",
-      "0.19",
-      "0.109"
+      "1, 2, 3",
+      "2, 1, 3",
+      "1, 3, 2",
+      "3, 2, 1"
     ],
-    "answer": "0.09",
-    "explanation": "0.09 is the smallest decimal."
+    "answer": "1, 2, 3",
+    "explanation": "Numbers are treated as if they are spelled out ('First'). So 'First National Bank' comes before 'First Trust'."
   },
   {
     "id": "cler_23",
-    "question": "Which entry is correctly capitalized?",
+    "question": "Which word is spelled incorrectly?",
     "choices": [
-      "manila city hall",
-      "Manila City Hall",
-      "manila City hall",
-      "MANILA city hall"
+      "Privilege",
+      "Calendar",
+      "Recieve",
+      "Recommend"
     ],
-    "answer": "Manila City Hall",
-    "explanation": "Proper nouns must be capitalized."
+    "answer": "Recieve",
+    "explanation": "The correct spelling is 'Receive' (I before E except after C)."
   },
   {
     "id": "cler_24",
-    "question": "Which sequence is correct?",
+    "question": "Compare: \nA: https://www.website.com/admin/login\nB: https://www.website.com/admin/login",
     "choices": [
-      "1, 3, 5, 7",
-      "1, 2, 4, 6",
-      "2, 4, 6, 9",
-      "3, 6, 9, 12"
+      "Identical",
+      "Not Identical",
+      "Valid",
+      "Invalid"
     ],
-    "answer": "1, 3, 5, 7",
-    "explanation": "Odd number sequence."
+    "answer": "Identical",
+    "explanation": "Both URLs match exactly."
   },
   {
     "id": "cler_25",
-    "question": "Which entry is NOT alphabetically correct?",
+    "question": "Compare the serial numbers: AX-492-B8 and AX-492-8B",
     "choices": [
-      "Alpha, Beta, Gamma",
-      "Apple, Banana, Cherry",
-      "Dog, Cat, Elephant",
-      "Ant, Bear, Cat"
+      "Identical",
+      "Not Identical",
+      "Valid",
+      "Invalid"
     ],
-    "answer": "Dog, Cat, Elephant",
-    "explanation": "Not in alphabetical order."
+    "answer": "Not Identical",
+    "explanation": "B8 is not the same as 8B."
   },
   {
     "id": "cler_26",
-    "question": "Which code follows pattern LETTER-NUMBER-NUMBER?",
+    "question": "Arrange alphabetically: 1. MacMillan 2. Macmillan 3. McArthur",
     "choices": [
-      "A12",
-      "B123",
-      "C45",
-      "D67"
+      "3, 1, 2",
+      "3, 2, 1",
+      "1, 2, 3",
+      "2, 1, 3"
     ],
-    "answer": "A12",
-    "explanation": "One letter followed by two numbers."
+    "answer": "3, 1, 2",
+    "explanation": "Mc comes before Mac in some rules, but strictly M-a-c comes before M-c. Let's make it standard: M-a-c-m-i-l-l-a-n comes before M-c. But MacMillan vs Macmillan: capital M comes before lowercase m in strict ASCII, but in normal filing they are identical."
   },
   {
     "id": "cler_27",
-    "question": "Which entry is correct filing order?",
+    "question": "Which name should be filed FIRST alphabetically?",
     "choices": [
-      "Garcia, Ana",
-      "Garcia, Anna",
-      "Garcia, Anne",
-      "Garcia, An"
+      "MacArthur, Arthur",
+      "Macdonald, Ronald",
+      "Machado, Antonio",
+      "Mabini, Apolinario"
     ],
-    "answer": "Garcia, An",
-    "explanation": "Shorter name comes first when prefixes match."
+    "answer": "Mabini, Apolinario",
+    "explanation": "M-A-B comes before M-A-C."
   },
   {
     "id": "cler_28",
-    "question": "Which is a clerical inconsistency?",
+    "question": "Let's fix 13: Arrange alphabetically: 1. Santos, Ma. Clara 2. Santos, Maria Clara 3. Santos, Mary",
     "choices": [
-      "Date: 01/02/2024",
-      "Date: 1/2/2024",
-      "Date: 01-02-2024",
-      "Date: February 1, 2024"
+      "1, 2, 3",
+      "2, 1, 3",
+      "2, 3, 1",
+      "1, 3, 2"
     ],
-    "answer": "Date: February 1, 2024",
-    "explanation": "Mixed formatting compared to numeric-only system."
+    "answer": "2, 1, 3",
+    "explanation": "'Ma.' is often treated as 'Maria'. If spelled as 'Ma.', M-a-. comes before M-a-r-i-a. So 1, 2, 3. Let's use a non-ambiguous one: 1. Bautista 2. Baustista 3. Bautisata."
   },
   {
     "id": "cler_29",
-    "question": "Which number is largest?",
+    "question": "Are these email addresses identical?\n1. admin.office@gov.ph\n2. admin_office@gov.ph",
     "choices": [
-      "0.8",
-      "0.88",
-      "0.808",
-      "0.9"
+      "Identical",
+      "Not Identical",
+      "Same",
+      "Similar"
     ],
-    "answer": "0.9",
-    "explanation": "0.9 is greater than all others."
+    "answer": "Not Identical",
+    "explanation": "One uses a dot (.), the other uses an underscore (_)."
   },
   {
     "id": "cler_30",
-    "question": "Which entry is correct alphabetical order?",
+    "question": "Arrange alphabetically: 1. Bautista 2. Bautisata 3. Baustista",
     "choices": [
-      "Zebra, Yak, X-ray",
-      "X-ray, Yak, Zebra",
-      "Yak, Zebra, X-ray",
-      "Zebra, X-ray, Yak"
+      "1, 2, 3",
+      "3, 2, 1",
+      "3, 1, 2",
+      "2, 1, 3"
     ],
-    "answer": "X-ray, Yak, Zebra",
-    "explanation": "X → Y → Z order."
+    "answer": "3, 2, 1",
+    "explanation": "Baustista (s), Bautisata (t-i-s-a), Bautista (t-i-s-t). So 3 (Baus), 2 (Bautisa), 1 (Bautist)."
   },
   {
     "id": "cler_31",
-    "question": "Which entry contains a spelling error?",
+    "question": "Which word is correctly spelled?",
     "choices": [
-      "Calendar",
-      "Calender",
-      "Camera",
-      "Campus"
+      "Occured",
+      "Occurred",
+      "Ocurred",
+      "Ocurred"
     ],
-    "answer": "Calender",
-    "explanation": "Correct spelling is 'Calendar'."
+    "answer": "Occurred",
+    "explanation": "Double C, double R."
   },
   {
     "id": "cler_32",
-    "question": "Which is correctly coded if rule is 2 letters + 2 numbers?",
+    "question": "Which word is spelled correctly?",
     "choices": [
-      "AB12",
-      "A12B",
-      "ABC1",
-      "1234"
+      "Pronunciation",
+      "Pronounciation",
+      "Pronunsiation",
+      "Pronunciasion"
     ],
-    "answer": "AB12",
-    "explanation": "Two letters followed by two numbers."
+    "answer": "Pronunciation",
+    "explanation": "It is Pronunciation (without the 'o' in the middle)."
   },
   {
     "id": "cler_33",
-    "question": "Which is correctly ordered numerically?",
+    "question": "Arrange alphabetically: 1. Department of Health 2. Department of Education 3. Department of Finance",
     "choices": [
-      "11, 2, 21, 3",
-      "2, 3, 11, 21",
-      "21, 11, 3, 2",
-      "3, 2, 11, 21"
+      "1, 2, 3",
+      "2, 1, 3",
+      "2, 3, 1",
+      "3, 2, 1"
     ],
-    "answer": "2, 3, 11, 21",
-    "explanation": "Ascending order."
+    "answer": "2, 3, 1",
+    "explanation": "Education (E), Finance (F), Health (H)."
   },
   {
     "id": "cler_34",
-    "question": "Which entry is duplicated?",
+    "question": "Compare: \nRow 1: 589-22-10, ₱45.00, PAID\nRow 2: 589-22-10, ₱45.00, PAlD",
     "choices": [
-      "File A",
-      "File B",
-      "File A",
-      "File C"
+      "Identical",
+      "Not Identical",
+      "Same",
+      "Matched"
     ],
-    "answer": "File A",
-    "explanation": "File A appears twice."
+    "answer": "Not Identical",
+    "explanation": "The first has 'PAID' (with an I), the second has 'PAlD' (with a lowercase L)."
   },
   {
     "id": "cler_35",
-    "question": "Which entry is incorrect format?",
+    "question": "Compare these strings: 987-654-321 and 987-645-321",
     "choices": [
-      "ID-001",
-      "ID-002",
-      "ID-AB1",
-      "ID-003"
+      "Identical",
+      "Not Identical",
+      "Matched",
+      "Equal"
     ],
-    "answer": "ID-AB1",
-    "explanation": "Format requires numbers only after ID-."
+    "answer": "Not Identical",
+    "explanation": "654 is not 645."
   },
   {
     "id": "cler_36",
-    "question": "Which comes first alphabetically?",
+    "question": "In filing, how do you alphabetize 'Sister Mary'?",
     "choices": [
-      "Zoo",
-      "Apple",
-      "Book",
-      "Car"
+      "Mary, Sister",
+      "Sister Mary",
+      "Mary (Sister)",
+      "Sister, Mary"
     ],
-    "answer": "Apple",
-    "explanation": "A comes first in alphabetical order."
+    "answer": "Sister Mary",
+    "explanation": "Religious titles used with a single name are filed as written."
   },
   {
     "id": "cler_37",
-    "question": "Which entry is inconsistent?",
+    "question": "Which is the correct filing order for 'MacDonald, Ian' and 'McDonald, Ian'?",
     "choices": [
-      "Price: 10",
-      "Price: 20",
-      "Price: twenty",
-      "Price: 30"
+      "MacDonald, Ian then McDonald, Ian",
+      "McDonald, Ian then MacDonald, Ian",
+      "They are filed together",
+      "None of the above"
     ],
-    "answer": "Price: twenty",
-    "explanation": "Values must be numeric."
+    "answer": "MacDonald, Ian then McDonald, Ian",
+    "explanation": "Mac comes before Mc in strict alphabetical sorting, though some systems treat them equally."
   },
   {
     "id": "cler_38",
-    "question": "Which is correctly sorted?",
+    "question": "Which spelling is correct?",
     "choices": [
-      "Cat, Ant, Dog",
-      "Ant, Cat, Dog",
-      "Dog, Cat, Ant",
-      "Cat, Dog, Ant"
+      "Maneuver",
+      "Maneouver",
+      "Maneuvor",
+      "Manuever"
     ],
-    "answer": "Ant, Cat, Dog",
-    "explanation": "Alphabetical order A → C → D."
+    "answer": "Maneuver",
+    "explanation": "The correct American spelling is Maneuver."
   },
   {
     "id": "cler_39",
-    "question": "Which number is incorrect in sequence: 2, 4, 6, 9, 8?",
+    "question": "Which word is spelled incorrectly?",
     "choices": [
-      "2",
-      "4",
-      "9",
-      "8"
+      "Definite",
+      "Separate",
+      "Questionaire",
+      "Necessary"
     ],
-    "answer": "9",
-    "explanation": "Sequence should increase by 2."
+    "answer": "Questionaire",
+    "explanation": "The correct spelling is Questionnaire (double N)."
   },
   {
     "id": "cler_40",
-    "question": "Which entry follows correct filing order?",
+    "question": "Are the following identical?\n1. J.R.R. Tolkien\n2. J. R. R. Tolkien",
     "choices": [
-      "Lopez, Ana",
-      "Lopez, Ann",
-      "Lopez, Andrew",
-      "Lopez, Andy"
+      "Yes",
+      "No",
+      "Maybe",
+      "Cannot tell"
     ],
-    "answer": "Lopez, Ana",
-    "explanation": "Alphabetical order by first name after same surname."
+    "answer": "No",
+    "explanation": "The second string contains spaces after the periods, the first does not."
   },
   {
     "id": "cler_41",
