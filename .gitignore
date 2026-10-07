@@ -1,4 +1,5 @@
 # Project specific
+*.py
 design-changelog.md
 working.md
 state-saving-feature.md
