@@ -88,25 +88,25 @@ function enableInteraction(): void {
 // ---------------------------------------------------------------------------
 
 const CHOICE_DEFAULT_CLASS =
-  'w-full text-left p-4 rounded-xl border border-slate-200 hover:border-blue-400 hover:bg-slate-50/50 flex items-center space-x-3 transition-all duration-200 group focus:outline-none focus:ring-2 focus:ring-blue-100';
+  'w-full text-left p-3 rounded-xl border border-slate-200 hover:border-blue-400 hover:bg-slate-50/50 flex items-center space-x-2.5 transition-all duration-200 group focus:outline-none focus:ring-2 focus:ring-blue-100';
 const BADGE_DEFAULT_CLASS =
-  'w-8 h-8 rounded-full bg-slate-100 group-hover:bg-blue-100 group-hover:text-blue-600 text-slate-500 flex items-center justify-center font-semibold text-sm transition-colors border border-slate-200 select-none';
+  'w-7 h-7 rounded-full bg-slate-100 group-hover:bg-blue-100 group-hover:text-blue-600 text-slate-500 flex items-center justify-center font-bold text-xs transition-colors border border-slate-200 select-none';
 const CHOICE_SELECTED_CLASS =
-  'w-full text-left p-4 rounded-xl border-2 border-blue-500 bg-blue-50/30 flex items-center space-x-3 transition-all duration-200 group focus:outline-none focus:ring-2 focus:ring-blue-200';
+  'w-full text-left p-3 rounded-xl border-2 border-blue-500 bg-blue-50/30 flex items-center space-x-2.5 transition-all duration-200 group focus:outline-none focus:ring-2 focus:ring-blue-200';
 const BADGE_SELECTED_CLASS =
-  'w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-semibold text-sm transition-colors border border-blue-600 select-none';
+  'w-7 h-7 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs transition-colors border border-blue-600 select-none';
 const CHOICE_CORRECT_CLASS =
-  'w-full text-left p-4 rounded-xl border-2 border-blue-500 bg-blue-50/30 flex items-center space-x-3 transition-all duration-200 focus:outline-none';
+  'w-full text-left p-3 rounded-xl border-2 border-blue-500 bg-blue-50/30 flex items-center space-x-2.5 transition-all duration-200 focus:outline-none';
 const BADGE_CORRECT_CLASS =
-  'w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-semibold text-sm border border-blue-600 select-none';
+  'w-7 h-7 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs border border-blue-600 select-none';
 const CHOICE_WRONG_CLASS =
-  'w-full text-left p-4 rounded-xl border-2 border-rose-300 bg-rose-50/20 flex items-center space-x-3 transition-all duration-200 focus:outline-none';
+  'w-full text-left p-3 rounded-xl border-2 border-rose-300 bg-rose-50/20 flex items-center space-x-2.5 transition-all duration-200 focus:outline-none';
 const BADGE_WRONG_CLASS =
-  'w-8 h-8 rounded-full bg-rose-500 text-white flex items-center justify-center font-semibold text-sm border border-rose-500 select-none';
+  'w-7 h-7 rounded-full bg-rose-500 text-white flex items-center justify-center font-bold text-xs border border-rose-500 select-none';
 const CHOICE_MUTED_CLASS =
-  'w-full text-left p-4 rounded-xl border border-slate-100 flex items-center space-x-3 opacity-60 cursor-not-allowed focus:outline-none';
+  'w-full text-left p-3 rounded-xl border border-slate-100 flex items-center space-x-2.5 opacity-60 cursor-not-allowed focus:outline-none';
 const BADGE_MUTED_CLASS =
-  'w-8 h-8 rounded-full bg-slate-50 text-slate-400 flex items-center justify-center font-semibold text-sm border border-slate-200 select-none';
+  'w-7 h-7 rounded-full bg-slate-50 text-slate-400 flex items-center justify-center font-bold text-xs border border-slate-200 select-none';
 
 function choiceLetterHTML(index: number, badgeClass: string): string {
   return `<span class="${badgeClass}">${String.fromCharCode(65 + index)}</span>`;
@@ -119,7 +119,7 @@ function renderChoiceButton(choice: string, index: number, isSelected: boolean):
   const badgeClass = isSelected ? BADGE_SELECTED_CLASS : BADGE_DEFAULT_CLASS;
   btn.innerHTML = `
     ${choiceLetterHTML(index, badgeClass)}
-    <span class="text-slate-700 font-medium">${choice}</span>
+    <span class="text-slate-700 text-sm font-medium">${choice}</span>
   `;
   btn.addEventListener('click', () => selectAnswer(choice, index));
   return btn;
@@ -178,13 +178,13 @@ function renderCheckedQuestion(): void {
 
       if (choice === question.answer) {
         btn.className = CHOICE_CORRECT_CLASS;
-        btn.innerHTML = `${choiceLetterHTML(index, BADGE_CORRECT_CLASS)}<span class="text-slate-700 font-medium">${choice}</span>`;
+        btn.innerHTML = `${choiceLetterHTML(index, BADGE_CORRECT_CLASS)}<span class="text-slate-700 text-sm font-medium">${choice}</span>`;
       } else if (choice === state.selectedAnswer) {
         btn.className = CHOICE_WRONG_CLASS;
-        btn.innerHTML = `${choiceLetterHTML(index, BADGE_WRONG_CLASS)}<span class="text-slate-700 font-medium">${choice}</span>`;
+        btn.innerHTML = `${choiceLetterHTML(index, BADGE_WRONG_CLASS)}<span class="text-slate-700 text-sm font-medium">${choice}</span>`;
       } else {
         btn.className = CHOICE_MUTED_CLASS;
-        btn.innerHTML = `${choiceLetterHTML(index, BADGE_MUTED_CLASS)}<span class="text-slate-700 font-medium">${choice}</span>`;
+        btn.innerHTML = `${choiceLetterHTML(index, BADGE_MUTED_CLASS)}<span class="text-slate-700 text-sm font-medium">${choice}</span>`;
       }
       container.appendChild(btn);
     });
