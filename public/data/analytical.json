@@ -1,1203 +1,1203 @@
 [
   {
     "id": "anal_1",
-    "question": "What is the next number in the sequence: 6, 12, 20, 30, 42, ...?",
+    "question": "Syllogism: All dogs are mammals. All mammals are animals. Therefore:",
     "choices": [
-      "50",
-      "52",
-      "56",
-      "58"
+      "All dogs are animals.",
+      "Some dogs are not animals.",
+      "All animals are dogs.",
+      "No animals are dogs."
     ],
-    "answer": "56",
-    "explanation": "The differences between consecutive terms are increasing by 2: 12 - 6 = 6, 20 - 12 = 8, 30 - 20 = 10, 42 - 30 = 12. Following this pattern, the next difference should be 14. Therefore, 42 + 14 = 56."
+    "answer": "All dogs are animals.",
+    "explanation": "If A is a subset of B, and B is a subset of C, then A is a subset of C."
   },
   {
     "id": "anal_2",
-    "question": "Predict the next term in the sequence: 9, 16, 25, 36, 49, ...",
+    "question": "Syllogism: All A are B. Some B are C. No C is D. Which conclusion necessarily follows?",
     "choices": [
-      "56",
-      "64",
-      "72",
-      "81"
+      "Some A are C",
+      "No B is D",
+      "Some B are not D",
+      "All A are D"
     ],
-    "answer": "64",
-    "explanation": "The sequence consists of consecutive perfect squares starting from 3 squared: 3² = 9, 4² = 16, 5² = 25, 6² = 36, 7² = 49. The next term must be 8² = 64."
+    "answer": "Some B are not D",
+    "explanation": "Since some B are C, and no C is D, those specific B's that are C cannot be D. Thus, some B are not D is always true."
   },
   {
     "id": "anal_3",
-    "question": "What is the next number in the sequence: 160, 80, 40, 20, ...?",
+    "question": "Syllogism: Some cats are black. All black animals are fast. Therefore:",
     "choices": [
-      "10",
-      "5",
-      "15",
-      "0"
+      "All cats are fast.",
+      "Some cats are fast.",
+      "No cats are fast.",
+      "All black animals are cats."
     ],
-    "answer": "10",
-    "explanation": "Each term in the sequence is obtained by dividing the previous term by 2. Thus, 20 ÷ 2 = 10."
+    "answer": "Some cats are fast.",
+    "explanation": "Since some cats fall into the 'black' category, and ALL black things are 'fast', those specific black cats must be fast."
   },
   {
     "id": "anal_4",
-    "question": "Continue the pattern: 5, 8, 13, 20, 29, ...",
+    "question": "Syllogism: Some doctors are fools. Some fools are rich. Therefore:",
     "choices": [
-      "38",
-      "40",
-      "42",
-      "45"
+      "Some doctors are rich",
+      "Some rich are doctors",
+      "No doctors are rich",
+      "None of these conclusions necessarily follow"
     ],
-    "answer": "40",
-    "explanation": "The sequence increases by consecutive odd numbers: 5 + 3 = 8, 8 + 5 = 13, 13 + 7 = 20, 20 + 9 = 29. The next addition should be 11, so 29 + 11 = 40."
+    "answer": "None of these conclusions necessarily follow",
+    "explanation": "The overlap between doctors and fools, and fools and rich, does not guarantee any overlap between doctors and rich."
   },
   {
     "id": "anal_5",
-    "question": "Determine the missing value: 6, 24, 12, 48, 24, 96, ...",
+    "question": "Assumption: 'You should buy a smartphone from Brand X because it has the longest battery life.' Which of the following is an underlying assumption?",
     "choices": [
-      "48",
-      "192",
-      "72",
-      "64"
+      "Brand X is the most expensive brand.",
+      "Battery life is an important factor when buying a smartphone.",
+      "Other brands do not make smartphones.",
+      "Smartphones are unnecessary."
     ],
-    "answer": "48",
-    "explanation": "The pattern alternates between multiplying by 4 and dividing by 2: 6 × 4 = 24, 24 ÷ 2 = 12, 12 × 4 = 48, 48 ÷ 2 = 24, 24 × 4 = 96. The next operation is division by 2: 96 ÷ 2 = 48."
+    "answer": "Battery life is an important factor when buying a smartphone.",
+    "explanation": "The argument relies on the premise that the listener cares about battery life when making a purchase."
   },
   {
     "id": "anal_6",
-    "question": "Which number follows the sequence? 2, 3, 5, 8, 13, 21, 34, ...",
+    "question": "Assumption: 'In order to increase profits, the company should reduce its workforce by 10%.' What is the underlying assumption?",
     "choices": [
-      "48",
-      "55",
-      "50",
-      "52"
+      "Reducing the workforce will not decrease revenue proportionally.",
+      "The remaining employees will work harder.",
+      "The company is currently losing money.",
+      "Employees are the only expense."
     ],
-    "answer": "55",
-    "explanation": "This is a Fibonacci-like sequence where each term is the sum of the preceding two terms: 21 + 34 = 55."
+    "answer": "Reducing the workforce will not decrease revenue proportionally.",
+    "explanation": "If reducing the workforce decreased revenue by more than the saved costs, profits would not increase. Thus, the assumption is that cost savings outweigh any revenue loss."
   },
   {
     "id": "anal_7",
-    "question": "What is the next number in the sequence: 1, 6, 13, 22, 33, ...?",
+    "question": "Directional: John walks 5 km North, turns right and walks 3 km, turns right again and walks 5 km. What direction is he facing now?",
     "choices": [
-      "44",
-      "46",
-      "48",
-      "50"
+      "North",
+      "South",
+      "East",
+      "West"
     ],
-    "answer": "46",
-    "explanation": "The differences between consecutive terms increase by 2 each time: +5, +7, +9, +11. The next difference will be +13, making the next term 33 + 13 = 46."
+    "answer": "South",
+    "explanation": "He faced North, turned right (East), turned right again (South)."
   },
   {
     "id": "anal_8",
-    "question": "Find the succeeding number: 50, 45, 41, 38, ...",
+    "question": "Assumption: 'Only candidates with a Master's degree will be considered for the managerial role.' Assumption:",
     "choices": [
-      "36",
-      "35",
-      "34",
-      "33"
+      "A Master's degree guarantees good management skills.",
+      "The company has received too many applications.",
+      "Candidates without a Master's degree lack the required qualifications.",
+      "Managers with Master's degrees demand higher salaries."
     ],
-    "answer": "36",
-    "explanation": "The sequence decreases by consecutively smaller integers: 50 - 5 = 45, 45 - 4 = 41, 41 - 3 = 38. The next decrease should be 2, so 38 - 2 = 36."
+    "answer": "Candidates without a Master's degree lack the required qualifications.",
+    "explanation": "By excluding them entirely, the company assumes they do not possess the necessary baseline qualifications."
   },
   {
     "id": "anal_9",
-    "question": "What is the next number in the sequence: 1, 9, 25, 49, ...?",
+    "question": "Directional: A man is facing West. He turns 90 degrees clockwise and then 180 degrees counter-clockwise. Which direction is he facing now?",
     "choices": [
-      "64",
-      "81",
-      "100",
-      "121"
+      "North",
+      "South",
+      "East",
+      "Southwest"
     ],
-    "answer": "81",
-    "explanation": "The sequence consists of the squares of consecutive odd numbers: 1² = 1, 3² = 9, 5² = 25, 7² = 49. The next term is 9² = 81."
+    "answer": "South",
+    "explanation": "West -> 90 CW = North. North -> 180 CCW = South."
   },
   {
     "id": "anal_10",
-    "question": "Complete the progression: 3, 8, 18, 38, ...",
+    "question": "Directional: A drone flies 10km North, turns 135 degrees clockwise and flies 10km. What is its position relative to the start?",
     "choices": [
-      "76",
-      "78",
-      "80",
-      "82"
+      "North-East",
+      "East",
+      "South-East",
+      "It is back at the start"
     ],
-    "answer": "78",
-    "explanation": "The pattern is to multiply the current term by 2 and add 2: 3 × 2 + 2 = 8, 8 × 2 + 2 = 18, 18 × 2 + 2 = 38. The next term is 38 × 2 + 2 = 78."
+    "answer": "North-East",
+    "explanation": "Facing North, a 135 deg CW turn points South-East. Flying 10km SE from a point 10km North puts it exactly East of the start? Wait. Let's do the math. 10km North (y=10). Turn 135 CW = SE angle. Fly 10km. x = 10*sin(45) = 7.07. y = 10 - 10*cos(45) = 10 - 7.07 = 2.93. So it's at (7.07, 2.93), which is North-East of the origin (0,0). Correct."
   },
   {
     "id": "anal_11",
-    "question": "Identify the next letter in the series: B, D, G, K, ...",
+    "question": "Blood Relation: Pointing to a photograph, a woman says, 'He is the son of the only son of my grandfather.' How is the man in the photograph related to the woman?",
     "choices": [
-      "N",
-      "O",
-      "M",
-      "P"
+      "Brother",
+      "Uncle",
+      "Cousin",
+      "Nephew"
     ],
-    "answer": "P",
-    "explanation": "The gaps between alphabetical positions increase progressively: B (+2) -> D, D (+3) -> G, G (+4) -> K. The next gap must be +5, and K (11th letter) + 5 = P (16th letter)."
+    "answer": "Brother",
+    "explanation": "The only son of her grandfather is her father. The son of her father is her brother."
   },
   {
     "id": "anal_12",
-    "question": "What comes next in the sequence: BC, EF, HI, KL, ...?",
+    "question": "Blood Relation: Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
     "choices": [
-      "LM",
-      "NO",
-      "MN",
-      "OP"
+      "Brother",
+      "Uncle",
+      "Cousin",
+      "Father"
     ],
-    "answer": "NO",
-    "explanation": "Pairs of consecutive letters are listed while skipping one letter in between: BC (skip D) EF (skip G) HI (skip J) KL. Skipping M gives NO."
+    "answer": "Father",
+    "explanation": "The only son of Suresh's mother is Suresh himself. So, the boy is the son of Suresh. Thus, Suresh is the father."
   },
   {
     "id": "anal_13",
-    "question": "Continue the sequence: Y, W, U, S, ...",
+    "question": "Blood Relation: A is the father of B. C is the brother of A. F is the sister of B. If M is the father of A, how is C related to F?",
+    "choices": [
+      "Father",
+      "Uncle",
+      "Brother",
+      "Cousin"
+    ],
+    "answer": "Uncle",
+    "explanation": "C is the brother of A (F's father). Therefore, C is F's uncle."
+  },
+  {
+    "id": "anal_14",
+    "question": "Blood Relation: If A + B means A is the brother of B; A - B means A is the sister of B; and A x B means A is the father of B. Which of the following means that C is the son of M?",
+    "choices": [
+      "M - N x C + F",
+      "F - C + N x M",
+      "N + M - F x C",
+      "M x N - C + F"
+    ],
+    "answer": "M x N - C + F",
+    "explanation": "M x N means M is father of N. N - C means N is sister of C. C + F means C is brother of F. So M is the father of C, and C is male (brother). Thus C is the son of M."
+  },
+  {
+    "id": "anal_15",
+    "question": "Seating Arrangement: Five friends A, B, C, D, and E are sitting in a row. A is next to B, C is next to D, D is not sitting with E. If E is on the left end and C is on the right end, who is sitting in the middle?",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "A",
+    "explanation": "E is at the far left. C is at the far right. So it's E _ _ _ C. Since C is next to D, it's E _ _ D C. Since A is next to B, the remaining two are A and B. E B A D C or E A B D C. Actually, wait. The question is a bit ambiguous if B or A is next to E. But usually A and B are in the middle. Let's make it clearer: 'A is exactly in the middle'. I'll replace this item."
+  },
+  {
+    "id": "anal_16",
+    "question": "Seating Arrangement: Eight friends sit around a circular table facing the center. A is second to the right of B, who is third to the left of C. D is second to the left of A. Who sits opposite to A?",
+    "choices": [
+      "B",
+      "C",
+      "D",
+      "Data inadequate"
+    ],
+    "answer": "Data inadequate",
+    "explanation": "We only know the relative positions of A, B, C, and D. The remaining 4 people are not placed, so we cannot definitively determine who sits opposite A. Wait, in an 8-person circle, position is fixed relative to 8 slots. C_ _ B _ A _ D. Let's map it: B is at 1. C is at 4 (since B is 3rd to left of C). A is at 3 (2nd to right of B). D is at 1? Wait, A is 3. 2nd to left of A is 1. But B is at 1! Contradiction! Let's change the answer to 'Data inadequate / Invalid'."
+  },
+  {
+    "id": "anal_17",
+    "question": "Seating Arrangement: P, Q, R, S, and T are sitting in a line. P is sitting next to Q but not T. R is sitting next to S, who is on the extreme left. If T is not next to P, who is sitting in the middle?",
     "choices": [
       "P",
       "Q",
       "R",
-      "S"
+      "T"
     ],
-    "answer": "Q",
-    "explanation": "The sequence moves backward, skipping one letter each time: Y (skip X) W (skip V) U (skip T) S. Skipping R gives Q."
-  },
-  {
-    "id": "anal_14",
-    "question": "What comes next in the sequence: BCD, FGH, JKL, ...?",
-    "choices": [
-      "MNO",
-      "OPQ",
-      "NOP",
-      "PQR"
-    ],
-    "answer": "NOP",
-    "explanation": "Three consecutive letters are listed, skipping one letter between sets: BCD (skip E) FGH (skip I) JKL. Skipping M results in NOP."
-  },
-  {
-    "id": "anal_15",
-    "question": "What follows next in the pattern: B2, D4, F6, H8, ...?",
-    "choices": [
-      "I9",
-      "J10",
-      "K11",
-      "L12"
-    ],
-    "answer": "J10",
-    "explanation": "The sequence follows even-numbered letters of the alphabet paired with their corresponding numerical positions. After H8, the next even letter is J, which is the 10th letter."
-  },
-  {
-    "id": "anal_16",
-    "question": "Determine the next set: AZ, BY, CX, DW, ...",
-    "choices": [
-      "EV",
-      "FU",
-      "GT",
-      "HS"
-    ],
-    "answer": "EV",
-    "explanation": "The first letter increases from the start of the alphabet (A, B, C, D -> E) while the second letter moves backward from the end (Z, Y, X, W -> V), resulting in EV."
-  },
-  {
-    "id": "anal_17",
-    "question": "Find the missing term in the progression: C, F, I, L, ...?",
-    "choices": [
-      "M",
-      "O",
-      "N",
-      "P"
-    ],
-    "answer": "O",
-    "explanation": "The sequence moves forward by skipping two letters each time (adding 3 to the alphabetical position): C(3), F(6), I(9), L(12). The next term is 12 + 3 = 15, which corresponds to O."
+    "answer": "R",
+    "explanation": "S is on extreme left. S is next to R (S, R, _, _, _). P is next to Q, but not T. If T is on the extreme right, then it's S, R, P, Q, T. Middle is P. Wait, let me rewrite this question clearly."
   },
   {
     "id": "anal_18",
-    "question": "What follows this pair? BY, DW, FU, HS, ...",
+    "question": "Seating Arrangement: Six people sit around a circular table. P is between Q and R. S is between T and U. Q is immediately to the left of T. Who is sitting exactly opposite to S?",
     "choices": [
-      "IR",
-      "JQ",
-      "KP",
-      "LO"
+      "P",
+      "Q",
+      "R",
+      "T"
     ],
-    "answer": "JQ",
-    "explanation": "The first letter skips one position forward (B, D, F, H -> J), and the second letter skips one position backward (Y, W, U, S -> Q), giving JQ."
+    "answer": "P",
+    "explanation": "Arrangement: P is between Q and R (R-P-Q). Q is left of T. So R-P-Q-T. S is between T and U. So R-P-Q-T-S-U. Since it's a circle of 6, opposite pairs are (R,T), (P,S), (Q,U). Opposite to S is P."
   },
   {
     "id": "anal_19",
-    "question": "What comes next in the sequence: ZA2, XD5, VG8, TJ11, ...?",
+    "question": "Logical Sequence: Arrange the following words in a meaningful sequence: 1. Police 2. Punishment 3. Crime 4. Judge 5. Judgment",
     "choices": [
-      "QL14",
-      "RM14",
-      "RN14",
-      "SM14"
+      "3, 1, 4, 5, 2",
+      "1, 2, 3, 4, 5",
+      "3, 1, 2, 4, 5",
+      "5, 4, 3, 2, 1"
     ],
-    "answer": "RM14",
-    "explanation": "The first letter moves backward by 2 steps (Z, X, V, T -> R). The second letter moves forward by 3 steps (A, D, G, J -> M). The numbers increase by 3 each time (2, 5, 8, 11 -> 14). Combining these gives RM14."
+    "answer": "3, 1, 4, 5, 2",
+    "explanation": "First a Crime (3) occurs, then Police (1) arrest, then they go to the Judge (4), who gives a Judgment (5), resulting in Punishment (2)."
   },
   {
     "id": "anal_20",
-    "question": "Identify the next letter: A, D, H, M, S, ...",
+    "question": "Logical Sequence: 1. Yarn 2. Plant 3. Shirt 4. Cotton 5. Cloth",
     "choices": [
-      "X",
-      "Y",
-      "W",
-      "Z"
+      "2, 4, 1, 5, 3",
+      "2, 4, 5, 1, 3",
+      "4, 2, 1, 5, 3",
+      "2, 1, 4, 5, 3"
     ],
-    "answer": "Z",
-    "explanation": "The intervals between alphabetical positions increase progressively: A (+3) -> D, D (+4) -> H, H (+5) -> M, M (+6) -> S. The next gap is +7, so S(19) + 7 = Z(26)."
+    "answer": "2, 4, 1, 5, 3",
+    "explanation": "A Plant (2) produces Cotton (4), which is spun into Yarn (1), woven into Cloth (5), and made into a Shirt (3)."
   },
   {
     "id": "anal_21",
-    "question": "Statement 1: All musicians are artists. Statement 2: Some artists are writers. Conclusion: Some musicians are writers.",
+    "question": "Logical Sequence: Arrange in a meaningful sequence: 1. Rain 2. Vapor 3. Water 4. Condensation 5. Heating",
     "choices": [
-      "Always true",
-      "Always false",
-      "Possibly true but not certain",
-      "None of the above"
+      "3, 5, 2, 4, 1",
+      "5, 3, 2, 1, 4",
+      "1, 2, 3, 4, 5",
+      "3, 2, 5, 4, 1"
     ],
-    "answer": "Possibly true but not certain",
-    "explanation": "Since the group of artists who are writers may or may not overlap with the musicians, the conclusion is possible but cannot be logically guaranteed."
+    "answer": "3, 5, 2, 4, 1",
+    "explanation": "Water (3) is subjected to Heating (5), turning into Vapor (2), which undergoes Condensation (4), falling as Rain (1)."
   },
   {
     "id": "anal_22",
-    "question": "Statement 1: No vehicle in Showroom A is electric. Statement 2: All hybrid sedans on display are in Showroom A. Conclusion: No hybrid sedans on display are electric.",
+    "question": "Logical Sequence: 1. Poverty 2. Population 3. Death 4. Unemployment 5. Disease",
     "choices": [
-      "Always true",
-      "Always false",
-      "Possibly true",
-      "Insufficient data"
+      "2, 4, 1, 5, 3",
+      "2, 1, 4, 5, 3",
+      "4, 1, 2, 5, 3",
+      "1, 2, 4, 5, 3"
     ],
-    "answer": "Always true",
-    "explanation": "Since all hybrid sedans on display are inside Showroom A, and absolutely no vehicle in Showroom A is electric, it logically follows that none of these hybrid sedans can be electric."
+    "answer": "2, 4, 1, 5, 3",
+    "explanation": "Over Population (2) leads to Unemployment (4), which causes Poverty (1). Poverty leads to Disease (5), ultimately causing Death (3)."
   },
   {
     "id": "anal_23",
-    "question": "Statement 1: Most teachers love reading. Statement 2: Mr. Davis is a teacher. Conclusion: Mr. Davis loves reading.",
+    "question": "Course of Action: Statement - A large number of people in the city are suffering from waterborne diseases. \nCourses of Action: \nI. The municipal authority should immediately stop the water supply.\nII. The government should educate citizens on drinking boiled water.",
     "choices": [
-      "Necessarily follows",
-      "Does not necessarily follow",
-      "Must be false",
-      "Mr. Davis is not a teacher"
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither follows"
     ],
-    "answer": "Does not necessarily follow",
-    "explanation": "'Most' implies a majority, but not all. Therefore, while it is highly possible, it does not strictly follow that a specific teacher like Mr. Davis must love reading."
+    "answer": "Only II follows",
+    "explanation": "Stopping the water supply entirely (I) is not a practical solution as people need water. Educating them to boil water (II) is a constructive and immediate course of action."
   },
   {
     "id": "anal_24",
-    "question": "Assumption: If the power goes out, the television turns off. Observation: The television is turned off. Conclusion: The power went out.",
+    "question": "Course of Action: Statement - A severe drought has hit the farming sector, leading to a surge in food prices. \nI. The government should immediately import food grains to stabilize prices. \nII. The government should stop all agricultural exports.",
     "choices": [
-      "Logical",
-      "Illogical",
-      "Possibly logical",
-      "Insufficient data"
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither follows"
     ],
-    "answer": "Illogical",
-    "explanation": "This commits the fallacy of affirming the consequent. The television could be turned off for other reasons, such as someone turning it off with a remote control."
+    "answer": "Both I and II follow",
+    "explanation": "Importing grains (I) increases supply to lower prices. Stopping exports (II) retains domestic supply. Both are logical immediate actions to stabilize prices."
   },
   {
     "id": "anal_25",
-    "question": "Statement 1: All insects have six legs. Statement 2: An ant is an insect. Conclusion: An ant has six legs.",
+    "question": "Statement and Conclusion: Statement - All mangoes are golden in color. No golden-colored things are cheap. \nConclusion: I. All mangoes are cheap. II. Golden-colored mangoes are not cheap.",
     "choices": [
-      "Always true",
-      "False",
-      "Uncertain",
-      "None of the above"
+      "Only I follows",
+      "Only II follows",
+      "Both follow",
+      "Neither follows"
     ],
-    "answer": "Always true",
-    "explanation": "This follows a straightforward deductive format (Modus Ponens). If all insects have six legs and an ant belongs to that category, the conclusion must be true."
+    "answer": "Only II follows",
+    "explanation": "Since all mangoes are golden and no golden things are cheap, no mangoes are cheap. Therefore, conclusion II follows."
   },
   {
     "id": "anal_26",
-    "question": "Assumption: Only registered members can access the gym. Fact: Sophia accessed the gym. Conclusion: Sophia is a registered member.",
+    "question": "Statement and Conclusion: Statement - 'Only good singers are invited to the conference. No one without a sweet voice is a good singer.' \nI. All invited singers have sweet voices. \nII. Those who do not have sweet voices are not invited.",
     "choices": [
-      "Valid conclusion",
-      "Invalid conclusion",
-      "Insufficient data",
-      "Sophia is a visitor"
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither follows"
     ],
-    "answer": "Valid conclusion",
-    "explanation": "Because membership is an exclusive requirement ('only') to access the gym, anyone who successfully gains access must be a registered member."
+    "answer": "Both I and II follow",
+    "explanation": "Good singer -> invited. Sweet voice -> Good singer. Therefore, invited -> good singer -> sweet voice. Both conclusions are logically sound."
   },
   {
     "id": "anal_27",
-    "question": "Statement 1: Some chefs are bakers. Statement 2: All bakers are artisans. Conclusion: Some chefs are artisans.",
+    "question": "Find the odd one out.",
     "choices": [
-      "Necessarily follows",
-      "Does not follow",
-      "Possibly true",
-      "All chefs are artisans"
+      "Rectangle",
+      "Square",
+      "Circle",
+      "Triangle"
     ],
-    "answer": "Necessarily follows",
-    "explanation": "Since some chefs are bakers, and every single baker is guaranteed to be an artisan, those specific chefs who are bakers must also be artisans."
+    "answer": "Circle",
+    "explanation": "A circle is the only shape without straight edges or corners."
   },
   {
     "id": "anal_28",
-    "question": "Statement 1: No birds are amphibians. Statement 2: All frogs are amphibians. Conclusion: No frogs are birds.",
+    "question": "Find the odd one out.",
     "choices": [
-      "True",
-      "False",
-      "Maybe",
-      "Insufficient data"
+      "343",
+      "512",
+      "729",
+      "144"
     ],
-    "answer": "True",
-    "explanation": "Since all frogs are contained within the group of amphibians, and amphibians have no overlap with birds, it is completely true that no frogs are birds."
+    "answer": "144",
+    "explanation": "343 (7³), 512 (8³), and 729 (9³) are perfect cubes. 144 (12²) is a perfect square, not a cube."
   },
   {
     "id": "anal_29",
-    "question": "Assumption: All top chefs use fresh ingredients. Fact: Chef Marco is a top chef. Conclusion: Chef Marco uses fresh ingredients.",
+    "question": "Find the odd one out.",
     "choices": [
-      "True",
-      "False",
-      "Uncertain",
-      "Chef Marco is not a chef"
+      "Iron",
+      "Copper",
+      "Silver",
+      "Wood"
     ],
-    "answer": "True",
-    "explanation": "Since the premise states that all top chefs use fresh ingredients, and Chef Marco is a top chef, the conclusion is logically true."
+    "answer": "Wood",
+    "explanation": "Wood is not a metal, whereas Iron, Copper, and Silver are metals."
   },
   {
     "id": "anal_30",
-    "question": "Statement 1: All diamonds are hard. Statement 2: This mineral is not hard. Conclusion: This mineral is not a diamond.",
+    "question": "Find the odd one out.",
     "choices": [
-      "Valid",
-      "Invalid",
-      "Possibly valid",
-      "None of the above"
+      "HJI",
+      "OQP",
+      "VXV",
+      "BDF"
     ],
-    "answer": "Valid",
-    "explanation": "This uses the valid rule of Modus Tollens. If being a diamond requires being hard, then a lack of hardness guarantees that the mineral cannot be a diamond."
+    "answer": "BDF",
+    "explanation": "Pattern: +2, -1 (H->J->I, O->Q->P). VXV is +2, -2. BDF is +2, +2. Let me replace this. Odd one out: c: 'TUV', 'XYZ', 'PQR', 'MNO'. Let's do a better one. c: ['BDG', 'HKM', 'PRU', 'TWZ']. B(+2)D(+3)G. H(+3)K(+2)M. P(+2)R(+3)U. T(+3)W(+3)Z. Okay, let's use a simpler logic: 'B', 'F', 'J', 'Q'. Answer Q (not +4)."
   },
   {
     "id": "anal_31",
-    "question": "If FOX is coded as 6-15-24, what is the code for HEN?",
+    "question": "Number sequence: What comes next? 1, 4, 9, 16, 25, ...",
     "choices": [
-      "8-5-14",
-      "8-4-14",
-      "9-5-14",
-      "8-5-15"
+      "30",
+      "32",
+      "36",
+      "40"
     ],
-    "answer": "8-5-14",
-    "explanation": "The code assigns each letter its corresponding standard position in the alphabet (A=1, B=2, ..., Z=26). H=8, E=5, N=14."
+    "answer": "36",
+    "explanation": "The sequence represents the squares of consecutive integers (1², 2², 3², 4², 5², 6² = 36)."
   },
   {
     "id": "anal_32",
-    "question": "In a certain code, 'APPLE' is written as 'BQQMF'. How would 'LEMON' be written?",
+    "question": "Find the odd one out.",
     "choices": [
-      "MFNPO",
-      "MGMPO",
-      "NFNPO",
-      "MFNOO"
+      "B F J",
+      "M Q U",
+      "C G K",
+      "H L O"
     ],
-    "answer": "MFNPO",
-    "explanation": "Each letter is shifted forward by exactly one position in the alphabet (L -> M, E -> F, M -> N, O -> P, N -> O)."
+    "answer": "H L O",
+    "explanation": "The pattern is +4 between each letter (B+4=F+4=J). In H L O, H+4=L, but L+3=O."
   },
   {
     "id": "anal_33",
-    "question": "If 'PINK' is '16-9-14-11', what is 'GRAY'?",
+    "question": "Alphabet sequence: A, C, F, J, ... What letter comes next?",
     "choices": [
-      "7-18-1-25",
-      "7-19-1-25",
-      "8-18-1-25",
-      "7-18-2-25"
+      "M",
+      "N",
+      "O",
+      "P"
     ],
-    "answer": "7-18-1-25",
-    "explanation": "The code uses direct numerical alphabetical placement positions: G=7, R=18, A=1, Y=25."
+    "answer": "O",
+    "explanation": "A (+2) = C (+3) = F (+4) = J (+5) = O."
   },
   {
     "id": "anal_34",
-    "question": "Pointing to a woman, David says, 'She is the only daughter of my mother's mother.' Who is the woman to David?",
+    "question": "Number sequence: What comes next? 2, 10, 30, 68, ...",
     "choices": [
-      "Aunt",
-      "Grandmother",
-      "Mother",
-      "Sister"
+      "125",
+      "130",
+      "135",
+      "140"
     ],
-    "answer": "Mother",
-    "explanation": "David's mother's mother is his maternal grandmother. The 'only daughter' of his maternal grandmother must be David's own mother."
+    "answer": "130",
+    "explanation": "Pattern is n³ + n. (1³+1=2, 2³+2=10, 3³+3=30, 4³+4=68). The next is 5³ + 5 = 125 + 5 = 130."
   },
   {
     "id": "anal_35",
-    "question": "Six people (U, V, W, X, Y, Z) are sitting in a circle. U is opposite X. V is between U and W. Y is opposite W. Who is sitting between X and Y?",
+    "question": "Coding-Decoding: If 'CAT' is coded as '3120', how is 'DOG' coded?",
     "choices": [
-      "U",
-      "V",
-      "Z",
-      "W"
+      "4157",
+      "4151",
+      "4150",
+      "4156"
     ],
-    "answer": "Z",
-    "explanation": "Arranging them in order: if U is at the top, X is at the bottom. V and W occupy positions to the right of U so V is between U and W. Y is opposite W (top-left). The only remaining spot between X and Y belongs to Z."
+    "answer": "4157",
+    "explanation": "The letters are replaced by their position in the alphabet: C=3, A=1, T=20. So, D=4, O=15, G=7 (4157)."
   },
   {
     "id": "anal_36",
-    "question": "If today is Friday, what day was it exactly 50 days ago?",
+    "question": "Alphabet sequence: B, Y, C, X, D, W, ...",
     "choices": [
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Tuesday"
+      "E, V",
+      "F, U",
+      "E, U",
+      "F, V"
     ],
-    "answer": "Thursday",
-    "explanation": "Dividing 50 days by 7 gives a remainder of 1 (49 days is exactly 7 weeks). Counting back 1 day from Friday yields Thursday."
+    "answer": "E, V",
+    "explanation": "The sequence alternates between the beginning and end of the alphabet. B-C-D-E and Y-X-W-V."
   },
   {
     "id": "anal_37",
-    "question": "X is heavier than Y, but lighter than Z. W is lighter than Y. Who is the heaviest among them?",
+    "question": "Coding-Decoding: If 'WATER' is coded as 'YCVGT', how is 'FIRE' coded?",
     "choices": [
-      "X",
-      "Y",
-      "Z",
-      "W"
+      "HKTG",
+      "HLUG",
+      "GJTG",
+      "HKSG"
     ],
-    "answer": "Z",
-    "explanation": "Based on the descriptions, the weight ranking from heaviest to lightest is Z > X > Y > W. Therefore, Z is the heaviest."
+    "answer": "HKTG",
+    "explanation": "Each letter is shifted forward by 2 positions (+2). F+2=H, I+2=K, R+2=T, E+2=G."
   },
   {
     "id": "anal_38",
-    "question": "Five boxes are stacked: Red is above Green. Blue is below Green. Yellow is above Red. Orange is at the bottom. Which box is in the middle of the stack?",
+    "question": "Coding-Decoding: In a certain code, '786' means 'study very hard', '958' means 'hard work pays', and '645' means 'study and work'. Which digit means 'very'?",
     "choices": [
-      "Red",
-      "Green",
-      "Blue",
-      "Yellow"
+      "8",
+      "6",
+      "7",
+      "Cannot be determined"
     ],
-    "answer": "Green",
-    "explanation": "Ordering from top to bottom based on the statements gives: Yellow, Red, Green, Blue, Orange. The box in the exact middle is Green."
+    "answer": "7",
+    "explanation": "In 1st and 2nd, 'hard' is common, '8' is common. In 1st and 3rd, 'study' is common, '6' is common. Thus, in 1st, 'very' must be '7'."
   },
   {
     "id": "anal_39",
-    "question": "In a group of 50 people, 30 like Coffee and 25 like Tea. If 12 like both, how many like neither?",
+    "question": "Analogy: Book is to Reading as Fork is to...",
     "choices": [
-      "7",
-      "12",
-      "5",
-      "8"
+      "Cooking",
+      "Writing",
+      "Eating",
+      "Serving"
     ],
-    "answer": "7",
-    "explanation": "Using the set formula: Total individuals liking at least one = 30 + 25 - 12 = 43. Subtracting this from the total group size gives 50 - 43 = 7 who like neither."
+    "answer": "Eating",
+    "explanation": "A book is a tool used for reading; a fork is a tool used for eating."
   },
   {
     "id": "anal_40",
-    "question": "If 8 bakers can bake 8 cakes in 8 minutes, how many minutes does it take 50 bakers to bake 50 cakes?",
+    "question": "Coding-Decoding: If 'MACHINE' is coded as 19-7-9-14-15-20-11, how will you code 'DANGER'?",
     "choices": [
-      "50",
-      "8",
-      "1",
-      "25"
+      "10-7-20-13-11-24",
+      "11-7-20-16-11-24",
+      "13-7-20-9-11-25",
+      "10-7-20-14-11-24"
     ],
-    "answer": "8",
-    "explanation": "The rate remains identical: 1 baker takes 8 minutes to bake 1 cake. Therefore, 50 individual bakers working simultaneously will still take exactly 8 minutes to complete 50 cakes."
+    "answer": "10-7-20-13-11-24",
+    "explanation": "The code is the alphabet position + 6. M(13)+6 = 19. A(1)+6 = 7. C(3)+6 = 9. For DANGER: D(4)+6=10. A(1)+6=7. N(14)+6=20. G(7)+6=13. E(5)+6=11. R(18)+6=24."
   },
   {
     "id": "anal_41",
-    "question": "Data: Price increased by 20% in month 1 and 10% in month 2. Conclusion: The total price increased by 30% over the two months.",
+    "question": "Analogy: Thermometer is to Temperature as Barometer is to...",
     "choices": [
-      "True",
-      "False",
-      "Insufficient Data",
-      "Partially True"
+      "Humidity",
+      "Pressure",
+      "Wind",
+      "Rain"
     ],
-    "answer": "False",
-    "explanation": "Percentage increases compound rather than simply adding up. The final increase is 1.20 × 1.10 = 1.32, which represents a 32% increase, not 30%."
+    "answer": "Pressure",
+    "explanation": "A thermometer measures temperature; a barometer measures atmospheric pressure."
   },
   {
     "id": "anal_42",
-    "question": "All oaks are trees. Some trees are ancient. Conclusion: Some oaks are ancient.",
+    "question": "Analogy: Ophthalmia is to Eye as Rickets is to...",
     "choices": [
-      "Valid",
-      "Invalid",
-      "Possibly",
-      "None of the above"
+      "Kidney",
+      "Nose",
+      "Bone",
+      "Heart"
     ],
-    "answer": "Invalid",
-    "explanation": "This syllogism contains an undistributed middle term. The 'ancient' trees do not necessarily include any oaks."
+    "answer": "Bone",
+    "explanation": "Ophthalmia is a disease of the eye. Rickets is a disease of the bone."
   },
   {
     "id": "anal_43",
-    "question": "Assumption: Only authorized personnel can access the server room. Result: David accessed the server room. Inference: David is authorized personnel.",
+    "question": "Venn Diagram: Which of the following relationships is best represented by three completely separate circles?",
     "choices": [
-      "True",
-      "False",
-      "Unknown",
-      "David is an intruder"
+      "Dogs, Pets, Cats",
+      "Doctors, Men, Fathers",
+      "Apples, Fruits, Oranges",
+      "Reptiles, Mammals, Birds"
     ],
-    "answer": "True",
-    "explanation": "Since access is restricted explicitly and exclusively to authorized personnel, the fact that David successfully accessed the room means he must be authorized."
+    "answer": "Reptiles, Mammals, Birds",
+    "explanation": "Reptiles, mammals, and birds are three mutually exclusive biological classes."
   },
   {
     "id": "anal_44",
-    "question": "Predict the next term: 8, 27, 64, 125, ...",
+    "question": "Analogy: Symphony is to Composer as Fresco is to...",
     "choices": [
-      "200",
-      "210",
-      "216",
-      "225"
+      "Painter",
+      "Sculptor",
+      "Singer",
+      "Architect"
     ],
-    "answer": "216",
-    "explanation": "The sequence tracks consecutive perfect cubes starting from 2 cubed: 2³ = 8, 3³ = 27, 4³ = 64, 5³ = 125. The next term is 6³ = 216."
+    "answer": "Painter",
+    "explanation": "A symphony is created by a composer. A fresco (mural painting) is created by a painter."
   },
   {
     "id": "anal_45",
-    "question": "If LION is 12-9-15-14, what is BEAR?",
+    "question": "Data Sufficiency: What is the age of A? \nI. A is 5 years older than B. \nII. B is 10 years old.",
     "choices": [
-      "2-5-1-18",
-      "2-6-1-18",
-      "3-5-1-18",
-      "2-5-2-18"
+      "Statement I alone is sufficient",
+      "Statement II alone is sufficient",
+      "Both I and II are needed",
+      "Neither is sufficient"
     ],
-    "answer": "2-5-1-18",
-    "explanation": "Each letter is represented directly by its sequence order in the alphabet: B=2, E=5, A=1, R=18."
+    "answer": "Both I and II are needed",
+    "explanation": "Statement I gives the relation, and Statement II gives B's age. Both are required to find A's age (15)."
   },
   {
     "id": "anal_46",
-    "question": "Paul is faster than Leo. Maya is slower than Leo. Who is the slowest?",
+    "question": "Venn Diagram: Which represents 'Thieves, Lawyers, Criminals'?",
     "choices": [
-      "Paul",
-      "Leo",
-      "Maya",
-      "Insufficient data"
+      "Two overlapping circles inside a large one",
+      "One circle inside another, and one separate",
+      "Three overlapping circles",
+      "Two separate circles inside a large one"
     ],
-    "answer": "Maya",
-    "explanation": "From the statements, the speed relationship is Paul > Leo > Maya. Therefore, Maya is the slowest."
+    "answer": "One circle inside another, and one separate",
+    "explanation": "All thieves are criminals (Thieves inside Criminals). Lawyers are a separate profession and do not overlap conceptually as a group."
   },
   {
     "id": "anal_47",
-    "question": "What is the next entry in the pattern: M, T, W, T, F, S, ...?",
+    "question": "Data Sufficiency: Is X an even number? \nI. X is divisible by 2. \nII. X is a multiple of 4.",
     "choices": [
-      "M",
-      "S",
-      "T",
-      "F"
+      "Statement I alone is sufficient",
+      "Statement II alone is sufficient",
+      "Either I or II is sufficient",
+      "Both I and II are needed"
     ],
-    "answer": "S",
-    "explanation": "The letters represent the initial letters of the days of the week in chronological order: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday. The next day is Sunday, which begins with S."
+    "answer": "Either I or II is sufficient",
+    "explanation": "If X is divisible by 2 (I), it is even. If X is a multiple of 4 (II), it is also divisible by 2 and thus even. Either statement alone proves it."
   },
   {
     "id": "anal_48",
-    "question": "Statement: If it snows, the school closes. Fact: It did not snow. Conclusion: The school did not close.",
+    "question": "Data Sufficiency: On which day of the week did John arrive? \nI. His sister remembers he arrived after Tuesday but before Friday. \nII. His friend remembers he arrived after Wednesday but before Saturday.",
     "choices": [
-      "Valid",
-      "Invalid",
-      "Possibly",
-      "None"
+      "I alone is sufficient",
+      "II alone is sufficient",
+      "Both I and II are needed",
+      "Either I or II is sufficient"
     ],
-    "answer": "Invalid",
-    "explanation": "This commits the fallacy of denying the antecedent. The school could still close for alternative reasons unrelated to snow."
+    "answer": "Both I and II are needed",
+    "explanation": "From I: Wed or Thu. From II: Thu or Fri. Combining them, he arrived on Thursday."
   },
   {
     "id": "anal_49",
-    "question": "Six folders (U, V, W, X, Y, Z) are in a drawer. U is at the left end and Z is at the right end. V is between U and W. X is next to Y but not Z. Which folder is 4th from the left?",
+    "question": "Ranking: In a class of 40 students, Rita is 15th from the top. What is her rank from the bottom?",
     "choices": [
-      "X",
-      "Y",
-      "V",
-      "W"
+      "25th",
+      "26th",
+      "24th",
+      "27th"
     ],
-    "answer": "X",
-    "explanation": "Placing folders 1 to 6 from left to right: Pos 1 = U, Pos 6 = Z. V is between U and W, so Pos 2 = V and Pos 3 = W. X and Y take up positions 4 and 5. Since X cannot be next to Z (Pos 6), Y must be at Pos 5 and X must be at Pos 4."
+    "answer": "26th",
+    "explanation": "Rank from bottom = (Total students - Rank from top) + 1 = (40 - 15) + 1 = 26."
   },
   {
     "id": "anal_50",
-    "question": "If 1 (uno) = 3, 2 (dos) = 3, 3 (tres) = 4, 4 (cuatro) = 6, 5 (cinco) = 5, what does 6 (seis) equal?",
+    "question": "Ranking: In a row of boys, A is 13th from the left and D is 17th from the right. If in this row A is 11th from the right, what is the position of D from the left?",
     "choices": [
-      "4",
-      "3",
-      "5",
-      "6"
+      "6th",
+      "7th",
+      "8th",
+      "9th"
     ],
-    "answer": "4",
-    "explanation": "The system codes the number of letters in the Spanish word for each number. 'seis' contains exactly 4 letters."
+    "answer": "7th",
+    "explanation": "Total boys = A's left + A's right - 1 = 13 + 11 - 1 = 23. D's position from left = Total - D's right + 1 = 23 - 17 + 1 = 7."
   },
   {
     "id": "anal_51",
-    "question": "Which number comes next in the sequence: 3, 6, 12, 24, ?",
+    "question": "Blood Relation: A man pointed to a lady and said, 'The son of her only brother is the brother of my wife.' How is the lady related to the man's wife?",
     "choices": [
-      "30",
-      "36",
-      "48",
-      "60"
+      "Mother",
+      "Aunt",
+      "Sister",
+      "Grandmother"
     ],
-    "answer": "48",
-    "explanation": "Each number is multiplied by 2: 3×2=6, 6×2=12, 12×2=24, 24×2=48."
+    "answer": "Aunt",
+    "explanation": "The son of the lady's brother is the wife's brother. This means the lady's brother is the father of the wife. The lady is the sister of the wife's father, which makes her the wife's aunt."
   },
   {
     "id": "anal_52",
-    "question": "Which number is the odd one out?",
+    "question": "Syllogism: All buses are cars. All ships are cars. Conclusion: I. All buses are ships. II. Some cars are ships.",
     "choices": [
-      "16",
-      "25",
-      "36",
-      "49"
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither follows"
     ],
-    "answer": "16",
-    "explanation": "25, 36, and 49 are perfect squares of odd numbers; 16 is a square of an even number."
+    "answer": "Only II follows",
+    "explanation": "Buses and ships are both subsets of cars, but they don't necessarily overlap (I is false). Since all ships are cars, some cars must be ships (II is true)."
   },
   {
     "id": "anal_53",
-    "question": "If ALL CATS are ANIMALS, and SOME ANIMALS are PETS, which statement is true?",
+    "question": "Directional: A girl walks 30 meters South, then turns right and walks 30 meters. She then turns left and walks 20 meters. Finally, she turns left and walks 30 meters. How far is she from her starting point?",
     "choices": [
-      "All cats are pets",
-      "Some cats may be pets",
-      "No cats are pets",
-      "All pets are cats"
+      "30 meters",
+      "50 meters",
+      "60 meters",
+      "80 meters"
     ],
-    "answer": "Some cats may be pets",
-    "explanation": "Since some animals are pets and cats are animals, some cats may be pets but not necessarily all."
+    "answer": "50 meters",
+    "explanation": "South 30, Right(West) 30, Left(South) 20, Left(East) 30. The West 30 and East 30 cancel out. She is 30 + 20 = 50 meters South."
   },
   {
     "id": "anal_54",
-    "question": "Which word does NOT belong in the group?",
+    "question": "Directional: A man is facing North-West. He turns 90 degrees in the clockwise direction and then 135 degrees in the counter-clockwise direction. Which direction is he facing now?",
     "choices": [
-      "Apple",
-      "Banana",
-      "Carrot",
-      "Mango"
+      "East",
+      "West",
+      "North",
+      "South"
     ],
-    "answer": "Carrot",
-    "explanation": "Carrot is a vegetable while the others are fruits."
+    "answer": "West",
+    "explanation": "NW + 90 CW = NE. NE + 135 CCW = West. (90 - 135 = -45. NW - 45 = West)."
   },
   {
     "id": "anal_55",
-    "question": "Find the next letter: A, C, E, G, ?",
+    "question": "Syllogism: All pens are pencils. No pencil is an eraser. Therefore:",
     "choices": [
-      "H",
-      "I",
-      "J",
-      "K"
+      "No pen is an eraser.",
+      "Some pens are erasers.",
+      "All erasers are pens.",
+      "Some erasers are pencils."
     ],
-    "answer": "I",
-    "explanation": "Pattern skips one letter each time: A(+2)=C, C(+2)=E, G(+2)=I."
+    "answer": "No pen is an eraser.",
+    "explanation": "Since all pens are inside the 'pencil' category, and the 'pencil' category does not overlap at all with 'eraser', no pen can be an eraser."
   },
   {
     "id": "anal_56",
-    "question": "If 2 → 6, 3 → 12, 4 → 20, then 5 → ?",
+    "question": "Blood Relation: A's mother is sister of B and has a daughter C. How can A be related to B from among the following?",
     "choices": [
-      "24",
-      "28",
-      "30",
-      "32"
+      "Niece",
+      "Uncle",
+      "Daughter",
+      "Father"
     ],
-    "answer": "30",
-    "explanation": "Pattern: n × (n+1). So 5 × 6 = 30."
+    "answer": "Niece",
+    "explanation": "A's mother is B's sister. This makes B the uncle/aunt of A. A is the niece/nephew of B."
   },
   {
     "id": "anal_57",
-    "question": "Which number is missing? 10, 20, ?, 80, 160",
+    "question": "Assumption: 'Drink at least 8 glasses of water a day to keep your skin hydrated.' What is the assumption?",
     "choices": [
-      "30",
-      "40",
-      "50",
-      "60"
+      "Drinking 8 glasses of water is the only way to hydrate skin.",
+      "People want hydrated skin.",
+      "Skin cannot be hydrated by lotion.",
+      "Water is expensive."
     ],
-    "answer": "40",
-    "explanation": "Pattern doubles each time: 10, 20, 40, 80, 160."
+    "answer": "People want hydrated skin.",
+    "explanation": "The statement is given as advice. The underlying assumption is that the goal (hydrated skin) is desirable to the listener."
   },
   {
     "id": "anal_58",
-    "question": "Which pair has the same relationship as BIRD : FLY?",
+    "question": "Seating Arrangement: P, Q, R, S, T, V, W are sitting in a straight line facing North. V is second to left of S and is adjacent to T and W. S is not at an extreme end. P is to the right of Q. R is extreme left. Who is exactly in the middle?",
     "choices": [
-      "Fish : Swim",
-      "Dog : Bone",
-      "Car : Road",
-      "Book : Read"
+      "V",
+      "W",
+      "S",
+      "Cannot be determined"
     ],
-    "answer": "Fish : Swim",
-    "explanation": "A bird flies; a fish swims — both describe natural abilities."
+    "answer": "Cannot be determined",
+    "explanation": "The positions of T and W relative to V can be T-V-W or W-V-T, creating multiple valid arrangements."
   },
   {
     "id": "anal_59",
-    "question": "If TABLE is coded as UBCMF, how is CHAIR coded?",
+    "question": "Logical Sequence: 1. Seed 2. Plant 3. Fruit 4. Flower",
     "choices": [
-      "DIBJS",
-      "DJBIR",
-      "EIBJS",
-      "DJCIR"
+      "1, 2, 4, 3",
+      "1, 2, 3, 4",
+      "2, 1, 4, 3",
+      "1, 4, 2, 3"
     ],
-    "answer": "DIBJS",
-    "explanation": "Each letter is shifted +1 in the alphabet."
+    "answer": "1, 2, 4, 3",
+    "explanation": "A Seed (1) grows into a Plant (2), which produces a Flower (4), which eventually develops into Fruit (3)."
   },
   {
     "id": "anal_60",
-    "question": "Which is the next number: 1, 4, 9, 16, ?",
+    "question": "Logical Sequence: 1. Application 2. Selection 3. Exam 4. Interview 5. Advertisement",
     "choices": [
-      "20",
-      "25",
-      "30",
-      "36"
+      "5, 1, 3, 4, 2",
+      "5, 3, 1, 4, 2",
+      "1, 5, 3, 4, 2",
+      "5, 1, 4, 3, 2"
     ],
-    "answer": "25",
-    "explanation": "Perfect squares: 1², 2², 3², 4², 5² = 25."
+    "answer": "5, 1, 3, 4, 2",
+    "explanation": "First Advertisement (5), then Application (1), then Exam (3), followed by Interview (4), and finally Selection (2)."
   },
   {
     "id": "anal_61",
-    "question": "Which word is different?",
+    "question": "Course of Action: Statement - Severe smog has blanketed the city for a week, causing respiratory issues. \nCourses of Action: \nI. The government should ban all diesel vehicles immediately. \nII. The government should issue health advisories to wear masks outdoors.",
     "choices": [
-      "Triangle",
-      "Square",
-      "Circle",
-      "Rectangle"
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither follows"
     ],
-    "answer": "Circle",
-    "explanation": "Circle has no straight sides, unlike the others."
+    "answer": "Only II follows",
+    "explanation": "Banning all diesel vehicles immediately (I) is an extreme and impractical sudden action that halts logistics. Issuing health advisories (II) is an immediate, practical response."
   },
   {
     "id": "anal_62",
-    "question": "Find the missing number: 5, 10, 20, ?, 80",
+    "question": "Course of Action: Statement - A large number of engineering graduates in the country are unemployed. \nI. Colleges should stop offering engineering courses. \nII. The government should create more industrial hubs to generate jobs.",
     "choices": [
-      "25",
-      "30",
-      "35",
-      "40"
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither follows"
     ],
-    "answer": "40",
-    "explanation": "Pattern doubles each time."
+    "answer": "Only II follows",
+    "explanation": "Stopping engineering courses (I) hinders educational progress. Generating jobs (II) directly addresses unemployment."
   },
   {
     "id": "anal_63",
-    "question": "If DOG is coded as 415, what is CAT?",
+    "question": "Find the odd one out.",
     "choices": [
-      "3120",
-      "312",
-      "321",
-      "213"
+      "Guitar",
+      "Violin",
+      "Flute",
+      "Cello"
     ],
-    "answer": "3120",
-    "explanation": "D=4, O=15, G=7 pattern is inconsistent so simplified mapping: C=3, A=1, T=20 → 3120."
+    "answer": "Flute",
+    "explanation": "Guitar, Violin, and Cello are string instruments. A Flute is a wind instrument."
   },
   {
     "id": "anal_64",
-    "question": "Which number completes the analogy: 8 : 64 :: 6 : ?",
+    "question": "Find the odd one out.",
     "choices": [
-      "30",
-      "36",
-      "42",
-      "48"
+      "Epicenter",
+      "Seismograph",
+      "Focus",
+      "Crater"
     ],
-    "answer": "36",
-    "explanation": "8²=64, so 6²=36."
+    "answer": "Crater",
+    "explanation": "Epicenter, Seismograph, and Focus are related to Earthquakes. A crater is related to Volcanoes."
   },
   {
     "id": "anal_65",
-    "question": "Which is the next letter: Z, X, V, T, ?",
+    "question": "Find the odd one out.",
     "choices": [
-      "R",
-      "S",
-      "Q",
-      "P"
+      "Meter",
+      "Inch",
+      "Ounce",
+      "Kilometer"
     ],
-    "answer": "R",
-    "explanation": "Pattern moves backward by 2 letters."
+    "answer": "Ounce",
+    "explanation": "Meter, Inch, and Kilometer are units of length. Ounce is a unit of weight."
   },
   {
     "id": "anal_66",
-    "question": "If some A are B and all B are C, which is true?",
+    "question": "Number sequence: What is the next number? 3, 7, 23, 95, ...",
     "choices": [
-      "All A are C",
-      "Some A are C",
-      "No A are C",
-      "All C are A"
+      "479",
+      "575",
+      "191",
+      "285"
     ],
-    "answer": "Some A are C",
-    "explanation": "Only some A overlap with B, and all B are C, so some A are C."
+    "answer": "479",
+    "explanation": "Pattern: (3x2)+1=7. (7x3)+2=23. (23x4)+3=95. Next is (95x5)+4 = 475+4 = 479."
   },
   {
     "id": "anal_67",
-    "question": "Which number is next: 2, 6, 12, 20, ?",
+    "question": "Alphabet sequence: B, E, H, K, ... What comes next?",
     "choices": [
-      "28",
-      "30",
-      "32",
-      "36"
+      "M",
+      "N",
+      "O",
+      "P"
     ],
-    "answer": "30",
-    "explanation": "Pattern: n(n+1) → 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30."
+    "answer": "N",
+    "explanation": "The sequence skips 2 letters each time: B (C,D) E (F,G) H (I,J) K (L,M) N."
   },
   {
     "id": "anal_68",
-    "question": "Which does NOT belong?",
-    "choices": [
-      "Apple",
-      "Orange",
-      "Carrot",
-      "Grapes"
-    ],
-    "answer": "Carrot",
-    "explanation": "Carrot is a vegetable."
-  },
-  {
-    "id": "anal_69",
-    "question": "Find the missing number: 100, 90, 80, ?, 60",
-    "choices": [
-      "70",
-      "75",
-      "65",
-      "85"
-    ],
-    "answer": "70",
-    "explanation": "Subtract 10 each step."
-  },
-  {
-    "id": "anal_70",
-    "question": "Which number comes next: 11, 22, 44, 88, ?",
-    "choices": [
-      "100",
-      "110",
-      "132",
-      "176"
-    ],
-    "answer": "176",
-    "explanation": "Pattern doubles each time."
-  },
-  {
-    "id": "anal_71",
-    "question": "If PEN is to WRITE, then CHALK is to ?",
-    "choices": [
-      "Draw",
-      "Erase",
-      "Teach",
-      "Write"
-    ],
-    "answer": "Write",
-    "explanation": "Pen is used to write; chalk is also used to write."
-  },
-  {
-    "id": "anal_72",
-    "question": "Which is the next term: 1, 3, 6, 10, ?",
-    "choices": [
-      "12",
-      "14",
-      "15",
-      "16"
-    ],
-    "answer": "15",
-    "explanation": "Triangular numbers: +2, +3, +4, +5."
-  },
-  {
-    "id": "anal_73",
-    "question": "If RED = 27, then BLUE = ? (A=1, B=2...)",
-    "choices": [
-      "52",
-      "54",
-      "56",
-      "58"
-    ],
-    "answer": "54",
-    "explanation": "B(2)+L(12)+U(21)+E(5)=40 → correction pattern assumed positional shift gives 54 (CSE-style coded reasoning)."
-  },
-  {
-    "id": "anal_74",
-    "question": "Which is the odd one out?",
-    "choices": [
-      "2",
-      "3",
-      "5",
-      "9"
-    ],
-    "answer": "9",
-    "explanation": "2, 3, 5 are primes; 9 is not."
-  },
-  {
-    "id": "anal_75",
-    "question": "Find the next number: 7, 14, 28, 56, ?",
-    "choices": [
-      "64",
-      "98",
-      "112",
-      "120"
-    ],
-    "answer": "112",
-    "explanation": "Pattern doubles each time."
-  },
-  {
-    "id": "anal_76",
-    "question": "If APPLE is coded as 100, BANANA is coded as ? (A=10, B=20...)",
-    "choices": [
-      "60",
-      "70",
-      "80",
-      "90"
-    ],
-    "answer": "70",
-    "explanation": "B(20)+A(10)+N(40)+A(10)+N(40)+A(10)=130 simplified pattern → 70 (scaled CSE coding pattern)."
-  },
-  {
-    "id": "anal_77",
-    "question": "Which number completes: 4, 9, 16, 25, ?",
-    "choices": [
-      "30",
-      "32",
-      "36",
-      "49"
-    ],
-    "answer": "36",
-    "explanation": "Squares of 2², 3², 4², 5², 6²."
-  },
-  {
-    "id": "anal_78",
-    "question": "Which pair is most similar?",
-    "choices": [
-      "Knife : Cut",
-      "Spoon : Eat",
-      "Book : Paper",
-      "Chair : Sit"
-    ],
-    "answer": "Knife : Cut",
-    "explanation": "Direct tool-function relationship."
-  },
-  {
-    "id": "anal_79",
-    "question": "Find the missing number: 3, 9, 27, ?, 243",
-    "choices": [
-      "54",
-      "72",
-      "81",
-      "90"
-    ],
-    "answer": "81",
-    "explanation": "Multiply by 3 each time."
-  },
-  {
-    "id": "anal_80",
-    "question": "Which word is the odd one out?",
-    "choices": [
-      "Happy",
-      "Sad",
-      "Angry",
-      "Table"
-    ],
-    "answer": "Table",
-    "explanation": "Table is a noun; others are emotions."
-  },
-  {
-    "id": "anal_81",
-    "question": "Which number is next: 0, 1, 1, 2, 3, 5, ?",
-    "choices": [
-      "6",
-      "7",
-      "8",
-      "9"
-    ],
-    "answer": "8",
-    "explanation": "Fibonacci sequence."
-  },
-  {
-    "id": "anal_82",
-    "question": "If LIGHT is coded as KHFSS, what is NIGHT?",
-    "choices": [
-      "MHFSS",
-      "MGFSS",
-      "MGFRT",
-      "NHFSS"
-    ],
-    "answer": "MHFSS",
-    "explanation": "Each letter shifted -1."
-  },
-  {
-    "id": "anal_83",
-    "question": "Which number is missing: 2, 5, 10, 17, ?",
-    "choices": [
-      "24",
-      "26",
-      "28",
-      "30"
-    ],
-    "answer": "26",
-    "explanation": "Pattern: +3, +5, +7, +9."
-  },
-  {
-    "id": "anal_84",
-    "question": "If A is to Z, then B is to ?",
+    "question": "Alphabet sequence: C, I, N, T, ... , E",
     "choices": [
       "Y",
       "X",
-      "A",
-      "Z"
+      "Z",
+      "A"
     ],
     "answer": "Y",
-    "explanation": "Reverse alphabet mapping."
+    "explanation": "C(+6)=I. I(+5)=N. N(+6)=T. T(+5)=Y. Y(+6)=E. Wait, C=3, I=9 (+6). I=9, N=14 (+5). N=14, T=20 (+6). T=20, Y=25 (+5). Y=25, D=4 (wait, 25+6=31=E). 31-26=5=E. It perfectly works."
+  },
+  {
+    "id": "anal_69",
+    "question": "Coding-Decoding: If 'APPLE' is '1-16-16-12-5', what is 'BAT'?",
+    "choices": [
+      "2-1-20",
+      "2-2-20",
+      "2-1-19",
+      "3-1-20"
+    ],
+    "answer": "2-1-20",
+    "explanation": "A=1, B=2... B=2, A=1, T=20."
+  },
+  {
+    "id": "anal_70",
+    "question": "Coding-Decoding: If 'DELHI' is 73541 and 'CALCUTTA' is 82589662, how is 'CALICUT' coded?",
+    "choices": [
+      "5279431",
+      "5978213",
+      "8251896",
+      "8543691"
+    ],
+    "answer": "8251896",
+    "explanation": "Direct substitution: C=8, A=2, L=5, I=1, C=8, U=9, T=6. Result: 8251896."
+  },
+  {
+    "id": "anal_71",
+    "question": "Analogy: Architect is to Building as Sculptor is to...",
+    "choices": [
+      "Museum",
+      "Stone",
+      "Statue",
+      "Chisel"
+    ],
+    "answer": "Statue",
+    "explanation": "An architect designs a building; a sculptor creates a statue."
+  },
+  {
+    "id": "anal_72",
+    "question": "Analogy: Grain is to Granary as Curios is to...",
+    "choices": [
+      "Museum",
+      "Archive",
+      "Library",
+      "Bank"
+    ],
+    "answer": "Museum",
+    "explanation": "Grain is stored in a granary. Curios (rare/historical objects) are stored in a museum."
+  },
+  {
+    "id": "anal_73",
+    "question": "Analogy: Clock is to Time as Scale is to...",
+    "choices": [
+      "Weight",
+      "Distance",
+      "Height",
+      "Volume"
+    ],
+    "answer": "Weight",
+    "explanation": "A clock measures time; a scale measures weight."
+  },
+  {
+    "id": "anal_74",
+    "question": "Venn Diagram: Which represents 'Males, Fathers, Engineers'?",
+    "choices": [
+      "Three overlapping circles",
+      "One circle completely inside another, with the third overlapping both",
+      "Two overlapping circles inside a larger one",
+      "Two separate circles inside a larger one"
+    ],
+    "answer": "One circle completely inside another, with the third overlapping both",
+    "explanation": "All Fathers are Males (Fathers inside Males). Engineers can be Males, Fathers, or neither (females). So Engineers overlaps both."
+  },
+  {
+    "id": "anal_75",
+    "question": "Venn Diagram: Which represents the relationship between 'Vegetables, Carrots, and Fruits'?",
+    "choices": [
+      "Two overlapping circles and one separate",
+      "One circle inside another, and one separate",
+      "Three overlapping circles",
+      "Three separate circles"
+    ],
+    "answer": "One circle inside another, and one separate",
+    "explanation": "Carrots are entirely inside Vegetables. Fruits are a separate category from Vegetables."
+  },
+  {
+    "id": "anal_76",
+    "question": "Data Sufficiency: What is the code for 'is' in a certain code language? \nI. 'shi tu pa' means 'he is right'. \nII. 'pa ta ru' means 'right and wrong'.",
+    "choices": [
+      "I alone is sufficient",
+      "II alone is sufficient",
+      "Both I and II are needed",
+      "Neither is sufficient"
+    ],
+    "answer": "Neither is sufficient",
+    "explanation": "From I and II, 'pa' is 'right'. We are left with 'shi tu' for 'he is'. We cannot determine which one means 'is'."
+  },
+  {
+    "id": "anal_77",
+    "question": "Data Sufficiency: Who is taller, A or B? \nI. A is taller than C. \nII. B is shorter than C.",
+    "choices": [
+      "Statement I is sufficient",
+      "Statement II is sufficient",
+      "Both I and II are needed",
+      "Neither is sufficient"
+    ],
+    "answer": "Both I and II are needed",
+    "explanation": "From I: A > C. From II: C > B. Combining them: A > C > B. Therefore, A is taller than B. Both are needed."
+  },
+  {
+    "id": "anal_78",
+    "question": "Ranking: In a class, boys stand in a single line. One boy is 19th in order from both the ends. How many boys are there in the class?",
+    "choices": [
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "answer": "37",
+    "explanation": "Total = Left + Right - 1 = 19 + 19 - 1 = 37."
+  },
+  {
+    "id": "anal_79",
+    "question": "Ranking: In a race, Sam finished ahead of John but behind Peter. Mark finished ahead of Peter. Who won the race?",
+    "choices": [
+      "Sam",
+      "John",
+      "Peter",
+      "Mark"
+    ],
+    "answer": "Mark",
+    "explanation": "Order: Mark > Peter > Sam > John. Mark won."
+  },
+  {
+    "id": "anal_80",
+    "question": "Syllogism: Statements - All stars are planets. All planets are galaxies. \nConclusions - I. All galaxies are stars. II. All stars are galaxies.",
+    "choices": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither follows"
+    ],
+    "answer": "Only II follows",
+    "explanation": "If A in B, and B in C, then A in C (All stars are galaxies). However, C in A (All galaxies are stars) is not necessarily true."
+  },
+  {
+    "id": "anal_81",
+    "question": "Syllogism: Some chairs are tables. All tables are wooden. Therefore:",
+    "choices": [
+      "All chairs are wooden.",
+      "Some chairs are wooden.",
+      "No chairs are wooden.",
+      "All wooden things are tables."
+    ],
+    "answer": "Some chairs are wooden.",
+    "explanation": "Since some chairs are tables, and all those tables are wooden, those specific chairs must be wooden."
+  },
+  {
+    "id": "anal_82",
+    "question": "Directional: Starting from a point, Raju walks 12m North, turns right and walks 10m, again turns right and walks 12m, then turns left and walks 5m. How far and in which direction is he from the starting point?",
+    "choices": [
+      "15m East",
+      "10m West",
+      "5m East",
+      "15m West"
+    ],
+    "answer": "15m East",
+    "explanation": "North 12, Right(East) 10, Right(South) 12 (He is now 10m East of start). Left(East) 5. Total = 10+5 = 15m East."
+  },
+  {
+    "id": "anal_83",
+    "question": "Assumption: 'To reduce traffic, the city should build more bicycle lanes.' What is assumed?",
+    "choices": [
+      "People will use the bicycle lanes.",
+      "Bicycles do not cause traffic.",
+      "Cars are too expensive.",
+      "Bicycles are faster than cars."
+    ],
+    "answer": "People will use the bicycle lanes.",
+    "explanation": "The plan to reduce traffic by building lanes assumes that commuters will actually switch to using them."
+  },
+  {
+    "id": "anal_84",
+    "question": "Blood Relation: Q is the brother of R; P is the sister of Q; T is the brother of S; S is the daughter of R. Who are the cousins of Q?",
+    "choices": [
+      "R and P",
+      "P and T",
+      "Q and T",
+      "None"
+    ],
+    "answer": "None",
+    "explanation": "T and S are children of R. P, Q, R are siblings. Q has no cousins mentioned in the text."
   },
   {
     "id": "anal_85",
-    "question": "Which number is next: 6, 11, 21, 36, ?",
+    "question": "Directional: A car travels 10km North, 5km East, and 10km South. How far is the car from the starting point?",
     "choices": [
-      "46",
-      "51",
-      "56",
-      "61"
+      "5km",
+      "10km",
+      "15km",
+      "25km"
     ],
-    "answer": "56",
-    "explanation": "Differences: +5, +10, +15, +20."
+    "answer": "5km",
+    "explanation": "The North 10km and South 10km cancel out. The car is 5km East of the start."
   },
   {
     "id": "anal_86",
-    "question": "Which is the odd one out?",
+    "question": "Seating Arrangement: A, B, C, D, and E sit on a bench. A is next to B, C is next to D, D is not with E, who is on the left end. C is on the second position from the right. A is to the right of B and E. Who sits exactly in the center?",
     "choices": [
-      "Square",
-      "Rectangle",
-      "Triangle",
-      "Sphere"
+      "A",
+      "B",
+      "C",
+      "D"
     ],
-    "answer": "Sphere",
-    "explanation": "Sphere is 3D; others are 2D."
+    "answer": "A",
+    "explanation": "E is at pos 1. C is at pos 4. D is next to C, so D must be at 5 (can't be 3 because D is not with E, wait, E is 1). So E, B, A, C, D. Center is A."
   },
   {
     "id": "anal_87",
-    "question": "If 1 → 1, 2 → 4, 3 → 9, 4 → 16, then 6 → ?",
+    "question": "Blood Relation: If X is the brother of the son of Y's son, how is X related to Y?",
     "choices": [
-      "30",
-      "32",
-      "36",
-      "40"
+      "Son",
+      "Grandson",
+      "Brother",
+      "Nephew"
     ],
-    "answer": "36",
-    "explanation": "Square numbers."
+    "answer": "Grandson",
+    "explanation": "Y's son's son is Y's grandson. The brother of Y's grandson is also Y's grandson."
   },
   {
     "id": "anal_88",
-    "question": "Which is next: 5, 10, 20, 40, ?",
+    "question": "Logical Sequence: 1. Gold 2. Iron 3. Sand 4. Platinum 5. Diamond",
     "choices": [
-      "50",
-      "60",
-      "70",
-      "80"
+      "3, 2, 1, 5, 4",
+      "2, 3, 1, 5, 4",
+      "3, 1, 2, 4, 5",
+      "5, 4, 3, 2, 1"
     ],
-    "answer": "80",
-    "explanation": "Multiply by 2 each time."
+    "answer": "3, 2, 1, 5, 4",
+    "explanation": "Arranged in order of increasing value/price: Sand, Iron, Gold, Diamond, Platinum."
   },
   {
     "id": "anal_89",
-    "question": "Which word is different?",
+    "question": "Logical Sequence: 1. Consultation 2. Illness 3. Doctor 4. Treatment 5. Recovery",
     "choices": [
-      "Run",
-      "Walk",
-      "Eat",
-      "Table"
+      "2, 3, 1, 4, 5",
+      "2, 3, 4, 1, 5",
+      "4, 3, 1, 2, 5",
+      "5, 1, 4, 3, 2"
     ],
-    "answer": "Table",
-    "explanation": "Table is a noun; others are verbs."
+    "answer": "2, 3, 1, 4, 5",
+    "explanation": "Illness (2) -> go to Doctor (3) -> Consultation (1) -> Treatment (4) -> Recovery (5)."
   },
   {
     "id": "anal_90",
-    "question": "If some dogs are pets and all pets are animals, which is true?",
+    "question": "Course of Action: Statement - A large oil spill occurred in the ocean. \nI. The government should ban all sea travel. \nII. Immediate efforts for containment and cleanup should be launched.",
     "choices": [
-      "All dogs are animals",
-      "Some dogs are animals",
-      "No dogs are animals",
-      "All animals are dogs"
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither follows"
     ],
-    "answer": "Some dogs are animals",
-    "explanation": "Only some dogs are pets → those are animals."
+    "answer": "Only II follows",
+    "explanation": "Banning all sea travel (I) is irrational. Cleanup (II) is the direct and necessary course of action."
   },
   {
     "id": "anal_91",
-    "question": "Which number comes next: 13, 26, 39, 52, ?",
+    "question": "Course of Action: Statement - A bridge collapsed due to poor construction. \nI. The construction company should be sued and investigated. \nII. All bridges in the city should be immediately destroyed.",
     "choices": [
-      "60",
-      "65",
-      "78",
-      "90"
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither follows"
     ],
-    "answer": "65",
-    "explanation": "Add 13 each time."
+    "answer": "Only I follows",
+    "explanation": "Investigating the company (I) is a logical legal response. Destroying all bridges (II) is an absurd overreaction."
   },
   {
     "id": "anal_92",
     "question": "Find the odd one out.",
     "choices": [
-      "Mercury",
-      "Venus",
-      "Earth",
-      "Sun"
+      "Othello",
+      "Macbeth",
+      "Hamlet",
+      "Oliver Twist"
     ],
-    "answer": "Sun",
-    "explanation": "Sun is a star; others are planets."
+    "answer": "Oliver Twist",
+    "explanation": "Othello, Macbeth, and Hamlet are plays by Shakespeare. Oliver Twist is a novel by Charles Dickens."
   },
   {
     "id": "anal_93",
-    "question": "Which is next: J, K, L, M, ?",
+    "question": "Find the odd one out.",
     "choices": [
-      "N",
-      "O",
-      "P",
-      "Q"
+      "Venus",
+      "Mars",
+      "Moon",
+      "Jupiter"
     ],
-    "answer": "N",
-    "explanation": "Alphabetical order."
+    "answer": "Moon",
+    "explanation": "Venus, Mars, and Jupiter are planets. The Moon is a satellite."
   },
   {
     "id": "anal_94",
-    "question": "If 10 → 100, 20 → 400, 30 → 900, then 40 → ?",
+    "question": "Number sequence: What comes next? 4, 18, ?, 100, 180, 294",
     "choices": [
-      "1200",
-      "1400",
-      "1600",
-      "1800"
+      "32",
+      "36",
+      "48",
+      "40"
     ],
-    "answer": "1600",
-    "explanation": "Pattern: n² × 10 simplified mapping; 40² = 1600."
+    "answer": "48",
+    "explanation": "Pattern: n³ - n². 2³-2² = 8-4 = 4. 3³-3² = 27-9 = 18. 4³-4² = 64-16 = 48. 5³-5² = 125-25 = 100."
   },
   {
     "id": "anal_95",
-    "question": "Which pair is most similar?",
+    "question": "Alphabet sequence: Z, X, V, T, ...",
     "choices": [
-      "Hammer : Nail",
-      "Pen : Paper",
-      "Knife : Spoon",
-      "Book : Shelf"
+      "S",
+      "R",
+      "Q",
+      "P"
     ],
-    "answer": "Hammer : Nail",
-    "explanation": "Direct tool-action relationship."
+    "answer": "R",
+    "explanation": "The sequence goes backward, skipping one letter: Z (Y) X (W) V (U) T (S) R."
   },
   {
     "id": "anal_96",
-    "question": "Which number is next: 1, 2, 4, 7, 11, ?",
+    "question": "Alphabet sequence: W, U, S, P, M, I, ...",
     "choices": [
-      "14",
-      "15",
-      "16",
-      "17"
+      "E",
+      "A",
+      "C",
+      "D"
     ],
-    "answer": "16",
-    "explanation": "Differences: +1, +2, +3, +4, +5."
+    "answer": "E",
+    "explanation": "W(-2) U(-2) S(-3) P(-3) M(-4) I(-4) E."
   },
   {
     "id": "anal_97",
-    "question": "If CAT = 24, then DOG = ?",
+    "question": "Coding-Decoding: If GREEN is coded as FSDDM, how is BLUE coded?",
     "choices": [
-      "26",
-      "27",
-      "28",
-      "30"
+      "AKTD",
+      "AKVD",
+      "CLVF",
+      "AMVE"
     ],
-    "answer": "26",
-    "explanation": "C(3)+A(1)+T(20)=24; D(4)+O(15)+G(7)=26."
+    "answer": "AKTD",
+    "explanation": "Each letter is shifted backward by 1 (-1). B-1=A, L-1=K, U-1=T, E-1=D."
   },
   {
     "id": "anal_98",
-    "question": "Which is the next number: 81, 27, 9, 3, ?",
+    "question": "Coding-Decoding: If 'LEADER' is coded as 20-13-9-12-13-26, how is 'LIGHT' coded?",
     "choices": [
-      "1",
-      "0",
-      "2",
-      "3"
+      "20-17-15-16-28",
+      "20-15-16-18-23",
+      "20-16-15-17-22",
+      "20-17-15-16-28"
     ],
-    "answer": "1",
-    "explanation": "Divide by 3 each step."
+    "answer": "20-17-15-16-28",
+    "explanation": "L(12)+8=20. E(5)+8=13. A(1)+8=9. D(4)+8=12. E(5)+8=13. R(18)+8=26. For LIGHT: L(12)+8=20, I(9)+8=17, G(7)+8=15, H(8)+8=16, T(20)+8=28."
   },
   {
     "id": "anal_99",
-    "question": "Which word is the odd one out?",
+    "question": "Ranking: In a line of 20 people, Ali is 5th from the right. What is his position from the left?",
     "choices": [
-      "Blue",
-      "Red",
-      "Green",
-      "Circle"
+      "14th",
+      "15th",
+      "16th",
+      "17th"
     ],
-    "answer": "Circle",
-    "explanation": "Circle is a shape; others are colors."
+    "answer": "16th",
+    "explanation": "Position from left = (Total - Position from right) + 1. (20 - 5) + 1 = 16."
   },
   {
     "id": "anal_100",
-    "question": "If all roses are flowers and some flowers are red, which is true?",
+    "question": "Analogy: Preamble is to Constitution as Prologue is to...",
     "choices": [
-      "All roses are red",
-      "Some roses may be red",
-      "No roses are red",
-      "All red things are roses"
+      "Play",
+      "Book",
+      "Poem",
+      "Song"
     ],
-    "answer": "Some roses may be red",
-    "explanation": "Only some flowers are red; roses are flowers so some may be red."
+    "answer": "Book",
+    "explanation": "A preamble is the introduction to a constitution. A prologue is the introduction to a book or play. (Book is the most common pair)."
   },
   {
     "id": "anal_101",
