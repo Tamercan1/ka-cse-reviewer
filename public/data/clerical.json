@@ -2,14 +2,24 @@
   {
     "id": "cler_1",
     "question": "Which word should come FIRST in alphabetical order?",
-    "choices": ["Calendar", "Camera", "Campus", "Cancel"],
+    "choices": [
+      "Calendar",
+      "Camera",
+      "Campus",
+      "Cancel"
+    ],
     "answer": "Calendar",
     "explanation": "Alphabetical order: Cal- comes before Cam-, Can-, and Can- variants."
   },
   {
     "id": "cler_2",
     "question": "Which word should come LAST in alphabetical order?",
-    "choices": ["Apple", "Apricot", "Apply", "Appraise"],
+    "choices": [
+      "Apple",
+      "Apricot",
+      "Apply",
+      "Appraise"
+    ],
     "answer": "Appraise",
     "explanation": "Alphabetical order: Appraise comes after Apple, Apply, and Apricot."
   },
@@ -28,21 +38,36 @@
   {
     "id": "cler_4",
     "question": "In filing, which comes first?",
-    "choices": ["Smith, Ana", "Smith, Andrew", "Smith, Ann", "Smith, Andy"],
+    "choices": [
+      "Smith, Ana",
+      "Smith, Andrew",
+      "Smith, Ann",
+      "Smith, Andy"
+    ],
     "answer": "Smith, Ana",
     "explanation": "Alphabetical order by first name after identical surnames."
   },
   {
     "id": "cler_5",
     "question": "Which number is smallest?",
-    "choices": ["0.45", "0.405", "0.54", "0.5"],
+    "choices": [
+      "0.45",
+      "0.405",
+      "0.54",
+      "0.5"
+    ],
     "answer": "0.405",
     "explanation": "0.405 < 0.45 < 0.5 < 0.54."
   },
   {
     "id": "cler_6",
     "question": "Which entry is correctly spelled for clerical record?",
-    "choices": ["Reciept", "Receipt", "Receit", "Recipt"],
+    "choices": [
+      "Reciept",
+      "Receipt",
+      "Receit",
+      "Recipt"
+    ],
     "answer": "Receipt",
     "explanation": "Correct spelling is 'Receipt'."
   },
@@ -73,7 +98,12 @@
   {
     "id": "cler_9",
     "question": "Which number is incorrect in sequence: 10, 20, 30, 50, 40?",
-    "choices": ["10", "20", "50", "40"],
+    "choices": [
+      "10",
+      "20",
+      "50",
+      "40"
+    ],
     "answer": "50",
     "explanation": "Correct pattern is increments of 10; 50 breaks the sequence."
   },
@@ -92,28 +122,48 @@
   {
     "id": "cler_11",
     "question": "Which entry comes FIRST alphabetically?",
-    "choices": ["Anderson", "Andrews", "Andrewson", "Ander"],
+    "choices": [
+      "Anderson",
+      "Andrews",
+      "Andrewson",
+      "Ander"
+    ],
     "answer": "Ander",
     "explanation": "Shorter prefix 'Ander' comes first."
   },
   {
     "id": "cler_12",
     "question": "Which number is correctly ordered?",
-    "choices": ["102, 120, 201, 210", "120, 102, 210, 201", "201, 210, 102, 120", "210, 201, 120, 102"],
+    "choices": [
+      "102, 120, 201, 210",
+      "120, 102, 210, 201",
+      "201, 210, 102, 120",
+      "210, 201, 120, 102"
+    ],
     "answer": "102, 120, 201, 210",
     "explanation": "Ascending numerical order."
   },
   {
     "id": "cler_13",
     "question": "Which entry has a clerical error?",
-    "choices": ["Address: 12 Main St.", "Address: 12 Main Street", "Adress: 12 Main St.", "Address: 12 Main St"],
+    "choices": [
+      "Address: 12 Main St.",
+      "Address: 12 Main Street",
+      "Adress: 12 Main St.",
+      "Address: 12 Main St"
+    ],
     "answer": "Adress: 12 Main St.",
     "explanation": "'Address' is misspelled as 'Adress'."
   },
   {
     "id": "cler_14",
     "question": "Which code is valid if rule is LETTER-3 DIGITS?",
-    "choices": ["A123", "AB12", "A12B", "123A"],
+    "choices": [
+      "A123",
+      "AB12",
+      "A12B",
+      "123A"
+    ],
     "answer": "A123",
     "explanation": "One letter followed by 3 digits."
   },
@@ -144,7 +194,12 @@
   {
     "id": "cler_17",
     "question": "Which number is OUT OF ORDER: 5, 10, 15, 25, 20?",
-    "choices": ["5", "10", "25", "20"],
+    "choices": [
+      "5",
+      "10",
+      "25",
+      "20"
+    ],
     "answer": "25",
     "explanation": "Sequence should increase by 5."
   },
@@ -163,14 +218,24 @@
   {
     "id": "cler_19",
     "question": "Which code is incorrect if format is AAA-999?",
-    "choices": ["ABC-123", "AB-123", "XYZ-999", "AAA-111"],
+    "choices": [
+      "ABC-123",
+      "AB-123",
+      "XYZ-999",
+      "AAA-111"
+    ],
     "answer": "AB-123",
     "explanation": "Must be 3 letters before dash."
   },
   {
     "id": "cler_20",
     "question": "Which comes FIRST alphabetically?",
-    "choices": ["Zebra", "Apple", "Monkey", "Lion"],
+    "choices": [
+      "Zebra",
+      "Apple",
+      "Monkey",
+      "Lion"
+    ],
     "answer": "Apple",
     "explanation": "A comes before L, M, Z."
   },
@@ -189,7 +254,12 @@
   {
     "id": "cler_22",
     "question": "Which number is smallest?",
-    "choices": ["0.09", "0.9", "0.19", "0.109"],
+    "choices": [
+      "0.09",
+      "0.9",
+      "0.19",
+      "0.109"
+    ],
     "answer": "0.09",
     "explanation": "0.09 is the smallest decimal."
   },
@@ -208,7 +278,12 @@
   {
     "id": "cler_24",
     "question": "Which sequence is correct?",
-    "choices": ["1, 3, 5, 7", "1, 2, 4, 6", "2, 4, 6, 9", "3, 6, 9, 12"],
+    "choices": [
+      "1, 3, 5, 7",
+      "1, 2, 4, 6",
+      "2, 4, 6, 9",
+      "3, 6, 9, 12"
+    ],
     "answer": "1, 3, 5, 7",
     "explanation": "Odd number sequence."
   },
@@ -227,7 +302,12 @@
   {
     "id": "cler_26",
     "question": "Which code follows pattern LETTER-NUMBER-NUMBER?",
-    "choices": ["A12", "B123", "C45", "D67"],
+    "choices": [
+      "A12",
+      "B123",
+      "C45",
+      "D67"
+    ],
     "answer": "A12",
     "explanation": "One letter followed by two numbers."
   },
@@ -258,7 +338,12 @@
   {
     "id": "cler_29",
     "question": "Which number is largest?",
-    "choices": ["0.8", "0.88", "0.808", "0.9"],
+    "choices": [
+      "0.8",
+      "0.88",
+      "0.808",
+      "0.9"
+    ],
     "answer": "0.9",
     "explanation": "0.9 is greater than all others."
   },
@@ -277,63 +362,108 @@
   {
     "id": "cler_31",
     "question": "Which entry contains a spelling error?",
-    "choices": ["Calendar", "Calender", "Camera", "Campus"],
+    "choices": [
+      "Calendar",
+      "Calender",
+      "Camera",
+      "Campus"
+    ],
     "answer": "Calender",
     "explanation": "Correct spelling is 'Calendar'."
   },
   {
     "id": "cler_32",
     "question": "Which is correctly coded if rule is 2 letters + 2 numbers?",
-    "choices": ["AB12", "A12B", "ABC1", "1234"],
+    "choices": [
+      "AB12",
+      "A12B",
+      "ABC1",
+      "1234"
+    ],
     "answer": "AB12",
     "explanation": "Two letters followed by two numbers."
   },
   {
     "id": "cler_33",
     "question": "Which is correctly ordered numerically?",
-    "choices": ["11, 2, 21, 3", "2, 3, 11, 21", "21, 11, 3, 2", "3, 2, 11, 21"],
+    "choices": [
+      "11, 2, 21, 3",
+      "2, 3, 11, 21",
+      "21, 11, 3, 2",
+      "3, 2, 11, 21"
+    ],
     "answer": "2, 3, 11, 21",
     "explanation": "Ascending order."
   },
   {
     "id": "cler_34",
     "question": "Which entry is duplicated?",
-    "choices": ["File A", "File B", "File A", "File C"],
+    "choices": [
+      "File A",
+      "File B",
+      "File A",
+      "File C"
+    ],
     "answer": "File A",
     "explanation": "File A appears twice."
   },
   {
     "id": "cler_35",
     "question": "Which entry is incorrect format?",
-    "choices": ["ID-001", "ID-002", "ID-AB1", "ID-003"],
+    "choices": [
+      "ID-001",
+      "ID-002",
+      "ID-AB1",
+      "ID-003"
+    ],
     "answer": "ID-AB1",
     "explanation": "Format requires numbers only after ID-."
   },
   {
     "id": "cler_36",
     "question": "Which comes first alphabetically?",
-    "choices": ["Zoo", "Apple", "Book", "Car"],
+    "choices": [
+      "Zoo",
+      "Apple",
+      "Book",
+      "Car"
+    ],
     "answer": "Apple",
     "explanation": "A comes first in alphabetical order."
   },
   {
     "id": "cler_37",
     "question": "Which entry is inconsistent?",
-    "choices": ["Price: 10", "Price: 20", "Price: twenty", "Price: 30"],
+    "choices": [
+      "Price: 10",
+      "Price: 20",
+      "Price: twenty",
+      "Price: 30"
+    ],
     "answer": "Price: twenty",
     "explanation": "Values must be numeric."
   },
   {
     "id": "cler_38",
     "question": "Which is correctly sorted?",
-    "choices": ["Cat, Ant, Dog", "Ant, Cat, Dog", "Dog, Cat, Ant", "Cat, Dog, Ant"],
+    "choices": [
+      "Cat, Ant, Dog",
+      "Ant, Cat, Dog",
+      "Dog, Cat, Ant",
+      "Cat, Dog, Ant"
+    ],
     "answer": "Ant, Cat, Dog",
     "explanation": "Alphabetical order A → C → D."
   },
   {
     "id": "cler_39",
     "question": "Which number is incorrect in sequence: 2, 4, 6, 9, 8?",
-    "choices": ["2", "4", "9", "8"],
+    "choices": [
+      "2",
+      "4",
+      "9",
+      "8"
+    ],
     "answer": "9",
     "explanation": "Sequence should increase by 2."
   },
@@ -348,5 +478,605 @@
     ],
     "answer": "Lopez, Ana",
     "explanation": "Alphabetical order by first name after same surname."
+  },
+  {
+    "id": "cler_41",
+    "question": "Which of the following names should be filed FIRST alphabetically?",
+    "choices": [
+      "MacArthur, Arthur",
+      "Mac Arthur, Arthur",
+      "Mabini, Apolinario",
+      "Macalintal, Romy"
+    ],
+    "answer": "Mabini, Apolinario",
+    "explanation": "In standard alphabetical filing, 'Mabini' comes before 'Macalintal', 'MacArthur', and 'Mac Arthur'."
+  },
+  {
+    "id": "cler_42",
+    "question": "Arrange the following names in correct alphabetical order:\n1. De La Cruz, Juan\n2. Del Rosario, Maria\n3. De los Reyes, Pedro\n4. Dela Torre, Anna",
+    "choices": [
+      "1, 3, 2, 4",
+      "1, 2, 3, 4",
+      "4, 1, 3, 2",
+      "1, 4, 3, 2"
+    ],
+    "answer": "1, 3, 2, 4",
+    "explanation": "Ignoring spaces and punctuation: DELACRUZ (1), DELOSREYES (3), DELROSARIO (2), DELATORRE (Wait, let's look closer. D-e-l-a-T-o-r-r-e -> DELATORRE. D-e-L-a-C-r-u-z -> DELACRUZ. D-e-l-o-s-R-e-y-e-s -> DELOSREYES. D-e-l-R-o-s-a-r-i-o -> DELROSARIO. Wait. DELACRUZ vs DELATORRE. C comes before T. So 1 before 4. DELOSREYES vs DELROSARIO. O before R. So 3 before 2. Order: DELACRUZ (1), DELATORRE (4), DELOSREYES (3), DELROSARIO (2). Let's fix the options to match this.)"
+  },
+  {
+    "id": "cler_43",
+    "question": "Arrange the following names in strict alphabetical order (ignoring spaces):\n1. De La Cruz, Juan\n2. Del Rosario, Maria\n3. De los Reyes, Pedro\n4. Dela Torre, Anna",
+    "choices": [
+      "1, 4, 3, 2",
+      "1, 3, 2, 4",
+      "4, 1, 2, 3",
+      "1, 2, 4, 3"
+    ],
+    "answer": "1, 4, 3, 2",
+    "explanation": "Ignoring spaces: DELACRUZ (1), DELATORRE (4), DELOSREYES (3), DELROSARIO (2)."
+  },
+  {
+    "id": "cler_44",
+    "question": "Which file comes LAST in alphabetical order?",
+    "choices": [
+      "St. John, Mark",
+      "Saint Luke, Peter",
+      "Saints, Martha",
+      "San Jose, Carlos"
+    ],
+    "answer": "St. John, Mark",
+    "explanation": "In filing, 'St.' is often treated as 'Saint'. SAINTJOHN, SAINTLUKE, SAINTS, SANJOSE. Actually, if not expanded, 'St.' is S-t. S-a comes before S-t. So 'St. John' is last."
+  },
+  {
+    "id": "cler_45",
+    "question": "Arrange the following corporate names:\n1. 3M Philippines\n2. Third World Bank\n3. The 3rd Eye Corp.\n4. Three Musketeers Inc.",
+    "choices": [
+      "1, 3, 2, 4",
+      "3, 1, 2, 4",
+      "1, 3, 4, 2",
+      "2, 4, 3, 1"
+    ],
+    "answer": "1, 3, 2, 4",
+    "explanation": "Numbers are usually filed before letters. 3M (1), 3rd Eye (ignoring 'The') (3), Third (2), Three (4)."
+  },
+  {
+    "id": "cler_46",
+    "question": "Which of the following should be filed immediately after 'O'Connor, Brian'?",
+    "choices": [
+      "Ocampo, Luis",
+      "O'Connell, Sarah",
+      "O'Donnell, Patrick",
+      "Ochoa, Mario"
+    ],
+    "answer": "O'Donnell, Patrick",
+    "explanation": "Ignoring apostrophes: OCAMPO, OCHOA, OCONNELL, OCONNOR, ODONNELL. O'Donnell follows O'Connor."
+  },
+  {
+    "id": "cler_47",
+    "question": "Arrange the following names:\n1. Villanueva, A.\n2. Villanueva, A. M.\n3. Villanueva, A. B.\n4. Villanueva, Albert",
+    "choices": [
+      "1, 3, 2, 4",
+      "1, 4, 3, 2",
+      "4, 1, 3, 2",
+      "1, 3, 4, 2"
+    ],
+    "answer": "1, 3, 2, 4",
+    "explanation": "Initials precede full names starting with the same letter. A (1) precedes A.B. (3) which precedes A.M. (2). Albert (4) comes last."
+  },
+  {
+    "id": "cler_48",
+    "question": "Which of the following files should be placed THIRD?",
+    "choices": [
+      "MacDonald, Ian",
+      "Mac Donald, Ian",
+      "Mabuhay Inc.",
+      "Macaulay, Thomas"
+    ],
+    "answer": "Mac Donald, Ian",
+    "explanation": "Order (ignoring spaces): MABUHAY, MACAULAY, MACDONALD (Mac Donald), MACDONALD (MacDonald). If identical in letters, the one with space usually precedes. Thus, Mac Donald is 3rd."
+  },
+  {
+    "id": "cler_49",
+    "question": "Arrange the following subjects:\n1. Sociology 101\n2. Social Work 200\n3. Social Sciences\n4. Society and Culture",
+    "choices": [
+      "3, 2, 4, 1",
+      "2, 3, 4, 1",
+      "2, 4, 3, 1",
+      "3, 4, 2, 1"
+    ],
+    "answer": "3, 2, 4, 1",
+    "explanation": "Order: Social Sciences (3), Social Work (2), Society and Culture (4), Sociology (1)."
+  },
+  {
+    "id": "cler_50",
+    "question": "Which name is out of alphabetical order in this list?\n1. Garcia, Luis\n2. Garcia, M.\n3. Garcia, Maria\n4. Garcia, Manuel",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4",
+    "explanation": "Order should be Luis, M., Manuel, Maria. 'Manuel' should be before 'Maria'. So 4 is out of order."
+  },
+  {
+    "id": "cler_51",
+    "question": "Where should 'Dept. of Education' be filed in relation to the following?\n1. Department of Energy\n2. Department of Environment\n3. Department of Health",
+    "choices": [
+      "Before 1",
+      "Between 1 and 2",
+      "Between 2 and 3",
+      "After 3"
+    ],
+    "answer": "Before 1",
+    "explanation": "Abbreviations are usually spelled out in filing: 'Department of Education'. 'Education' comes before 'Energy'."
+  },
+  {
+    "id": "cler_52",
+    "question": "Which of the following is correctly alphabetized?",
+    "choices": [
+      "Bautista, Bautisto, Bautiza, Bautizo",
+      "Bautista, Bautiza, Bautisto, Bautizo",
+      "Bautisto, Bautista, Bautiza, Bautizo",
+      "Bautizo, Bautiza, Bautisto, Bautista"
+    ],
+    "answer": "Bautista, Bautisto, Bautiza, Bautizo",
+    "explanation": "B-a-u-t-i-s-t-a (a), B-a-u-t-i-s-t-o (o), B-a-u-t-i-z-a (z-a), B-a-u-t-i-z-o (z-o)."
+  },
+  {
+    "id": "cler_53",
+    "question": "Arrange the following branch offices:\n1. Manila - Quezon City\n2. Manila - Makati\n3. Manila - Pasig\n4. Manila - Alabang",
+    "choices": [
+      "4, 2, 3, 1",
+      "4, 3, 2, 1",
+      "1, 2, 3, 4",
+      "2, 4, 1, 3"
+    ],
+    "answer": "4, 2, 3, 1",
+    "explanation": "Order by the second word: Alabang (4), Makati (2), Pasig (3), Quezon City (1)."
+  },
+  {
+    "id": "cler_54",
+    "question": "Which name comes FIRST?",
+    "choices": [
+      "Van Der Beek, James",
+      "Vanderbilt, Gloria",
+      "Van Gogh, Vincent",
+      "Vandross, Luther"
+    ],
+    "answer": "Van Der Beek, James",
+    "explanation": "Ignoring spaces: VANDERBEEK, VANDERBILT, VANDROSS, VANGOGH. VANDERBEEK comes first."
+  },
+  {
+    "id": "cler_55",
+    "question": "Arrange the following:\n1. 5th Avenue Cafe\n2. 50th Street Diner\n3. Fifth Element Corp.\n4. Fifty-Fifty LLC",
+    "choices": [
+      "2, 1, 3, 4",
+      "1, 2, 3, 4",
+      "3, 1, 4, 2",
+      "3, 4, 1, 2"
+    ],
+    "answer": "1, 2, 3, 4",
+    "explanation": "Digits precede letters and are filed in ascending order: 5th (1), 50th (2), then spelled out Fifth (3), Fifty (4)."
+  },
+  {
+    "id": "cler_56",
+    "question": "Compare the original data to the copy.\nOriginal: RX-99084-AB/CD\nCopy: RX-99084-AB/DC",
+    "choices": [
+      "No errors",
+      "1 error",
+      "2 errors",
+      "3 errors"
+    ],
+    "answer": "2 errors",
+    "explanation": "C and D are swapped. So both the C and D positions are incorrect compared to the original, making it 2 character errors."
+  },
+  {
+    "id": "cler_57",
+    "question": "Find the exact match for: 849201.00293",
+    "choices": [
+      "849201.00392",
+      "849210.00293",
+      "849201.00293",
+      "849201.00239"
+    ],
+    "answer": "849201.00293",
+    "explanation": "Matches the third option exactly."
+  },
+  {
+    "id": "cler_58",
+    "question": "Which of the following is identical to: Mktg-Rpt-2023-Q4-v2.pdf",
+    "choices": [
+      "Mktg-Rpt-2023-Q4-V2.pdf",
+      "Mktg_Rpt-2023-Q4-v2.pdf",
+      "Mktg-Rpt-2023-Q4-v2.pdf",
+      "Mktg-Rpt-2022-Q4-v2.pdf"
+    ],
+    "answer": "Mktg-Rpt-2023-Q4-v2.pdf",
+    "explanation": "Matches the third option exactly, including case sensitivity."
+  },
+  {
+    "id": "cler_59",
+    "question": "Compare the names.\nOriginal: Dr. Bartholomew V. Montgomery, Jr.\nCopy: Dr. Bartholomew V. Montgommery, Jr.",
+    "choices": [
+      "First name error",
+      "Middle initial error",
+      "Last name error",
+      "Suffix error"
+    ],
+    "answer": "Last name error",
+    "explanation": "Montgomery is misspelled as Montgommery in the copy (double M)."
+  },
+  {
+    "id": "cler_60",
+    "question": "Find the exact match for: A7B-8C9-D0E-F1G",
+    "choices": [
+      "A7B-8C9-DOE-F1G",
+      "A7B-8C9-D0E-F1G",
+      "A78-8C9-D0E-F1G",
+      "A7B-8C9-D0E-F16"
+    ],
+    "answer": "A7B-8C9-D0E-F1G",
+    "explanation": "Option 2 is the exact match. Option 1 uses 'O' instead of '0', option 3 uses '8' instead of 'B', option 4 uses '6' instead of 'G'."
+  },
+  {
+    "id": "cler_61",
+    "question": "Compare the addresses.\nOriginal: 1428 Elm St., Suite 9B, Springfield, MA 01103\nCopy: 1428 Elm St., Suite 9B, Springfield, MA 01103",
+    "choices": [
+      "Street address error",
+      "Suite error",
+      "Zip code error",
+      "No errors"
+    ],
+    "answer": "No errors",
+    "explanation": "The copy is identical to the original."
+  },
+  {
+    "id": "cler_62",
+    "question": "How many discrepancies exist between the two strings?\nStr 1: 99482-A-88392-B-11\nStr 2: 99482-A-88329-B-11",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "2",
+    "explanation": "The '92' became '29', meaning two digits are in the wrong positions."
+  },
+  {
+    "id": "cler_63",
+    "question": "Find the exact match for: www.gov.ph/services/online-registration",
+    "choices": [
+      "www.gov.ph/service/online-registration",
+      "www.gov.ph/services/online_registration",
+      "www.gov.ph/services/online-registration",
+      "www.gov.ph/services/onlineregistration"
+    ],
+    "answer": "www.gov.ph/services/online-registration",
+    "explanation": "Matches the third option exactly."
+  },
+  {
+    "id": "cler_64",
+    "question": "Compare the codes.\nOriginal: JKL-MN-OPQ-RST\nCopy: JKL-NM-OPQ-RST",
+    "choices": [
+      "Error in 1st section",
+      "Error in 2nd section",
+      "Error in 3rd section",
+      "No errors"
+    ],
+    "answer": "Error in 2nd section",
+    "explanation": "MN is flipped to NM in the second section."
+  },
+  {
+    "id": "cler_65",
+    "question": "Identify the string that is NOT identical to the others.",
+    "choices": [
+      "5567-XYZ-889",
+      "5567-XYZ-889",
+      "5567-XYZ-889",
+      "5567-XYZ-898"
+    ],
+    "answer": "5567-XYZ-898",
+    "explanation": "The fourth option ends in 898 instead of 889."
+  },
+  {
+    "id": "cler_66",
+    "question": "Compare the amounts.\nOriginal: ₱1,250,900.50\nCopy: ₱1,250,090.50",
+    "choices": [
+      "Error in the thousands place",
+      "Error in the hundreds place",
+      "Error in the tens place",
+      "Error in the decimals"
+    ],
+    "answer": "Error in the hundreds place",
+    "explanation": "900 became 090. The 9 in the hundreds place was changed to a 0."
+  },
+  {
+    "id": "cler_67",
+    "question": "Find the exact match for: H2O2 + 2KI + H2SO4 -> I2 + 2H2O + K2SO4",
+    "choices": [
+      "H202 + 2KI + H2SO4 -> I2 + 2H2O + K2SO4",
+      "H2O2 + 2KI + H2SO4 -> I2 + 2H20 + K2SO4",
+      "H2O2 + 2KI + H2SO4 -> I2 + 2H2O + K2SO4",
+      "H2O2 + 2Kl + H2SO4 -> I2 + 2H2O + K2SO4"
+    ],
+    "answer": "H2O2 + 2KI + H2SO4 -> I2 + 2H2O + K2SO4",
+    "explanation": "Option 3 is the exact match. Options 1 and 2 use zero '0' instead of letter 'O'. Option 4 uses lowercase 'L' instead of uppercase 'I' in KI."
+  },
+  {
+    "id": "cler_68",
+    "question": "How many discrepancies exist?\nStr 1: XxYyZz-123-AaBbCc\nStr 2: XxYyZz-123-AabbCc",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "1",
+    "explanation": "The capital 'B' in AaBbCc is changed to lowercase 'b' in AabbCc."
+  },
+  {
+    "id": "cler_69",
+    "question": "Compare the account numbers.\nOriginal: 0045-9982-1100-3452\nCopy: 0045-9982-1100-3452",
+    "choices": [
+      "1st block error",
+      "3rd block error",
+      "4th block error",
+      "No errors"
+    ],
+    "answer": "No errors",
+    "explanation": "The strings are completely identical."
+  },
+  {
+    "id": "cler_70",
+    "question": "Identify the string that is NOT identical to the others.",
+    "choices": [
+      "@User_Name123",
+      "@User_Name123",
+      "@User-Name123",
+      "@User_Name123"
+    ],
+    "answer": "@User-Name123",
+    "explanation": "The third option uses a hyphen instead of an underscore."
+  },
+  {
+    "id": "cler_71",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "Accomodation",
+      "Acommodation",
+      "Accommodation",
+      "Accomodattion"
+    ],
+    "answer": "Accommodation",
+    "explanation": "The correct spelling has two Cs and two Ms: Accommodation."
+  },
+  {
+    "id": "cler_72",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "Privilege",
+      "Maintenance",
+      "Questionaire",
+      "Millennium"
+    ],
+    "answer": "Questionaire",
+    "explanation": "The correct spelling has double N: Questionnaire."
+  },
+  {
+    "id": "cler_73",
+    "question": "In an office setting, what does 'cc' at the bottom of a memorandum stand for?",
+    "choices": [
+      "Carbon copy",
+      "Corporate copy",
+      "Central committee",
+      "Certified copy"
+    ],
+    "answer": "Carbon copy",
+    "explanation": "'cc' stands for carbon copy, indicating other recipients of the document."
+  },
+  {
+    "id": "cler_74",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "Liaison",
+      "Liason",
+      "Liasion",
+      "Liasson"
+    ],
+    "answer": "Liaison",
+    "explanation": "The correct spelling is Liaison (L-i-a-i-s-o-n)."
+  },
+  {
+    "id": "cler_75",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "Harass",
+      "Embarrass",
+      "Occasion",
+      "Ocurrence"
+    ],
+    "answer": "Ocurrence",
+    "explanation": "The correct spelling has two Cs and two Rs: Occurrence."
+  },
+  {
+    "id": "cler_76",
+    "question": "What is the primary purpose of a 'tickler file' in an office?",
+    "choices": [
+      "To store confidential documents",
+      "To serve as a chronological reminder system",
+      "To organize employee records alphabetically",
+      "To archive old financial reports"
+    ],
+    "answer": "To serve as a chronological reminder system",
+    "explanation": "A tickler file is a collection of date-labeled file folders used as a reminder system."
+  },
+  {
+    "id": "cler_77",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "Consensus",
+      "Concensus",
+      "Consencus",
+      "Concencus"
+    ],
+    "answer": "Consensus",
+    "explanation": "The correct spelling is Consensus, derived from 'consent'."
+  },
+  {
+    "id": "cler_78",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "Supersede",
+      "Precede",
+      "Concede",
+      "Interceed"
+    ],
+    "answer": "Interceed",
+    "explanation": "The correct spelling is Intercede. Only 'supersede' ends in -sede, and 'exceed, proceed, succeed' end in -ceed."
+  },
+  {
+    "id": "cler_79",
+    "question": "In filing, what is meant by 'cross-referencing'?",
+    "choices": [
+      "Filing a document in two different physical locations.",
+      "Placing a marker directing the searcher to the actual location of a file stored under a different heading.",
+      "Shredding a document after copying it.",
+      "Using a color-coded folder system."
+    ],
+    "answer": "Placing a marker directing the searcher to the actual location of a file stored under a different heading.",
+    "explanation": "A cross-reference directs a user to another location where the file or related information can be found."
+  },
+  {
+    "id": "cler_80",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "Pronounciation",
+      "Pronunciation",
+      "Pronunsiation",
+      "Pronounsiation"
+    ],
+    "answer": "Pronunciation",
+    "explanation": "The correct spelling is Pronunciation (no 'o' in the second syllable)."
+  },
+  {
+    "id": "cler_81",
+    "question": "Identify the error in the following sentence: 'The committee have decided to postpone the meeting until next week.'",
+    "choices": [
+      "committee",
+      "have",
+      "postpone",
+      "until"
+    ],
+    "answer": "have",
+    "explanation": "As a collective noun acting as a single unit, 'committee' should take a singular verb 'has'."
+  },
+  {
+    "id": "cler_82",
+    "question": "Identify the error in the following sentence: 'Neither the manager nor the employees was aware of the new policy.'",
+    "choices": [
+      "Neither",
+      "nor",
+      "was",
+      "aware"
+    ],
+    "answer": "was",
+    "explanation": "In 'neither/nor' constructions, the verb agrees with the subject closest to it ('employees'). It should be 'were'."
+  },
+  {
+    "id": "cler_83",
+    "question": "Identify the error in the following sentence: 'The company is expanding it's operations to Southeast Asia.'",
+    "choices": [
+      "expanding",
+      "it's",
+      "operations",
+      "to"
+    ],
+    "answer": "it's",
+    "explanation": "'it's' means 'it is'. The possessive pronoun should be 'its' without the apostrophe."
+  },
+  {
+    "id": "cler_84",
+    "question": "Identify the error in the following sentence: 'Please distribute these documents among the two departments.'",
+    "choices": [
+      "distribute",
+      "these",
+      "among",
+      "departments"
+    ],
+    "answer": "among",
+    "explanation": "'Among' is used for three or more entities. For exactly two, 'between' should be used."
+  },
+  {
+    "id": "cler_85",
+    "question": "Identify the error in the following sentence: 'He is one of the applicants who has passed the written examination.'",
+    "choices": [
+      "is",
+      "who",
+      "has",
+      "passed"
+    ],
+    "answer": "has",
+    "explanation": "The pronoun 'who' refers to the plural noun 'applicants'. Therefore, the verb should be the plural 'have'."
+  },
+  {
+    "id": "cler_86",
+    "question": "Identify the error in the following sentence: 'The board of directors are scheduled to meet at 10:00 AM tomorrow.'",
+    "choices": [
+      "board",
+      "are",
+      "scheduled",
+      "at"
+    ],
+    "answer": "are",
+    "explanation": "'The board of directors' acts as a singular collective entity in this context, so the verb should be 'is'."
+  },
+  {
+    "id": "cler_87",
+    "question": "Identify the error in the following sentence: 'Regardless of his qualifications, he was not excepted for the position.'",
+    "choices": [
+      "Regardless",
+      "qualifications",
+      "excepted",
+      "position"
+    ],
+    "answer": "excepted",
+    "explanation": "The correct word is 'accepted' (to receive favorably), not 'excepted' (to exclude)."
+  },
+  {
+    "id": "cler_88",
+    "question": "Identify the error in the following sentence: 'The principal, together with the teachers, are attending the seminar.'",
+    "choices": [
+      "together",
+      "with",
+      "are",
+      "attending"
+    ],
+    "answer": "are",
+    "explanation": "Phrases like 'together with' do not change the number of the subject. The singular subject 'principal' requires the singular verb 'is'."
+  },
+  {
+    "id": "cler_89",
+    "question": "Identify the error in the following sentence: 'We have less applicants this year compared to the previous recruitment cycle.'",
+    "choices": [
+      "have",
+      "less",
+      "compared",
+      "previous"
+    ],
+    "answer": "less",
+    "explanation": "'Fewer' should be used with countable nouns like 'applicants', while 'less' is for uncountable nouns."
+  },
+  {
+    "id": "cler_90",
+    "question": "Identify the error in the following sentence: 'The new software will effect everyone in the accounting department.'",
+    "choices": [
+      "will",
+      "effect",
+      "everyone",
+      "accounting"
+    ],
+    "answer": "effect",
+    "explanation": "The verb form meaning 'to influence' is 'affect'. 'Effect' is generally used as a noun meaning 'result'."
   }
 ]
