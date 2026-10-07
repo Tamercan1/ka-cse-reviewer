@@ -88,7 +88,6 @@ export type BestScores = Record<Category, number>;
  * Centralizing them prevents typos across modules.
  */
 export const STORAGE_KEYS = {
-  STREAK: 'cse_streak',
   VOCAB_DAY: 'cse_vocab_day',
   BEST_SCORES: 'cse_best_scores',
   MASTERED_WORDS: 'cse_mastered_words',

@@ -1,5 +1,5 @@
 import { LIMITS } from '../config';
-import { save, load } from '../services/storage';
+import { load } from '../services/storage';
 import { loadVocabQuizData } from '../services/data';
 import { shuffleArray } from '../utils/shuffle';
 import { showToast } from '../utils/toast';
@@ -179,8 +179,6 @@ function nextQuestion() {
     }
 }
 function finishQuiz() {
-    const streak = load(STORAGE_KEYS.STREAK, 1);
-    save(STORAGE_KEYS.STREAK, streak + 1);
     const cardBody = getElement('quiz-card-body');
     const cardFooter = getElement('quiz-card-footer');
     const completionPanel = getElement('quiz-completion-panel');

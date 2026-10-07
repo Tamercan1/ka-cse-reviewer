@@ -37,10 +37,6 @@ function saveBestScores(scores: BestScores): void {
 // ---------------------------------------------------------------------------
 
 function updateHomeUI(): void {
-  // 1. Update Streak
-  const streak = load<number>(STORAGE_KEYS.STREAK, 0);
-  setText('home-streak', streak.toString());
-
   // 2. Update Mastered Words
   const mastered = load<string[]>(STORAGE_KEYS.MASTERED_WORDS, []);
   setText('home-vocab-mastered', mastered.length.toString());

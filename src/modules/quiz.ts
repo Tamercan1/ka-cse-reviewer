@@ -358,10 +358,6 @@ function finishQuiz(): void {
     save(STORAGE_KEYS.BEST_SCORES, bestScores);
   }
 
-  // Increment streak
-  const streak = load<number>(STORAGE_KEYS.STREAK, 1);
-  save(STORAGE_KEYS.STREAK, streak + 1);
-
   // Hide quiz UI, show completion panel
   const cardBody = getElement('quiz-card-body');
   const cardFooter = getElement('quiz-card-footer');

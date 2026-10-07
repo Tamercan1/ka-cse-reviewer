@@ -1,6 +1,4 @@
 import { getElement } from '../utils/dom';
-import { load } from '../services/storage';
-import { STORAGE_KEYS } from '../types/storage';
 export function isRootDirectory() {
     return window.location.pathname.endsWith('index.html') || window.location.pathname === '/';
 }
@@ -22,8 +20,6 @@ export function renderNavbar() {
         activePage = 'vocabulary';
     else if (path.includes('dashboard.html'))
         activePage = 'dashboard';
-    // Get daily streak from localStorage
-    const streak = load(STORAGE_KEYS.STREAK, 1);
     const navbarHTML = `
     <nav class="bg-white border-b border-slate-200 sticky top-0 z-50 select-none">
         <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
@@ -45,18 +41,8 @@ export function renderNavbar() {
                     </div>
                 </div>
                 
-                <!-- Streak & Profile -->
+                <!-- Mobile Menu Trigger -->
                 <div class="flex items-center space-x-2 sm:space-x-4">
-                    <div class="flex items-center space-x-1 bg-amber-50 text-amber-700 px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full text-xs font-semibold border border-amber-200 shadow-sm transition-transform hover:scale-105" title="Study streak">
-                        <!-- Flame outline SVG icon -->
-                        <svg class="w-3.5 h-3.5 text-amber-500 fill-current" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M8.5 14.5A2.5 2.5 0 0011 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 11-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 002.5 2.5z"/>
-                        </svg>
-                        <span class="hidden sm:inline">${streak} Day Streak</span>
-                        <span class="sm:hidden">${streak}d</span>
-                    </div>
-                    
-                    <!-- Mobile Menu Trigger -->
                     <button id="mobile-menu-toggle" class="md:hidden p-1.5 text-slate-600 hover:text-slate-800 focus:outline-none cursor-pointer">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>

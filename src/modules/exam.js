@@ -450,9 +450,6 @@ function submitExam(autoSubmit = false) {
         history.pop();
     save(STORAGE_KEYS.EXAM_HISTORY, history);
     remove(STORAGE_KEYS.EXAM_PROGRESS);
-    // Update streak
-    const streak = load(STORAGE_KEYS.STREAK, 1);
-    save(STORAGE_KEYS.STREAK, streak + 1);
     // Redirect
     window.location.href = 'dashboard.html';
 }

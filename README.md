@@ -12,7 +12,7 @@ It provides focused practice quizzes, a full exam simulator, daily vocabulary ch
 * **Full Exam Simulator** — Take a timed CSE simulation with question navigation, flagging, and randomized questions.
 * **Daily Vocabulary Challenge** — Practice vocabulary through daily synonym and antonym quizzes.
 * **Session Persistence** — Automatically saves quiz and exam progress using the browser's `LocalStorage` API.
-* **Performance Tracking** — Track scores, streaks, vocabulary progress, and previous exam results.
+* **Performance Tracking** — Track scores, vocabulary progress, and previous exam results.
 * **Question Randomization** — Uses the Fisher-Yates shuffle algorithm to randomize questions during practice and exam simulations.
 * **Responsive Interface** — Designed for students to use across desktop and mobile devices.
 
