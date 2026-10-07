@@ -82,9 +82,6 @@ export function renderFooter() {
             <p class="text-sm text-slate-500">&copy; 2026 CSE Reviewer.</p>
             <p class="text-sm text-slate-500">An independent reviewer for Civil Service Examination preparation.</p>
             <p class="text-sm text-slate-400">Made by: Tamercan Wawa</p>
-            <div class="flex justify-center space-x-6 mt-4 md:mt-0">
-                <span class="text-xs text-slate-400">Light Mode Active</span>
-            </div>
         </div>
     </footer>
   `;

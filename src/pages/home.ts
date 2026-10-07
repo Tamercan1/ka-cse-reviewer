@@ -2,7 +2,6 @@ import { renderNavbar, renderFooter } from '../modules/navbar';
 import { load, clear } from '../services/storage';
 import { STORAGE_KEYS } from '../types/storage';
 import type { BestScores, ExamHistoryEntry } from '../types/storage';
-import type { Category } from '../types/question';
 import { getElement, setText } from '../utils/dom';
 
 // ---------------------------------------------------------------------------
@@ -37,11 +36,20 @@ function saveBestScores(scores: BestScores): void {
 // ---------------------------------------------------------------------------
 
 function updateHomeUI(): void {
-  // 2. Update Mastered Words
+  // 1. Update Vocabulary Progress
   const mastered = load<string[]>(STORAGE_KEYS.MASTERED_WORDS, []);
-  setText('home-vocab-mastered', mastered.length.toString());
+  setText('stat-vocab-progress', `${mastered.length} Mastered`);
 
-  // 3. Update Category Progress (Best Scores)
+  // 2. Update Exam High Score
+  const history = load<ExamHistoryEntry[]>(STORAGE_KEYS.EXAM_HISTORY, []);
+  if (history.length > 0) {
+    const highScoreEntry = history.reduce((max, current) => current.percentage > max.percentage ? current : max, history[0]);
+    setText('stat-high-score', `${highScoreEntry.percentage}% (${highScoreEntry.score} / ${highScoreEntry.total})`);
+  } else {
+    setText('stat-high-score', `0% (0 / 0)`);
+  }
+
+  // 3. Update Best Practice Score
   const scores = load<BestScores>(STORAGE_KEYS.BEST_SCORES, {
     Numerical: 0,
     Verbal: 0,
@@ -50,52 +58,14 @@ function updateHomeUI(): void {
     'General Information': 0,
   });
 
-  let totalScore = 0;
-  let numCategories = 0;
-
-  for (const [key, value] of Object.entries(scores)) {
-    const cat = key as Category;
-    const bar = getElement<HTMLDivElement>(`prog-${cat}`);
-    const label = getElement(`score-${cat}`);
-
-    if (bar && label) {
-      bar.style.width = `${value}%`;
-      label.textContent = `${value}%`;
-      
-      // Update color based on score
-      if (value >= 80) bar.className = 'bg-emerald-500 h-2 rounded-full transition-all duration-500';
-      else if (value >= 50) bar.className = 'bg-blue-500 h-2 rounded-full transition-all duration-500';
-      else if (value > 0) bar.className = 'bg-amber-400 h-2 rounded-full transition-all duration-500';
-      else bar.className = 'bg-slate-200 h-2 rounded-full transition-all duration-500';
-    }
-
-    totalScore += value;
-    numCategories++;
+  let best = 0;
+  for (const value of Object.values(scores)) {
+    if (value > best) best = value;
   }
+  setText('stat-best-score', `${best}%`);
 
-  // 4. Update Overall Readiness
-  const readiness = numCategories > 0 ? Math.round(totalScore / numCategories) : 0;
-  setText('home-readiness', `${readiness}%`);
-
-  const readiBadge = getElement('readiness-badge');
-  const readiText = getElement('readiness-text');
-  
-  if (readiBadge && readiText) {
-    if (readiness >= 80) {
-      readiBadge.className = 'px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full text-xs font-bold uppercase tracking-wider';
-      readiText.textContent = 'Exam Ready';
-    } else if (readiness >= 50) {
-      readiBadge.className = 'px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-bold uppercase tracking-wider';
-      readiText.textContent = 'On Track';
-    } else {
-      readiBadge.className = 'px-3 py-1 bg-amber-100 text-amber-700 rounded-full text-xs font-bold uppercase tracking-wider';
-      readiText.textContent = 'Needs Review';
-    }
-  }
-
-  // 5. Render Activity History (Mock Exams)
-  const history = load<ExamHistoryEntry[]>(STORAGE_KEYS.EXAM_HISTORY, []);
-  const activityList = getElement('activity-list');
+  // 4. Render Activity History (Mock Exams)
+  const activityList = getElement('recent-activity-list');
   
   if (activityList) {
     if (history.length === 0) {
