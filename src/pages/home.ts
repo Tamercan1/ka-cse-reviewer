@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initDefaultData();
   updateHomeUI();
 
-  const resetBtn = getElement('reset-data-btn');
+  const resetBtn = getElement('reset-progress-btn');
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
       const confirmReset = confirm("Are you sure you want to reset all your progress? This cannot be undone.");

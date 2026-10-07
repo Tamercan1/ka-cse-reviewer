@@ -479,6 +479,18 @@ export function initPracticePage(): void {
 
   tabs.forEach((tab) => {
     tab.addEventListener('click', (e) => {
+      const cat = (e.currentTarget as HTMLButtonElement).getAttribute('data-category') as Category;
+      const completionPanel = getElement('quiz-completion-panel');
+      
+      // If clicking the already active category while the quiz is ongoing, do nothing
+      if (cat === state.category && completionPanel && completionPanel.classList.contains('hidden')) {
+        if (window.innerWidth < 1024) {
+          const quizCard = getElement('quiz-card');
+          if (quizCard) quizCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        return;
+      }
+
       remove(STORAGE_KEYS.QUIZ_PROGRESS);
 
       const resumeCard = getElement('resume-card');
@@ -493,7 +505,6 @@ export function initPracticePage(): void {
       (e.currentTarget as HTMLButtonElement).className =
         'category-tab w-full text-left px-4 py-3 rounded-xl border border-blue-200 bg-blue-50/50 text-blue-700 font-semibold flex justify-between items-center transition-all shadow-sm';
 
-      const cat = (e.currentTarget as HTMLButtonElement).getAttribute('data-category') as Category;
       startCategory(cat);
 
       // Scroll to quiz card on mobile

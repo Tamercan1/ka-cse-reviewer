@@ -83,7 +83,6 @@ export function renderFooter() {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:flex md:justify-between md:items-center">
             <div class="mb-4 md:mb-0">
                 <p class="text-sm text-slate-500">&copy; 2026 CSE Reviewer.</p>
-                <p class="text-xs text-slate-400 mt-1">An independent reviewer for Civil Service Examination preparation.</p>
             </div>
             <div class="flex items-center justify-center space-x-4 text-sm font-medium text-slate-500">
                 <a href="${pagesPath}about.html" class="hover:text-blue-600 transition-colors">About the Creator</a>
