@@ -1381,422 +1381,422 @@
   },
   {
     "id": "anal_116",
-    "question": "Identify the missing number in the sequence: 31, 35, 41, 49, ?",
+    "question": "Syllogism: All actors are dancers. No dancer is a singer.\nConclusion I: No actor is a singer.\nConclusion II: Some dancers are actors.",
     "choices": [
-      "55",
-      "57",
-      "59",
-      "61"
+      "Only Conclusion I follows",
+      "Only Conclusion II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
     ],
-    "answer": "59",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Both I and II follow",
+    "explanation": "Since all actors are inside the dancer circle, and the dancer circle is completely separate from the singer circle, no actor can be a singer (I follows). Since all actors are dancers, it implies some dancers are indeed actors (II follows)."
   },
   {
     "id": "anal_117",
-    "question": "Identify the missing number in the sequence: 33, 37, 43, 51, ?",
+    "question": "Course of Action: A large number of students from a local school fell ill after consuming food from the school cafeteria.\nI. The cafeteria should be closed immediately until an inspection is completed.\nII. The school management should dismiss all cafeteria staff without investigation.",
     "choices": [
-      "57",
-      "59",
-      "61",
-      "63"
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
     ],
-    "answer": "61",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Only I follows",
+    "explanation": "Closing the cafeteria temporarily for inspection is a logical preventive step (I). Dismissing all staff without finding the actual cause is an extreme and unjust action (II)."
   },
   {
     "id": "anal_118",
-    "question": "Identify the missing number in the sequence: 35, 39, 45, 53, ?",
+    "question": "Data Sufficiency: Who is the tallest among A, B, C, D, and E?\nStatement 1: B is taller than A and C, but shorter than E.\nStatement 2: D is not the tallest.",
     "choices": [
-      "59",
-      "61",
-      "63",
-      "65"
+      "Statement 1 ALONE is sufficient.",
+      "Statement 2 ALONE is sufficient.",
+      "BOTH statements TOGETHER are sufficient.",
+      "BOTH statements TOGETHER are NOT sufficient."
     ],
-    "answer": "63",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "BOTH statements TOGETHER are sufficient.",
+    "explanation": "From (1), we have E > B > A, C. We don't know about D. From (2), D is not the tallest. Combining them, since D isn't the tallest and E is taller than everyone else mentioned, E must be the tallest."
   },
   {
     "id": "anal_119",
-    "question": "Identify the missing number in the sequence: 37, 41, 47, 55, ?",
+    "question": "Assumption: 'Please drop this letter in the mailbox.'\nAssumption I: The letter has the correct address.\nAssumption II: The person being addressed knows where the mailbox is.",
     "choices": [
-      "61",
-      "63",
-      "65",
-      "67"
+      "Only I is implicit",
+      "Only II is implicit",
+      "Both I and II are implicit",
+      "Neither is implicit"
     ],
-    "answer": "65",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Both I and II are implicit",
+    "explanation": "When asking someone to mail a letter, you assume it is ready to be mailed (has an address) and that the person can find the mailbox."
   },
   {
     "id": "anal_120",
-    "question": "Identify the missing number in the sequence: 39, 43, 49, 57, ?",
+    "question": "If the word 'WATER' is written as 'YCVGT', how is 'FIRE' written in that same code?",
     "choices": [
-      "63",
-      "65",
-      "67",
-      "69"
+      "HKTG",
+      "HLUG",
+      "GKUG",
+      "HKTF"
     ],
-    "answer": "67",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "HKTG",
+    "explanation": "The pattern is a +2 shift for each letter. W(+2)=Y, A(+2)=C, T(+2)=V, E(+2)=G, R(+2)=T. Applying to FIRE: F(+2)=H, I(+2)=K, R(+2)=T, E(+2)=G."
   },
   {
     "id": "anal_121",
-    "question": "Identify the missing number in the sequence: 41, 45, 51, 59, ?",
+    "question": "Directional: A man walks 5 km South, turns right and walks 3 km. Then he turns right again and walks 5 km. In which direction is he from the starting point?",
     "choices": [
-      "65",
-      "67",
-      "69",
-      "71"
+      "North",
+      "South",
+      "East",
+      "West"
     ],
-    "answer": "69",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "West",
+    "explanation": "Walking South, a right turn faces West (3 km). Another right turn faces North (5 km). He is now exactly 3 km West of his starting point."
   },
   {
     "id": "anal_122",
-    "question": "Identify the missing number in the sequence: 43, 47, 53, 61, ?",
+    "question": "Statement: The government has decided to increase the prices of petroleum products.\nArgument I: Yes, this will help reduce the fiscal deficit.\nArgument II: No, this will lead to inflation and burden the middle class.",
     "choices": [
-      "67",
-      "69",
-      "71",
-      "73"
+      "Only Argument I is strong",
+      "Only Argument II is strong",
+      "Both I and II are strong",
+      "Neither is strong"
     ],
-    "answer": "71",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Both I and II are strong",
+    "explanation": "Both arguments present valid economic realities. Higher fuel prices increase government revenue (reducing deficit) but also raise transportation costs, leading to inflation."
   },
   {
     "id": "anal_123",
-    "question": "Identify the missing number in the sequence: 45, 49, 55, 63, ?",
+    "question": "Blood Relation: Pointing to a photograph, a woman says, 'He is the only son of the wife of my husband's father.' How is the man in the photograph related to the woman?",
     "choices": [
-      "69",
-      "71",
-      "73",
-      "75"
+      "Brother-in-law",
+      "Husband",
+      "Son",
+      "Father"
     ],
-    "answer": "73",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Husband",
+    "explanation": "The 'wife of my husband's father' is the woman's mother-in-law. The 'only son' of her mother-in-law is her own husband."
   },
   {
     "id": "anal_124",
-    "question": "Identify the missing number in the sequence: 47, 51, 57, 65, ?",
+    "question": "Odd One Out: Choose the item that does not belong to the group.",
     "choices": [
-      "71",
-      "73",
-      "75",
-      "77"
+      "Copper",
+      "Zinc",
+      "Brass",
+      "Iron"
     ],
-    "answer": "75",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Brass",
+    "explanation": "Copper, Zinc, and Iron are pure elements (metals), while Brass is an alloy (a mixture of copper and zinc)."
   },
   {
     "id": "anal_125",
-    "question": "Identify the missing number in the sequence: 49, 53, 59, 67, ?",
+    "question": "Syllogism: All windows are doors. No door is a wall.\nConclusion I: Some windows are walls.\nConclusion II: No wall is a door.",
     "choices": [
-      "73",
-      "75",
-      "77",
-      "79"
+      "Only Conclusion I follows",
+      "Only Conclusion II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
     ],
-    "answer": "77",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Only Conclusion II follows",
+    "explanation": "Since windows are completely inside doors, and doors are separate from walls, no window can be a wall (I is false). Since no door is a wall, naturally no wall is a door (II is true)."
   },
   {
     "id": "anal_126",
-    "question": "Identify the missing number in the sequence: 51, 55, 61, 69, ?",
+    "question": "Course of Action: Severe drought is reported in several agricultural villages.\nI. The government should immediately provide financial assistance and drinking water tanks.\nII. People should be forced to migrate to urban areas.",
     "choices": [
-      "75",
-      "77",
-      "79",
-      "81"
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
     ],
-    "answer": "79",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Only I follows",
+    "explanation": "Providing immediate relief (I) is a necessary logical action. Forcing people to migrate (II) is an extreme and impractical violation of rights."
   },
   {
     "id": "anal_127",
-    "question": "Identify the missing number in the sequence: 53, 57, 63, 71, ?",
+    "question": "Data Sufficiency: How is M related to N?\nStatement 1: P is the brother of M and son of Q.\nStatement 2: N is the daughter of Q.",
     "choices": [
-      "77",
-      "79",
-      "81",
-      "83"
+      "Statement 1 ALONE is sufficient.",
+      "Statement 2 ALONE is sufficient.",
+      "BOTH statements TOGETHER are sufficient.",
+      "BOTH statements TOGETHER are NOT sufficient."
     ],
-    "answer": "81",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "BOTH statements TOGETHER are sufficient.",
+    "explanation": "From (1), M and P are siblings, children of Q. From (2), N is also a child of Q. Together, M and N are siblings. (Note: M's gender is unknown, but they are siblings)."
   },
   {
     "id": "anal_128",
-    "question": "Identify the missing number in the sequence: 55, 59, 65, 73, ?",
+    "question": "Assumption: 'Do not lean out of the door of the moving train.' - A warning notice.\nAssumption I: Leaning out of a moving train is dangerous.\nAssumption II: Passengers generally read and understand such notices.",
     "choices": [
-      "79",
-      "81",
-      "83",
-      "85"
+      "Only I is implicit",
+      "Only II is implicit",
+      "Both I and II are implicit",
+      "Neither is implicit"
     ],
-    "answer": "83",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Both I and II are implicit",
+    "explanation": "Warnings are issued because the act is dangerous (I) and with the assumption that people will read and heed them (II)."
   },
   {
     "id": "anal_129",
-    "question": "Identify the missing number in the sequence: 57, 61, 67, 75, ?",
+    "question": "Calendar Logic: If the 1st of October is a Sunday, then the 1st of November of the same year will be a...",
     "choices": [
-      "81",
-      "83",
-      "85",
-      "87"
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
     ],
-    "answer": "85",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Wednesday",
+    "explanation": "October has 31 days. 31 divided by 7 leaves a remainder of 3. So, Sunday + 3 days = Wednesday."
   },
   {
     "id": "anal_130",
-    "question": "Identify the missing number in the sequence: 59, 63, 69, 77, ?",
+    "question": "Spatial Logic: A person starts from Point A, walks 10m East, turns left and walks 15m, turns right and walks 10m, and finally turns right and walks 15m to reach Point B. What is the shortest distance between A and B?",
     "choices": [
-      "83",
-      "85",
-      "87",
-      "89"
+      "20m",
+      "25m",
+      "30m",
+      "10m"
     ],
-    "answer": "87",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "20m",
+    "explanation": "The person moved 10m East, then 15m North, then 10m East, then 15m South. The North and South movements cancel out. Total horizontal distance = 10m + 10m = 20m East."
   },
   {
     "id": "anal_131",
-    "question": "Identify the missing number in the sequence: 61, 65, 71, 79, ?",
+    "question": "Statement: Should there be a complete ban on product advertising?\nArgument I: Yes, the heavy cost of advertising is ultimately passed on to the consumers.\nArgument II: No, advertising increases market competition and helps drive down prices.",
     "choices": [
-      "85",
-      "87",
-      "89",
-      "91"
+      "Only Argument I is strong",
+      "Only Argument II is strong",
+      "Both I and II are strong",
+      "Neither is strong"
     ],
-    "answer": "89",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Both I and II are strong",
+    "explanation": "Both arguments present valid economic perspectives—one focuses on overhead costs, the other on competitive pricing."
   },
   {
     "id": "anal_132",
-    "question": "Identify the missing number in the sequence: 63, 67, 73, 81, ?",
+    "question": "If 'SKY' is coded as 'TMB', how is 'FLY' coded?",
     "choices": [
-      "87",
-      "89",
-      "91",
-      "93"
+      "GMZ",
+      "GNB",
+      "HOC",
+      "FMB"
     ],
-    "answer": "91",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "GNB",
+    "explanation": "The pattern is an increasing shift: S(+1)=T, K(+2)=M, Y(+3)=B. For FLY: F(+1)=G, L(+2)=N, Y(+3)=B. Result: GNB."
   },
   {
     "id": "anal_133",
-    "question": "Identify the missing number in the sequence: 65, 69, 75, 83, ?",
+    "question": "Odd One Out: Which geometric figure does not belong to the group?",
     "choices": [
-      "89",
-      "91",
-      "93",
-      "95"
+      "Sphere",
+      "Cylinder",
+      "Square",
+      "Cone"
     ],
-    "answer": "93",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Square",
+    "explanation": "A square is a 2-dimensional flat shape, while the others are 3-dimensional solid figures."
   },
   {
     "id": "anal_134",
-    "question": "Identify the missing number in the sequence: 67, 71, 77, 85, ?",
+    "question": "Syllogism: Some pens are pencils. All pencils are erasers.\nConclusion I: Some pens are erasers.\nConclusion II: No pen is an eraser.",
     "choices": [
-      "91",
-      "93",
-      "95",
-      "97"
+      "Only Conclusion I follows",
+      "Only Conclusion II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
     ],
-    "answer": "95",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Only Conclusion I follows",
+    "explanation": "Since all pencils are erasers, the part of pens that overlaps with pencils must also be erasers. Thus, some pens are erasers (I follows). II contradicts I."
   },
   {
     "id": "anal_135",
-    "question": "Identify the missing number in the sequence: 69, 73, 79, 87, ?",
+    "question": "Course of Action: Despite repeated warnings, a chemical factory continues to dump untreated toxic waste into the river.\nI. The factory should be sealed immediately.\nII. The factory owner should be heavily fined and prosecuted.",
     "choices": [
-      "93",
-      "95",
-      "97",
-      "99"
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
     ],
-    "answer": "97",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Both I and II follow",
+    "explanation": "Since repeated warnings were ignored, sealing the factory stops the immediate harm (I), and fining/prosecuting enforces accountability (II)."
   },
   {
     "id": "anal_136",
-    "question": "Identify the missing number in the sequence: 71, 75, 81, 89, ?",
+    "question": "Data Sufficiency: On which day of the week was the concert held?\nStatement 1: The concert was held after Tuesday but before Friday.\nStatement 2: The concert was not held on Thursday.",
     "choices": [
-      "95",
-      "97",
-      "99",
-      "101"
+      "Statement 1 ALONE is sufficient.",
+      "Statement 2 ALONE is sufficient.",
+      "BOTH statements TOGETHER are sufficient.",
+      "BOTH statements TOGETHER are NOT sufficient."
     ],
-    "answer": "99",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "BOTH statements TOGETHER are sufficient.",
+    "explanation": "From (1), it could be Wed or Thu. From (2), it's not Thu. Together, it must be Wednesday."
   },
   {
     "id": "anal_137",
-    "question": "Identify the missing number in the sequence: 73, 77, 83, 91, ?",
+    "question": "Assumption: 'To improve the quality of education, teachers should be given regular mandatory training.'\nAssumption I: Current teaching quality is not optimal and needs improvement.\nAssumption II: Regular training actually improves teaching quality.",
     "choices": [
-      "97",
-      "99",
-      "101",
-      "103"
+      "Only I is implicit",
+      "Only II is implicit",
+      "Both I and II are implicit",
+      "Neither is implicit"
     ],
-    "answer": "101",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Both I and II are implicit",
+    "explanation": "The proposal assumes there is room for improvement (I) and that the proposed method (training) is effective (II)."
   },
   {
     "id": "anal_138",
-    "question": "Identify the missing number in the sequence: 75, 79, 85, 93, ?",
+    "question": "Blood Relation: Pointing to a man, a girl said, 'He is the father of the only daughter of my father's son.' How is the man related to the girl?",
     "choices": [
-      "99",
-      "101",
-      "103",
-      "105"
+      "Uncle",
+      "Brother",
+      "Father",
+      "Cousin"
     ],
-    "answer": "103",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Brother",
+    "explanation": "'My father's son' is the girl's brother. The 'only daughter of my brother' is her niece. The 'father of her niece' is her brother."
   },
   {
     "id": "anal_139",
-    "question": "Identify the missing number in the sequence: 77, 81, 87, 95, ?",
+    "question": "Directional: A clock shows 4:30. If the minute hand points exactly East, in what direction does the hour hand point?",
     "choices": [
-      "101",
-      "103",
-      "105",
-      "107"
+      "North-East",
+      "North-West",
+      "South-East",
+      "South-West"
     ],
-    "answer": "105",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "North-East",
+    "explanation": "At 4:30, the minute hand is at 6. If 6 is East, then 12 is West, 3 is North, and 9 is South. The hour hand is halfway between 4 and 5, which puts it between North and East."
   },
   {
     "id": "anal_140",
-    "question": "Identify the missing number in the sequence: 79, 83, 89, 97, ?",
+    "question": "Statement: Should homework be abolished in primary schools?\nArgument I: Yes, it puts unnecessary pressure on young children and prevents playtime.\nArgument II: No, it helps reinforce what was taught in class and builds discipline.",
     "choices": [
-      "103",
-      "105",
-      "107",
-      "109"
+      "Only Argument I is strong",
+      "Only Argument II is strong",
+      "Both I and II are strong",
+      "Neither is strong"
     ],
-    "answer": "107",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Both I and II are strong",
+    "explanation": "Both arguments are logically sound and represent the two main sides of the pedagogical debate regarding primary school homework."
   },
   {
     "id": "anal_141",
-    "question": "Identify the missing number in the sequence: 81, 85, 91, 99, ?",
+    "question": "If in a certain code language, PROSE is coded as PPOQE, how is LIGHT coded?",
     "choices": [
-      "105",
-      "107",
-      "109",
-      "111"
+      "LGFIU",
+      "LGGFT",
+      "LIGGS",
+      "LHFFT"
     ],
-    "answer": "109",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "LGGFT",
+    "explanation": "The pattern alternates between +0 and -2. P(+0)=P, R(-2)=P, O(+0)=O, S(-2)=Q, E(+0)=E. Applying to LIGHT: L(+0)=L, I(-2)=G, G(+0)=G, H(-2)=F, T(+0)=T."
   },
   {
     "id": "anal_142",
-    "question": "Identify the missing number in the sequence: 83, 87, 93, 101, ?",
+    "question": "Odd One Out: Choose the unit that does not belong.",
     "choices": [
-      "107",
-      "109",
-      "111",
-      "113"
+      "Kilometer",
+      "Kilogram",
+      "Centimeter",
+      "Yard"
     ],
-    "answer": "111",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Kilogram",
+    "explanation": "A kilogram is a unit of mass/weight, whereas kilometers, centimeters, and yards are units of length."
   },
   {
     "id": "anal_143",
-    "question": "Identify the missing number in the sequence: 85, 89, 95, 103, ?",
+    "question": "Syllogism: All cats are dogs. All dogs are birds.\nConclusion I: All cats are birds.\nConclusion II: Some birds are cats.",
     "choices": [
-      "109",
-      "111",
-      "113",
-      "115"
+      "Only Conclusion I follows",
+      "Only Conclusion II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
     ],
-    "answer": "113",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Both I and II follow",
+    "explanation": "If cats are inside dogs, and dogs are inside birds, then cats are entirely inside birds (I). This also means the bird category contains cats, so some birds are cats (II)."
   },
   {
     "id": "anal_144",
-    "question": "Identify the missing number in the sequence: 87, 91, 97, 105, ?",
+    "question": "Course of Action: The number of fatal accidents on a specific highway has increased drastically.\nI. The speed limit should be reduced and enforced strictly.\nII. Heavy fines should be imposed on reckless driving.",
     "choices": [
-      "111",
-      "113",
-      "115",
-      "117"
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
     ],
-    "answer": "115",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Both I and II follow",
+    "explanation": "Both reducing the speed limit and imposing heavy fines are practical, standard measures to deter reckless driving and reduce accidents."
   },
   {
     "id": "anal_145",
-    "question": "Identify the missing number in the sequence: 89, 93, 99, 107, ?",
+    "question": "Data Sufficiency: What is the code for 'apple'?\nStatement 1: 'apple is red' is coded as 'na pa ta'.\nStatement 2: 'red is sweet' is coded as 'pa la ta'.",
     "choices": [
-      "113",
-      "115",
-      "117",
-      "119"
+      "Statement 1 ALONE is sufficient.",
+      "Statement 2 ALONE is sufficient.",
+      "BOTH statements TOGETHER are sufficient.",
+      "BOTH statements TOGETHER are NOT sufficient."
     ],
-    "answer": "117",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "BOTH statements TOGETHER are sufficient.",
+    "explanation": "From both, 'is red' corresponds to 'pa ta' (in no exact order). That leaves 'apple' as 'na' in statement 1. Wait, if 'is red' = 'pa ta', then 'apple' must be 'na'. So both together ARE sufficient! Correct answer provided in options is usually structured this way."
   },
   {
     "id": "anal_146",
-    "question": "Identify the missing number in the sequence: 91, 95, 101, 109, ?",
+    "question": "Assumption: 'Use our software to increase your business productivity by 20%.'\nAssumption I: Businesses want to increase their productivity.\nAssumption II: The software is actually capable of increasing productivity.",
     "choices": [
-      "115",
-      "117",
-      "119",
-      "121"
+      "Only I is implicit",
+      "Only II is implicit",
+      "Both I and II are implicit",
+      "Neither is implicit"
     ],
-    "answer": "119",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Both I and II are implicit",
+    "explanation": "An advertisement assumes the target audience desires the benefit (I) and that the product can deliver the promised benefit (II)."
   },
   {
     "id": "anal_147",
-    "question": "Identify the missing number in the sequence: 93, 97, 103, 111, ?",
+    "question": "Blood Relation: If A is the mother of B, B is the sister of C, and C is the father of D, how is A related to D?",
     "choices": [
-      "117",
-      "119",
-      "121",
-      "123"
+      "Mother",
+      "Aunt",
+      "Grandmother",
+      "Cousin"
     ],
-    "answer": "121",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Grandmother",
+    "explanation": "A is the mother of B and C. Since C is the father of D, A is the mother of D's father. Thus, A is the grandmother of D."
   },
   {
     "id": "anal_148",
-    "question": "Identify the missing number in the sequence: 95, 99, 105, 113, ?",
+    "question": "Directional: A boy rides his bicycle 10 km towards North, turns right and rides 5 km, turns right again and rides 10 km. How far and in which direction is he from the starting point?",
     "choices": [
-      "119",
-      "121",
-      "123",
-      "125"
+      "5 km North",
+      "5 km South",
+      "5 km East",
+      "5 km West"
     ],
-    "answer": "123",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "5 km East",
+    "explanation": "He goes 10 km North, 5 km East, then 10 km South. The North and South distances cancel out, leaving him exactly 5 km East of his start."
   },
   {
     "id": "anal_149",
-    "question": "Identify the missing number in the sequence: 97, 101, 107, 115, ?",
+    "question": "Statement: Should military service be made compulsory for all youth?\nArgument I: Yes, it instills discipline, teamwork, and patriotism in young citizens.\nArgument II: No, it infringes on individual freedom of choice and career paths.",
     "choices": [
-      "121",
-      "123",
-      "125",
-      "127"
+      "Only Argument I is strong",
+      "Only Argument II is strong",
+      "Both I and II are strong",
+      "Neither is strong"
     ],
-    "answer": "125",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "Both I and II are strong",
+    "explanation": "Both represent core societal values: collective discipline/patriotism versus individual liberty."
   },
   {
     "id": "anal_150",
-    "question": "Identify the missing number in the sequence: 99, 103, 109, 117, ?",
+    "question": "Coding/Decoding: If RED is coded as 27, and BLUE as 40, what is the code for GREEN?",
     "choices": [
-      "123",
-      "125",
-      "127",
-      "129"
+      "44",
+      "47",
+      "49",
+      "52"
     ],
-    "answer": "127",
-    "explanation": "The pattern of differences is 4, 6, 8, 10. So the next difference is 10."
+    "answer": "49",
+    "explanation": "The code is the sum of alphabetical positions: R(18)+E(5)+D(4) = 27. B(2)+L(12)+U(21)+E(5) = 40. G(7)+R(18)+E(5)+E(5)+N(14) = 49."
   }
 ]
