@@ -2,701 +2,2101 @@
   {
     "id": "num_1",
     "question": "What is 15% of 840?",
-    "choices": ["116", "120", "126", "136"],
+    "choices": [
+      "116",
+      "120",
+      "126",
+      "136"
+    ],
     "answer": "126",
     "explanation": "To find 15% of 840, convert the percentage to a decimal (0.15) and multiply: 0.15 × 840 = 126."
   },
   {
     "id": "num_2",
     "question": "If 3x - 5 = 22, what is the value of x?",
-    "choices": ["8", "9", "10", "7"],
+    "choices": [
+      "8",
+      "9",
+      "10",
+      "7"
+    ],
     "answer": "9",
     "explanation": "Isolate x by adding 5 to both sides of the equation: 3x = 27. Then, divide both sides by 3 to find x = 9."
   },
   {
     "id": "num_3",
     "question": "A rectangle is 25 meters long and 16 meters wide. What is its area?",
-    "choices": ["380 m²", "420 m²", "350 m²", "400 m²"],
+    "choices": [
+      "380 m²",
+      "420 m²",
+      "350 m²",
+      "400 m²"
+    ],
     "answer": "400 m²",
     "explanation": "The area of a rectangle is calculated using the formula: Area = Length × Width. Substituting the given values: Area = 25 × 16 = 400 m²."
   },
   {
     "id": "num_4",
     "question": "What is the next number in the sequence: 2, 5, 10, 17, 26, ...?",
-    "choices": ["35", "37", "39", "41"],
+    "choices": [
+      "35",
+      "37",
+      "39",
+      "41"
+    ],
     "answer": "37",
     "explanation": "Examine the differences between consecutive terms: 5 - 2 = 3; 10 - 5 = 5; 17 - 10 = 7; 26 - 17 = 9. The differences increase by 2 each time (+3, +5, +7, +9). The next difference must be +11, making the next term 26 + 11 = 37."
   },
   {
     "id": "num_5",
     "question": "Solve for n: (4/7)n = 28",
-    "choices": ["49", "42", "56", "45"],
+    "choices": [
+      "49",
+      "42",
+      "56",
+      "45"
+    ],
     "answer": "49",
     "explanation": "To isolate n, multiply both sides of the equation by the reciprocal of 4/7, which is 7/4: n = 28 × (7/4) = 7 × 7 = 49."
   },
   {
     "id": "num_6",
     "question": "A car travels 360 kilometers in 5 hours. What is its average speed?",
-    "choices": ["68 km/h", "70 km/h", "75 km/h", "72 km/h"],
+    "choices": [
+      "68 km/h",
+      "70 km/h",
+      "75 km/h",
+      "72 km/h"
+    ],
     "answer": "72 km/h",
     "explanation": "Use the speed formula: Speed = Distance / Time. Given Distance = 360 km and Time = 5 hours, Speed = 360 / 5 = 72 km/h."
   },
   {
     "id": "num_7",
     "question": "Evaluate: 48 ÷ 8 × 5 + 6",
-    "choices": ["34", "41", "36", "43"],
+    "choices": [
+      "34",
+      "41",
+      "36",
+      "43"
+    ],
     "answer": "36",
     "explanation": "Following the standard order of operations (MDAS rules from left to right), perform division first: 48 ÷ 8 = 6. Next, multiply: 6 × 5 = 30. Finally, add: 30 + 6 = 36."
   },
   {
     "id": "num_8",
     "question": "If 16% of a number is 64, what is the number?",
-    "choices": ["400", "350", "300", "450"],
+    "choices": [
+      "400",
+      "350",
+      "300",
+      "450"
+    ],
     "answer": "400",
     "explanation": "Let the number be x. Express the statement mathematically as 0.16 × x = 64. Solve for x by dividing 64 by 0.16: x = 64 / 0.16 = 400."
   },
   {
     "id": "num_9",
     "question": "The average of six numbers is 40. Five of the numbers are 35, 41, 38, 44, and 42. What is the sixth number?",
-    "choices": ["38", "42", "40", "44"],
+    "choices": [
+      "38",
+      "42",
+      "40",
+      "44"
+    ],
     "answer": "40",
     "explanation": "First, find the total sum of the six numbers: 40 × 6 = 240. Next, add the five given numbers: 35 + 41 + 38 + 44 + 42 = 200. The sixth number is the difference: 240 - 200 = 40."
   },
   {
     "id": "num_10",
     "question": "Find the greatest common factor of 48, 72, and 120.",
-    "choices": ["12", "16", "18", "24"],
+    "choices": [
+      "12",
+      "16",
+      "18",
+      "24"
+    ],
     "answer": "24",
     "explanation": "List or prime-factorize the numbers to find the highest number that divides them all evenly. 48 = 24 × 2, 72 = 24 × 3, and 120 = 24 × 5. The largest shared factor is 24."
   },
   {
     "id": "num_11",
     "question": "Find the least common multiple of 6, 9, and 15.",
-    "choices": ["45", "60", "90", "120"],
+    "choices": [
+      "45",
+      "60",
+      "90",
+      "120"
+    ],
     "answer": "90",
     "explanation": "Find the prime factorization: 6 = 2 × 3; 9 = 3²; 15 = 3 × 5. The LCM takes the highest power of each prime factor: 2¹ × 3² × 5¹ = 2 × 9 × 5 = 90."
   },
   {
     "id": "num_12",
     "question": "A pair of shoes priced at P2,400 is discounted by 20%. What is the sale price?",
-    "choices": ["P1,800", "P1,920", "P2,000", "P1,880"],
+    "choices": [
+      "P1,800",
+      "P1,920",
+      "P2,000",
+      "P1,880"
+    ],
     "answer": "P1,920",
     "explanation": "Calculate the discount: P2,400 × 0.20 = P480. Deduct the discount from the original price to find the sale price: P2,400 - P480 = P1,920."
   },
   {
     "id": "num_13",
-    "question": "Solve for x: 4(x + 5) = 36",
-    "choices": ["4", "5", "6", "3"],
-    "answer": "4",
-    "explanation": "Divide both sides by 4 to simplify: x + 5 = 9. Subtract 5 from both sides to find x = 4."
-  },
-  {
-    "id": "num_14",
     "question": "What is the ratio of 40 minutes to 2 hours in simplest form?",
-    "choices": ["1:4", "1:3", "1:2", "1:5"],
+    "choices": [
+      "1:4",
+      "1:3",
+      "1:2",
+      "1:5"
+    ],
     "answer": "1:3",
     "explanation": "Convert 2 hours into minutes: 2 × 60 = 120 minutes. Set up the ratio of minutes: 40:120. Dividing both terms by their greatest common factor (40) simplifies the ratio to 1:3."
   },
   {
-    "id": "num_15",
+    "id": "num_14",
     "question": "The circumference of a circle is 24π cm. What is its radius?",
-    "choices": ["12 cm", "6 cm", "24 cm", "8 cm"],
+    "choices": [
+      "12 cm",
+      "6 cm",
+      "24 cm",
+      "8 cm"
+    ],
     "answer": "12 cm",
     "explanation": "The formula for circumference is C = 2πr. Given C = 24π, set up the equation: 24π = 2πr. Dividing both sides by 2π yields r = 12 cm."
   },
   {
-    "id": "num_16",
+    "id": "num_15",
     "question": "Evaluate: 2^6 - 4^2 + 5",
-    "choices": ["45", "51", "53", "57"],
+    "choices": [
+      "45",
+      "51",
+      "53",
+      "57"
+    ],
     "answer": "53",
     "explanation": "First calculate the exponents: 2^6 = 64 and 4^2 = 16. Then perform subtraction and addition from left to right: 64 - 16 + 5 = 48 + 5 = 53."
   },
   {
-    "id": "num_17",
+    "id": "num_16",
     "question": "Eight workers can finish a project in 15 days. At the same rate, how many days will 12 workers need?",
-    "choices": ["12 days", "10 days", "9 days", "8 days"],
+    "choices": [
+      "12 days",
+      "10 days",
+      "9 days",
+      "8 days"
+    ],
     "answer": "10 days",
     "explanation": "This is an inverse proportion problem because more workers will take fewer days. Total man-days required = 8 workers × 15 days = 120 man-days. Dividing this total by 12 workers gives 120 / 12 = 10 days."
   },
   {
-    "id": "num_18",
+    "id": "num_17",
     "question": "What is 9/16 as a decimal?",
-    "choices": ["0.5625", "0.525", "0.575", "0.5425"],
+    "choices": [
+      "0.5625",
+      "0.525",
+      "0.575",
+      "0.5425"
+    ],
     "answer": "0.5625",
     "explanation": "To convert the fraction to a decimal, divide the numerator by the denominator: 9 ÷ 16 = 0.5625."
   },
   {
-    "id": "num_19",
+    "id": "num_18",
     "question": "The sum of two numbers is 74 and their difference is 16. What is the smaller number?",
-    "choices": ["27", "31", "29", "33"],
+    "choices": [
+      "27",
+      "31",
+      "29",
+      "33"
+    ],
     "answer": "29",
     "explanation": "Let the two numbers be x and y, where x is larger. We know x + y = 74 and x - y = 16. Subtract the second equation from the first to eliminate x: 2y = 58. Divide by 2 to find the smaller number, y = 29."
   },
   {
-    "id": "num_20",
+    "id": "num_19",
     "question": "A box contains 25 blue, 35 green, and 40 yellow marbles. What percentage of the marbles are green?",
-    "choices": ["40%", "35%", "30%", "25%"],
+    "choices": [
+      "40%",
+      "35%",
+      "30%",
+      "25%"
+    ],
     "answer": "35%",
     "explanation": "Find the total number of marbles: 25 + 35 + 40 = 100. Since the total is 100, the 35 green marbles directly represent 35% of the collection."
   },
   {
-    "id": "num_21",
+    "id": "num_20",
     "question": "What is the square root of 256?",
-    "choices": ["14", "18", "16", "15"],
+    "choices": [
+      "14",
+      "18",
+      "16",
+      "15"
+    ],
     "answer": "16",
     "explanation": "The square root of a number is a value that, when multiplied by itself, equals the original number. Since 16 × 16 = 256, the square root is 16."
   },
   {
-    "id": "num_22",
+    "id": "num_21",
     "question": "Solve for y: y/4 - 5 = 7",
-    "choices": ["48", "44", "40", "52"],
+    "choices": [
+      "48",
+      "44",
+      "40",
+      "52"
+    ],
     "answer": "48",
     "explanation": "Isolate the fractional term by adding 5 to both sides: y/4 = 12. Then multiply both sides by 4 to solve for y: y = 12 × 4 = 48."
   },
   {
-    "id": "num_23",
+    "id": "num_22",
     "question": "A card is drawn from cards numbered 1 through 12. What is the probability of drawing a multiple of 4?",
-    "choices": ["1/3", "1/6", "1/2", "1/4"],
+    "choices": [
+      "1/3",
+      "1/6",
+      "1/2",
+      "1/4"
+    ],
     "answer": "1/4",
     "explanation": "Identify the successful outcomes within the sample space (1 to 12) that are multiples of 4: 4, 8, and 12 (3 positive outcomes). Probability = successful outcomes / total outcomes = 3 / 12 = 1/4."
   },
   {
-    "id": "num_24",
+    "id": "num_23",
     "question": "Convert 4.25 kilometers to meters.",
-    "choices": ["42,500 m", "4,250 m", "425 m", "425,000 m"],
+    "choices": [
+      "42,500 m",
+      "4,250 m",
+      "425 m",
+      "425,000 m"
+    ],
     "answer": "4,250 m",
     "explanation": "Because 1 kilometer equals 1,000 meters, multiply the kilometer value by 1,000: 4.25 × 1,000 = 4,250 m."
   },
   {
-    "id": "num_25",
+    "id": "num_24",
     "question": "A rectangular prism is 9 cm long, 4 cm wide, and 7 cm high. What is its volume?",
-    "choices": ["252 cm³", "216 cm³", "240 cm³", "264 cm³"],
+    "choices": [
+      "252 cm³",
+      "216 cm³",
+      "240 cm³",
+      "264 cm³"
+    ],
     "answer": "252 cm³",
     "explanation": "The volume of a rectangular prism is found using the formula: Volume = Length × Width × Height. Evaluating with the given numbers: 9 × 4 × 7 = 252 cm³."
   },
   {
-    "id": "num_26",
+    "id": "num_25",
     "question": "What is 62.5% of 320?",
-    "choices": ["180", "190", "200", "210"],
+    "choices": [
+      "180",
+      "190",
+      "200",
+      "210"
+    ],
     "answer": "200",
     "explanation": "Convert 62.5% to a decimal (0.625) or fraction (5/8). Multiplying the value: 320 × 0.625 = 200 (or 320 × 5 / 8 = 40 × 5 = 200)."
   },
   {
-    "id": "num_27",
+    "id": "num_26",
     "question": "If 3a + 4 = 22, what is the value of a^2?",
-    "choices": ["36", "49", "25", "16"],
+    "choices": [
+      "36",
+      "49",
+      "25",
+      "16"
+    ],
     "answer": "36",
     "explanation": "First, solve for a by subtracting 4 from both sides: 3a = 18. Divide by 3 to find a = 6. Square this value to get the final answer: a² = 6² = 36."
   },
   {
-    "id": "num_28",
+    "id": "num_27",
     "question": "The price of an item decreased from P5,000 to P3,750. What is the percentage decrease?",
-    "choices": ["20%", "30%", "25%", "15%"],
+    "choices": [
+      "20%",
+      "30%",
+      "25%",
+      "15%"
+    ],
     "answer": "25%",
     "explanation": "Find the amount of decrease: P5,000 - P3,750 = P1,250. Divide the decrease by the original value and multiply by 100: (1,250 / 5,000) × 100 = 0.25 × 100 = 25%."
   },
   {
-    "id": "num_29",
+    "id": "num_28",
     "question": "Simplify: 6(2x - 1) - 3(x + 4)",
-    "choices": ["9x - 6", "9x - 10", "15x - 18", "9x - 18"],
+    "choices": [
+      "9x - 6",
+      "9x - 10",
+      "15x - 18",
+      "9x - 18"
+    ],
     "answer": "9x - 18",
     "explanation": "Distribute across both pairs of parentheses: (12x - 6) - (3x + 12) = 12x - 6 - 3x - 12. Combine like linear terms and constants: (12x - 3x) + (-6 - 12) = 9x - 18."
   },
   {
-    "id": "num_30",
+    "id": "num_29",
     "question": "Find the simple interest on P12,000 at 5% per year for 3.5 years.",
-    "choices": ["P1,800", "P2,000", "P2,100", "P2,250"],
+    "choices": [
+      "P1,800",
+      "P2,000",
+      "P2,100",
+      "P2,250"
+    ],
     "answer": "P2,100",
     "explanation": "Use the simple interest formula: Interest = Principal × Rate × Time. Substituting the values: Interest = P12,000 × 0.05 × 3.5 = P600 × 3.5 = P2,100."
   },
   {
-    "id": "num_31",
+    "id": "num_30",
     "question": "What is the sum of the interior angles of a hexagon?",
-    "choices": ["720 degrees", "540 degrees", "900 degrees", "1,080 degrees"],
+    "choices": [
+      "720 degrees",
+      "540 degrees",
+      "900 degrees",
+      "1,080 degrees"
+    ],
     "answer": "720 degrees",
     "explanation": "The formula for the total sum of interior angles is (n - 2) × 180, where n is the number of sides. A hexagon has 6 sides: (6 - 2) × 180 = 4 × 180 = 720 degrees."
   },
   {
-    "id": "num_32",
+    "id": "num_31",
     "question": "A motorcycle travels at 80 km/h for 2 hours and 15 minutes. How far does it travel?",
-    "choices": ["160 km", "175 km", "180 km", "195 km"],
+    "choices": [
+      "160 km",
+      "175 km",
+      "180 km",
+      "195 km"
+    ],
     "answer": "180 km",
     "explanation": "Convert the time completely to hours: 15 minutes is 15/60 = 0.25 hours, so total time = 2.25 hours. Use Distance = Speed × Time: Distance = 80 km/h × 2.25 h = 180 km."
   },
   {
-    "id": "num_33",
+    "id": "num_32",
     "question": "What is 4/9 ÷ 8/15 in simplest form?",
-    "choices": ["5/6", "2/3", "3/4", "5/8"],
+    "choices": [
+      "5/6",
+      "2/3",
+      "3/4",
+      "5/8"
+    ],
     "answer": "5/6",
     "explanation": "To divide fractions, multiply by the reciprocal of the divisor: (4/9) × (15/8). Simplify cross-wise before multiplying: (4/8 simplifies to 1/2, and 15/9 simplifies to 5/3), which gives (1/3) × (5/2) = 5/6."
   },
   {
-    "id": "num_34",
+    "id": "num_33",
     "question": "Five less than four times a number is 43. What is the number?",
-    "choices": ["11", "13", "10", "12"],
+    "choices": [
+      "11",
+      "13",
+      "10",
+      "12"
+    ],
     "answer": "12",
     "explanation": "Translate the sentence into an algebraic equation: 4x - 5 = 43. Add 5 to both sides: 4x = 48. Divide both sides by 4: x = 12."
   },
   {
-    "id": "num_35",
+    "id": "num_34",
     "question": "If 6/x = 15/45, what is x?",
-    "choices": ["16", "15", "18", "14"],
+    "choices": [
+      "16",
+      "15",
+      "18",
+      "14"
+    ],
     "answer": "18",
     "explanation": "Simplify the right side fraction first: 15/45 reduces to 1/3. The equation becomes 6/x = 1/3. Cross-multiplying gives 1 × x = 6 × 3, so x = 18."
   },
   {
-    "id": "num_36",
+    "id": "num_35",
     "question": "A right triangle has legs measuring 5 cm and 12 cm. What is the length of its hypotenuse?",
-    "choices": ["13 cm", "14 cm", "15 cm", "16 cm"],
+    "choices": [
+      "13 cm",
+      "14 cm",
+      "15 cm",
+      "16 cm"
+    ],
     "answer": "13 cm",
     "explanation": "Apply the Pythagorean theorem: c² = a² + b². Substitute the values: c² = 5² + 12² = 25 + 144 = 169. Taking the square root of 169 gives c = 13 cm."
   },
   {
-    "id": "num_37",
+    "id": "num_36",
     "question": "What is the next number in the pattern: 4, 10, 18, 28, 40, ...?",
-    "choices": ["52", "54", "56", "50"],
+    "choices": [
+      "52",
+      "54",
+      "56",
+      "50"
+    ],
     "answer": "54",
     "explanation": "Analyze the intervals between consecutive entries: 4 (+6) 10 (+8) 18 (+10) 28 (+12) 40. The difference is growing by +2 each time. The next interval should be +14, so 40 + 14 = 54."
   },
   {
-    "id": "num_38",
+    "id": "num_37",
     "question": "Evaluate: 35 - 24 ÷ 4 × 3",
-    "choices": ["17", "23", "11", "27"],
+    "choices": [
+      "17",
+      "23",
+      "11",
+      "27"
+    ],
     "answer": "17",
     "explanation": "Following strict order of operations, perform operations from left to right for division/multiplication first: 24 ÷ 4 = 6, then 6 × 3 = 18. Now perform the subtraction step: 35 - 18 = 17."
   },
   {
-    "id": "num_39",
+    "id": "num_38",
     "question": "On a map, 1.5 cm represents 60 km. What actual distance is represented by 4.5 cm?",
-    "choices": ["150 km", "160 km", "120 km", "180 km"],
+    "choices": [
+      "150 km",
+      "160 km",
+      "120 km",
+      "180 km"
+    ],
     "answer": "180 km",
     "explanation": "Set up a proportion or note the scale factor: 4.5 cm is exactly 3 times larger than 1.5 cm (4.5 / 1.5 = 3). Multiply the matching real-world metric by 3: 60 km × 3 = 180 km."
   },
   {
-    "id": "num_40",
+    "id": "num_39",
     "question": "Convert 13/25 to a percentage.",
-    "choices": ["48%", "52%", "56%", "50%"],
+    "choices": [
+      "48%",
+      "52%",
+      "56%",
+      "50%"
+    ],
     "answer": "52%",
     "explanation": "To rewrite a fraction as a percentage, multiply the value by 100: (13 / 25) × 100 = 13 × 4 = 52%."
   },
   {
-    "id": "num_41",
+    "id": "num_40",
     "question": "The volume of a cube is 216 cm³. What is the length of one edge?",
-    "choices": ["5 cm", "7 cm", "6 cm", "8 cm"],
+    "choices": [
+      "5 cm",
+      "7 cm",
+      "6 cm",
+      "8 cm"
+    ],
     "answer": "6 cm",
     "explanation": "The formula for the volume of a cube is Volume = edge³. Calculate the cube root of 216 to find the edge length: ∛216 = 6 cm."
   },
   {
-    "id": "num_42",
+    "id": "num_41",
     "question": "Find the median of 12, 17, 22, 26, 33, 39, and 45.",
-    "choices": ["22", "33", "29", "26"],
+    "choices": [
+      "22",
+      "33",
+      "29",
+      "26"
+    ],
     "answer": "26",
     "explanation": "The given set consists of 7 numbers already arranged in ascending order. The median is the middlemost item (the 4th number), which is 26."
   },
   {
-    "id": "num_43",
+    "id": "num_42",
     "question": "If p = 4 and q = 3, what is the value of 2p^2 - 3q?",
-    "choices": ["23", "25", "29", "19"],
+    "choices": [
+      "23",
+      "25",
+      "29",
+      "19"
+    ],
     "answer": "23",
     "explanation": "Substitute the assigned variables into the equation: 2(4)² - 3(3). Evaluate exponentiation first: 2(16) - 9 = 32 - 9 = 23."
   },
   {
-    "id": "num_44",
+    "id": "num_43",
     "question": "What is the greatest common divisor of 60 and 90?",
-    "choices": ["15", "20", "30", "10"],
+    "choices": [
+      "15",
+      "20",
+      "30",
+      "10"
+    ],
     "answer": "30",
     "explanation": "The greatest common divisor (GCD) is the highest whole value that divides both integers perfectly. 60 = 30 × 2 and 90 = 30 × 3, meaning the greatest common factor is 30."
   },
   {
-    "id": "num_45",
+    "id": "num_44",
     "question": "A runner covers 12 km in 45 minutes. What is the runner's average speed in km/h?",
-    "choices": ["14 km/h", "15 km/h", "18 km/h", "16 km/h"],
+    "choices": [
+      "14 km/h",
+      "15 km/h",
+      "18 km/h",
+      "16 km/h"
+    ],
     "answer": "16 km/h",
     "explanation": "Convert time to hours: 45 minutes is 45/60 = 0.75 hours. Speed = Distance / Time = 12 / 0.75 = 16 km/h."
   },
   {
-    "id": "num_46",
+    "id": "num_45",
     "question": "Evaluate: (8 - 4)^2 + (8 ÷ 2)^3",
-    "choices": ["72", "80", "64", "88"],
+    "choices": [
+      "72",
+      "80",
+      "64",
+      "88"
+    ],
     "answer": "80",
     "explanation": "Evaluate internal expressions within parentheses first: (4)² + (4)³. Then calculate powers: 4² = 16 and 4³ = 64. Sum them up: 16 + 64 = 80."
   },
   {
-    "id": "num_47",
+    "id": "num_46",
     "question": "A rectangle has a perimeter of 60 cm and a length of 18 cm. What is its area?",
-    "choices": ["200 cm²", "196 cm²", "216 cm²", "224 cm²"],
+    "choices": [
+      "200 cm²",
+      "196 cm²",
+      "216 cm²",
+      "224 cm²"
+    ],
     "answer": "216 cm²",
     "explanation": "Perimeter = 2(Length + Width) -> 60 = 2(18 + Width) -> 30 = 18 + Width -> Width = 12 cm. Calculate area via Length × Width: 18 × 12 = 216 cm²."
   },
   {
-    "id": "num_48",
+    "id": "num_47",
     "question": "A quantity increases from 200 to 260. What is the percentage increase?",
-    "choices": ["25%", "30%", "20%", "35%"],
+    "choices": [
+      "25%",
+      "30%",
+      "20%",
+      "35%"
+    ],
     "answer": "30%",
     "explanation": "Find absolute increase: 260 - 200 = 60. Divide this increase by the original quantity and multiply by 100: (60 / 200) × 100 = 0.30 × 100 = 30%."
   },
   {
-    "id": "num_49",
+    "id": "num_48",
     "question": "Solve for n: 6n - 7 = 3n + 14",
-    "choices": ["6", "8", "7", "9"],
+    "choices": [
+      "6",
+      "8",
+      "7",
+      "9"
+    ],
     "answer": "7",
     "explanation": "Subtract 3n from both sides to aggregate variable terms: 3n - 7 = 14. Add 7 to both sides: 3n = 21. Finally, divide by 3 to find n = 7."
   },
   {
-    "id": "num_50",
+    "id": "num_49",
     "question": "The ratio of adults to children at an event is 5:2. If there are 105 people, how many are children?",
-    "choices": ["30", "35", "25", "40"],
+    "choices": [
+      "30",
+      "35",
+      "25",
+      "40"
+    ],
     "answer": "30",
     "explanation": "Find the total units of parts in the ratio: 5 + 2 = 7 units. Calculate value per unit: 105 / 7 = 15 people. Since children comprise 2 units of the ratio, multiply 2 × 15 = 30 children."
   },
   {
-    "id": "num_51",
+    "id": "num_50",
     "question": "Which of the following numbers is divisible by 3?",
-    "choices": ["121", "123", "125", "127"],
+    "choices": [
+      "121",
+      "123",
+      "125",
+      "127"
+    ],
     "answer": "123",
     "explanation": "A number is divisible by 3 if the sum of its digits is divisible by 3. 1+2+3=6, which is divisible by 3."
   },
   {
-    "id": "num_52",
+    "id": "num_51",
     "question": "What is the least common multiple (LCM) of 6 and 8?",
-    "choices": ["12", "24", "36", "48"],
+    "choices": [
+      "12",
+      "24",
+      "36",
+      "48"
+    ],
     "answer": "24",
     "explanation": "Multiples of 6: 6,12,18,24... Multiples of 8: 8,16,24... First common multiple is 24."
   },
   {
-    "id": "num_53",
+    "id": "num_52",
     "question": "What is the greatest common factor (GCF) of 18 and 24?",
-    "choices": ["6", "8", "12", "18"],
+    "choices": [
+      "6",
+      "8",
+      "12",
+      "18"
+    ],
     "answer": "6",
     "explanation": "Factors of 18: 1,2,3,6,9,18. Factors of 24: 1,2,3,4,6,8,12,24. Greatest common factor is 6."
   },
   {
-    "id": "num_54",
+    "id": "num_53",
     "question": "Evaluate: -5 + 12 - 4",
-    "choices": ["1", "2", "3", "4"],
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
     "answer": "3",
     "explanation": "-5 + 12 = 7; 7 - 4 = 3."
   },
   {
-    "id": "num_55",
+    "id": "num_54",
     "question": "Evaluate: 3 × (4 + 2) ÷ 2",
-    "choices": ["6", "8", "9", "12"],
+    "choices": [
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
     "answer": "9",
     "explanation": "(4+2)=6; 3×6=18; 18÷2=9."
   },
   {
-    "id": "num_56",
+    "id": "num_55",
     "question": "Convert 0.75 to fraction in simplest form.",
-    "choices": ["1/2", "3/4", "2/3", "5/6"],
+    "choices": [
+      "1/2",
+      "3/4",
+      "2/3",
+      "5/6"
+    ],
     "answer": "3/4",
     "explanation": "0.75 = 75/100 = 3/4."
   },
   {
-    "id": "num_57",
+    "id": "num_56",
     "question": "What is 2/3 + 1/6?",
-    "choices": ["1/2", "2/3", "5/6", "1"],
+    "choices": [
+      "1/2",
+      "2/3",
+      "5/6",
+      "1"
+    ],
     "answer": "5/6",
     "explanation": "Convert 2/3 = 4/6; 4/6 + 1/6 = 5/6."
   },
   {
-    "id": "num_58",
+    "id": "num_57",
     "question": "What is 40% of 250?",
-    "choices": ["90", "100", "110", "120"],
+    "choices": [
+      "90",
+      "100",
+      "110",
+      "120"
+    ],
     "answer": "100",
     "explanation": "40% = 0.40; 0.40 × 250 = 100."
   },
   {
-    "id": "num_59",
+    "id": "num_58",
     "question": "A shirt costs 500 pesos and is discounted by 20%. What is the sale price?",
-    "choices": ["400", "420", "450", "480"],
+    "choices": [
+      "400",
+      "420",
+      "450",
+      "480"
+    ],
     "answer": "400",
     "explanation": "20% of 500 = 100; 500 - 100 = 400."
   },
   {
-    "id": "num_60",
+    "id": "num_59",
     "question": "Find the ratio of 12 to 18 in simplest form.",
-    "choices": ["2:3", "3:2", "4:6", "6:8"],
+    "choices": [
+      "2:3",
+      "3:2",
+      "4:6",
+      "6:8"
+    ],
     "answer": "2:3",
     "explanation": "Divide both terms by 6: 12÷6 = 2, 18÷6 = 3."
   },
   {
-    "id": "num_61",
+    "id": "num_60",
     "question": "Find the average of 10, 20, 30, 40.",
-    "choices": ["20", "25", "30", "35"],
+    "choices": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
     "answer": "25",
     "explanation": "Sum = 100; 100 ÷ 4 = 25."
   },
   {
-    "id": "num_62",
-    "question": "Solve for x: x + 7 = 15",
-    "choices": ["6", "7", "8", "9"],
-    "answer": "8",
-    "explanation": "x = 15 - 7 = 8."
-  },
-  {
-    "id": "num_63",
-    "question": "Solve for x: 3x = 27",
-    "choices": ["7", "8", "9", "10"],
-    "answer": "9",
-    "explanation": "x = 27 ÷ 3 = 9."
-  },
-  {
-    "id": "num_64",
+    "id": "num_61",
     "question": "What is the next odd number after 19?",
-    "choices": ["20", "21", "22", "23"],
+    "choices": [
+      "20",
+      "21",
+      "22",
+      "23"
+    ],
     "answer": "21",
     "explanation": "Odd numbers increase by 2; 19 + 2 = 21."
   },
   {
-    "id": "num_65",
+    "id": "num_62",
     "question": "What is the sum of two consecutive integers if the smaller is x?",
-    "choices": ["2x", "2x+1", "2x+2", "x+1"],
+    "choices": [
+      "2x",
+      "2x+1",
+      "2x+2",
+      "x+1"
+    ],
     "answer": "2x+1",
     "explanation": "Consecutive integers are x and x+1; sum = 2x+1."
   },
   {
-    "id": "num_66",
+    "id": "num_63",
     "question": "A number increased by 15 equals 40. What is the number?",
-    "choices": ["20", "25", "30", "35"],
+    "choices": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
     "answer": "25",
     "explanation": "x + 15 = 40; x = 25."
   },
   {
-    "id": "num_67",
+    "id": "num_64",
     "question": "A train travels 60 km in 2 hours. What is its speed?",
-    "choices": ["20 km/h", "25 km/h", "30 km/h", "35 km/h"],
+    "choices": [
+      "20 km/h",
+      "25 km/h",
+      "30 km/h",
+      "35 km/h"
+    ],
     "answer": "30 km/h",
     "explanation": "Speed = distance ÷ time = 60 ÷ 2 = 30 km/h."
   },
   {
-    "id": "num_68",
+    "id": "num_65",
     "question": "If 5 workers can finish a job in 10 days, how many days for 10 workers (same rate)?",
-    "choices": ["2", "3", "4", "5"],
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
     "answer": "5",
     "explanation": "Work is inversely proportional: doubling workers halves time → 5 days."
   },
   {
-    "id": "num_69",
+    "id": "num_66",
     "question": "What is 1/2 of 3/4?",
-    "choices": ["1/4", "3/8", "2/3", "5/8"],
+    "choices": [
+      "1/4",
+      "3/8",
+      "2/3",
+      "5/8"
+    ],
     "answer": "3/8",
     "explanation": "(1/2) × (3/4) = 3/8."
   },
   {
-    "id": "num_70",
+    "id": "num_67",
     "question": "Which is greater?",
-    "choices": ["0.5", "1/3", "2/5", "0.4"],
+    "choices": [
+      "0.5",
+      "1/3",
+      "2/5",
+      "0.4"
+    ],
     "answer": "0.5",
     "explanation": "0.5 = 1/2 which is greater than 0.4, 1/3 (~0.33), and 2/5 (0.4)."
   },
   {
-    "id": "num_71",
+    "id": "num_68",
     "question": "A rectangle has length 10 and width 5. What is its area?",
-    "choices": ["15", "25", "50", "60"],
+    "choices": [
+      "15",
+      "25",
+      "50",
+      "60"
+    ],
     "answer": "50",
     "explanation": "Area = length × width = 10 × 5 = 50."
   },
   {
-    "id": "num_72",
+    "id": "num_69",
     "question": "What is 15% of 200?",
-    "choices": ["25", "30", "35", "40"],
+    "choices": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
     "answer": "30",
     "explanation": "0.15 × 200 = 30."
   },
   {
-    "id": "num_73",
+    "id": "num_70",
     "question": "Simplify: 8/12",
-    "choices": ["1/2", "2/3", "3/4", "4/5"],
+    "choices": [
+      "1/2",
+      "2/3",
+      "3/4",
+      "4/5"
+    ],
     "answer": "2/3",
     "explanation": "Divide numerator and denominator by 4 → 2/3."
   },
   {
-    "id": "num_74",
+    "id": "num_71",
     "question": "What is 7 × 6 ÷ 3?",
-    "choices": ["10", "12", "14", "16"],
+    "choices": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
     "answer": "14",
     "explanation": "7×6=42; 42÷3=14."
   },
   {
-    "id": "num_75",
+    "id": "num_72",
     "question": "A father is 40 years old and his son is 10. In how many years will the father be twice the son's age?",
-    "choices": ["10", "15", "20", "25"],
+    "choices": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
     "answer": "20",
     "explanation": "Let x = years. 40+x = 2(10+x). Solve: 40+x = 20+2x → x=20."
   },
   {
-    "id": "num_76",
+    "id": "num_73",
     "question": "What is the value of 5² + 3²?",
-    "choices": ["25", "34", "30", "28"],
+    "choices": [
+      "25",
+      "34",
+      "30",
+      "28"
+    ],
     "answer": "34",
     "explanation": "5²=25; 3²=9; 25+9=34."
   },
   {
-    "id": "num_77",
+    "id": "num_74",
     "question": "What is the next multiple of 9 after 81?",
-    "choices": ["82", "88", "90", "99"],
+    "choices": [
+      "82",
+      "88",
+      "90",
+      "99"
+    ],
     "answer": "90",
     "explanation": "Multiples of 9 increase by 9; 81+9=90."
   },
   {
-    "id": "num_78",
+    "id": "num_75",
     "question": "A car travels 120 km in 3 hours. What is its speed?",
-    "choices": ["30 km/h", "40 km/h", "50 km/h", "60 km/h"],
+    "choices": [
+      "30 km/h",
+      "40 km/h",
+      "50 km/h",
+      "60 km/h"
+    ],
     "answer": "40 km/h",
     "explanation": "Speed = 120 ÷ 3 = 40 km/h."
   },
   {
-    "id": "num_79",
+    "id": "num_76",
     "question": "What is 3/5 of 100?",
-    "choices": ["50", "60", "70", "80"],
+    "choices": [
+      "50",
+      "60",
+      "70",
+      "80"
+    ],
     "answer": "60",
     "explanation": "3/5 × 100 = 60."
   },
   {
-    "id": "num_80",
+    "id": "num_77",
     "question": "Which is the smallest number?",
-    "choices": ["-3", "-1", "0", "2"],
+    "choices": [
+      "-3",
+      "-1",
+      "0",
+      "2"
+    ],
     "answer": "-3",
     "explanation": "Negative numbers are smaller than zero and positive numbers."
   },
   {
-    "id": "num_81",
+    "id": "num_78",
     "question": "What is the value of 100 ÷ (5 × 2)?",
-    "choices": ["5", "10", "15", "20"],
+    "choices": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
     "answer": "10",
     "explanation": "5×2=10; 100÷10=10."
   },
   {
-    "id": "num_82",
+    "id": "num_79",
     "question": "If x = 4, what is 2x + 3?",
-    "choices": ["9", "10", "11", "12"],
+    "choices": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
     "answer": "11",
     "explanation": "2(4)+3=8+3=11."
   },
   {
-    "id": "num_83",
+    "id": "num_80",
     "question": "A tank is filled in 6 hours. What fraction is filled in 1 hour?",
-    "choices": ["1/4", "1/5", "1/6", "1/7"],
+    "choices": [
+      "1/4",
+      "1/5",
+      "1/6",
+      "1/7"
+    ],
     "answer": "1/6",
     "explanation": "1 full tank ÷ 6 hours = 1/6 per hour."
   },
   {
-    "id": "num_84",
+    "id": "num_81",
     "question": "What is the sum of 1/4 and 1/2?",
-    "choices": ["1/2", "3/4", "2/3", "1"],
+    "choices": [
+      "1/2",
+      "3/4",
+      "2/3",
+      "1"
+    ],
     "answer": "3/4",
     "explanation": "1/2 = 2/4; 2/4 + 1/4 = 3/4."
   },
   {
-    "id": "num_85",
+    "id": "num_82",
     "question": "A price increased from 200 to 250. What is the percent increase?",
-    "choices": ["20%", "25%", "30%", "35%"],
+    "choices": [
+      "20%",
+      "25%",
+      "30%",
+      "35%"
+    ],
     "answer": "25%",
     "explanation": "Increase = 50; 50/200 = 0.25 = 25%."
   },
   {
-    "id": "num_86",
+    "id": "num_83",
     "question": "Find the mean of 5, 10, 15, 20, 25.",
-    "choices": ["10", "15", "20", "25"],
+    "choices": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
     "answer": "15",
     "explanation": "Sum = 75; 75 ÷ 5 = 15."
   },
   {
-    "id": "num_87",
+    "id": "num_84",
     "question": "If 3x = 18, what is x?",
-    "choices": ["4", "5", "6", "7"],
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
     "answer": "6",
     "explanation": "x = 18 ÷ 3 = 6."
   },
   {
-    "id": "num_88",
+    "id": "num_85",
     "question": "What is the product of -3 and 4?",
-    "choices": ["-12", "12", "-7", "7"],
+    "choices": [
+      "-12",
+      "12",
+      "-7",
+      "7"
+    ],
     "answer": "-12",
     "explanation": "Negative × positive = negative; 3×4=12."
   },
   {
-    "id": "num_89",
+    "id": "num_86",
     "question": "What is 9 squared minus 5 squared?",
-    "choices": ["56", "60", "64", "70"],
+    "choices": [
+      "56",
+      "60",
+      "64",
+      "70"
+    ],
     "answer": "56",
     "explanation": "81 - 25 = 56."
   },
   {
-    "id": "num_90",
+    "id": "num_87",
     "question": "A triangle has sides 3, 4, 5. What type is it?",
-    "choices": ["Equilateral", "Isosceles", "Scalene", "Right triangle"],
+    "choices": [
+      "Equilateral",
+      "Isosceles",
+      "Scalene",
+      "Right triangle"
+    ],
     "answer": "Right triangle",
     "explanation": "3-4-5 is a Pythagorean triple."
   },
   {
-    "id": "num_91",
+    "id": "num_88",
     "question": "What is 2/3 of 90?",
-    "choices": ["50", "55", "60", "65"],
+    "choices": [
+      "50",
+      "55",
+      "60",
+      "65"
+    ],
     "answer": "60",
     "explanation": "90 × 2/3 = 60."
   },
   {
-    "id": "num_92",
+    "id": "num_89",
     "question": "What is the value of -10 + 7?",
-    "choices": ["-17", "-3", "3", "17"],
+    "choices": [
+      "-17",
+      "-3",
+      "3",
+      "17"
+    ],
     "answer": "-3",
     "explanation": "Move toward zero: -10 + 7 = -3."
   },
   {
-    "id": "num_93",
+    "id": "num_90",
     "question": "If 4 pens cost 100 pesos, how much for 1 pen?",
-    "choices": ["20", "25", "30", "35"],
+    "choices": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
     "answer": "25",
     "explanation": "100 ÷ 4 = 25."
   },
   {
-    "id": "num_94",
+    "id": "num_91",
     "question": "What is 1/3 of 1/2?",
-    "choices": ["1/6", "1/5", "1/4", "1/3"],
+    "choices": [
+      "1/6",
+      "1/5",
+      "1/4",
+      "1/3"
+    ],
     "answer": "1/6",
     "explanation": "(1/3) × (1/2) = 1/6."
   },
   {
-    "id": "num_95",
+    "id": "num_92",
     "question": "A rectangle perimeter is 30. If length is 10, what is width?",
-    "choices": ["3", "5", "7", "10"],
+    "choices": [
+      "3",
+      "5",
+      "7",
+      "10"
+    ],
     "answer": "5",
     "explanation": "2(L+W)=30 → L+W=15 → W=5."
   },
   {
-    "id": "num_96",
+    "id": "num_93",
     "question": "What is the value of 6 × (2 + 3)?",
-    "choices": ["20", "25", "30", "35"],
+    "choices": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
     "answer": "30",
     "explanation": "2+3=5; 6×5=30."
   },
   {
-    "id": "num_97",
+    "id": "num_94",
     "question": "Which is a factor of 36?",
-    "choices": ["7", "8", "9", "13"],
+    "choices": [
+      "7",
+      "8",
+      "9",
+      "13"
+    ],
     "answer": "9",
     "explanation": "36 ÷ 9 = 4, so 9 is a factor."
   },
   {
-    "id": "num_98",
+    "id": "num_95",
     "question": "What is 0.2 × 0.5?",
-    "choices": ["0.01", "0.1", "0.2", "0.5"],
+    "choices": [
+      "0.01",
+      "0.1",
+      "0.2",
+      "0.5"
+    ],
     "answer": "0.1",
     "explanation": "2 × 5 = 10; two decimal places → 0.1."
   },
   {
-    "id": "num_99",
+    "id": "num_96",
     "question": "If x + 5 = 12, what is x?",
-    "choices": ["5", "6", "7", "8"],
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
     "answer": "7",
     "explanation": "x = 12 - 5 = 7."
   },
   {
-    "id": "num_100",
+    "id": "num_97",
     "question": "What is the next number in the sequence: 2, 4, 8, 16, ?",
-    "choices": ["18", "20", "24", "32"],
+    "choices": [
+      "18",
+      "20",
+      "24",
+      "32"
+    ],
     "answer": "32",
     "explanation": "Each number is multiplied by 2."
+  },
+  {
+    "id": "num_98",
+    "question": "Pump A can fill a tank in 6 hours, while Pump B can empty the same tank in 8 hours. If both pumps are turned on simultaneously while the tank is empty, how long will it take to fill the tank completely?",
+    "choices": [
+      "14 hours",
+      "24 hours",
+      "48 hours",
+      "12 hours"
+    ],
+    "answer": "24 hours",
+    "explanation": "Pump A's rate is +1/6. Pump B's rate is -1/8. Combined rate = 1/6 - 1/8 = 4/24 - 3/24 = 1/24. Therefore, it takes 24 hours to fill."
+  },
+  {
+    "id": "num_99",
+    "question": "How many liters of a 20% alcohol solution must be added to 40 liters of a 50% alcohol solution to produce a 40% alcohol solution?",
+    "choices": [
+      "10 liters",
+      "20 liters",
+      "30 liters",
+      "40 liters"
+    ],
+    "answer": "20 liters",
+    "explanation": "Let x be the amount of 20% solution. Equation: 0.20x + 0.50(40) = 0.40(x + 40). 0.20x + 20 = 0.40x + 16. 4 = 0.20x. x = 20."
+  },
+  {
+    "id": "num_100",
+    "question": "Five years ago, a father was three times as old as his son. In five years, the father will be twice as old as his son. How old is the son now?",
+    "choices": [
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "answer": "15",
+    "explanation": "Let F and S be their current ages. (1) F - 5 = 3(S - 5) -> F - 3S = -10. (2) F + 5 = 2(S + 5) -> F - 2S = 5. Subtracting equations: -S = -15, so S = 15."
+  },
+  {
+    "id": "num_101",
+    "question": "The length of a rectangle is increased by 20% and its width is decreased by 10%. What is the percentage change in its area?",
+    "choices": [
+      "10% increase",
+      "8% increase",
+      "8% decrease",
+      "12% increase"
+    ],
+    "answer": "8% increase",
+    "explanation": "Let Original Area = L * W = 100. New Area = (1.20 * L) * (0.90 * W) = 1.08 * LW. 1.08 represents an 8% increase."
+  },
+  {
+    "id": "num_102",
+    "question": "Evaluate: (0.125 * 3.2) / (5/8)",
+    "choices": [
+      "0.64",
+      "1.25",
+      "0.32",
+      "0.80"
+    ],
+    "answer": "0.64",
+    "explanation": "0.125 = 1/8. (1/8 * 3.2) = 0.4. 5/8 = 0.625. 0.4 / 0.625 = 400/625 = 16/25 = 0.64."
+  },
+  {
+    "id": "num_103",
+    "question": "A train leaves Manila for Baguio at 60 km/h. Two hours later, a second train leaves Manila for Baguio on a parallel track at 90 km/h. How far from Manila will the second train overtake the first?",
+    "choices": [
+      "180 km",
+      "240 km",
+      "300 km",
+      "360 km"
+    ],
+    "answer": "360 km",
+    "explanation": "First train has a 120 km head start. Relative speed = 90 - 60 = 30 km/h. Time to catch up = 120 / 30 = 4 hours. Distance = 90 km/h * 4 hours = 360 km."
+  },
+  {
+    "id": "num_104",
+    "question": "What is the sum of the first 20 terms of the arithmetic progression: 3, 7, 11, 15, ...?",
+    "choices": [
+      "780",
+      "820",
+      "860",
+      "900"
+    ],
+    "answer": "820",
+    "explanation": "Sum = n/2 * (2a + (n-1)d), where n=20, a=3, d=4. Sum = 10 * (6 + (19)4) = 10 * (6 + 76) = 10 * 82 = 820."
+  },
+  {
+    "id": "num_105",
+    "question": "A box contains 5 red balls, 4 blue balls, and 3 green balls. If two balls are drawn at random without replacement, what is the probability that both are red?",
+    "choices": [
+      "5/33",
+      "25/144",
+      "5/12",
+      "10/33"
+    ],
+    "answer": "5/33",
+    "explanation": "P(1st Red) = 5/12. P(2nd Red) = 4/11. P(Both Red) = (5/12) * (4/11) = 20/132 = 5/33."
+  },
+  {
+    "id": "num_106",
+    "question": "A merchant marks up his goods by 40% above cost, but allows a 15% discount for cash payments. What is his net profit percentage?",
+    "choices": [
+      "25%",
+      "19%",
+      "21%",
+      "15%"
+    ],
+    "answer": "19%",
+    "explanation": "Let cost = 100. Marked price = 140. Selling price after discount = 140 - (0.15 * 140) = 140 - 21 = 119. Profit = 119 - 100 = 19%."
+  },
+  {
+    "id": "num_107",
+    "question": "A certain amount is divided among P, Q, and R in the ratio of 3:5:8. If R receives P4,000 more than P, what is the total amount distributed?",
+    "choices": [
+      "P12,000",
+      "P12,800",
+      "P16,000",
+      "P10,000"
+    ],
+    "answer": "P12,800",
+    "explanation": "Let their shares be 3x, 5x, 8x. R's share - P's share = 8x - 3x = 5x. We know 5x = 4,000, so x = 800. Total amount = 3x + 5x + 8x = 16x. 16 * 800 = 12,800."
+  },
+  {
+    "id": "num_108",
+    "question": "Find the compound interest on P20,000 for 2 years at 10% per annum compounded annually.",
+    "choices": [
+      "P4,000",
+      "P4,200",
+      "P4,400",
+      "P4,500"
+    ],
+    "answer": "P4,200",
+    "explanation": "Amount = P(1 + r/100)^n = 20000(1.10)^2 = 20000(1.21) = 24200. Compound Interest = 24200 - 20000 = P4,200."
+  },
+  {
+    "id": "num_109",
+    "question": "If x - y = 8 and xy = -15, what is the value of x^2 + y^2?",
+    "choices": [
+      "34",
+      "64",
+      "94",
+      "124"
+    ],
+    "answer": "34",
+    "explanation": "(x - y)^2 = x^2 - 2xy + y^2. So, 8^2 = x^2 + y^2 - 2(-15). 64 = x^2 + y^2 + 30. x^2 + y^2 = 34."
+  },
+  {
+    "id": "num_110",
+    "question": "A man can row 15 km/h in still water. If it takes him twice as long to row up the river as to row down the river, find the rate of the stream.",
+    "choices": [
+      "3 km/h",
+      "5 km/h",
+      "7.5 km/h",
+      "10 km/h"
+    ],
+    "answer": "5 km/h",
+    "explanation": "Let speed of stream = s. Time up = Distance / (15 - s). Time down = Distance / (15 + s). Given Time up = 2 * Time down, so 1/(15 - s) = 2/(15 + s). 15 + s = 30 - 2s -> 3s = 15 -> s = 5."
+  },
+  {
+    "id": "num_111",
+    "question": "In a class, the average score of 20 boys is 75 and the average score of 30 girls is 80. What is the average score of the whole class?",
+    "choices": [
+      "77.5",
+      "78",
+      "78.5",
+      "79"
+    ],
+    "answer": "78",
+    "explanation": "Total score of boys = 20 * 75 = 1500. Total score of girls = 30 * 80 = 2400. Total score = 3900. Total students = 50. Average = 3900 / 50 = 78."
+  },
+  {
+    "id": "num_112",
+    "question": "If the price of gasoline increases by 25%, by what percentage must a car owner reduce his consumption so that his expenditure on gasoline remains the same?",
+    "choices": [
+      "20%",
+      "25%",
+      "33.33%",
+      "16.67%"
+    ],
+    "answer": "20%",
+    "explanation": "Reduction % = [R / (100 + R)] * 100 = [25 / 125] * 100 = (1/5) * 100 = 20%."
+  },
+  {
+    "id": "num_113",
+    "question": "A merchant sells an item for ₱2,400, incurring a loss of 20%. At what price should he sell it to gain a 20% profit?",
+    "choices": [
+      "₱3,000",
+      "₱3,200",
+      "₱3,600",
+      "₱4,000"
+    ],
+    "answer": "₱3,600",
+    "explanation": "Let Cost Price = CP. CP x 0.80 = 2400. CP = 3000. For a 20% profit: 3000 x 1.20 = 3600."
+  },
+  {
+    "id": "num_114",
+    "question": "Working together, A and B can finish a project in 12 days. A alone can finish it in 20 days. How many days will it take for B to finish the project alone?",
+    "choices": [
+      "24 days",
+      "30 days",
+      "36 days",
+      "40 days"
+    ],
+    "answer": "30 days",
+    "explanation": "Rate of A+B = 1/12. Rate of A = 1/20. Rate of B = 1/12 - 1/20 = 5/60 - 3/60 = 2/60 = 1/30. B takes 30 days."
+  },
+  {
+    "id": "num_115",
+    "question": "A jar contains a mixture of milk and water in the ratio 5:3. If 16 liters of the mixture are removed and replaced with 16 liters of water, the new ratio becomes 3:5. What was the initial amount of milk in the jar?",
+    "choices": [
+      "20 liters",
+      "25 liters",
+      "30 liters",
+      "40 liters"
+    ],
+    "answer": "25 liters",
+    "explanation": "Let total volume be V. Initial milk = 5/8 V. After replacing 16L with water, Milk = 5/8(V - 16). New ratio milk is 3/8 V. 5/8(V - 16) = 3/8 V -> 5V - 80 = 3V -> 2V = 80 -> V = 40L. Initial milk = 5/8(40) = 25 liters."
+  },
+  {
+    "id": "num_116",
+    "question": "A train 150 meters long is running at 72 km/h. How long will it take to cross a bridge that is 250 meters long?",
+    "choices": [
+      "15 seconds",
+      "20 seconds",
+      "25 seconds",
+      "30 seconds"
+    ],
+    "answer": "20 seconds",
+    "explanation": "Total distance = 150m + 250m = 400m. Speed = 72 km/h = 72 x (5/18) m/s = 20 m/s. Time = Distance / Speed = 400 / 20 = 20 seconds."
+  },
+  {
+    "id": "num_117",
+    "question": "The sum of the ages of a mother and daughter is 50 years. Five years ago, the mother's age was 7 times the daughter's age. What is the present age of the mother?",
+    "choices": [
+      "35",
+      "38",
+      "40",
+      "42"
+    ],
+    "answer": "40",
+    "explanation": "Let mother's age = M, daughter's age = D. M + D = 50. Five years ago: M - 5 = 7(D - 5). Substitute M = 50 - D: 45 - D = 7D - 35. 8D = 80, D = 10. M = 40."
+  },
+  {
+    "id": "num_118",
+    "question": "The marked price of an article is 30% above its cost price. If a discount of 10% is given on the marked price, what is the profit percentage?",
+    "choices": [
+      "15%",
+      "17%",
+      "18%",
+      "20%"
+    ],
+    "answer": "17%",
+    "explanation": "Let Cost Price = 100. Marked Price = 130. Discount = 10% of 130 = 13. Selling Price = 130 - 13 = 117. Profit = 117 - 100 = 17%."
+  },
+  {
+    "id": "num_119",
+    "question": "Find the greatest number that will divide 43, 91, and 183 so as to leave the same remainder in each case.",
+    "choices": [
+      "4",
+      "7",
+      "9",
+      "13"
+    ],
+    "answer": "4",
+    "explanation": "Find the HCF of the differences: (91-43), (183-91), (183-43) -> HCF of 48, 92, 140. The HCF of 48, 92, 140 is 4. Thus, 4 is the greatest number."
+  },
+  {
+    "id": "num_120",
+    "question": "The population of a town increases by 5% annually. If its present population is 44,100, what was its population 2 years ago?",
+    "choices": [
+      "40,000",
+      "41,000",
+      "42,000",
+      "43,000"
+    ],
+    "answer": "40,000",
+    "explanation": "P(1 + r/100)^2 = 44100. P(1.05)^2 = 44100. P(1.1025) = 44100. P = 44100 / 1.1025 = 40,000."
+  },
+  {
+    "id": "num_121",
+    "question": "If 15 men can build a wall in 24 days, how many more men are required to build the same wall in 18 days?",
+    "choices": [
+      "4",
+      "5",
+      "10",
+      "20"
+    ],
+    "answer": "5",
+    "explanation": "Work = Men x Days = 15 x 24 = 360 man-days. Let total men for 18 days be M. M x 18 = 360 -> M = 20. Extra men required = 20 - 15 = 5."
+  },
+  {
+    "id": "num_122",
+    "question": "A man covers half of his journey at 30 km/h and the remaining half at 40 km/h. What is his average speed for the whole journey?",
+    "choices": [
+      "34.28 km/h",
+      "35 km/h",
+      "36 km/h",
+      "38.5 km/h"
+    ],
+    "answer": "34.28 km/h",
+    "explanation": "Average speed for equal distances = (2xy) / (x + y) = (2 * 30 * 40) / (30 + 40) = 2400 / 70 = 34.28 km/h."
+  },
+  {
+    "id": "num_123",
+    "question": "Three solid metallic cubes of edges 3 cm, 4 cm, and 5 cm are melted to form a single solid cube. What is the edge of the new cube?",
+    "choices": [
+      "6 cm",
+      "7 cm",
+      "8 cm",
+      "9 cm"
+    ],
+    "answer": "6 cm",
+    "explanation": "Volume of new cube = 3^3 + 4^3 + 5^3 = 27 + 64 + 125 = 216. Edge = CubeRoot(216) = 6 cm."
+  },
+  {
+    "id": "num_124",
+    "question": "In a class of 60 students, 40% are girls. If the average weight of the boys is 60 kg and the average weight of the girls is 50 kg, what is the average weight of the entire class?",
+    "choices": [
+      "54 kg",
+      "55 kg",
+      "56 kg",
+      "58 kg"
+    ],
+    "answer": "56 kg",
+    "explanation": "Girls = 0.40 * 60 = 24. Boys = 36. Total weight = (24 * 50) + (36 * 60) = 1200 + 2160 = 3360. Average = 3360 / 60 = 56 kg."
+  },
+  {
+    "id": "num_125",
+    "question": "A sum of money placed at compound interest doubles itself in 4 years. In how many years will it amount to eight times itself?",
+    "choices": [
+      "8 years",
+      "12 years",
+      "16 years",
+      "24 years"
+    ],
+    "answer": "12 years",
+    "explanation": "P(1+r)^4 = 2P -> (1+r)^4 = 2. We want P(1+r)^t = 8P -> (1+r)^t = 2^3. Substituting: ((1+r)^4)^3 = 2^3 -> (1+r)^12 = 8. So t = 12 years."
+  },
+  {
+    "id": "num_126",
+    "question": "What is the probability of getting a sum of 9 from two throws of a standard 6-sided dice?",
+    "choices": [
+      "1/6",
+      "1/8",
+      "1/9",
+      "1/12"
+    ],
+    "answer": "1/9",
+    "explanation": "Favorable outcomes for 9: (3,6), (4,5), (5,4), (6,3). That is 4 outcomes. Total possible outcomes = 36. Probability = 4/36 = 1/9."
+  },
+  {
+    "id": "num_127",
+    "question": "If the radius of a circle is increased by 50%, by what percent does its area increase?",
+    "choices": [
+      "50%",
+      "100%",
+      "125%",
+      "225%"
+    ],
+    "answer": "125%",
+    "explanation": "Let original radius = 10, Area = 100π. New radius = 15, New Area = 225π. Increase = (225π - 100π) / 100π = 125%."
+  },
+  {
+    "id": "num_128",
+    "question": "Simplify: (4^3 x 8^2) / 16^2",
+    "choices": [
+      "16",
+      "32",
+      "64",
+      "128"
+    ],
+    "answer": "16",
+    "explanation": "Convert to base 2. 4^3 = (2^2)^3 = 2^6. 8^2 = (2^3)^2 = 2^6. Numerator = 2^12. Denominator = 16^2 = (2^4)^2 = 2^8. Result = 2^12 / 2^8 = 2^4 = 16."
+  },
+  {
+    "id": "num_129",
+    "question": "A vendor bought bananas at 6 for ₱10 and sold them at 4 for ₱10. Find his gain or loss percent.",
+    "choices": [
+      "25% gain",
+      "33.33% gain",
+      "50% gain",
+      "20% loss"
+    ],
+    "answer": "50% gain",
+    "explanation": "Cost price of 1 banana = 10/6 = ₱1.67. Selling price of 1 banana = 10/4 = ₱2.50. Profit = 2.50 - 1.67 = 0.833. Profit % = (0.833 / 1.67) * 100 = 50%."
+  },
+  {
+    "id": "num_130",
+    "question": "Two pipes A and B can fill a tank in 20 minutes and 30 minutes respectively. If both are opened together, how much time will they take to fill the tank?",
+    "choices": [
+      "10 mins",
+      "12 mins",
+      "15 mins",
+      "25 mins"
+    ],
+    "answer": "12 mins",
+    "explanation": "Combined rate = 1/20 + 1/30 = 3/60 + 2/60 = 5/60 = 1/12. Time = 12 minutes."
+  },
+  {
+    "id": "num_131",
+    "question": "Find the 10th term in the series: 2, 6, 18, 54, ...",
+    "choices": [
+      "13122",
+      "39366",
+      "118098",
+      "1024"
+    ],
+    "answer": "39366",
+    "explanation": "This is a geometric progression with a = 2, r = 3. 10th term = a * r^(n-1) = 2 * 3^9 = 2 * 19683 = 39366."
+  },
+  {
+    "id": "num_132",
+    "question": "The average of 5 consecutive odd numbers is 27. What is the product of the first and the last number?",
+    "choices": [
+      "621",
+      "667",
+      "713",
+      "725"
+    ],
+    "answer": "713",
+    "explanation": "The middle number is the average, so the numbers are 23, 25, 27, 29, 31. Product of first and last = 23 * 31 = 713."
+  },
+  {
+    "id": "num_133",
+    "question": "The difference between simple interest and compound interest on a certain sum of money for 2 years at 5% per annum is ₱15. What is the sum?",
+    "choices": [
+      "₱5,000",
+      "₱6,000",
+      "₱7,500",
+      "₱8,000"
+    ],
+    "answer": "₱6,000",
+    "explanation": "Formula for 2 years difference: D = P(r/100)^2. 15 = P(5/100)^2 = P(1/400). P = 15 * 400 = 6000."
+  },
+  {
+    "id": "num_134",
+    "question": "A mixture of 40 liters of milk and water contains 10% water. How much water must be added to make it 20% water in the new mixture?",
+    "choices": [
+      "3 liters",
+      "4 liters",
+      "5 liters",
+      "6 liters"
+    ],
+    "answer": "5 liters",
+    "explanation": "Initial water = 4L, Milk = 36L. Let x be added water. (4 + x) / (40 + x) = 20 / 100 = 1/5. 20 + 5x = 40 + x. 4x = 20. x = 5 liters."
+  },
+  {
+    "id": "num_135",
+    "question": "A 100m long train is moving at 50 km/h. A person is walking in the opposite direction at 4 km/h. How long will the train take to cross the person?",
+    "choices": [
+      "5.5 seconds",
+      "6.6 seconds",
+      "7.2 seconds",
+      "8 seconds"
+    ],
+    "answer": "6.6 seconds",
+    "explanation": "Relative speed = 50 + 4 = 54 km/h = 54 * 5/18 = 15 m/s. Distance = 100m. Time = 100 / 15 = 6.66 seconds. Round to 6.6 or 6.67."
+  },
+  {
+    "id": "num_136",
+    "question": "In a company, 60% of the employees are male. If 30% of the males and 20% of the females are engineers, what percentage of the total employees are engineers?",
+    "choices": [
+      "24%",
+      "26%",
+      "30%",
+      "36%"
+    ],
+    "answer": "26%",
+    "explanation": "Let total = 100. Males = 60, Females = 40. Male engineers = 30% of 60 = 18. Female engineers = 20% of 40 = 8. Total engineers = 18 + 8 = 26%."
+  },
+  {
+    "id": "num_137",
+    "question": "What is the least common multiple (LCM) of 12, 15, and 20?",
+    "choices": [
+      "60",
+      "120",
+      "180",
+      "240"
+    ],
+    "answer": "60",
+    "explanation": "The smallest number divisible by 12, 15, and 20 is 60."
+  },
+  {
+    "id": "num_138",
+    "question": "The diagonal of a square is 10 cm. What is its area?",
+    "choices": [
+      "25 cm²",
+      "50 cm²",
+      "75 cm²",
+      "100 cm²"
+    ],
+    "answer": "50 cm²",
+    "explanation": "Area of a square = (d^2) / 2 = (10^2) / 2 = 100 / 2 = 50 cm²."
+  },
+  {
+    "id": "num_139",
+    "question": "A number is increased by 20% and then decreased by 20%. What is the net percentage change?",
+    "choices": [
+      "0% change",
+      "4% increase",
+      "4% decrease",
+      "8% decrease"
+    ],
+    "answer": "4% decrease",
+    "explanation": "Net change = +20 - 20 + (20)(-20)/100 = -4%."
+  },
+  {
+    "id": "num_140",
+    "question": "Two numbers are in the ratio 3:5. If 9 is subtracted from each, the new ratio becomes 12:23. What is the smaller number?",
+    "choices": [
+      "27",
+      "33",
+      "36",
+      "45"
+    ],
+    "answer": "33",
+    "explanation": "Let numbers be 3x and 5x. (3x - 9) / (5x - 9) = 12 / 23. 69x - 207 = 60x - 108. 9x = 99 -> x = 11. Smaller number = 3(11) = 33."
+  },
+  {
+    "id": "num_141",
+    "question": "If A = 2B and B = 3C, find the ratio of A:B:C.",
+    "choices": [
+      "2:3:1",
+      "6:3:1",
+      "1:3:6",
+      "3:2:1"
+    ],
+    "answer": "6:3:1",
+    "explanation": "Let C = 1. Then B = 3. A = 2(3) = 6. Ratio is 6:3:1."
+  },
+  {
+    "id": "num_142",
+    "question": "A boat goes 24 km upstream and 28 km downstream in 6 hours. It goes 30 km upstream and 21 km downstream in 6.5 hours. What is the speed of the boat in still water?",
+    "choices": [
+      "8 km/h",
+      "10 km/h",
+      "12 km/h",
+      "14 km/h"
+    ],
+    "answer": "10 km/h",
+    "explanation": "Let upstream speed = U, downstream = D. 24/U + 28/D = 6. 30/U + 21/D = 6.5. Solving gives U = 6, D = 14. Speed of boat = (U + D)/2 = 20/2 = 10 km/h."
+  },
+  {
+    "id": "num_143",
+    "question": "A shopkeeper sells two items at ₱990 each. On one, he gains 10%, and on the other, he loses 10%. What is his overall gain or loss percentage?",
+    "choices": [
+      "1% loss",
+      "1% gain",
+      "No profit no loss",
+      "2% loss"
+    ],
+    "answer": "1% loss",
+    "explanation": "When selling two items at the same price with equal profit/loss %, there is always a loss: (x^2)/100 % = 10^2 / 100 = 1% loss."
+  },
+  {
+    "id": "num_144",
+    "question": "Solve for y: 2^(y+1) - 2^y = 16",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "2^y * (2 - 1) = 16. 2^y = 16. 2^y = 2^4, so y = 4."
+  },
+  {
+    "id": "num_145",
+    "question": "A person has some hens and cows. If the number of heads is 48 and the number of feet is 140, how many hens are there?",
+    "choices": [
+      "22",
+      "24",
+      "26",
+      "28"
+    ],
+    "answer": "26",
+    "explanation": "Let hens = h, cows = c. h + c = 48. 2h + 4c = 140. Multiply first by 2: 2h + 2c = 96. Subtract from second: 2c = 44 -> c = 22. Hens = 48 - 22 = 26."
+  },
+  {
+    "id": "num_146",
+    "question": "A clock is started at noon. By 10 minutes past 5, the hour hand has turned through:",
+    "choices": [
+      "145°",
+      "150°",
+      "155°",
+      "160°"
+    ],
+    "answer": "155°",
+    "explanation": "The hour hand turns 360° in 12 hours (720 minutes). In 1 minute it turns 0.5°. From 12:00 to 5:10 is 310 minutes. 310 * 0.5° = 155°."
+  },
+  {
+    "id": "num_147",
+    "question": "A man buys a cycle for ₱1,400 and sells it at a loss of 15%. What is the selling price of the cycle?",
+    "choices": [
+      "₱1,090",
+      "₱1,160",
+      "₱1,190",
+      "₱1,202"
+    ],
+    "answer": "₱1,190",
+    "explanation": "Loss = 15% of 1400 = 210. Selling price = 1400 - 210 = 1,190."
+  },
+  {
+    "id": "num_148",
+    "question": "Find the ratio in which rice at ₱7.20 a kg be mixed with rice at ₱5.70 a kg to produce a mixture worth ₱6.30 a kg.",
+    "choices": [
+      "1:3",
+      "2:3",
+      "3:4",
+      "4:5"
+    ],
+    "answer": "2:3",
+    "explanation": "Using alligation: Cost of dearer (7.20) - Mean (6.30) = 0.90. Mean (6.30) - Cost of cheaper (5.70) = 0.60. Ratio = 0.60 : 0.90 = 2:3."
+  },
+  {
+    "id": "num_149",
+    "question": "Identify the missing number in the sequence: 2, 5, 11, 23, 47, ___",
+    "choices": [
+      "91",
+      "93",
+      "95",
+      "97"
+    ],
+    "answer": "95",
+    "explanation": "The pattern involves multiplying the previous number by 2 and adding 1. (2 x 2) + 1 = 5. (5 x 2) + 1 = 11. (23 x 2) + 1 = 47. Therefore, (47 x 2) + 1 = 95."
+  },
+  {
+    "id": "num_150",
+    "question": "A father is 3 times as old as his daughter. In 12 years, he will be twice as old as his daughter. What is the present age of the daughter?",
+    "choices": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "answer": "12",
+    "explanation": "Let daughter's age = D, father's age = F. F = 3D. In 12 years: F + 12 = 2(D + 12). Substitute F: 3D + 12 = 2D + 24. D = 12."
+  },
+  {
+    "id": "num_151",
+    "question": "Person A can complete a task in 10 days, while Person B can complete the same task in 15 days. If they work together, how many days will it take them to finish the task?",
+    "choices": [
+      "5 days",
+      "6 days",
+      "8 days",
+      "25 days"
+    ],
+    "answer": "6 days",
+    "explanation": "A's rate = 1/10. B's rate = 1/15. Combined rate = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6. It takes 6 days together."
+  },
+  {
+    "id": "num_152",
+    "question": "If 3/4 of 1/2 of a certain number is 24, what is the number?",
+    "choices": [
+      "48",
+      "64",
+      "72",
+      "96"
+    ],
+    "answer": "64",
+    "explanation": "(3/4) * (1/2) * x = 24. (3/8) * x = 24. x = (24 * 8) / 3 = 192 / 3 = 64."
+  },
+  {
+    "id": "num_153",
+    "question": "Evaluate the decimal operation: (0.05 * 0.4) / 0.02",
+    "choices": [
+      "0.1",
+      "1",
+      "10",
+      "100"
+    ],
+    "answer": "1",
+    "explanation": "0.05 * 0.4 = 0.020. Then, 0.02 / 0.02 = 1."
+  },
+  {
+    "id": "num_154",
+    "question": "A 25% discount on a jacket reduces its price by ₱150. What was the original price of the jacket?",
+    "choices": [
+      "₱450",
+      "₱500",
+      "₱600",
+      "₱750"
+    ],
+    "answer": "₱600",
+    "explanation": "Let original price = P. 0.25 * P = 150. P = 150 / 0.25 = 600."
+  },
+  {
+    "id": "num_155",
+    "question": "The ratio of boys to girls in a classroom is 4:5. If there are 36 students in total, how many are girls?",
+    "choices": [
+      "16",
+      "20",
+      "24",
+      "25"
+    ],
+    "answer": "20",
+    "explanation": "Total ratio units = 4 + 5 = 9. Value of 1 unit = 36 / 9 = 4. Number of girls = 5 units * 4 = 20."
+  },
+  {
+    "id": "num_156",
+    "question": "The average score of 4 students is 85. If three of the students scored 80, 90, and 85, what did the 4th student score?",
+    "choices": [
+      "80",
+      "85",
+      "90",
+      "95"
+    ],
+    "answer": "85",
+    "explanation": "Total sum = 85 * 4 = 340. Sum of three = 80 + 90 + 85 = 255. Fourth score = 340 - 255 = 85."
+  },
+  {
+    "id": "num_157",
+    "question": "Using the order of operations (PEMDAS), evaluate: 12 + 4 x 3 - 6 ÷ 2",
+    "choices": [
+      "15",
+      "21",
+      "27",
+      "18"
+    ],
+    "answer": "21",
+    "explanation": "First Multiplication and Division: 12 + 12 - 3. Then Addition and Subtraction: 24 - 3 = 21."
+  },
+  {
+    "id": "num_158",
+    "question": "If 8 identical pens cost ₱120, how much would 15 of these pens cost?",
+    "choices": [
+      "₱200",
+      "₱225",
+      "₱240",
+      "₱250"
+    ],
+    "answer": "₱225",
+    "explanation": "Cost per pen = 120 / 8 = ₱15. Cost for 15 pens = 15 * 15 = ₱225."
+  },
+  {
+    "id": "num_159",
+    "question": "20 liters of a 10% salt solution is mixed with 30 liters of a 20% salt solution. What is the salt percentage of the final mixture?",
+    "choices": [
+      "14%",
+      "15%",
+      "16%",
+      "18%"
+    ],
+    "answer": "16%",
+    "explanation": "Salt in first = 0.10 * 20 = 2L. Salt in second = 0.20 * 30 = 6L. Total salt = 8L. Total volume = 50L. Percentage = (8 / 50) * 100 = 16%."
+  },
+  {
+    "id": "num_160",
+    "question": "The area of a rectangle is 48 square units. If its length is three times its width, what is the perimeter of the rectangle?",
+    "choices": [
+      "24",
+      "28",
+      "32",
+      "36"
+    ],
+    "answer": "32",
+    "explanation": "Area = L * W. Since L = 3W, 3W * W = 48. 3W² = 48, W² = 16, W = 4. Length = 12. Perimeter = 2(L + W) = 2(12 + 4) = 32."
+  },
+  {
+    "id": "num_161",
+    "question": "A car travels 150 kilometers in 2.5 hours. What is its average speed?",
+    "choices": [
+      "50 km/h",
+      "55 km/h",
+      "60 km/h",
+      "65 km/h"
+    ],
+    "answer": "60 km/h",
+    "explanation": "Speed = Distance / Time = 150 / 2.5 = 60 km/h."
+  },
+  {
+    "id": "num_162",
+    "question": "The average of 3 consecutive even integers is 24. What is the largest of these integers?",
+    "choices": [
+      "24",
+      "26",
+      "28",
+      "30"
+    ],
+    "answer": "26",
+    "explanation": "For an odd number of consecutive integers, the average is the middle number. So the numbers are 22, 24, 26. The largest is 26."
+  },
+  {
+    "id": "num_163",
+    "question": "What is 15% of 30% of 400?",
+    "choices": [
+      "12",
+      "18",
+      "24",
+      "36"
+    ],
+    "answer": "18",
+    "explanation": "30% of 400 = 120. 15% of 120 = 0.15 * 120 = 18. Alternatively: 0.15 * 0.30 * 400 = 18."
+  },
+  {
+    "id": "num_164",
+    "question": "Find the Least Common Multiple (LCM) of 8, 12, and 18.",
+    "choices": [
+      "36",
+      "48",
+      "72",
+      "144"
+    ],
+    "answer": "72",
+    "explanation": "Multiples of 18 are 18, 36, 54, 72. 72 is divisible by both 8 (8x9) and 12 (12x6). Thus, LCM is 72."
+  },
+  {
+    "id": "num_165",
+    "question": "Identify the missing number in the sequence: 10, 9, 7, 4, 0, ___",
+    "choices": [
+      "-3",
+      "-4",
+      "-5",
+      "-6"
+    ],
+    "answer": "-5",
+    "explanation": "The differences are decreasing by 1 each time: -1, -2, -3, -4. The next difference is -5. So, 0 - 5 = -5."
+  },
+  {
+    "id": "num_166",
+    "question": "A water tank is 1/4 full. After adding 15 liters of water, it becomes 5/8 full. What is the total capacity of the tank?",
+    "choices": [
+      "30 liters",
+      "40 liters",
+      "50 liters",
+      "60 liters"
+    ],
+    "answer": "40 liters",
+    "explanation": "Let capacity = C. (5/8)C - (1/4)C = 15. Convert 1/4 to 2/8. (3/8)C = 15. C = (15 * 8) / 3 = 40."
+  },
+  {
+    "id": "num_167",
+    "question": "A shirt originally costs ₱800. It is marked up by 20%, and then a 10% discount is applied to the new price. What is the final selling price?",
+    "choices": [
+      "₱840",
+      "₱864",
+      "₱880",
+      "₱960"
+    ],
+    "answer": "₱864",
+    "explanation": "Markup: 800 * 1.20 = 960. Discount: 960 * 0.90 = 864."
+  },
+  {
+    "id": "num_168",
+    "question": "Five years ago, Alex was half of Ben's age. Today, the sum of their ages is 40. What is Alex's present age?",
+    "choices": [
+      "12",
+      "15",
+      "18",
+      "20"
+    ],
+    "answer": "15",
+    "explanation": "A + B = 40. Five years ago: (A - 5) = 1/2 * (B - 5). Substitute B = 40 - A: A - 5 = 1/2 * (35 - A). 2A - 10 = 35 - A. 3A = 45. A = 15."
+  },
+  {
+    "id": "num_169",
+    "question": "Working together, X and Y can finish a project in 4 days. If X alone takes 12 days to finish it, how many days would it take Y to finish it alone?",
+    "choices": [
+      "6 days",
+      "8 days",
+      "10 days",
+      "16 days"
+    ],
+    "answer": "6 days",
+    "explanation": "Combined rate = 1/4. X's rate = 1/12. Y's rate = 1/4 - 1/12 = 3/12 - 1/12 = 2/12 = 1/6. Therefore, Y takes 6 days."
+  },
+  {
+    "id": "num_170",
+    "question": "If the circumference of a circle is 20π, what is its area?",
+    "choices": [
+      "10π",
+      "50π",
+      "100π",
+      "400π"
+    ],
+    "answer": "100π",
+    "explanation": "Circumference = 2πr = 20π, so r = 10. Area = πr² = π(10²) = 100π."
+  },
+  {
+    "id": "num_171",
+    "question": "Convert the fraction 5/8 into a decimal.",
+    "choices": [
+      "0.525",
+      "0.625",
+      "0.725",
+      "0.825"
+    ],
+    "answer": "0.625",
+    "explanation": "5 divided by 8 is 0.625. Alternatively, multiply numerator and denominator by 125 to get 625/1000 = 0.625."
+  },
+  {
+    "id": "num_172",
+    "question": "On a map, 1 cm represents 50 km. What is the actual distance between two cities that are 3.5 cm apart on the map?",
+    "choices": [
+      "150 km",
+      "165 km",
+      "175 km",
+      "185 km"
+    ],
+    "answer": "175 km",
+    "explanation": "Set up a proportion: 1 / 50 = 3.5 / X. X = 3.5 * 50 = 175 km."
+  },
+  {
+    "id": "num_173",
+    "question": "The product of two consecutive odd numbers is 143. What is the smaller number?",
+    "choices": [
+      "9",
+      "11",
+      "13",
+      "15"
+    ],
+    "answer": "11",
+    "explanation": "Let the numbers be x and x+2. x(x+2) = 143. The square root of 143 is close to 12. 11 * 13 = 143. The smaller number is 11."
+  },
+  {
+    "id": "num_174",
+    "question": "The price of a commodity increases from ₱50 to ₱60. What is the percentage increase?",
+    "choices": [
+      "10%",
+      "15%",
+      "20%",
+      "25%"
+    ],
+    "answer": "20%",
+    "explanation": "Increase = 60 - 50 = 10. Percentage increase = (Increase / Original) * 100 = (10 / 50) * 100 = 20%."
+  },
+  {
+    "id": "num_175",
+    "question": "The average weight of 10 students is 45 kg. When the teacher's weight is included, the average becomes 47 kg. What is the teacher's weight?",
+    "choices": [
+      "60 kg",
+      "65 kg",
+      "67 kg",
+      "70 kg"
+    ],
+    "answer": "67 kg",
+    "explanation": "Total weight of students = 10 * 45 = 450. Total weight with teacher = 11 * 47 = 517. Teacher's weight = 517 - 450 = 67 kg."
   }
 ]
