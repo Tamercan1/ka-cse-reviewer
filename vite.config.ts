@@ -12,6 +12,7 @@ export default defineConfig({
         vocabulary: resolve(__dirname, 'pages/vocabulary.html'),
         vocabQuiz: resolve(__dirname, 'pages/vocab-quiz.html'),
         dashboard: resolve(__dirname, 'pages/dashboard.html'),
+        about: resolve(__dirname, 'pages/about.html'),
       },
     },
   },

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-slate-50">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Creator - Ka-CSE Reviewer</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        blue: {
+                            50: '#faf5ff',
+                            100: '#f3e8ff',
+                            200: '#e9d5ff',
+                            300: '#d8b4fe',
+                            400: '#c084fc',
+                            500: '#a855f7',
+                            600: '#9333ea',
+                            700: '#7e22ce',
+                            800: '#6b21a8',
+                            900: '#581c87'
+                        },
+                        indigo: {
+                            50: '#f5f3ff',
+                            100: '#ede9fe',
+                            200: '#ddd6fe',
+                            300: '#c7d2fe',
+                            400: '#a5b4fc',
+                            500: '#818cf8',
+                            600: '#6366f1',
+                            700: '#4f46e5',
+                            800: '#4338ca',
+                            900: '#3730a3'
+                        },
+                        violet: {
+                            50: '#fdf4ff',
+                            100: '#fae8ff',
+                            200: '#f5d0fe',
+                            300: '#f0abfc',
+                            400: '#e879f9',
+                            500: '#d946ef',
+                            600: '#c026d3',
+                            700: '#a21caf',
+                            800: '#86198f',
+                            900: '#701a75'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="flex flex-col min-h-full">
+
+    <!-- Navbar Placeholder -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content Container -->
+    <main class="flex-grow max-w-3xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
+
+        <div class="mb-6">
+            <a href="../index.html"
+                class="inline-flex items-center text-sm font-medium text-slate-500 hover:text-slate-800 transition-colors group">
+                <svg class="w-4 h-4 mr-1.5 text-slate-400 group-hover:text-slate-600 transition-colors" fill="none"
+                    stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                </svg>
+                Back to Home
+            </a>
+        </div>
+
+        <div class="bg-white border border-slate-200 rounded-2xl p-6 md:p-10 shadow-sm">
+            <h1 class="text-2xl md:text-3xl font-extrabold text-slate-800 mb-6 tracking-tight">About the Creator</h1>
+
+            <div class="prose prose-slate prose-blue max-w-none text-slate-600 space-y-5 leading-relaxed">
+                <p class="font-medium text-slate-800 text-lg">Hi, I'm Tamercan.</p>
+
+                <p>I'm a Computer Science student who built Ka-CSE Reviewer as a simple and accessible way to prepare
+                    for the Philippine Civil Service Examination.</p>
+
+                <p>I wanted a reviewer that focuses on what matters: practicing questions, learning from mistakes, and
+                    preparing consistently—without unnecessary barriers like accounts or paid subscriptions.</p>
+
+                <p>I also personally used this project as part of my own preparation and recently passed the Civil
+                    Service Professional Examination on my first
+                    attempt.</p>
+
+                <p>Ka-CSE Reviewer started as a personal project, but I decided to make it available to other aspiring
+                    Civil Service professionals who might find it useful.</p>
+
+                <p class="pt-2 font-medium text-slate-800">Good luck on your journey, future civil servant!</p>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Core App Script for About page -->
+    <script type="module" src="/src/pages/about.ts"></script>
+</body>
+
+</html>

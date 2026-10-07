@@ -1,4 +1,5 @@
 import { getElement } from '../utils/dom';
+
 export function isRootDirectory(): boolean {
   return window.location.pathname.endsWith('index.html') || window.location.pathname === '/';
 }
@@ -78,12 +79,21 @@ export function renderFooter(): void {
   const placeholder = getElement('footer-placeholder');
   if (!placeholder) return;
 
+  const isRoot = isRootDirectory();
+  const pagesPath = isRoot ? 'pages/' : '';
+
   const footerHTML = `
-    <footer class="bg-white border-t border-slate-200 mt-auto py-8 select-none">
+    <footer class="bg-white border-t border-slate-200 mt-auto py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:flex md:justify-between md:items-center">
-            <p class="text-sm text-slate-500">&copy; 2026 CSE Reviewer.</p>
-            <p class="text-sm text-slate-500">An independent reviewer for Civil Service Examination preparation.</p>
-            <p class="text-sm text-slate-400">Made by: Tamercan Wawa</p>
+            <div class="mb-4 md:mb-0">
+                <p class="text-sm text-slate-500">&copy; 2026 CSE Reviewer.</p>
+                <p class="text-xs text-slate-400 mt-1">An independent reviewer for Civil Service Examination preparation.</p>
+            </div>
+            <div class="flex items-center justify-center space-x-4 text-sm font-medium text-slate-500">
+                <a href="${pagesPath}about.html" class="hover:text-blue-600 transition-colors">About the Creator</a>
+                <span class="text-slate-300">&middot;</span>
+                <a href="https://github.com/Tamercan1/ka-cse-reviewer" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 transition-colors">GitHub</a>
+            </div>
         </div>
     </footer>
   `;
