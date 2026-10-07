@@ -1,56 +1,66 @@
 # Ka-CSE Reviewer
 
-Ka-CSE Reviewer is a student-friendly web application built to help Philippine Civil Service Examination (CSE) examinees practice, review, and track their progress.
+Ka-CSE Reviewer is a free, student-built web application designed to help Filipinos prepare for the **Philippine Civil Service Examination (CSE)** through focused practice, mock exams, and vocabulary exercises.
 
-It provides focused practice quizzes, a full exam simulator, daily vocabulary challenges, and browser-based progress persistence.
+The project started as a personal study tool while I was preparing for the CSE and eventually became a reviewer that I could share with other aspiring Civil Service professionals.
 
 **Live Demo:** https://kacsereviewer.netlify.app/
 
-## Features
+---
 
-* **Practice Mode** — Review specific CSE areas including Numerical, Verbal, Analytical, Clerical, and General Information.
-* **Full Exam Simulator** — Take a timed CSE simulation with question navigation, flagging, and randomized questions.
-* **Daily Vocabulary Challenge** — Practice vocabulary through daily synonym and antonym quizzes.
-* **Session Persistence** — Automatically saves quiz and exam progress using the browser's `LocalStorage` API.
-* **Performance Tracking** — Track scores, vocabulary progress, and previous exam results.
-* **Question Randomization** — Uses the Fisher-Yates shuffle algorithm to randomize questions during practice and exam simulations.
-* **Responsive Interface** — Designed for students to use across desktop and mobile devices.
-
-## Tech Stack
-
-* HTML5
-* JavaScript (ES6+)
-* Tailwind CSS
-* LocalStorage
-  
 ## Why I Built It
 
-I built Ka-CSE Reviewer while preparing for the Philippine Civil Service Examination.
+I built Ka-CSE Reviewer while preparing for the **Philippine Civil Service Examination**.
 
-I wanted a more convenient way to practice than relying entirely on static review materials, so I built a browser-based reviewer that combines practice questions, a full exam simulation, vocabulary exercises, and progress tracking in one place.
+I wanted a convenient way to practice without relying entirely on static review materials, so I built a browser-based reviewer that brings practice questions, exam simulation, vocabulary exercises, and progress tracking together in one place.
 
-The project was also an opportunity for me to practice building a complete frontend application with JavaScript, managing client-side state, working with structured data, and designing an application around an actual user need.
+What started as a personal project eventually became something I could share with classmates and other examinees preparing for the same exam.
 
-After deploying it, I shared the reviewer with classmates who used it for their own CSE preparation.
+I also used the reviewer as part of my own preparation and **passed the Civil Service Professional Examination on my first attempt.**
+
+---
 
 ## What I Learned
 
-This project helped me strengthen my understanding of:
+This project became one of my early opportunities to build software around a real-world problem rather than just a programming exercise.
+
+Through the project, I strengthened my understanding of:
 
 * JavaScript application logic and state management
 * DOM manipulation and event handling
 * Browser `LocalStorage`
-* Data organization and client-side persistence
+* Structured data and JSON
+* Client-side persistence
 * The Fisher-Yates shuffle algorithm
-* Building reusable UI and quiz components
+* Reusable UI and quiz components
+* Data validation and quality control
+* Responsive web development
 * Deploying a web application with Netlify
-* Designing software around a real-world use case
+* Designing software around an actual user need
 
-## Status
+More importantly, the project taught me that a useful application doesn't necessarily need to be complicated. Sometimes a simple tool that solves a real problem is enough.
 
-**Completed — v1**
+---
 
-The current version is a functional frontend-only CSE reviewer. Future improvements may include a backend, user accounts, cloud-based progress synchronization, and additional study features.
+## Project Status
+
+**Active — v1**
+
+Ka-CSE Reviewer is currently a frontend-only application with browser-based data and progress persistence.
+
+The question bank and content are actively being improved based on accuracy, relevance, difficulty, and coverage.
+
+Future versions may explore features such as:
+
+* Progressive Web App (PWA) support
+* Backend services
+* User accounts
+* Cloud-based progress synchronization
+* Additional study tools
+
+These features are intentionally not part of the current version. The focus remains on keeping the reviewer **simple, accessible, and useful**.
+
+---
 
 ## License
 
