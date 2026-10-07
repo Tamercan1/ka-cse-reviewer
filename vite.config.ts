@@ -15,8 +15,8 @@ export default defineConfig({
       },
     },
   },
-  // In development, serve the data directory as static assets
-  // so that fetch('../data/...') works from pages/ subdirectory
+  // In development, the public directory is served at the root path,
+  // so that fetch('../data/...') works from pages/ subdirectory.
   server: {
     // This is fine - Vite serves from project root by default
   },
