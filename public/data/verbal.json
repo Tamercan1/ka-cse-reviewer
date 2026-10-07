@@ -2,385 +2,660 @@
   {
     "id": "verb_1",
     "question": "Which word is a noun?",
-    "choices": ["Quickly", "Happiness", "Beautiful", "Sing"],
+    "choices": [
+      "Quickly",
+      "Happiness",
+      "Beautiful",
+      "Sing"
+    ],
     "answer": "Happiness",
     "explanation": "'Happiness' is an abstract noun representing an emotional state. The other options are an adverb (Quickly), an adjective (Beautiful), and a verb (Sing)."
   },
   {
     "id": "verb_2",
     "question": "Which noun is feminine in gender?",
-    "choices": ["Stallion", "Drake", "Mare", "Gander"],
+    "choices": [
+      "Stallion",
+      "Drake",
+      "Mare",
+      "Gander"
+    ],
     "answer": "Mare",
     "explanation": "A 'Mare' is a female horse. 'Stallion' is a male horse, 'Drake' is a male duck, and 'Gander' is a male goose."
   },
   {
     "id": "verb_3",
     "question": "What is the plural form of \"analysis\"?",
-    "choices": ["Analysises", "Analysises", "Analysi", "Analyses"],
+    "choices": [
+      "Analysises",
+      "Analysises",
+      "Analysi",
+      "Analyses"
+    ],
     "answer": "Analyses",
     "explanation": "Nouns ending in '-is' derived from Greek change to '-es' in their plural form. Therefore, the plural of analysis is analyses."
   },
   {
     "id": "verb_4",
     "question": "Which sentence contains a transitive verb?",
-    "choices": ["The baby slept peacefully.", "The birds fly south.", "Maria wrote a letter.", "The old man smiled."],
+    "choices": [
+      "The baby slept peacefully.",
+      "The birds fly south.",
+      "Maria wrote a letter.",
+      "The old man smiled."
+    ],
     "answer": "Maria wrote a letter.",
     "explanation": "A transitive verb requires a direct object to receive the action. In this sentence, 'wrote' is a transitive verb because it acts upon the direct object 'letter'."
   },
   {
     "id": "verb_5",
     "question": "Choose the sentence in the simple past tense.",
-    "choices": ["She writes poems.", "She was writing poems.", "She wrote poems.", "She has written poems."],
+    "choices": [
+      "She writes poems.",
+      "She was writing poems.",
+      "She wrote poems.",
+      "She has written poems."
+    ],
     "answer": "She wrote poems.",
     "explanation": "'She wrote poems' uses the simple past tense form of the irregular verb 'write'."
   },
   {
     "id": "verb_6",
     "question": "Which pronoun correctly completes the sentence?\nNeither Carlo nor his friends brought _____ notebooks.",
-    "choices": ["his", "their", "our", "your"],
+    "choices": [
+      "his",
+      "their",
+      "our",
+      "your"
+    ],
     "answer": "their",
     "explanation": "When compound subjects are connected by 'neither... nor', the pronoun must agree with the closer antecedent. Since 'friends' is plural, the plural pronoun 'their' is used."
   },
   {
     "id": "verb_7",
     "question": "Which word is an adjective?",
-    "choices": ["Carefully", "Bright", "Happily", "Swiftly"],
+    "choices": [
+      "Carefully",
+      "Bright",
+      "Happily",
+      "Swiftly"
+    ],
     "answer": "Bright",
     "explanation": "'Bright' is an adjective that can describe a noun. The other three choices are adverbs ending in '-ly'."
   },
   {
     "id": "verb_8",
     "question": "Which sentence uses the adverb correctly?",
-    "choices": ["She sings beautiful.", "She sings beautifully.", "She beautiful sings.", "She is beautifully singer."],
+    "choices": [
+      "She sings beautiful.",
+      "She sings beautifully.",
+      "She beautiful sings.",
+      "She is beautifully singer."
+    ],
     "answer": "She sings beautifully.",
     "explanation": "The adverb 'beautifully' correctly modifies the action verb 'sings'."
   },
   {
     "id": "verb_9",
     "question": "Which preposition best completes the sentence?\nThe students walked _____ the bridge.",
-    "choices": ["through", "across", "among", "beside"],
+    "choices": [
+      "through",
+      "across",
+      "among",
+      "beside"
+    ],
     "answer": "across",
     "explanation": "'Across' is the most logical preposition to indicate moving from one side of an elevated structure like a bridge to the other side."
   },
   {
     "id": "verb_10",
     "question": "Which conjunction best completes the sentence?\nI wanted to go, _____ I was too tired.",
-    "choices": ["because", "but", "or", "so"],
+    "choices": [
+      "because",
+      "but",
+      "or",
+      "so"
+    ],
     "answer": "but",
     "explanation": "The coordinating conjunction 'but' is used to connect two clauses with contrasting thoughts or realities."
   },
   {
     "id": "verb_11",
     "question": "Which article correctly completes the sentence?\nShe bought _____ umbrella yesterday.",
-    "choices": ["a", "an", "the", "no article"],
+    "choices": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
     "answer": "an",
     "explanation": "The word 'umbrella' begins with a vowel sound, so it takes the indefinite article 'an'."
   },
   {
     "id": "verb_12",
     "question": "Choose the sentence with correct subject-verb agreement.",
-    "choices": ["The list of names are on the table.", "The students in the room was noisy.", "Each of the players has a uniform.", "Many of the cake was eaten."],
+    "choices": [
+      "The list of names are on the table.",
+      "The students in the room was noisy.",
+      "Each of the players has a uniform.",
+      "Many of the cake was eaten."
+    ],
     "answer": "Each of the players has a uniform.",
     "explanation": "'Each' is an indefinite pronoun that is grammatically singular, so it correctly pairs with the singular verb 'has'."
   },
   {
     "id": "verb_13",
     "question": "Which sentence is correctly constructed?",
-    "choices": ["Running through the field, the flowers looked beautiful.", "The flowers looked beautiful as we ran through the field.", "The flowers, running through the field, looked beautiful.", "Through the field looked beautiful the flowers."],
+    "choices": [
+      "Running through the field, the flowers looked beautiful.",
+      "The flowers looked beautiful as we ran through the field.",
+      "The flowers, running through the field, looked beautiful.",
+      "Through the field looked beautiful the flowers."
+    ],
     "answer": "The flowers looked beautiful as we ran through the field.",
     "explanation": "This phrasing avoids the dangling modifier problem found in other options, making it clear that 'we' were the ones running through the field, not the flowers."
   },
   {
     "id": "verb_14",
     "question": "What is the meaning of the prefix \"inter-\"?",
-    "choices": ["Against", "Between", "Under", "Before"],
+    "choices": [
+      "Against",
+      "Between",
+      "Under",
+      "Before"
+    ],
     "answer": "Between",
     "explanation": "The Latin prefix 'inter-' means 'between', 'among', or 'amidst' (e.g., intermediate, international)."
   },
   {
     "id": "verb_15",
     "question": "Which sentence uses punctuation correctly?",
-    "choices": ["My favorite colors are red blue and green.", "My favorite colors are: red, blue, and green.", "My favorite colors are red; blue and green.", "My favorite colors are red blue; and green."],
+    "choices": [
+      "My favorite colors are red blue and green.",
+      "My favorite colors are: red, blue, and green.",
+      "My favorite colors are red; blue and green.",
+      "My favorite colors are red blue; and green."
+    ],
     "answer": "My favorite colors are: red, blue, and green.",
     "explanation": "A colon can be used to introduce a series or list, and commas are properly placed to separate the coordinating items."
   },
   {
     "id": "verb_16",
     "question": "Which sentence is grammatically correct?",
-    "choices": ["He don't like coffee.", "He doesn't likes coffee.", "He doesn't like coffee.", "He not like coffee."],
+    "choices": [
+      "He don't like coffee.",
+      "He doesn't likes coffee.",
+      "He doesn't like coffee.",
+      "He not like coffee."
+    ],
     "answer": "He doesn't like coffee.",
     "explanation": "The third-person singular pronoun 'He' pairs with the contraction 'doesn't' (does not), followed by the base form of the verb 'like'."
   },
   {
     "id": "verb_17",
     "question": "Identify the error.\nEveryone / in the classroom / have submitted / their projects.",
-    "choices": ["Everyone", "in the classroom", "have submitted", "their projects"],
+    "choices": [
+      "Everyone",
+      "in the classroom",
+      "have submitted",
+      "their projects"
+    ],
     "answer": "have submitted",
     "explanation": "'Everyone' is a singular indefinite pronoun and must take a singular verb. 'Have submitted' should be changed to 'has submitted'."
   },
   {
     "id": "verb_18",
     "question": "Choose the synonym of \"diligent.\"",
-    "choices": ["Lazy", "Industrious", "Careless", "Weak"],
+    "choices": [
+      "Lazy",
+      "Industrious",
+      "Careless",
+      "Weak"
+    ],
     "answer": "Industrious",
     "explanation": "Being 'diligent' means showing care and conscientiousness in one's work, which is synonymous with 'industrious'."
   },
   {
     "id": "verb_19",
     "question": "Choose the antonym of \"scarce.\"",
-    "choices": ["Rare", "Limited", "Abundant", "Small"],
+    "choices": [
+      "Rare",
+      "Limited",
+      "Abundant",
+      "Small"
+    ],
     "answer": "Abundant",
     "explanation": "'Scarce' means insufficient or in short supply. Its exact opposite is 'abundant', meaning existing or available in large quantities."
   },
   {
     "id": "verb_20",
     "question": "BOOK : READ :: FOOD : _____?",
-    "choices": ["Buy", "Cook", "Eat", "Taste"],
+    "choices": [
+      "Buy",
+      "Cook",
+      "Eat",
+      "Taste"
+    ],
     "answer": "Eat",
     "explanation": "This represents an item-to-primary action analogy. A book is an object intended to be read, just as food is an object intended to be eaten."
   },
   {
     "id": "verb_21",
     "question": "Which sentence is in the future perfect tense?",
-    "choices": ["I will travel tomorrow.", "I will have finished the project by Friday.", "I have finished the project.", "I had finished the project."],
+    "choices": [
+      "I will travel tomorrow.",
+      "I will have finished the project by Friday.",
+      "I have finished the project.",
+      "I had finished the project."
+    ],
     "answer": "I will have finished the project by Friday.",
     "explanation": "The future perfect tense is formed using 'will have' followed by the past participle form of the main verb ('finished')."
   },
   {
     "id": "verb_22",
     "question": "Choose the sentence with the correct pronoun reference.",
-    "choices": ["When Anna met Carla, she was smiling.", "Anna was smiling when she met Carla.", "Carla smiled at Anna because she was happy.", "Anna told Carla that she should study."],
+    "choices": [
+      "When Anna met Carla, she was smiling.",
+      "Anna was smiling when she met Carla.",
+      "Carla smiled at Anna because she was happy.",
+      "Anna told Carla that she should study."
+    ],
     "answer": "Anna was smiling when she met Carla.",
     "explanation": "This structure contains no ambiguous pronoun reference. The pronoun 'she' clearly refers back to 'Anna' without confusion."
   },
   {
     "id": "verb_23",
     "question": "Which sentence uses the comparative adjective correctly?",
-    "choices": ["This road is more narrower than that one.", "This road is narrower than that one.", "This road is most narrow than that one.", "This road is more narrowest than that one."],
+    "choices": [
+      "This road is more narrower than that one.",
+      "This road is narrower than that one.",
+      "This road is most narrow than that one.",
+      "This road is more narrowest than that one."
+    ],
     "answer": "This road is narrower than that one.",
     "explanation": "'Narrower' is already the comparative form of the adjective 'narrow'. Adding 'more' creates an incorrect double comparative."
   },
   {
     "id": "verb_24",
     "question": "Which word contains a suffix?",
-    "choices": ["Rewrite", "Impossible", "Friendship", "Preview"],
+    "choices": [
+      "Rewrite",
+      "Impossible",
+      "Friendship",
+      "Preview"
+    ],
     "answer": "Friendship",
     "explanation": "'Friendship' consists of the base word 'friend' and the suffix '-ship'. The other choices feature prefixes (re-, im-, pre-)."
   },
   {
     "id": "verb_25",
     "question": "Choose the sentence with correct usage.",
-    "choices": ["Between you and I, this is difficult.", "Between you and me, this is difficult.", "Between I and you, this is difficult.", "Between me and myself, this is difficult."],
+    "choices": [
+      "Between you and I, this is difficult.",
+      "Between you and me, this is difficult.",
+      "Between I and you, this is difficult.",
+      "Between me and myself, this is difficult."
+    ],
     "answer": "Between you and me, this is difficult.",
     "explanation": "'Between' is a preposition and must be followed by objective case pronouns ('you' and 'me'), rather than subjective case pronouns like 'I'."
   },
   {
     "id": "verb_26",
     "question": "What is the correct order of the following sentences?\nI. Finally, the committee announced the winners.\nII. The judges carefully evaluated every entry.\nIII. Many participants submitted their projects.\nIV. The competition officially began.",
-    "choices": ["IV–III–II–I", "III–IV–II–I", "IV–II–III–I", "II–IV–III–I"],
+    "choices": [
+      "IV–III–II–I",
+      "III–IV–II–I",
+      "IV–II–III–I",
+      "II–IV–III–I"
+    ],
     "answer": "IV–III–II–I",
     "explanation": "The logical and chronological sequence is: the competition starts (IV), participants submit work (III), judges evaluate the submissions (II), and winners are announced at the end (I)."
   },
   {
     "id": "verb_27",
     "question": "Passage:\nMany students believe that intelligence alone leads to success. However, studies show that discipline and consistent effort often produce better long-term results than talent without hard work.\n\nWhat is the main idea?",
-    "choices": ["Talent is useless.", "Discipline and effort are important for success.", "Intelligence causes failure.", "Hard work is unnecessary."],
+    "choices": [
+      "Talent is useless.",
+      "Discipline and effort are important for success.",
+      "Intelligence causes failure.",
+      "Hard work is unnecessary."
+    ],
     "answer": "Discipline and effort are important for success.",
     "explanation": "The passage shifts focus with 'However' to emphasize that discipline and consistent effort are more critical to long-term success than unguided intelligence or talent."
   },
   {
     "id": "verb_28",
     "question": "According to the passage, what often produces better long-term results?",
-    "choices": ["Luck", "Wealth", "Consistent effort", "Intelligence alone"],
+    "choices": [
+      "Luck",
+      "Wealth",
+      "Consistent effort",
+      "Intelligence alone"
+    ],
     "answer": "Consistent effort",
     "explanation": "The text states explicitly that 'discipline and consistent effort often produce better long-term results'."
   },
   {
     "id": "verb_29",
     "question": "Which statement is supported by the passage?",
-    "choices": ["All intelligent people succeed.", "Talent always defeats hard work.", "Success may depend on discipline.", "Studies reject the value of effort."],
+    "choices": [
+      "All intelligent people succeed.",
+      "Talent always defeats hard work.",
+      "Success may depend on discipline.",
+      "Studies reject the value of effort."
+    ],
     "answer": "Success may depend on discipline.",
     "explanation": "The text directly establishes a connection between discipline/effort and achieving long-term success."
   },
   {
     "id": "verb_30",
     "question": "The author's attitude toward hard work can best be described as:",
-    "choices": ["Critical", "Supportive", "Doubtful", "Indifferent"],
+    "choices": [
+      "Critical",
+      "Supportive",
+      "Doubtful",
+      "Indifferent"
+    ],
     "answer": "Supportive",
     "explanation": "The author highlights the positive impact and superiority of hard work over standalone talent, showing a clear supportive stance."
   },
   {
     "id": "verb_31",
     "question": "Which sentence has the correct subject-verb agreement?",
-    "choices": ["Neither of the applicants are qualified.", "Neither of the applicants is qualified.", "Neither of the applicants were qualified.", "Neither of the applicants have been qualified."],
+    "choices": [
+      "Neither of the applicants are qualified.",
+      "Neither of the applicants is qualified.",
+      "Neither of the applicants were qualified.",
+      "Neither of the applicants have been qualified."
+    ],
     "answer": "Neither of the applicants is qualified.",
     "explanation": "The indefinite pronoun 'Neither' is singular when acting as the subject of a sentence, requiring the singular verb 'is'."
   },
   {
     "id": "verb_32",
     "question": "Which sentence is grammatically correct?",
-    "choices": ["Each student must bring their ID.", "Each student must brings his or her ID.", "Each student must bring his or her ID.", "Each student must brought his or her ID."],
+    "choices": [
+      "Each student must bring their ID.",
+      "Each student must brings his or her ID.",
+      "Each student must bring his or her ID.",
+      "Each student must brought his or her ID."
+    ],
     "answer": "Each student must bring his or her ID.",
     "explanation": "'Each student' requires a singular pronoun match ('his or her'). Additionally, the modal verb 'must' must be followed by the base form of the verb ('bring')."
   },
   {
     "id": "verb_33",
     "question": "Choose the sentence in the present perfect tense.",
-    "choices": ["She had left before noon.", "She has left before noon.", "She will leave before noon.", "She left before noon."],
+    "choices": [
+      "She had left before noon.",
+      "She has left before noon.",
+      "She will leave before noon.",
+      "She left before noon."
+    ],
     "answer": "She has left before noon.",
     "explanation": "The present perfect tense consists of the auxiliary verb 'has' or 'have' plus the past participle form of the main verb ('left')."
   },
   {
     "id": "verb_34",
     "question": "Which sentence uses the pronoun correctly?",
-    "choices": ["It is me who called.", "It is I who called.", "Me was the one who called.", "Myself called earlier."],
+    "choices": [
+      "It is me who called.",
+      "It is I who called.",
+      "Me was the one who called.",
+      "Myself called earlier."
+    ],
     "answer": "It is I who called.",
     "explanation": "Following a linking verb, a pronoun serving as a subject complement should be in the subjective case ('I'), not the objective case ('me')."
   },
   {
     "id": "verb_35",
     "question": "Which word is an adverb?",
-    "choices": ["Gentle", "Wisdom", "Extremely", "Kindness"],
+    "choices": [
+      "Gentle",
+      "Wisdom",
+      "Extremely",
+      "Kindness"
+    ],
     "answer": "Extremely",
     "explanation": "'Extremely' is an adverb of degree often used to modify adjectives or other adverbs. 'Gentle' is an adjective, while 'Wisdom' and 'Kindness' are nouns."
   },
   {
     "id": "verb_36",
     "question": "Choose the correct preposition.\nThe manager divided the work _____ the employees.",
-    "choices": ["between", "among", "over", "across"],
+    "choices": [
+      "between",
+      "among",
+      "over",
+      "across"
+    ],
     "answer": "among",
     "explanation": "'Between' is generally used for two distinct elements, whereas 'among' is used when distributing or referring to a group of more than two entities (the employees)."
   },
   {
     "id": "verb_37",
     "question": "Which conjunction best completes the sentence?\nYou may leave now, _____ you can wait for the others.",
-    "choices": ["but", "or", "because", "since"],
+    "choices": [
+      "but",
+      "or",
+      "because",
+      "since"
+    ],
     "answer": "or",
     "explanation": "The coordinating conjunction 'or' is used to present a choice or alternative option to the person."
   },
   {
     "id": "verb_38",
     "question": "Which sentence uses the article correctly?",
-    "choices": ["She is a honest woman.", "She is an honest woman.", "She is the honest woman.", "She is honest woman."],
+    "choices": [
+      "She is a honest woman.",
+      "She is an honest woman.",
+      "She is the honest woman.",
+      "She is honest woman."
+    ],
     "answer": "She is an honest woman.",
     "explanation": "Although 'honest' begins with the consonant 'h', it has a silent 'h' and starts with a vowel sound, necessitating the use of 'an'."
   },
   {
     "id": "verb_39",
     "question": "Which sentence is correctly punctuated?",
-    "choices": ["After the meeting we went home.", "After the meeting, we went home.", "After, the meeting we went home.", "After the meeting we, went home."],
+    "choices": [
+      "After the meeting we went home.",
+      "After the meeting, we went home.",
+      "After, the meeting we went home.",
+      "After the meeting we, went home."
+    ],
     "answer": "After the meeting, we went home.",
     "explanation": "An introductory prepositional phrase or adverbial clause ('After the meeting') is properly separated from the main clause by a comma."
   },
   {
     "id": "verb_40",
     "question": "Which sentence is correctly constructed?",
-    "choices": ["To pass the exam, studying every day is necessary.", "To pass the exam, every day studying is necessary.", "Studying is necessary, to pass the exam every day.", "Necessary studying every day to pass the exam."],
+    "choices": [
+      "To pass the exam, studying every day is necessary.",
+      "To pass the exam, every day studying is necessary.",
+      "Studying is necessary, to pass the exam every day.",
+      "Necessary studying every day to pass the exam."
+    ],
     "answer": "To pass the exam, studying every day is necessary.",
     "explanation": "This structure maintains clear parallel logic and logical flow, avoiding any misplaced modifiers or fragments."
   },
   {
     "id": "verb_41",
     "question": "Identify the error.\nThe committee / have decided / to postpone / the event.",
-    "choices": ["The committee", "have decided", "to postpone", "the event"],
+    "choices": [
+      "The committee",
+      "have decided",
+      "to postpone",
+      "the event"
+    ],
     "answer": "have decided",
     "explanation": "'The committee' is acting as a single collective noun unit here, so it requires the singular verb form 'has decided' instead of 'have decided'."
   },
   {
     "id": "verb_42",
     "question": "Identify the error.\nOne of the teachers / were absent / during / the ceremony.",
-    "choices": ["One of the teachers", "were absent", "during", "the ceremony"],
+    "choices": [
+      "One of the teachers",
+      "were absent",
+      "during",
+      "the ceremony"
+    ],
     "answer": "were absent",
     "explanation": "The true subject of the clause is 'One', which is singular. The verb should be changed from the plural 'were' to the singular 'was'."
   },
   {
     "id": "verb_43",
     "question": "Identify the error.\nShe / don't know / the answer / to the question.",
-    "choices": ["She", "don't know", "the answer", "to the question"],
+    "choices": [
+      "She",
+      "don't know",
+      "the answer",
+      "to the question"
+    ],
     "answer": "don't know",
     "explanation": "The third-person singular pronoun 'She' requires the singular negative contraction 'doesn't' (does not) instead of 'don't'."
   },
   {
     "id": "verb_44",
     "question": "Identify the error.\nThe news / are spreading / very quickly / today.",
-    "choices": ["The news", "are spreading", "very quickly", "today"],
+    "choices": [
+      "The news",
+      "are spreading",
+      "very quickly",
+      "today"
+    ],
     "answer": "are spreading",
     "explanation": "The word 'news' is plural in form but singular in construction and meaning. It requires the singular verb 'is spreading'."
   },
   {
     "id": "verb_45",
     "question": "Identify the error.\nEverybody / in the office / enjoy / the celebration.",
-    "choices": ["Everybody", "in the office", "enjoy", "the celebration"],
+    "choices": [
+      "Everybody",
+      "in the office",
+      "enjoy",
+      "the celebration"
+    ],
     "answer": "enjoy",
     "explanation": "'Everybody' is a singular indefinite pronoun. The verb must be singular as well, meaning 'enjoy' should be changed to 'enjoys'."
   },
   {
     "id": "verb_46",
     "question": "Choose the synonym of \"meticulous.\"",
-    "choices": ["Careful", "Reckless", "Lazy", "Ordinary"],
+    "choices": [
+      "Careful",
+      "Reckless",
+      "Lazy",
+      "Ordinary"
+    ],
     "answer": "Careful",
     "explanation": "'Meticulous' means showing immense attention to detail and extreme care, making 'careful' its closest synonym."
   },
   {
     "id": "verb_47",
     "question": "Choose the synonym of \"obsolete.\"",
-    "choices": ["Modern", "Ancient", "Outdated", "Attractive"],
+    "choices": [
+      "Modern",
+      "Ancient",
+      "Outdated",
+      "Attractive"
+    ],
     "answer": "Outdated",
     "explanation": "Something that is 'obsolete' is no longer in use or useful because something newer exists, making it 'outdated'."
   },
   {
     "id": "verb_48",
     "question": "Choose the antonym of \"hostile.\"",
-    "choices": ["Friendly", "Angry", "Violent", "Harsh"],
+    "choices": [
+      "Friendly",
+      "Angry",
+      "Violent",
+      "Harsh"
+    ],
     "answer": "Friendly",
     "explanation": "'Hostile' relates to an aggressive, unfriendly, or antagonistic nature. Its true opposite is 'friendly'."
   },
   {
     "id": "verb_49",
     "question": "Choose the antonym of \"expand.\"",
-    "choices": ["Increase", "Extend", "Contract", "Develop"],
+    "choices": [
+      "Increase",
+      "Extend",
+      "Contract",
+      "Develop"
+    ],
     "answer": "Contract",
     "explanation": "'Expand' means to make larger or more extensive. Its direct physical antonym is 'contract', meaning to decrease in size."
   },
   {
     "id": "verb_50",
     "question": "Choose the antonym of \"transparent.\"",
-    "choices": ["Clear", "Obvious", "Visible", "Opaque"],
+    "choices": [
+      "Clear",
+      "Obvious",
+      "Visible",
+      "Opaque"
+    ],
     "answer": "Opaque",
     "explanation": "'Transparent' describes material that allows light to pass through clearly. Its opposite is 'opaque', meaning light cannot pass through."
   },
   {
     "id": "verb_51",
     "question": "DOCTOR : HOSPITAL :: TEACHER : _____?",
-    "choices": ["Library", "Classroom", "Office", "Laboratory"],
+    "choices": [
+      "Library",
+      "Classroom",
+      "Office",
+      "Laboratory"
+    ],
     "answer": "Classroom",
     "explanation": "This represents a professional-to-workplace relationship. A doctor primarily works inside a hospital, while a teacher primarily works in a classroom."
   },
   {
     "id": "verb_52",
     "question": "FINGER : HAND :: TOE : _____?",
-    "choices": ["Leg", "Foot", "Heel", "Shoe"],
+    "choices": [
+      "Leg",
+      "Foot",
+      "Heel",
+      "Shoe"
+    ],
     "answer": "Foot",
     "explanation": "This analogy handles a component-to-body-part relationship. A finger is an extremity attached to a hand, just as a toe is an extremity attached to a foot."
   },
   {
     "id": "verb_53",
     "question": "AUTHOR : BOOK :: ARCHITECT : _____?",
-    "choices": ["Pencil", "Blueprint", "Building", "Engineer"],
+    "choices": [
+      "Pencil",
+      "Blueprint",
+      "Building",
+      "Engineer"
+    ],
     "answer": "Building",
     "explanation": "This shows a creator-to-final-product analogy. An author produces a completed book, while an architect designs a completed building structure."
   },
   {
     "id": "verb_54",
     "question": "PUPPY : DOG :: KITTEN : _____?",
-    "choices": ["Cub", "Cat", "Lion", "Rabbit"],
+    "choices": [
+      "Cub",
+      "Cat",
+      "Lion",
+      "Rabbit"
+    ],
     "answer": "Cat",
     "explanation": "This follows a young-to-adult animal pairing. A puppy grows into a mature dog, just as a kitten grows into a mature cat."
   },
   {
     "id": "verb_55",
     "question": "GENEROUS : STINGY :: COURAGEOUS : _____?",
-    "choices": ["Brave", "Heroic", "Fearful", "Loyal"],
+    "choices": [
+      "Brave",
+      "Heroic",
+      "Fearful",
+      "Loyal"
+    ],
     "answer": "Fearful",
     "explanation": "This is an antonymous relationship analogy. 'Generous' is the exact opposite of 'stingy', and 'courageous' is the exact opposite of 'fearful'."
   },
@@ -459,7 +734,12 @@
   {
     "id": "verb_62",
     "question": "Identify the correct plural form of 'criterion'.",
-    "choices": ["Criterions", "Criteria", "Criterias", "Criteriones"],
+    "choices": [
+      "Criterions",
+      "Criteria",
+      "Criterias",
+      "Criteriones"
+    ],
     "answer": "Criteria",
     "explanation": "'Criterion' is an irregular noun; its correct plural form is 'criteria'."
   },
@@ -478,14 +758,24 @@
   {
     "id": "verb_64",
     "question": "Which word is the correct synonym of 'benevolent'?",
-    "choices": ["Kind", "Cruel", "Weak", "Angry"],
+    "choices": [
+      "Kind",
+      "Cruel",
+      "Weak",
+      "Angry"
+    ],
     "answer": "Kind",
     "explanation": "'Benevolent' means showing kindness or goodwill."
   },
   {
     "id": "verb_65",
     "question": "Choose the correct antonym of 'optimistic'.",
-    "choices": ["Hopeful", "Pessimistic", "Positive", "Cheerful"],
+    "choices": [
+      "Hopeful",
+      "Pessimistic",
+      "Positive",
+      "Cheerful"
+    ],
     "answer": "Pessimistic",
     "explanation": "'Optimistic' means hopeful; its opposite is 'pessimistic'."
   },
@@ -576,14 +866,24 @@
   {
     "id": "verb_73",
     "question": "Choose the correct synonym of 'abundant'.",
-    "choices": ["Plentiful", "Rare", "Scarce", "Empty"],
+    "choices": [
+      "Plentiful",
+      "Rare",
+      "Scarce",
+      "Empty"
+    ],
     "answer": "Plentiful",
     "explanation": "'Abundant' means existing in large quantities."
   },
   {
     "id": "verb_74",
     "question": "Choose the correct antonym of 'ancient'.",
-    "choices": ["Old", "Modern", "Historic", "Antique"],
+    "choices": [
+      "Old",
+      "Modern",
+      "Historic",
+      "Antique"
+    ],
     "answer": "Modern",
     "explanation": "'Ancient' means very old; its opposite is 'modern'."
   },
@@ -626,21 +926,36 @@
   {
     "id": "verb_78",
     "question": "Choose the correct analogy: TREE : FOREST :: STAR : ____",
-    "choices": ["Galaxy", "Sky", "Moon", "Planet"],
+    "choices": [
+      "Galaxy",
+      "Sky",
+      "Moon",
+      "Planet"
+    ],
     "answer": "Galaxy",
     "explanation": "A forest is made of trees; a galaxy is made of stars."
   },
   {
     "id": "verb_79",
     "question": "Choose the correct analogy: CLOCK : TIME :: THERMOMETER : ____",
-    "choices": ["Weight", "Heat", "Temperature", "Pressure"],
+    "choices": [
+      "Weight",
+      "Heat",
+      "Temperature",
+      "Pressure"
+    ],
     "answer": "Temperature",
     "explanation": "A thermometer measures temperature just as a clock measures time."
   },
   {
     "id": "verb_80",
     "question": "Choose the correct synonym of 'vivid'.",
-    "choices": ["Dull", "Bright", "Weak", "Dark"],
+    "choices": [
+      "Dull",
+      "Bright",
+      "Weak",
+      "Dark"
+    ],
     "answer": "Bright",
     "explanation": "'Vivid' means bright, clear, or striking."
   },
@@ -683,14 +998,24 @@
   {
     "id": "verb_84",
     "question": "Choose the correct antonym of 'generous'.",
-    "choices": ["Kind", "Selfish", "Helpful", "Friendly"],
+    "choices": [
+      "Kind",
+      "Selfish",
+      "Helpful",
+      "Friendly"
+    ],
     "answer": "Selfish",
     "explanation": "'Generous' means giving; its opposite is 'selfish'."
   },
   {
     "id": "verb_85",
     "question": "Choose the correct synonym of 'rapid'.",
-    "choices": ["Slow", "Fast", "Weak", "Soft"],
+    "choices": [
+      "Slow",
+      "Fast",
+      "Weak",
+      "Soft"
+    ],
     "answer": "Fast",
     "explanation": "'Rapid' means quick or fast."
   },
@@ -721,21 +1046,36 @@
   {
     "id": "verb_88",
     "question": "Choose the correct analogy: CUP : COFFEE :: PLATE : ____",
-    "choices": ["Food", "Drink", "Water", "Soup"],
+    "choices": [
+      "Food",
+      "Drink",
+      "Water",
+      "Soup"
+    ],
     "answer": "Food",
     "explanation": "A cup holds coffee; a plate holds food."
   },
   {
     "id": "verb_89",
     "question": "Choose the correct synonym of 'fragile'.",
-    "choices": ["Strong", "Delicate", "Heavy", "Thick"],
+    "choices": [
+      "Strong",
+      "Delicate",
+      "Heavy",
+      "Thick"
+    ],
     "answer": "Delicate",
     "explanation": "'Fragile' means easily broken or delicate."
   },
   {
     "id": "verb_90",
     "question": "Choose the correct antonym of 'expand'.",
-    "choices": ["Grow", "Increase", "Contract", "Extend"],
+    "choices": [
+      "Grow",
+      "Increase",
+      "Contract",
+      "Extend"
+    ],
     "answer": "Contract",
     "explanation": "'Expand' means to grow; opposite is 'contract'."
   },
@@ -766,7 +1106,12 @@
   {
     "id": "verb_93",
     "question": "Choose the correct synonym of 'sincere'.",
-    "choices": ["Fake", "Honest", "Cruel", "Weak"],
+    "choices": [
+      "Fake",
+      "Honest",
+      "Cruel",
+      "Weak"
+    ],
     "answer": "Honest",
     "explanation": "'Sincere' means honest and genuine."
   },
@@ -833,7 +1178,12 @@
   {
     "id": "verb_99",
     "question": "Choose the correct analogy: BRUSH : PAINT :: PEN : ____",
-    "choices": ["Write", "Ink", "Paper", "Draw"],
+    "choices": [
+      "Write",
+      "Ink",
+      "Paper",
+      "Draw"
+    ],
     "answer": "Ink",
     "explanation": "A brush uses paint; a pen uses ink."
   },
@@ -848,5 +1198,785 @@
     ],
     "answer": "The data is correct.",
     "explanation": "In modern usage, 'data' is often treated as singular in general contexts."
+  },
+  {
+    "id": "verb_101",
+    "question": "Identify the error in the sentence: 'The proliferation of fake news, combined with the lack of critical thinking skills, have led to a deeply polarized society.'",
+    "choices": [
+      "proliferation of fake news",
+      "combined with the lack",
+      "have led to",
+      "deeply polarized society"
+    ],
+    "answer": "have led to",
+    "explanation": "The subject 'proliferation' is singular, so the verb must be 'has led', not 'have led'."
+  },
+  {
+    "id": "verb_102",
+    "question": "Which sentence is grammatically correct?",
+    "choices": [
+      "Neither the manager nor the employees was aware.",
+      "Neither the manager nor the employees were aware.",
+      "Neither the managers nor the employee were aware.",
+      "Neither the managers nor the employees is aware."
+    ],
+    "answer": "Neither the manager nor the employees were aware.",
+    "explanation": "In a 'neither/nor' structure, the verb agrees with the subject closest to it."
+  },
+  {
+    "id": "verb_103",
+    "question": "Choose the correct completion: Had I known about the severity of the storm, I ________ a different route.",
+    "choices": [
+      "would take",
+      "will take",
+      "would have taken",
+      "will have taken"
+    ],
+    "answer": "would have taken",
+    "explanation": "This is a third conditional sentence, requiring past perfect and perfect conditional."
+  },
+  {
+    "id": "verb_104",
+    "question": "Identify the error: 'Whom did you say is going to be the new regional director?'",
+    "choices": [
+      "Whom",
+      "did you say",
+      "is going",
+      "to be"
+    ],
+    "answer": "Whom",
+    "explanation": "The pronoun serves as the subject of 'is going'. Therefore, it should be the subjective case 'Who'."
+  },
+  {
+    "id": "verb_105",
+    "question": "Which sentence uses the subjunctive mood correctly?",
+    "choices": [
+      "I wish I was in Paris right now.",
+      "The doctor recommended that she takes a few days off.",
+      "It is imperative that the CEO attend the board meeting.",
+      "If he was a bit more careful, he wouldn't have crashed."
+    ],
+    "answer": "It is imperative that the CEO attend the board meeting.",
+    "explanation": "The subjunctive mood requires the base form of the verb ('attend') after expressions of necessity."
+  },
+  {
+    "id": "verb_106",
+    "question": "The board's decision was so ________ that no one dared to question its implications.",
+    "choices": [
+      "Ambivalent",
+      "Categorical",
+      "Equivocal",
+      "Tentative"
+    ],
+    "answer": "Categorical",
+    "explanation": "'Categorical' means unambiguously explicit and direct."
+  },
+  {
+    "id": "verb_107",
+    "question": "What does the idiom 'to cross the Rubicon' mean?",
+    "choices": [
+      "To pass a point of no return",
+      "To settle a long dispute",
+      "To take an unnecessary risk",
+      "To traverse a difficult obstacle"
+    ],
+    "answer": "To pass a point of no return",
+    "explanation": "It signifies taking an irrevocable step, from Julius Caesar's river crossing."
+  },
+  {
+    "id": "verb_108",
+    "question": "Choose the best synonym for 'OBFUSCATE':",
+    "choices": [
+      "Clarify",
+      "Illuminate",
+      "Confuse",
+      "Vindicate"
+    ],
+    "answer": "Confuse",
+    "explanation": "'Obfuscate' means to render obscure or unintelligible."
+  },
+  {
+    "id": "verb_109",
+    "question": "His ________ remarks during the eulogy offended many relatives.",
+    "choices": [
+      "Reverent",
+      "Flippant",
+      "Lugubrious",
+      "Poignant"
+    ],
+    "answer": "Flippant",
+    "explanation": "'Flippant' means not showing a serious or respectful attitude."
+  },
+  {
+    "id": "verb_110",
+    "question": "The candidate's platform was a mere ________, full of empty promises.",
+    "choices": [
+      "Chimera",
+      "Panacea",
+      "Paradigm",
+      "Pragmatism"
+    ],
+    "answer": "Chimera",
+    "explanation": "A 'chimera' is an illusion or an impossible hope."
+  },
+  {
+    "id": "verb_111",
+    "question": "EPHEMERAL : FLEETING :: ________ : ________",
+    "choices": [
+      "Permanent : Transitory",
+      "Perennial : Enduring",
+      "Transient : Eternal",
+      "Evanescent : Perpetual"
+    ],
+    "answer": "Perennial : Enduring",
+    "explanation": "'Ephemeral' and 'fleeting' are synonyms. 'Perennial' and 'enduring' are also synonyms."
+  },
+  {
+    "id": "verb_112",
+    "question": "DIDACTIC : TEACH :: ________ : ________",
+    "choices": [
+      "Pedantic : Learn",
+      "Hortatory : Urge",
+      "Polemical : Agree",
+      "Sycophantic : Command"
+    ],
+    "answer": "Hortatory : Urge",
+    "explanation": "Something 'didactic' is intended to teach. Something 'hortatory' is intended to urge."
+  },
+  {
+    "id": "verb_113",
+    "question": "MITIGATE : SEVERITY :: ________ : ________",
+    "choices": [
+      "Exacerbate : Relief",
+      "Alleviate : Pain",
+      "Ameliorate : Quality",
+      "Vitiate : Corruption"
+    ],
+    "answer": "Alleviate : Pain",
+    "explanation": "To 'mitigate' reduces severity. To 'alleviate' reduces pain."
+  },
+  {
+    "id": "verb_114",
+    "question": "CACOPHONY : SOUND :: ________ : ________",
+    "choices": [
+      "Glare : Light",
+      "Aroma : Smell",
+      "Texture : Touch",
+      "Silence : Noise"
+    ],
+    "answer": "Glare : Light",
+    "explanation": "A 'cacophony' is harsh sound. A 'glare' is harsh light."
+  },
+  {
+    "id": "verb_115",
+    "question": "LIONIZE : ADMIRE :: ________ : ________",
+    "choices": [
+      "Ostracize : Include",
+      "Vituperate : Criticize",
+      "Exonerate : Blame",
+      "Mollify : Enrage"
+    ],
+    "answer": "Vituperate : Criticize",
+    "explanation": "To 'lionize' is to admire extremely. To 'vituperate' is to criticize extremely."
+  },
+  {
+    "id": "verb_116",
+    "question": "Identify the error: 'The manager, as well as his subordinates, are attending the workshop.'",
+    "choices": [
+      "The manager",
+      "as well as his",
+      "are attending",
+      "the workshop"
+    ],
+    "answer": "are attending",
+    "explanation": "Phrases like 'as well as' do not compound the subject. The subject 'manager' is singular."
+  },
+  {
+    "id": "verb_117",
+    "question": "The sheer ________ of the dictator's regime left the nation in ruins.",
+    "choices": [
+      "Benevolence",
+      "Malignancy",
+      "Apathy",
+      "Ineptitude"
+    ],
+    "answer": "Malignancy",
+    "explanation": "'Malignancy' suggests something highly dangerous, evil, or destructive."
+  },
+  {
+    "id": "verb_118",
+    "question": "ABERRATION : NORMAL :: ________ : ________",
+    "choices": [
+      "Deviance : Usual",
+      "Conformity : Strange",
+      "Regularity : Common",
+      "Anomaly : Irregular"
+    ],
+    "answer": "Deviance : Usual",
+    "explanation": "An aberration is the opposite of normal. Deviance is the opposite of usual."
+  },
+  {
+    "id": "verb_119",
+    "question": "To 'bite the bullet' means to:",
+    "choices": [
+      "Act bravely under fire",
+      "Endure a painful situation with courage",
+      "Refuse to speak",
+      "Make a fatal mistake"
+    ],
+    "answer": "Endure a painful situation with courage",
+    "explanation": "The idiom means to face a difficult or unpleasant situation bravely."
+  },
+  {
+    "id": "verb_120",
+    "question": "A 'plethora' of options means:",
+    "choices": [
+      "A lack of",
+      "An excess of",
+      "A confusing mix of",
+      "A distinct set of"
+    ],
+    "answer": "An excess of",
+    "explanation": "'Plethora' means an excessive amount or abundance."
+  },
+  {
+    "id": "verb_121",
+    "question": "Tukuyin ang mali: 'Nangako ang alkalde na (A) pahihigpitin pa niya ang (B) seguridad sa lungsod kapag (C) sya'y muling nahalal. (D) Walang mali.'",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "explanation": "Ang tamang baybay ay 'siya'y', hindi 'sya'y'."
+  },
+  {
+    "id": "verb_122",
+    "question": "Alin ang nagpapakita ng wastong gamit ng 'ng' at 'nang'?",
+    "choices": [
+      "Tumakbo ng mabilis ang bata.",
+      "Nag-aral nang mabuti si Jose.",
+      "Umalis siya nang walang paalam ng ina.",
+      "Bumili nang bagong sapatos."
+    ],
+    "answer": "Nag-aral nang mabuti si Jose.",
+    "explanation": "Ang 'nang' ay ginagamit bilang pang-abay na sumasagot sa 'paano'."
+  },
+  {
+    "id": "verb_123",
+    "question": "Piliin ang wastong pandiwa: ________ ng mga pulis ang suspek kahapon.",
+    "choices": [
+      "Hinuli",
+      "Huhulihin",
+      "Hinuhuli",
+      "Huliin"
+    ],
+    "answer": "Hinuli",
+    "explanation": "Ang pangyayari ay naganap 'kahapon' (perpektibo)."
+  },
+  {
+    "id": "verb_124",
+    "question": "Alin sa sumusunod ang tamang gamit ng 'Pahiran'?",
+    "choices": [
+      "Pahiran mo ng luha ang mata.",
+      "Pahiran mo ng palaman ang tinapay.",
+      "Pahiran mo ang pawis ko.",
+      "Pahiran ang dumi sa mesa."
+    ],
+    "answer": "Pahiran mo ng palaman ang tinapay.",
+    "explanation": "Ang 'pahiran' (apply on) ay nangangahulugang lagyan ng isang bagay (palaman). Ang pag-alis ay 'pahirin'."
+  },
+  {
+    "id": "verb_125",
+    "question": "Tukuyin ang mali: 'Ipinag-utos (A) na (B) ilikas ang mga (C) mamayan. (D) Walang mali.'",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "explanation": "Ang tamang baybay ay 'mamamayan' (citizens), hindi 'mamayan'."
+  },
+  {
+    "id": "verb_126",
+    "question": "Piliin ang HINDI sumusunod sa tuntunin ng gitling:",
+    "choices": [
+      "Nag-aral nang mabuti.",
+      "Bumili siya ng iba't-ibang kulay.",
+      "Sila ay magugulong mag-anak.",
+      "Naka-uniporme ang mga mag-aaral."
+    ],
+    "answer": "Bumili siya ng iba't-ibang kulay.",
+    "explanation": "Ang 'iba't iba' ay hindi na ginigitlingan dahil ang 't' ay kumakatawan sa 'at'."
+  },
+  {
+    "id": "verb_127",
+    "question": "Punan ang puwang: 'Ang donasyon ay inilaan ________ mga biktima ng lindol.'",
+    "choices": [
+      "ukol sa",
+      "para sa",
+      "tungkol sa",
+      "ayon sa"
+    ],
+    "answer": "para sa",
+    "explanation": "Ang 'para sa' ay nagsasaad ng pag-uukol o destinasyon (for the benefit of)."
+  },
+  {
+    "id": "verb_128",
+    "question": "Tukuyin ang mali: 'Nakakahiya (A) man sabihin, (B) ngunit kami ay (C) naghihirap. (D) Walang mali.'",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "A",
+    "explanation": "Sa pormal na gramatika, ang pag-uulit ng pantig kapag naglalapi ng 'naka-' sa 'hiya' ay dapat 'nakahihiya'."
+  },
+  {
+    "id": "verb_129",
+    "question": "Alin ang tamang gamit ng 'sino-sino'?",
+    "choices": [
+      "Sinusino ang mga bisita mo?",
+      "Sino-sino ang mga dadalo?",
+      "Sinu-sino ang mga nakapasa?",
+      "Sinosino ba sila?"
+    ],
+    "answer": "Sino-sino ang mga dadalo?",
+    "explanation": "Sa bagong ortograpiya (KWF), pinapanatili ang 'o' at ginigitlingan ang inuulit (sino-sino)."
+  },
+  {
+    "id": "verb_130",
+    "question": "Piliin ang wastong gamit ng salita: ________ niya ang mga aklat sa mesa kanina.",
+    "choices": [
+      "Ipinatong",
+      "Pinatong",
+      "Pinatungan",
+      "Nagpatong"
+    ],
+    "answer": "Ipinatong",
+    "explanation": "Ang 'ipinatong' ay ginagamit kung ang paksa (aklat) ang siyang inilagay sa ibabaw ng mesa."
+  },
+  {
+    "id": "verb_131",
+    "question": "Ano ang kahulugan ng idyomang 'nagbibilang ng poste'?",
+    "choices": [
+      "Naglalakad sa gabi",
+      "Nagtatrabaho sa konstruksyon",
+      "Walang trabaho",
+      "Mataas ang pangarap"
+    ],
+    "answer": "Walang trabaho",
+    "explanation": "Ang 'nagbibilang ng poste' ay nangangahulugang tambay o walang trabaho."
+  },
+  {
+    "id": "verb_132",
+    "question": "Ano ang kasingkahulugan ng salitang 'maralita'?",
+    "choices": [
+      "Mayaman",
+      "Dukha",
+      "Masipag",
+      "Mangmang"
+    ],
+    "answer": "Dukha",
+    "explanation": "Ang 'maralita' at 'dukha' ay parehong tumutukoy sa mga mahirap."
+  },
+  {
+    "id": "verb_133",
+    "question": "Ang pariralang 'hindi mahulugang karayom' ay nangangahulugang:",
+    "choices": [
+      "Mabilis kumalat",
+      "Maraming tao ang nakakaalam",
+      "Mataotao / siksikan ang mga tao",
+      "Hindi matanggap ng lipunan"
+    ],
+    "answer": "Mataotao / siksikan ang mga tao",
+    "explanation": "Ang idiomang 'di-mahulugang karayom' ay tumutukoy sa siksikan sa dami ng tao."
+  },
+  {
+    "id": "verb_134",
+    "question": "Ano ang kasalungat ng salitang 'mahinahon'?",
+    "choices": [
+      "Mapusok",
+      "Tahimik",
+      "Matapang",
+      "Matalino"
+    ],
+    "answer": "Mapusok",
+    "explanation": "Ang 'mahinahon' (calm) ay may kasalungat na 'mapusok' (impulsive)."
+  },
+  {
+    "id": "verb_135",
+    "question": "Ang salitang 'alibugha' ay nangangahulugang:",
+    "choices": [
+      "Masunurin",
+      "Taksil",
+      "Layas o waldas",
+      "Matalino"
+    ],
+    "answer": "Layas o waldas",
+    "explanation": "Ang 'alibugha' ay nangangahulugang iresponsable o waldas."
+  },
+  {
+    "id": "verb_136",
+    "question": "Ano ang kahulugan ng 'balat-sibuyas'?",
+    "choices": [
+      "Manipis ang balat",
+      "Madaling umiyak o masaktan",
+      "Puti ang kutis",
+      "Mabilis magalit"
+    ],
+    "answer": "Madaling umiyak o masaktan",
+    "explanation": "Ang taong balat-sibuyas ay sensitibo at madaling masaktan."
+  },
+  {
+    "id": "verb_137",
+    "question": "Tukuyin ang kasingkahulugan ng salitang 'busilak':",
+    "choices": [
+      "Matalino",
+      "Maliwanag",
+      "Dalisay",
+      "Mabilis"
+    ],
+    "answer": "Dalisay",
+    "explanation": "Ang 'busilak' ay tumutukoy sa pagiging dalisay o malinis."
+  },
+  {
+    "id": "verb_138",
+    "question": "Ano ang kahulugan ng salitang 'salat'?",
+    "choices": [
+      "Sagana",
+      "Kulang",
+      "Tama",
+      "Sobra"
+    ],
+    "answer": "Kulang",
+    "explanation": "Ang 'salat' ay nangangahulugang kulang o naghihirap."
+  },
+  {
+    "id": "verb_139",
+    "question": "Ano ang idyomang ginagamit para ilarawan ang taong hindi tapat o taksil?",
+    "choices": [
+      "Bantay-salakay",
+      "Ahas na tulog",
+      "Balimbing",
+      "Utak-biya"
+    ],
+    "answer": "Balimbing",
+    "explanation": "Ang 'balimbing' ay tumutukoy sa taong pabago-bago ng panig o taksil."
+  },
+  {
+    "id": "verb_140",
+    "question": "Ano ang kasingkahulugan ng 'magmaliw'?",
+    "choices": [
+      "Magsimula",
+      "Mawala",
+      "Mabuhay",
+      "Matuto"
+    ],
+    "answer": "Mawala",
+    "explanation": "Ang 'magmaliw' ay nangangahulugang mawala, matapos, o maglaho."
+  },
+  {
+    "id": "verb_141",
+    "question": "Guro : Paaralan :: Hukom : ________",
+    "choices": [
+      "Hukuman",
+      "Bilangguan",
+      "Presinto",
+      "Simbahan"
+    ],
+    "answer": "Hukuman",
+    "explanation": "Ang guro ay nagtatrabaho sa paaralan, habang ang hukom ay nagtatrabaho sa hukuman."
+  },
+  {
+    "id": "verb_142",
+    "question": "Mapurol : Matalas :: Mahirap : ________",
+    "choices": [
+      "Mayaman",
+      "Maralita",
+      "Matapang",
+      "Maginhawa"
+    ],
+    "answer": "Mayaman",
+    "explanation": "Kasalungat ang relasyon (antonyms)."
+  },
+  {
+    "id": "verb_143",
+    "question": "Paa : Sapatos :: Ulo : ________",
+    "choices": [
+      "Buhok",
+      "Sombrero",
+      "Mukha",
+      "Utak"
+    ],
+    "answer": "Sombrero",
+    "explanation": "Ang sapatos ay isinusuot sa paa; ang sombrero ay isinusuot sa ulo."
+  },
+  {
+    "id": "verb_144",
+    "question": "Panulat : Manunulat :: Sandok : ________",
+    "choices": [
+      "Kusina",
+      "Kusinero",
+      "Pagkain",
+      "Kalan"
+    ],
+    "answer": "Kusinero",
+    "explanation": "Ang panulat ay gamit ng manunulat; ang sandok ay gamit ng kusinero."
+  },
+  {
+    "id": "verb_145",
+    "question": "Mabilis : Kuneho :: Makupad : ________",
+    "choices": [
+      "Ahas",
+      "Pagong",
+      "Kalabaw",
+      "Ibon"
+    ],
+    "answer": "Pagong",
+    "explanation": "Ang kuneho ay mabilis; ang pagong ay makupad."
+  },
+  {
+    "id": "verb_146",
+    "question": "Bughaw : Langit :: Luntian : ________",
+    "choices": [
+      "Araw",
+      "Ulap",
+      "Damo",
+      "Tubig"
+    ],
+    "answer": "Damo",
+    "explanation": "Ang langit ay bughaw; ang damo ay luntian (berde)."
+  },
+  {
+    "id": "verb_147",
+    "question": "Malamig : Yelo :: Mainit : ________",
+    "choices": [
+      "Araw",
+      "Kape",
+      "Apoy",
+      "Tag-araw"
+    ],
+    "answer": "Apoy",
+    "explanation": "Ang yelo ay likas na malamig; ang apoy ay likas na mainit."
+  },
+  {
+    "id": "verb_148",
+    "question": "Ospital : Pasyente :: Tindahan : ________",
+    "choices": [
+      "Tindero",
+      "Mamimili",
+      "Paninda",
+      "Salapi"
+    ],
+    "answer": "Mamimili",
+    "explanation": "Ang ospital ay pinupuntahan ng pasyente; ang tindahan ay pinupuntahan ng mamimili."
+  },
+  {
+    "id": "verb_149",
+    "question": "Lapis : Papel :: Kutsara : ________",
+    "choices": [
+      "Tidor",
+      "Pinggan",
+      "Plato",
+      "Baso"
+    ],
+    "answer": "Plato",
+    "explanation": "Ang lapis ay ginagamit sa ibabaw ng papel; ang kutsara ay ginagamit sa plato."
+  },
+  {
+    "id": "verb_150",
+    "question": "Mabango : Bulaklak :: Mabaho : ________",
+    "choices": [
+      "Lupa",
+      "Basura",
+      "Aso",
+      "Tubig"
+    ],
+    "answer": "Basura",
+    "explanation": "Ang bulaklak ay kilalang mabango; ang basura ay kilalang mabaho."
+  },
+  {
+    "id": "verb_151",
+    "question": "Read the passage below and answer the question that follows.\n\nThe widespread integration of artificial intelligence into various industries has sparked a fervent debate regarding job displacement. While historical technological revolutions ultimately created more jobs than they destroyed, economists caution that AI is uniquely disruptive because it targets cognitive tasks rather than merely physical labor. Consequently, white-collar professionals are experiencing the same precariousness that factory workers faced during the automation boom of the late 20th century.\n\nQuestion: What makes the integration of AI 'uniquely disruptive' compared to past technological revolutions, according to the passage?",
+    "choices": [
+      "It completely eliminates the need for human supervision.",
+      "It creates more jobs than it destroys in a shorter time frame.",
+      "It targets cognitive and intellectual tasks instead of just physical labor.",
+      "It is primarily affecting the manufacturing and agricultural sectors."
+    ],
+    "answer": "It targets cognitive and intellectual tasks instead of just physical labor.",
+    "explanation": "The passage explicitly states that AI is uniquely disruptive 'because it targets cognitive tasks rather than merely physical labor.'"
+  },
+  {
+    "id": "verb_152",
+    "question": "Read the passage below and answer the question that follows.\n\nMitochondria are often referred to as the powerhouses of the cell, generating most of the cell's supply of adenosine triphosphate (ATP). However, recent studies emphasize their role in the aging process. As cells divide over a lifespan, mitochondrial DNA accumulates mutations at a much faster rate than nuclear DNA. This degradation leads to a decrease in cellular energy production and an increase in harmful free radicals, ultimately contributing to the physiological decline associated with aging.\n\nQuestion: According to the passage, what contributes directly to the physiological decline in aging?",
+    "choices": [
+      "The overproduction of adenosine triphosphate (ATP) in young cells.",
+      "The rapid mutation of nuclear DNA compared to mitochondrial DNA.",
+      "The decrease in cellular energy and the increase in harmful free radicals.",
+      "The complete cessation of cellular division early in a person's lifespan."
+    ],
+    "answer": "The decrease in cellular energy and the increase in harmful free radicals.",
+    "explanation": "The text explains that mitochondrial DNA mutations lead to 'a decrease in cellular energy production and an increase in harmful free radicals,' which in turn contributes to the decline associated with aging."
+  },
+  {
+    "id": "verb_153",
+    "question": "Read the passage below and answer the question that follows.\n\nSocial media algorithms are meticulously engineered to maximize user engagement by prioritizing content that elicits strong emotional reactions. While this business model is highly lucrative for tech companies, psychologists warn of its detrimental effects on users' cognitive faculties. The constant barrage of curated, short-form content has been linked to diminished attention spans, making it increasingly difficult for individuals to engage in deep, sustained reading or complex problem-solving tasks.\n\nQuestion: Based on the passage, what is the primary motivation behind the design of social media algorithms?",
+    "choices": [
+      "To improve the cognitive faculties and attention spans of users.",
+      "To maximize user engagement by triggering strong emotional responses.",
+      "To encourage users to engage in deep reading and complex problem-solving.",
+      "To filter out content that is emotionally manipulative or distressing."
+    ],
+    "answer": "To maximize user engagement by triggering strong emotional responses.",
+    "explanation": "The passage states that algorithms are engineered 'to maximize user engagement by prioritizing content that elicits strong emotional reactions.'"
+  },
+  {
+    "id": "verb_154",
+    "question": "Read the passage below and answer the question that follows.\n\nSigned in 1215, the Magna Carta is widely celebrated as a foundational document of modern democracy. However, its original intent was far less egalitarian. It was primarily a peace treaty between the unpopular King John of England and a group of rebel barons. The document was designed to protect the feudal rights of the nobility rather than grant liberties to the common people. It was only through centuries of reinterpretation that the Magna Carta evolved into a symbol of universal rights and the rule of law.\n\nQuestion: What is the main idea of the passage?",
+    "choices": [
+      "The Magna Carta was immediately recognized as a symbol of universal human rights in 1215.",
+      "King John of England wrote the Magna Carta to grant liberties to commoners.",
+      "The Magna Carta was originally intended to protect noblemen's rights, but its meaning evolved over time to represent universal democratic principles.",
+      "The rebel barons rejected the Magna Carta because it failed to establish a democratic government."
+    ],
+    "answer": "The Magna Carta was originally intended to protect noblemen's rights, but its meaning evolved over time to represent universal democratic principles.",
+    "explanation": "The passage contrasts the Magna Carta's original limited intent (protecting barons) with its modern reinterpretation as a symbol of universal rights."
+  },
+  {
+    "id": "verb_155",
+    "question": "Read the passage below and answer the question that follows.\n\nThe concept of the '15-minute city' has gained significant traction in urban planning circles. The model envisions neighborhoods where residents can access most of their daily needs—work, school, healthcare, and leisure—within a 15-minute walk or bicycle ride from their homes. Proponents argue this reduces carbon emissions and fosters community cohesion. Critics, however, contend that retrofitting sprawling, car-centric cities to fit this model would require astronomical public funding and might inadvertently cause gentrification.\n\nQuestion: Which of the following is cited by critics as a potential negative consequence of implementing the '15-minute city' model?",
+    "choices": [
+      "An increase in overall carbon emissions.",
+      "The disruption of community cohesion.",
+      "The possibility of inadvertent gentrification.",
+      "A complete ban on the use of bicycles in urban areas."
+    ],
+    "answer": "The possibility of inadvertent gentrification.",
+    "explanation": "The text notes that critics contend the model 'would require astronomical public funding and might inadvertently cause gentrification.'"
+  },
+  {
+    "id": "verb_156",
+    "question": "Read the passage below and answer the question that follows.\n\nUniversal Basic Income (UBI) is an economic proposal wherein all citizens receive a regular, unconditional sum of money from the government. Advocates argue that UBI would eradicate extreme poverty and provide a safety net for workers displaced by automation. Conversely, opponents fear that it would disincentivize work, leading to a stagnant labor market, and that the sheer cost of sustaining such a program would inevitably result in crippling inflation and higher taxes.\n\nQuestion: What is one of the primary arguments made by the opponents of Universal Basic Income?",
+    "choices": [
+      "It would fail to provide a safety net for workers displaced by automation.",
+      "It would eradicate extreme poverty entirely.",
+      "It would discourage people from working and lead to higher taxes.",
+      "It would unfairly target citizens who already have high-paying jobs."
+    ],
+    "answer": "It would discourage people from working and lead to higher taxes.",
+    "explanation": "The opponents fear UBI would 'disincentivize work' (discourage working) and result in 'crippling inflation and higher taxes.'"
+  },
+  {
+    "id": "verb_157",
+    "question": "Read the passage below and answer the question that follows.\n\nThe rapid decline in the global bee population poses a severe threat not just to biodiversity, but to human food security. Bees are the primary pollinators for approximately one-third of the human diet, including numerous fruits, vegetables, and nuts. The phenomenon known as Colony Collapse Disorder has been linked to a combination of pesticide exposure, habitat loss, and climate change. Without immediate intervention to protect these vital insects, the agricultural sector faces an unprecedented crisis.\n\nQuestion: Why is the decline of the bee population considered a threat to human food security?",
+    "choices": [
+      "Bees consume the pests that destroy agricultural crops.",
+      "Bees are the primary source of nutrition in many developing countries.",
+      "Bees pollinate about one-third of the crops that make up the human diet.",
+      "Bees produce honey, which is the sole sweetener used in the food industry."
+    ],
+    "answer": "Bees pollinate about one-third of the crops that make up the human diet.",
+    "explanation": "The passage states that 'Bees are the primary pollinators for approximately one-third of the human diet...'"
+  },
+  {
+    "id": "verb_158",
+    "question": "Read the passage below and answer the question that follows.\n\nOceanography studies indicate a concerning slowdown in the Atlantic Meridional Overturning Circulation (AMOC), a system of ocean currents that includes the Gulf Stream. Driven by differences in temperature and salt content, the AMOC acts as a global conveyor belt, redistributing heat. The influx of freshwater from melting Greenland ice sheets dilutes the ocean's salinity, weakening the current. A collapse of this system could trigger dramatic drops in temperature across Western Europe and severe disruptions to global weather patterns.\n\nQuestion: According to the passage, what is the direct cause of the weakening of the AMOC?",
+    "choices": [
+      "The dramatic drops in temperature across Western Europe.",
+      "The redistribution of heat across the global conveyor belt.",
+      "The influx of freshwater from melting ice sheets diluting ocean salinity.",
+      "The increase in salt content driven by severe weather patterns."
+    ],
+    "answer": "The influx of freshwater from melting ice sheets diluting ocean salinity.",
+    "explanation": "The text explains that 'The influx of freshwater from melting Greenland ice sheets dilutes the ocean's salinity, weakening the current.'"
+  },
+  {
+    "id": "verb_159",
+    "question": "Basahin ang talata sa ibaba at sagutin ang tanong.\n\nAng tinatawag na 'brain drain' ay patuloy na nagpapahina sa sektor ng kalusugan ng Pilipinas. Taun-taon, libu-libong mga nars at doktor ang pinipiling mangibang-bansa dahil sa mas mataas na sahod at mas maayos na kondisyon sa trabaho. Bagaman nakatutulong ang kanilang mga padalang remittance sa ekonomiya ng bansa, ang kapalit nito ay ang kakulangan ng mga propesyonal na mag-aalaga sa mga maysakit sa mga lokal na ospital, lalo na sa mga malalayong probinsya.\n\nTanong: Ano ang pangunahing negatibong epekto ng 'brain drain' ayon sa talata?",
+    "choices": [
+      "Pagbaba ng halaga ng remittance na pumapasok sa bansa.",
+      "Kakulangan ng mga propesyonal na medikal na magsisilbi sa mga lokal na ospital.",
+      "Pagdami ng mga ospital sa mga malalayong probinsya.",
+      "Pagtaas ng sahod ng mga natirang nars at doktor sa bansa."
+    ],
+    "answer": "Kakulangan ng mga propesyonal na medikal na magsisilbi sa mga lokal na ospital.",
+    "explanation": "Sinabi sa teksto na ang kapalit nito (brain drain) ay ang kakulangan ng mga propesyonal na mag-aalaga sa mga maysakit sa mga lokal na ospital."
+  },
+  {
+    "id": "verb_160",
+    "question": "Basahin ang talata sa ibaba at sagutin ang tanong.\n\nSinasabing isa sa pinakamasalimuot na kabanata ng Himagsikang Pilipino ay ang hidwaan sa pagitan nina Andres Bonifacio at Emilio Aguinaldo. Habang si Bonifacio ang nagtatag ng Katipunan na nagpasiklab ng rebolusyon, unti-unting napunta ang pamumuno kay Aguinaldo dahil sa mga sunod-sunod na tagumpay nito sa militar sa Cavite. Ang paksyonalismo sa pagitan ng Magdiwang at Magdalo ay tuluyang humantong sa Kumbensyon sa Tejeros, kung saan nahalal si Aguinaldo at tuluyang naitaboy si Bonifacio, na humantong sa kanyang trahedyang kamatayan.\n\nTanong: Ayon sa talata, bakit unti-unting napunta ang pamumuno kay Emilio Aguinaldo?",
+    "choices": [
+      "Dahil siya ang orihinal na nagtatag ng Katipunan.",
+      "Dahil sa kanyang mga sunod-sunod na tagumpay sa militar sa Cavite.",
+      "Dahil kusang isinuko ni Bonifacio ang kanyang posisyon.",
+      "Dahil siya ang pinakamayaman sa pangkat ng Magdalo."
+    ],
+    "answer": "Dahil sa kanyang mga sunod-sunod na tagumpay sa militar sa Cavite.",
+    "explanation": "Nakasaad sa teksto na 'unti-unting napunta ang pamumuno kay Aguinaldo dahil sa mga sunod-sunod na tagumpay nito sa militar sa Cavite.'"
+  },
+  {
+    "id": "verb_161",
+    "question": "Basahin ang talata sa ibaba at sagutin ang tanong.\n\nSa paglipas ng panahon, maraming mga katutubong wika sa Pilipinas ang nanganganib na tuluyang maglaho. Ang pangunahing sanhi nito ay ang modernisasyon at ang dominasyon ng mga pangunahing wika tulad ng Tagalog at Ingles sa edukasyon at mass media. Kapag namatay ang isang wika, hindi lamang mga salita ang nawawala, kundi pati na rin ang mayamang kultura, kasaysayan, at pananaw sa mundo ng mga katutubong gumagamit nito.\n\nTanong: Ano ang higit na mawawala kapag namatay ang isang katutubong wika, ayon sa talata?",
+    "choices": [
+      "Ang kakayahan ng mga tao na matuto ng Ingles at Tagalog.",
+      "Ang mga aklat at diksyunaryo na nakasulat sa wikang iyon.",
+      "Ang kultura, kasaysayan, at pananaw sa mundo ng mga gumagamit nito.",
+      "Ang impluwensya ng mass media sa mga katutubo."
+    ],
+    "answer": "Ang kultura, kasaysayan, at pananaw sa mundo ng mga gumagamit nito.",
+    "explanation": "Ayon sa teksto, 'Kapag namatay ang isang wika, hindi lamang mga salita ang nawawala, kundi pati na rin ang mayamang kultura, kasaysayan, at pananaw sa mundo...'"
+  },
+  {
+    "id": "verb_162",
+    "question": "Basahin ang talata sa ibaba at sagutin ang tanong.\n\nAng mga coral reef sa West Philippine Sea ay hindi lamang tahanan ng libu-libong uri ng isda, kundi nagsisilbi rin itong natural na harang laban sa malalakas na alon at bagyo. Gayunpaman, ang patuloy na iligal na pangingisda at agresibong reklamasyon (island building) sa lugar ay sumisira sa mga bahurang ito. Kung tuluyang masisira ang mga coral reef, ang industriya ng pangingisda sa bansa, na bumubuhay sa milyun-milyong Pilipino, ay makakaranas ng matinding pagbagsak.\n\nTanong: Ano ang dalawang pangunahing dahilan ng pagkasira ng mga coral reef sa West Philippine Sea na binanggit sa teksto?",
+    "choices": [
+      "Polusyon mula sa mga pabrika at pagdami ng mga isda.",
+      "Malalakas na alon at madalas na pagbagyo.",
+      "Iligal na pangingisda at agresibong reklamasyon.",
+      "Pagtatanim ng mga corals at pagdami ng mga turista."
+    ],
+    "answer": "Iligal na pangingisda at agresibong reklamasyon.",
+    "explanation": "Malinaw na sinasabi sa talata na 'ang patuloy na iligal na pangingisda at agresibong reklamasyon (island building) sa lugar ay sumisira sa mga bahurang ito.'"
+  },
+  {
+    "id": "verb_163",
+    "question": "Basahin ang talata sa ibaba at sagutin ang tanong.\n\nKilala ang jeepney bilang 'Hari ng Kalsada' at isang makulay na simbolo ng kulturang Pilipino. Subalit, sa ilalim ng Public Utility Vehicle Modernization Program (PUVMP), layunin ng pamahalaan na palitan ang mga lumang jeepney ng mga makabagong yunit na mas ligtas at environment-friendly. Mariin itong tinututulan ng mga maliliit na tsuper dahil sa napakamahal na halaga ng mga bagong yunit, na inaangkin nilang magbabaon sa kanila sa utang at tuluyang papatay sa kanilang kabuhayan.\n\nTanong: Bakit mariing tinututulan ng mga tsuper ang PUV Modernization Program?",
+    "choices": [
+      "Dahil mas gusto nilang maging sanhi ng polusyon.",
+      "Dahil napakamahal ng bagong yunit at maaaring pumatay sa kanilang kabuhayan.",
+      "Dahil ayaw nilang maging ligtas ang mga pasahero.",
+      "Dahil mas mabilis tumakbo ang mga makabagong yunit."
+    ],
+    "answer": "Dahil napakamahal ng bagong yunit at maaaring pumatay sa kanilang kabuhayan.",
+    "explanation": "Ang teksto ay nagpapaliwanag na ang mga tsuper ay tumututol 'dahil sa napakamahal na halaga ng mga bagong yunit, na inaangkin nilang magbabaon sa kanila sa utang at tuluyang papatay sa kanilang kabuhayan.'"
+  },
+  {
+    "id": "verb_164",
+    "question": "Basahin ang talata sa ibaba at sagutin ang tanong.\n\nAng kaugaliang Pilipino na 'Utang na Loob' ay isang malalim na pagpapahalaga sa pagganti ng kabutihan. Sa isang banda, pinapatibay nito ang pakikipagkapwa. Ngunit sa konteksto ng pulitika at gobyerno, madalas itong nagiging ugat ng korapsyon. Kapag ang isang pulitiko ay nanalo dahil sa pondo ng mga negosyante, ang pagtanaw ng utang na loob ay kadalasang nauuwi sa pagbibigay ng mga paborableng kontrata sa mga negosyanteng ito, na pabor sa interes ng iilan kaysa sa pangkalahatang kabutihan ng publiko.\n\nTanong: Paano nagiging negatibo ang 'Utang na Loob' sa konteksto ng gobyerno ayon sa teksto?",
+    "choices": [
+      "Nagdudulot ito ng paglimot sa mga mahal sa buhay.",
+      "Pinapatibay nito ang pakikipagkapwa ng mga Pilipino.",
+      "Nagiging dahilan ito ng pagbibigay ng paborableng kontrata kapalit ng tulong pulitikal.",
+      "Pinipigilan nito ang mga negosyante na magbigay ng donasyon."
+    ],
+    "answer": "Nagiging dahilan ito ng pagbibigay ng paborableng kontrata kapalit ng tulong pulitikal.",
+    "explanation": "Ayon sa talata, sa gobyerno, ang utang na loob ay nauuwi 'sa pagbibigay ng mga paborableng kontrata sa mga negosyanteng ito,' na nagiging ugat ng korapsyon."
+  },
+  {
+    "id": "verb_165",
+    "question": "Basahin ang talata sa ibaba at sagutin ang tanong.\n\nSa tuwing sasapit ang panahon ng halalan sa bansa, kapansin-pansin ang mabilis na paglaganap ng 'fake news' o pekeng balita sa social media. Gumagamit ang mga troll farms ng maling impormasyon upang siraan ang mga kalaban at linlangin ang mga botante. Ang ganitong sistematikong panlilinlang ay nagiging banta sa demokrasya sapagkat ninanakaw nito ang karapatan ng mga mamamayan na makabuo ng desisyon batay sa katotohanan at tamang datos.\n\nTanong: Ano ang tinutukoy ng teksto na nagnanakaw sa karapatan ng mamamayan na makabuo ng desisyong batay sa katotohanan?",
+    "choices": [
+      "Ang demokrasya at ang halalan.",
+      "Ang mga kalaban ng mga pulitiko.",
+      "Ang sistematikong panlilinlang at pagpapakalat ng fake news.",
+      "Ang kawalan ng interes ng mga botante sa pulitika."
+    ],
+    "answer": "Ang sistematikong panlilinlang at pagpapakalat ng fake news.",
+    "explanation": "Ang teksto ay nagbababala na ang 'sistematikong panlilinlang' o paglaganap ng fake news ay banta sa demokrasya dahil ninanakaw nito ang karapatan ng botante na pumili batay sa katotohanan."
   }
 ]
