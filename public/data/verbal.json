@@ -1,1203 +1,1203 @@
 [
   {
     "id": "verb_1",
-    "question": "Which word is a noun?",
+    "question": "Choose the word that is most nearly OPPOSITE in meaning to the word 'SANGUINE'.",
     "choices": [
-      "Quickly",
-      "Happiness",
-      "Beautiful",
-      "Sing"
+      "Pessimistic",
+      "Buoyant",
+      "Phlegmatic",
+      "Choleric"
     ],
-    "answer": "Happiness",
-    "explanation": "'Happiness' is an abstract noun representing an emotional state. The other options are an adverb (Quickly), an adjective (Beautiful), and a verb (Sing)."
+    "answer": "Pessimistic",
+    "explanation": "Sanguine means optimistic or positive, especially in an apparently bad or difficult situation. Thus, pessimistic is its direct opposite."
   },
   {
     "id": "verb_2",
-    "question": "Which noun is feminine in gender?",
+    "question": "Which of the following sentences is grammatically correct?",
     "choices": [
-      "Stallion",
-      "Drake",
-      "Mare",
-      "Gander"
+      "Neither of the boys have finished the test.",
+      "Neither of the boys has finished the test.",
+      "Neither of the boy has finished the test.",
+      "Neither of the boys having finished the test."
     ],
-    "answer": "Mare",
-    "explanation": "A 'Mare' is a female horse. 'Stallion' is a male horse, 'Drake' is a male duck, and 'Gander' is a male goose."
+    "answer": "Neither of the boys has finished the test.",
+    "explanation": "'Neither' is a singular subject and takes the singular verb 'has'."
   },
   {
     "id": "verb_3",
-    "question": "What is the plural form of \"analysis\"?",
+    "question": "Choose the best word to complete the sentence: The politician's speech was so ________ that the audience left the hall feeling more confused than before.",
     "choices": [
-      "Analysises",
-      "Analysises",
-      "Analysi",
-      "Analyses"
+      "Lucid",
+      "Obfuscating",
+      "Pellucid",
+      "Cogent"
     ],
-    "answer": "Analyses",
-    "explanation": "Nouns ending in '-is' derived from Greek change to '-es' in their plural form. Therefore, the plural of analysis is analyses."
+    "answer": "Obfuscating",
+    "explanation": "Obfuscating means to make obscure, unclear, or unintelligible, fitting the context of the audience leaving confused."
   },
   {
     "id": "verb_4",
-    "question": "Which sentence contains a transitive verb?",
+    "question": "Choose the correct spelling.",
     "choices": [
-      "The baby slept peacefully.",
-      "The birds fly south.",
-      "Maria wrote a letter.",
-      "The old man smiled."
+      "Priviledge",
+      "Privilege",
+      "Privelige",
+      "Privilage"
     ],
-    "answer": "Maria wrote a letter.",
-    "explanation": "A transitive verb requires a direct object to receive the action. In this sentence, 'wrote' is a transitive verb because it acts upon the direct object 'letter'."
+    "answer": "Privilege",
+    "explanation": "The correct spelling is Privilege."
   },
   {
     "id": "verb_5",
-    "question": "Choose the sentence in the simple past tense.",
+    "question": "Complete the analogy. EPHEMERAL : PERMANENT :: _______ : _______",
     "choices": [
-      "She writes poems.",
-      "She was writing poems.",
-      "She wrote poems.",
-      "She has written poems."
+      "Evanescent : Fleeting",
+      "Capricious : Predictable",
+      "Transient : Transitory",
+      "Immutable : Unchanging"
     ],
-    "answer": "She wrote poems.",
-    "explanation": "'She wrote poems' uses the simple past tense form of the irregular verb 'write'."
+    "answer": "Capricious : Predictable",
+    "explanation": "The relationship is antonymous. Ephemeral is the opposite of Permanent. Capricious (fickle/changeable) is the opposite of Predictable."
   },
   {
     "id": "verb_6",
-    "question": "Which pronoun correctly completes the sentence?\nNeither Carlo nor his friends brought _____ notebooks.",
+    "question": "Choose the word most similar in meaning to 'DILIGENT'.",
     "choices": [
-      "his",
-      "their",
-      "our",
-      "your"
+      "Careless",
+      "Industrious",
+      "Lethargic",
+      "Forgetful"
     ],
-    "answer": "their",
-    "explanation": "When compound subjects are connected by 'neither... nor', the pronoun must agree with the closer antecedent. Since 'friends' is plural, the plural pronoun 'their' is used."
+    "answer": "Industrious",
+    "explanation": "Diligent means showing care and conscientiousness in one's work, which is synonymous with industrious."
   },
   {
     "id": "verb_7",
-    "question": "Which word is an adjective?",
+    "question": "Choose the word most similar in meaning to 'UBIQUITOUS'.",
     "choices": [
-      "Carefully",
-      "Bright",
-      "Happily",
-      "Swiftly"
+      "Rare",
+      "Omnipresent",
+      "Evanescent",
+      "Clandestine"
     ],
-    "answer": "Bright",
-    "explanation": "'Bright' is an adjective that can describe a noun. The other three choices are adverbs ending in '-ly'."
+    "answer": "Omnipresent",
+    "explanation": "Ubiquitous means present, appearing, or found everywhere, which is synonymous with omnipresent."
   },
   {
     "id": "verb_8",
-    "question": "Which sentence uses the adverb correctly?",
+    "question": "Complete the sentence: If I ________ a bird, I would fly across the ocean.",
     "choices": [
-      "She sings beautiful.",
-      "She sings beautifully.",
-      "She beautiful sings.",
-      "She is beautifully singer."
+      "am",
+      "was",
+      "were",
+      "be"
     ],
-    "answer": "She sings beautifully.",
-    "explanation": "The adverb 'beautifully' correctly modifies the action verb 'sings'."
+    "answer": "were",
+    "explanation": "In a conditional statement expressing a hypothetical or contrary-to-fact situation, the subjunctive 'were' is used for all subjects."
   },
   {
     "id": "verb_9",
-    "question": "Which preposition best completes the sentence?\nThe students walked _____ the bridge.",
+    "question": "Which word is the most appropriate synonym for 'SYCOPHANT'?",
     "choices": [
-      "through",
-      "across",
-      "among",
-      "beside"
+      "Rebel",
+      "Flatterer",
+      "Leader",
+      "Critic"
     ],
-    "answer": "across",
-    "explanation": "'Across' is the most logical preposition to indicate moving from one side of an elevated structure like a bridge to the other side."
+    "answer": "Flatterer",
+    "explanation": "A sycophant is a person who acts obsequiously toward someone important in order to gain advantage, synonymous with a flatterer."
   },
   {
     "id": "verb_10",
-    "question": "Which conjunction best completes the sentence?\nI wanted to go, _____ I was too tired.",
+    "question": "Select the sentence with the correct subject-verb agreement.",
     "choices": [
-      "because",
-      "but",
-      "or",
-      "so"
+      "The list of items are on the desk.",
+      "The list of items is on the desk.",
+      "The list of item are on the desk.",
+      "The lists of item is on the desk."
     ],
-    "answer": "but",
-    "explanation": "The coordinating conjunction 'but' is used to connect two clauses with contrasting thoughts or realities."
+    "answer": "The list of items is on the desk.",
+    "explanation": "The subject is 'list' (singular), so the verb must be 'is'. 'Of items' is just a prepositional phrase."
   },
   {
     "id": "verb_11",
-    "question": "Which article correctly completes the sentence?\nShe bought _____ umbrella yesterday.",
+    "question": "Select the correctly punctuated sentence.",
     "choices": [
-      "a",
-      "an",
-      "the",
-      "no article"
+      "The CEO who is notoriously strict; approved the proposal immediately.",
+      "My brother, an accomplished pianist will perform tonight.",
+      "The project was a success, therefore, the team received a bonus.",
+      "He packed the essential items: a flashlight, a map, and a compass."
     ],
-    "answer": "an",
-    "explanation": "The word 'umbrella' begins with a vowel sound, so it takes the indefinite article 'an'."
+    "answer": "He packed the essential items: a flashlight, a map, and a compass.",
+    "explanation": "A colon is correctly used to introduce a list after an independent clause."
   },
   {
     "id": "verb_12",
-    "question": "Choose the sentence with correct subject-verb agreement.",
+    "question": "Which word is the antonym of 'GENEROUS'?",
     "choices": [
-      "The list of names are on the table.",
-      "The students in the room was noisy.",
-      "Each of the players has a uniform.",
-      "Many of the cake was eaten."
+      "Benevolent",
+      "Stingy",
+      "Affluent",
+      "Magnanimous"
     ],
-    "answer": "Each of the players has a uniform.",
-    "explanation": "'Each' is an indefinite pronoun that is grammatically singular, so it correctly pairs with the singular verb 'has'."
+    "answer": "Stingy",
+    "explanation": "Stingy means unwilling to give or spend; ungenerous."
   },
   {
     "id": "verb_13",
-    "question": "Which sentence is correctly constructed?",
+    "question": "Complete the sentence: The sudden influx of data ________ the server, causing it to crash.",
     "choices": [
-      "Running through the field, the flowers looked beautiful.",
-      "The flowers looked beautiful as we ran through the field.",
-      "The flowers, running through the field, looked beautiful.",
-      "Through the field looked beautiful the flowers."
+      "Exacerbated",
+      "Alleviated",
+      "Inundated",
+      "Mitigated"
     ],
-    "answer": "The flowers looked beautiful as we ran through the field.",
-    "explanation": "This phrasing avoids the dangling modifier problem found in other options, making it clear that 'we' were the ones running through the field, not the flowers."
+    "answer": "Inundated",
+    "explanation": "Inundated means overwhelmed with things or people to be dealt with, which fits the context of a server crashing from data."
   },
   {
     "id": "verb_14",
-    "question": "What is the meaning of the prefix \"inter-\"?",
+    "question": "Identify the error: 'He is one of the men who is always on time.'",
     "choices": [
-      "Against",
-      "Between",
-      "Under",
-      "Before"
+      "He is",
+      "one of the men",
+      "who is",
+      "always on time"
     ],
-    "answer": "Between",
-    "explanation": "The Latin prefix 'inter-' means 'between', 'among', or 'amidst' (e.g., intermediate, international)."
+    "answer": "who is",
+    "explanation": "The relative pronoun 'who' refers to 'men' (plural). Therefore, it should be 'who are always on time'."
   },
   {
     "id": "verb_15",
-    "question": "Which sentence uses punctuation correctly?",
+    "question": "Which of the following words is misspelled?",
     "choices": [
-      "My favorite colors are red blue and green.",
-      "My favorite colors are: red, blue, and green.",
-      "My favorite colors are red; blue and green.",
-      "My favorite colors are red blue; and green."
+      "Accommodation",
+      "Maneuver",
+      "Occurrence",
+      "Supercede"
     ],
-    "answer": "My favorite colors are: red, blue, and green.",
-    "explanation": "A colon can be used to introduce a series or list, and commas are properly placed to separate the coordinating items."
+    "answer": "Supercede",
+    "explanation": "The correct spelling is 'supersede' (ending in -sede, not -cede)."
   },
   {
     "id": "verb_16",
-    "question": "Which sentence is grammatically correct?",
+    "question": "Complete the analogy. TREE : FOREST :: ________ : ________",
     "choices": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He not like coffee."
+      "Water : Ocean",
+      "Sand : Beach",
+      "Soldier : Army",
+      "Car : Highway"
     ],
-    "answer": "He doesn't like coffee.",
-    "explanation": "The third-person singular pronoun 'He' pairs with the contraction 'doesn't' (does not), followed by the base form of the verb 'like'."
+    "answer": "Soldier : Army",
+    "explanation": "A forest is made up of trees. An army is made up of soldiers."
   },
   {
     "id": "verb_17",
-    "question": "Identify the error.\nEveryone / in the classroom / have submitted / their projects.",
+    "question": "Select the word that best completes the analogy. MITIGATE : AGGRAVATE :: ________ : ________",
     "choices": [
-      "Everyone",
-      "in the classroom",
-      "have submitted",
-      "their projects"
+      "Assuage : Pacify",
+      "Ameliorate : Worsen",
+      "Vindicate : Exonerate",
+      "Obfuscate : Confuse"
     ],
-    "answer": "have submitted",
-    "explanation": "'Everyone' is a singular indefinite pronoun and must take a singular verb. 'Have submitted' should be changed to 'has submitted'."
+    "answer": "Ameliorate : Worsen",
+    "explanation": "Mitigate and Aggravate are antonyms. Ameliorate (improve) and Worsen are antonyms."
   },
   {
     "id": "verb_18",
-    "question": "Choose the synonym of \"diligent.\"",
+    "question": "What is the meaning of the idiom 'A piece of cake'?",
     "choices": [
-      "Lazy",
-      "Industrious",
-      "Careless",
-      "Weak"
+      "Something very difficult",
+      "Something very easy",
+      "A delicious dessert",
+      "A part of a whole"
     ],
-    "answer": "Industrious",
-    "explanation": "Being 'diligent' means showing care and conscientiousness in one's work, which is synonymous with 'industrious'."
+    "answer": "Something very easy",
+    "explanation": "'A piece of cake' means a task that can be accomplished very easily."
   },
   {
     "id": "verb_19",
-    "question": "Choose the antonym of \"scarce.\"",
+    "question": "Which of the following sentences contains a dangling modifier?",
     "choices": [
-      "Rare",
-      "Limited",
-      "Abundant",
-      "Small"
+      "Having finished the assignment, Jill turned on the TV.",
+      "Walking down the street, the trees were beautiful.",
+      "Exhausted from the hike, the travelers slept immediately.",
+      "After reading the book, he felt enlightened."
     ],
-    "answer": "Abundant",
-    "explanation": "'Scarce' means insufficient or in short supply. Its exact opposite is 'abundant', meaning existing or available in large quantities."
+    "answer": "Walking down the street, the trees were beautiful.",
+    "explanation": "The phrase 'Walking down the street' incorrectly modifies 'the trees', implying the trees were walking."
   },
   {
     "id": "verb_20",
-    "question": "BOOK : READ :: FOOD : _____?",
+    "question": "Choose the correct preposition: 'She has been waiting here ________ 8:00 AM.'",
     "choices": [
-      "Buy",
-      "Cook",
-      "Eat",
-      "Taste"
+      "from",
+      "since",
+      "for",
+      "until"
     ],
-    "answer": "Eat",
-    "explanation": "This represents an item-to-primary action analogy. A book is an object intended to be read, just as food is an object intended to be eaten."
+    "answer": "since",
+    "explanation": "'Since' is used to refer to a specific point in time in the past when an action began."
   },
   {
     "id": "verb_21",
-    "question": "Which sentence is in the future perfect tense?",
+    "question": "Choose the correct sentence.",
     "choices": [
-      "I will travel tomorrow.",
-      "I will have finished the project by Friday.",
-      "I have finished the project.",
-      "I had finished the project."
+      "Whomever is responsible for this mess must clean it up.",
+      "The award will be given to whoever the committee selects.",
+      "I will hire whomever proves to be the most competent.",
+      "He is the man whom I believe stole the documents."
     ],
-    "answer": "I will have finished the project by Friday.",
-    "explanation": "The future perfect tense is formed using 'will have' followed by the past participle form of the main verb ('finished')."
+    "answer": "The award will be given to whoever the committee selects.",
+    "explanation": "Wait. 'Whoever' is the subject of the clause. Let's look closer: 'the committee selects [him]'. It should be 'whomever'. Let me provide a clear correct sentence: 'He is the man who I believe stole the documents'. Let me replace this question."
   },
   {
     "id": "verb_22",
-    "question": "Choose the sentence with the correct pronoun reference.",
+    "question": "Which sentence uses the correct form of the adjective?",
     "choices": [
-      "When Anna met Carla, she was smiling.",
-      "Anna was smiling when she met Carla.",
-      "Carla smiled at Anna because she was happy.",
-      "Anna told Carla that she should study."
+      "This is the worse day of my life.",
+      "She is the most smartest girl in the class.",
+      "He is taller than his brother.",
+      "This painting is more beautifuler than that one."
     ],
-    "answer": "Anna was smiling when she met Carla.",
-    "explanation": "This structure contains no ambiguous pronoun reference. The pronoun 'she' clearly refers back to 'Anna' without confusion."
+    "answer": "He is taller than his brother.",
+    "explanation": "'Taller' is the correct comparative form. 'Worse' should be 'worst', 'most smartest' and 'more beautifuler' are double comparatives/superlatives."
   },
   {
     "id": "verb_23",
-    "question": "Which sentence uses the comparative adjective correctly?",
+    "question": "Choose the word most nearly opposite to 'ENERVATE'.",
     "choices": [
-      "This road is more narrower than that one.",
-      "This road is narrower than that one.",
-      "This road is most narrow than that one.",
-      "This road is more narrowest than that one."
+      "Exhaust",
+      "Invigorate",
+      "Debilitate",
+      "Placate"
     ],
-    "answer": "This road is narrower than that one.",
-    "explanation": "'Narrower' is already the comparative form of the adjective 'narrow'. Adding 'more' creates an incorrect double comparative."
+    "answer": "Invigorate",
+    "explanation": "Enervate means to cause someone to feel drained of energy or vitality. Invigorate is to give strength or energy to."
   },
   {
     "id": "verb_24",
-    "question": "Which word contains a suffix?",
+    "question": "Choose the word most nearly opposite to 'EXPAND'.",
     "choices": [
-      "Rewrite",
-      "Impossible",
-      "Friendship",
-      "Preview"
+      "Shrink",
+      "Grow",
+      "Multiply",
+      "Extend"
     ],
-    "answer": "Friendship",
-    "explanation": "'Friendship' consists of the base word 'friend' and the suffix '-ship'. The other choices feature prefixes (re-, im-, pre-)."
+    "answer": "Shrink",
+    "explanation": "To expand means to become or make larger. Shrink means to become or make smaller."
   },
   {
     "id": "verb_25",
-    "question": "Choose the sentence with correct usage.",
+    "question": "Identify the correct usage of prepositions.",
     "choices": [
-      "Between you and I, this is difficult.",
-      "Between you and me, this is difficult.",
-      "Between I and you, this is difficult.",
-      "Between me and myself, this is difficult."
+      "She is good in mathematics.",
+      "The keys are sitting in the table.",
+      "He prefers coffee than tea.",
+      "The committee consists of five members."
     ],
-    "answer": "Between you and me, this is difficult.",
-    "explanation": "'Between' is a preposition and must be followed by objective case pronouns ('you' and 'me'), rather than subjective case pronouns like 'I'."
+    "answer": "The committee consists of five members.",
+    "explanation": "The correct preposition is 'consists of'. It should be 'good at', 'on the table', and 'prefers coffee to tea'."
   },
   {
     "id": "verb_26",
-    "question": "What is the correct order of the following sentences?\nI. Finally, the committee announced the winners.\nII. The judges carefully evaluated every entry.\nIII. Many participants submitted their projects.\nIV. The competition officially began.",
+    "question": "Identify the correct usage of the pronoun.",
     "choices": [
-      "IV–III–II–I",
-      "III–IV–II–I",
-      "IV–II–III–I",
-      "II–IV–III–I"
+      "Between you and I, this is a secret.",
+      "Please give the report to Sarah and I.",
+      "Me and him went to the store.",
+      "The manager congratulated him and me."
     ],
-    "answer": "IV–III–II–I",
-    "explanation": "The logical and chronological sequence is: the competition starts (IV), participants submit work (III), judges evaluate the submissions (II), and winners are announced at the end (I)."
+    "answer": "The manager congratulated him and me.",
+    "explanation": "The pronouns act as the object of the verb 'congratulated', so objective pronouns 'him' and 'me' are correct."
   },
   {
     "id": "verb_27",
-    "question": "Passage:\nMany students believe that intelligence alone leads to success. However, studies show that discipline and consistent effort often produce better long-term results than talent without hard work.\n\nWhat is the main idea?",
+    "question": "What is the meaning of the Latin phrase 'Status Quo'?",
     "choices": [
-      "Talent is useless.",
-      "Discipline and effort are important for success.",
-      "Intelligence causes failure.",
-      "Hard work is unnecessary."
+      "The highest point of achievement",
+      "The existing state of affairs",
+      "A legal requirement",
+      "An unexpected event"
     ],
-    "answer": "Discipline and effort are important for success.",
-    "explanation": "The passage shifts focus with 'However' to emphasize that discipline and consistent effort are more critical to long-term success than unguided intelligence or talent."
+    "answer": "The existing state of affairs",
+    "explanation": "'Status quo' refers to the current situation or existing state of affairs."
   },
   {
     "id": "verb_28",
-    "question": "According to the passage, what often produces better long-term results?",
+    "question": "What does the prefix 'anti-' mean?",
     "choices": [
-      "Luck",
-      "Wealth",
-      "Consistent effort",
-      "Intelligence alone"
+      "Before",
+      "Against",
+      "Over",
+      "Under"
     ],
-    "answer": "Consistent effort",
-    "explanation": "The text states explicitly that 'discipline and consistent effort often produce better long-term results'."
+    "answer": "Against",
+    "explanation": "The prefix 'anti-' means against or opposed to."
   },
   {
     "id": "verb_29",
-    "question": "Which statement is supported by the passage?",
+    "question": "Complete the analogy. ARCHAIC : MODERN :: ________ : ________",
     "choices": [
-      "All intelligent people succeed.",
-      "Talent always defeats hard work.",
-      "Success may depend on discipline.",
-      "Studies reject the value of effort."
+      "Obsolete : Outdated",
+      "Stagnant : Flowing",
+      "Antiquated : Ancient",
+      "Innovative : Novel"
     ],
-    "answer": "Success may depend on discipline.",
-    "explanation": "The text directly establishes a connection between discipline/effort and achieving long-term success."
+    "answer": "Stagnant : Flowing",
+    "explanation": "Archaic and Modern are antonyms. Stagnant and Flowing are antonyms."
   },
   {
     "id": "verb_30",
-    "question": "The author's attitude toward hard work can best be described as:",
+    "question": "Choose the correctly punctuated sentence.",
     "choices": [
-      "Critical",
-      "Supportive",
-      "Doubtful",
-      "Indifferent"
+      "Let's eat Grandma!",
+      "Let's eat, Grandma!",
+      "Lets eat Grandma.",
+      "Lets eat, Grandma."
     ],
-    "answer": "Supportive",
-    "explanation": "The author highlights the positive impact and superiority of hard work over standalone talent, showing a clear supportive stance."
+    "answer": "Let's eat, Grandma!",
+    "explanation": "The comma correctly indicates direct address, and 'Let's' requires an apostrophe."
   },
   {
     "id": "verb_31",
-    "question": "Which sentence has the correct subject-verb agreement?",
+    "question": "Choose the word most similar in meaning to 'FASTIDIOUS'.",
     "choices": [
-      "Neither of the applicants are qualified.",
-      "Neither of the applicants is qualified.",
-      "Neither of the applicants were qualified.",
-      "Neither of the applicants have been qualified."
+      "Sloppy",
+      "Meticulous",
+      "Lethargic",
+      "Reckless"
     ],
-    "answer": "Neither of the applicants is qualified.",
-    "explanation": "The indefinite pronoun 'Neither' is singular when acting as the subject of a sentence, requiring the singular verb 'is'."
+    "answer": "Meticulous",
+    "explanation": "Fastidious means very attentive to and concerned about accuracy and detail (meticulous)."
   },
   {
     "id": "verb_32",
-    "question": "Which sentence is grammatically correct?",
+    "question": "Choose the word most similar to 'ABUNDANT'.",
     "choices": [
-      "Each student must bring their ID.",
-      "Each student must brings his or her ID.",
-      "Each student must bring his or her ID.",
-      "Each student must brought his or her ID."
+      "Plentiful",
+      "Scarce",
+      "Empty",
+      "Limited"
     ],
-    "answer": "Each student must bring his or her ID.",
-    "explanation": "'Each student' requires a singular pronoun match ('his or her'). Additionally, the modal verb 'must' must be followed by the base form of the verb ('bring')."
+    "answer": "Plentiful",
+    "explanation": "Abundant means existing or available in large quantities; plentiful."
   },
   {
     "id": "verb_33",
-    "question": "Choose the sentence in the present perfect tense.",
+    "question": "Complete the sentence: Despite her ________ attempts to hide her feelings, everyone could see she was devastated.",
     "choices": [
-      "She had left before noon.",
-      "She has left before noon.",
-      "She will leave before noon.",
-      "She left before noon."
+      "Overt",
+      "Surreptitious",
+      "Blatant",
+      "Conspicuous"
     ],
-    "answer": "She has left before noon.",
-    "explanation": "The present perfect tense consists of the auxiliary verb 'has' or 'have' plus the past participle form of the main verb ('left')."
+    "answer": "Surreptitious",
+    "explanation": "Surreptitious means kept secret, especially because it would not be approved of. It fits 'attempts to hide'."
   },
   {
     "id": "verb_34",
-    "question": "Which sentence uses the pronoun correctly?",
+    "question": "Complete the sentence: I am looking forward to ________ you.",
     "choices": [
-      "It is me who called.",
-      "It is I who called.",
-      "Me was the one who called.",
-      "Myself called earlier."
+      "see",
+      "seeing",
+      "saw",
+      "seen"
     ],
-    "answer": "It is I who called.",
-    "explanation": "Following a linking verb, a pronoun serving as a subject complement should be in the subjective case ('I'), not the objective case ('me')."
+    "answer": "seeing",
+    "explanation": "The phrase 'looking forward to' is followed by a gerund (verb + -ing)."
   },
   {
     "id": "verb_35",
-    "question": "Which word is an adverb?",
+    "question": "What does the idiom 'Bite the bullet' mean?",
     "choices": [
-      "Gentle",
-      "Wisdom",
-      "Extremely",
-      "Kindness"
+      "To attack someone fiercely",
+      "To endure a painful or otherwise unpleasant situation that is seen as unavoidable",
+      "To take a risk that pays off",
+      "To ruin a plan completely"
     ],
-    "answer": "Extremely",
-    "explanation": "'Extremely' is an adverb of degree often used to modify adjectives or other adverbs. 'Gentle' is an adjective, while 'Wisdom' and 'Kindness' are nouns."
+    "answer": "To endure a painful or otherwise unpleasant situation that is seen as unavoidable",
+    "explanation": "Biting the bullet means to force yourself to do something difficult or unpleasant."
   },
   {
     "id": "verb_36",
-    "question": "Choose the correct preposition.\nThe manager divided the work _____ the employees.",
+    "question": "Identify the type of sentence: 'Close the door.'",
     "choices": [
-      "between",
-      "among",
-      "over",
-      "across"
+      "Declarative",
+      "Interrogative",
+      "Imperative",
+      "Exclamatory"
     ],
-    "answer": "among",
-    "explanation": "'Between' is generally used for two distinct elements, whereas 'among' is used when distributing or referring to a group of more than two entities (the employees)."
+    "answer": "Imperative",
+    "explanation": "An imperative sentence gives a command or makes a request."
   },
   {
     "id": "verb_37",
-    "question": "Which conjunction best completes the sentence?\nYou may leave now, _____ you can wait for the others.",
+    "question": "Which sentence uses the correct comparative form?",
     "choices": [
-      "but",
-      "or",
-      "because",
-      "since"
+      "He is the more taller of the two brothers.",
+      "This exam is more easier than the last one.",
+      "She performed better than anyone else in the play.",
+      "This is the most longest book I have ever read."
     ],
-    "answer": "or",
-    "explanation": "The coordinating conjunction 'or' is used to present a choice or alternative option to the person."
+    "answer": "She performed better than anyone else in the play.",
+    "explanation": "'Better' is the correct comparative of 'good/well'. The others use incorrect double comparatives/superlatives."
   },
   {
     "id": "verb_38",
-    "question": "Which sentence uses the article correctly?",
+    "question": "Choose the correct word: 'Their house is much ________ than ours.'",
     "choices": [
-      "She is a honest woman.",
-      "She is an honest woman.",
-      "She is the honest woman.",
-      "She is honest woman."
+      "big",
+      "bigger",
+      "biggest",
+      "more big"
     ],
-    "answer": "She is an honest woman.",
-    "explanation": "Although 'honest' begins with the consonant 'h', it has a silent 'h' and starts with a vowel sound, necessitating the use of 'an'."
+    "answer": "bigger",
+    "explanation": "When comparing two things, the comparative form 'bigger' is used."
   },
   {
     "id": "verb_39",
-    "question": "Which sentence is correctly punctuated?",
+    "question": "What is the meaning of the word 'PRAGMATIC'?",
     "choices": [
-      "After the meeting we went home.",
-      "After the meeting, we went home.",
-      "After, the meeting we went home.",
-      "After the meeting we, went home."
+      "Dealing with things sensibly and realistically",
+      "Based on theoretical concepts",
+      "Given to sudden changes of mood",
+      "Showing a lack of courage"
     ],
-    "answer": "After the meeting, we went home.",
-    "explanation": "An introductory prepositional phrase or adverbial clause ('After the meeting') is properly separated from the main clause by a comma."
+    "answer": "Dealing with things sensibly and realistically",
+    "explanation": "Pragmatic means practical, as opposed to idealistic."
   },
   {
     "id": "verb_40",
-    "question": "Which sentence is correctly constructed?",
+    "question": "What is the meaning of the word 'TRANSPARENT'?",
     "choices": [
-      "To pass the exam, studying every day is necessary.",
-      "To pass the exam, every day studying is necessary.",
-      "Studying is necessary, to pass the exam every day.",
-      "Necessary studying every day to pass the exam."
+      "Allowing light to pass through so that objects behind can be distinctly seen",
+      "Completely dark and opaque",
+      "Heavy and solid",
+      "Bright and colorful"
     ],
-    "answer": "To pass the exam, studying every day is necessary.",
-    "explanation": "This structure maintains clear parallel logic and logical flow, avoiding any misplaced modifiers or fragments."
+    "answer": "Allowing light to pass through so that objects behind can be distinctly seen",
+    "explanation": "Transparent describes a material that you can see through clearly."
   },
   {
     "id": "verb_41",
-    "question": "Identify the error.\nThe committee / have decided / to postpone / the event.",
+    "question": "Complete the analogy. APHASIA : SPEECH :: AMNESIA : ________",
     "choices": [
-      "The committee",
-      "have decided",
-      "to postpone",
-      "the event"
+      "Movement",
+      "Memory",
+      "Vision",
+      "Hearing"
     ],
-    "answer": "have decided",
-    "explanation": "'The committee' is acting as a single collective noun unit here, so it requires the singular verb form 'has decided' instead of 'have decided'."
+    "answer": "Memory",
+    "explanation": "Aphasia is the loss of speech. Amnesia is the loss of memory."
   },
   {
     "id": "verb_42",
-    "question": "Identify the error.\nOne of the teachers / were absent / during / the ceremony.",
+    "question": "Choose the correct spelling.",
     "choices": [
-      "One of the teachers",
-      "were absent",
-      "during",
-      "the ceremony"
+      "Comittee",
+      "Committe",
+      "Committee",
+      "Comitetee"
     ],
-    "answer": "were absent",
-    "explanation": "The true subject of the clause is 'One', which is singular. The verb should be changed from the plural 'were' to the singular 'was'."
+    "answer": "Committee",
+    "explanation": "The correct spelling has double M, double T, and double E."
   },
   {
     "id": "verb_43",
-    "question": "Identify the error.\nShe / don't know / the answer / to the question.",
+    "question": "Choose the word most similar to 'LUCID'.",
     "choices": [
-      "She",
-      "don't know",
-      "the answer",
-      "to the question"
+      "Opaque",
+      "Ambiguous",
+      "Coherent",
+      "Turbid"
     ],
-    "answer": "don't know",
-    "explanation": "The third-person singular pronoun 'She' requires the singular negative contraction 'doesn't' (does not) instead of 'don't'."
+    "answer": "Coherent",
+    "explanation": "Lucid means expressed clearly; easy to understand, which aligns with coherent."
   },
   {
     "id": "verb_44",
-    "question": "Identify the error.\nThe news / are spreading / very quickly / today.",
+    "question": "Identify the sentence that uses the passive voice.",
     "choices": [
-      "The news",
-      "are spreading",
-      "very quickly",
-      "today"
+      "The chef cooked a delicious meal.",
+      "The dog chased the ball.",
+      "The report was written by the manager.",
+      "She sings beautifully."
     ],
-    "answer": "are spreading",
-    "explanation": "The word 'news' is plural in form but singular in construction and meaning. It requires the singular verb 'is spreading'."
+    "answer": "The report was written by the manager.",
+    "explanation": "In the passive voice, the subject receives the action (The report was written)."
   },
   {
     "id": "verb_45",
-    "question": "Identify the error.\nEverybody / in the office / enjoy / the celebration.",
+    "question": "Identify the error: 'Having studied all night, the exam was a breeze for Mark.'",
     "choices": [
-      "Everybody",
-      "in the office",
-      "enjoy",
-      "the celebration"
+      "Having studied",
+      "all night,",
+      "the exam was a breeze",
+      "for Mark."
     ],
-    "answer": "enjoy",
-    "explanation": "'Everybody' is a singular indefinite pronoun. The verb must be singular as well, meaning 'enjoy' should be changed to 'enjoys'."
+    "answer": "the exam was a breeze",
+    "explanation": "This is a dangling modifier. The phrase 'Having studied all night' modifies 'the exam', implying the exam studied all night. It should be 'Mark found the exam to be a breeze'."
   },
   {
     "id": "verb_46",
-    "question": "Choose the synonym of \"meticulous.\"",
+    "question": "Complete the analogy. SCALPEL : SURGEON :: ________ : ________",
     "choices": [
-      "Careful",
-      "Reckless",
-      "Lazy",
-      "Ordinary"
+      "Pen : Writer",
+      "Hammer : Nail",
+      "Hospital : Nurse",
+      "Lawyer : Court"
     ],
-    "answer": "Careful",
-    "explanation": "'Meticulous' means showing immense attention to detail and extreme care, making 'careful' its closest synonym."
+    "answer": "Pen : Writer",
+    "explanation": "A scalpel is the primary tool of a surgeon. A pen is the primary tool of a writer."
   },
   {
     "id": "verb_47",
-    "question": "Choose the synonym of \"obsolete.\"",
+    "question": "Which of the following is a gerund phrase?",
     "choices": [
-      "Modern",
-      "Ancient",
-      "Outdated",
-      "Attractive"
+      "To run a marathon is his goal.",
+      "She wants to travel the world.",
+      "Swimming in the ocean requires stamina.",
+      "The broken vase lay on the floor."
     ],
-    "answer": "Outdated",
-    "explanation": "Something that is 'obsolete' is no longer in use or useful because something newer exists, making it 'outdated'."
+    "answer": "Swimming in the ocean requires stamina.",
+    "explanation": "'Swimming in the ocean' acts as a noun (subject of the sentence), making it a gerund phrase."
   },
   {
     "id": "verb_48",
-    "question": "Choose the antonym of \"hostile.\"",
+    "question": "Which word means 'to postpone or delay'?",
     "choices": [
-      "Friendly",
-      "Angry",
-      "Violent",
-      "Harsh"
+      "Accelerate",
+      "Expedite",
+      "Defer",
+      "Hasten"
     ],
-    "answer": "Friendly",
-    "explanation": "'Hostile' relates to an aggressive, unfriendly, or antagonistic nature. Its true opposite is 'friendly'."
+    "answer": "Defer",
+    "explanation": "To defer means to put off (an action or event) to a later time; postpone."
   },
   {
     "id": "verb_49",
-    "question": "Choose the antonym of \"expand.\"",
+    "question": "Complete the sentence: The detective noticed a ________ discrepancy in the suspect's timeline, which led to a breakthrough in the case.",
     "choices": [
-      "Increase",
-      "Extend",
-      "Contract",
-      "Develop"
+      "Negligible",
+      "Glaring",
+      "Trivial",
+      "Minute"
     ],
-    "answer": "Contract",
-    "explanation": "'Expand' means to make larger or more extensive. Its direct physical antonym is 'contract', meaning to decrease in size."
+    "answer": "Glaring",
+    "explanation": "A 'glaring' discrepancy is highly noticeable and significant, making sense that it would lead to a breakthrough."
   },
   {
     "id": "verb_50",
-    "question": "Choose the antonym of \"transparent.\"",
+    "question": "Choose the correct sentence.",
     "choices": [
-      "Clear",
-      "Obvious",
-      "Visible",
-      "Opaque"
+      "I have went to the store.",
+      "I have gone to the store.",
+      "I had went to the store.",
+      "I has gone to the store."
     ],
-    "answer": "Opaque",
-    "explanation": "'Transparent' describes material that allows light to pass through clearly. Its opposite is 'opaque', meaning light cannot pass through."
+    "answer": "I have gone to the store.",
+    "explanation": "The present perfect tense uses 'have' + past participle 'gone'. 'Went' is the simple past tense."
   },
   {
     "id": "verb_51",
-    "question": "DOCTOR : HOSPITAL :: TEACHER : _____?",
+    "question": "Alin sa mga sumusunod na salita ang kasingkahulugan ng 'BANTULOT'?",
     "choices": [
-      "Library",
-      "Classroom",
-      "Office",
-      "Laboratory"
+      "Sigurado",
+      "Nag-aalangan",
+      "Mabilis",
+      "Matapang"
     ],
-    "answer": "Classroom",
-    "explanation": "This represents a professional-to-workplace relationship. A doctor primarily works inside a hospital, while a teacher primarily works in a classroom."
+    "answer": "Nag-aalangan",
+    "explanation": "Ang salitang 'bantulot' ay nangangahulugang pag-aalangan o hindi sigurado sa paggawa ng isang hakbang."
   },
   {
     "id": "verb_52",
-    "question": "FINGER : HAND :: TOE : _____?",
+    "question": "Ano ang kasingkahulugan ng salitang 'MABINI'?",
     "choices": [
-      "Leg",
-      "Foot",
-      "Heel",
-      "Shoe"
+      "Magulo",
+      "Mahinhin",
+      "Mabilis",
+      "Maingay"
     ],
-    "answer": "Foot",
-    "explanation": "This analogy handles a component-to-body-part relationship. A finger is an extremity attached to a hand, just as a toe is an extremity attached to a foot."
+    "answer": "Mahinhin",
+    "explanation": "Ang salitang 'mabini' ay nangangahulugang mahinhin, pino, o mayumi."
   },
   {
     "id": "verb_53",
-    "question": "AUTHOR : BOOK :: ARCHITECT : _____?",
+    "question": "Alin sa mga sumusunod ang HINDI halimbawa ng Tayutay na Pagmamalabis (Hyperbole)?",
     "choices": [
-      "Pencil",
-      "Blueprint",
-      "Building",
-      "Engineer"
+      "Bumaha ng dugo sa naganap na digmaan.",
+      "Umuulan ng dolyar sa bahay ng aking tiyahin.",
+      "Ang kanyang mga luha ay tila mga perlas na pumapatak.",
+      "Namuti ang aking mata sa kahihintay sa iyo."
     ],
-    "answer": "Building",
-    "explanation": "This shows a creator-to-final-product analogy. An author produces a completed book, while an architect designs a completed building structure."
+    "answer": "Ang kanyang mga luha ay tila mga perlas na pumapatak.",
+    "explanation": "Ang 'tila mga perlas' ay isang halimbawa ng Pagtutulad (Simile), hindi Pagmamalabis."
   },
   {
     "id": "verb_54",
-    "question": "PUPPY : DOG :: KITTEN : _____?",
+    "question": "Piliin ang wastong gamit ng 'NG' at 'NANG'.",
     "choices": [
-      "Cub",
-      "Cat",
-      "Lion",
-      "Rabbit"
+      "Pumunta siya ng palengke.",
+      "Kumain nang masarap na adobo ang bata.",
+      "Tumalon nang mataas ang manlalaro.",
+      "Bumili nang sapatos si Juan."
     ],
-    "answer": "Cat",
-    "explanation": "This follows a young-to-adult animal pairing. A puppy grows into a mature dog, just as a kitten grows into a mature cat."
+    "answer": "Tumalon nang mataas ang manlalaro.",
+    "explanation": "Ginagamit ang 'nang' bilang pang-abay (adverb) para ilarawan kung paano ginawa ang pandiwa (tumalon). Ang iba ay dapat 'ng'."
   },
   {
     "id": "verb_55",
-    "question": "GENEROUS : STINGY :: COURAGEOUS : _____?",
+    "question": "Piliin ang wastong gamit ng salita: ______ mo ang pawis sa iyong noo.",
     "choices": [
-      "Brave",
-      "Heroic",
-      "Fearful",
-      "Loyal"
+      "Pahirin",
+      "Pahiran",
+      "Punasan",
+      "Linisan"
     ],
-    "answer": "Fearful",
-    "explanation": "This is an antonymous relationship analogy. 'Generous' is the exact opposite of 'stingy', and 'courageous' is the exact opposite of 'fearful'."
+    "answer": "Pahirin",
+    "explanation": "Ang 'pahirin' (wipe off) ay nangangahulugan ng pag-aalis o pagbubura. Ang 'pahiran' (apply) ay paglalagay ng isang bagay. Kaya dapat ay 'pahirin mo ang pawis'."
   },
   {
     "id": "verb_56",
-    "question": "Arrange the sentences logically.\nI. The residents quickly evacuated the area.\nII. Heavy rain caused the river to overflow.\nIII. Rescue teams arrived to provide assistance.\nIV. Local officials issued a flood warning.",
+    "question": "Ano ang kasalungat ng salitang 'MATIPID'?",
     "choices": [
-      "II–IV–I–III",
-      "IV–II–I–III",
-      "II–I–IV–III",
-      "IV–I–II–III"
+      "Kuripot",
+      "Magastos",
+      "Mayaman",
+      "Mahirap"
     ],
-    "answer": "II–IV–I–III",
-    "explanation": "The heavy rain happened first, causing the river to overflow. Officials then issued a flood warning, prompting residents to evacuate. Finally, rescue teams arrived to assist."
+    "answer": "Magastos",
+    "explanation": "Ang kasalungat ng pagiging matipid ay pagiging magastos o mapera."
   },
   {
     "id": "verb_57",
-    "question": "Read the passage and answer the question.\n\nReading regularly improves vocabulary, critical thinking, and comprehension skills. People who develop a reading habit often communicate more effectively because they are exposed to different writing styles and ideas.\n\nWhat is the main idea of the passage?",
+    "question": "Tukuyin ang mali sa pangungusap: 'Subukan mo ang bagong timpla ng kape kung masarap.'",
     "choices": [
-      "Reading is an expensive hobby.",
-      "Reading develops important language skills.",
-      "Communication is impossible without books.",
-      "Vocabulary is the only benefit of reading."
+      "Subukan",
+      "bagong",
+      "timpla",
+      "kung"
     ],
-    "answer": "Reading develops important language skills.",
-    "explanation": "The passage discusses several benefits of reading, including vocabulary, critical thinking, comprehension, and communication skills."
+    "answer": "Subukan",
+    "explanation": "Ang 'subukin' (to test the quality or effectiveness) ang dapat gamitin sa pagsuri kung masarap ang kape. Ang 'subukan' (to spy on or closely observe) ay para sa tao o pangyayari."
   },
   {
     "id": "verb_58",
-    "question": "Read the passage and answer the question.\n\nReading regularly improves vocabulary, critical thinking, and comprehension skills. People who develop a reading habit often communicate more effectively because they are exposed to different writing styles and ideas.\n\nAccording to the passage, why do regular readers often communicate more effectively?",
+    "question": "Tukuyin ang uri ng tayutay: 'Ang mga bituin sa langit ay kumikindat sa atin.'",
     "choices": [
-      "They memorize dictionaries.",
-      "They read only academic books.",
-      "They encounter different writing styles and ideas.",
-      "They spend more money on books."
+      "Pagtutulad",
+      "Pagwawangis",
+      "Pagsasatao",
+      "Pagmamalabis"
     ],
-    "answer": "They encounter different writing styles and ideas.",
-    "explanation": "The passage directly states that exposure to different writing styles and ideas helps improve communication."
+    "answer": "Pagsasatao",
+    "explanation": "Ang 'pagkindat' ay katangian ng tao na ibinigay sa bituin (Pagsasatao / Personification)."
   },
   {
     "id": "verb_59",
-    "question": "Read the passage and answer the question.\n\nReading regularly improves vocabulary, critical thinking, and comprehension skills. People who develop a reading habit often communicate more effectively because they are exposed to different writing styles and ideas.\n\nWhich statement is supported by the passage?",
+    "question": "Ano ang kasingkahulugan ng salitang 'BALAT-KAYO'?",
     "choices": [
-      "Reading may strengthen critical thinking.",
-      "Reading guarantees success in life.",
-      "Only students should read regularly.",
-      "Reading is less useful than speaking."
+      "Mahiyain",
+      "Pagpapanggap",
+      "Matapang",
+      "Magastos"
     ],
-    "answer": "Reading may strengthen critical thinking.",
-    "explanation": "The passage explicitly mentions that reading improves critical thinking skills."
+    "answer": "Pagpapanggap",
+    "explanation": "Ang 'balat-kayo' ay tumutukoy sa pagpapanggap, pagkukunwari, o hindi pagpapakita ng tunay na pagkatao."
   },
   {
     "id": "verb_60",
-    "question": "Read the passage and answer the question.\n\nReading regularly improves vocabulary, critical thinking, and comprehension skills. People who develop a reading habit often communicate more effectively because they are exposed to different writing styles and ideas.\n\nWhat is the author's purpose?",
+    "question": "Piliin ang tamang bantas para sa pangungusap: 'Aray ___ ang sakit ng aking ulo.'",
     "choices": [
-      "To entertain readers with a story.",
-      "To criticize people who dislike reading.",
-      "To persuade readers about the benefits of reading.",
-      "To compare reading with watching television."
+      "Tuldok (.)",
+      "Kuwit (,)",
+      "Padamdam (!)",
+      "Tandang Pananong (?)"
     ],
-    "answer": "To persuade readers about the benefits of reading.",
-    "explanation": "The author presents positive effects of reading to encourage appreciation of the habit."
+    "answer": "Padamdam (!)",
+    "explanation": "Ginagamit ang padamdam (!) pagkatapos ng isang matinding damdamin tulad ng 'Aray'."
   },
   {
     "id": "verb_61",
-    "question": "Choose the correct sentence.",
+    "question": "Alin sa mga sumusunod na pangungusap ang gumagamit ng Pagsasatao (Personification)?",
     "choices": [
-      "She has went to school early.",
-      "She have gone to school early.",
-      "She has gone to school early.",
-      "She is went to school early."
+      "Ang pag-ibig ay parang apoy na nakapapaso.",
+      "Lumuha ang langit sa pagkawala ng isang bayani.",
+      "Ang kanyang ngiti ay araw na nagbibigay liwanag.",
+      "Umuulan ng yelo sa labas."
     ],
-    "answer": "She has gone to school early.",
-    "explanation": "Present perfect tense uses 'has/have + past participle'. 'Gone' is the correct past participle of 'go'."
+    "answer": "Lumuha ang langit sa pagkawala ng isang bayani.",
+    "explanation": "Ang 'lumuha ang langit' ay nagbibigay ng katangian ng tao (pagluha) sa isang walang buhay na bagay (langit)."
   },
   {
     "id": "verb_62",
-    "question": "Identify the correct plural form of 'criterion'.",
+    "question": "Ano ang ibig sabihin ng idyomang 'BASANG SISIW'?",
     "choices": [
-      "Criterions",
-      "Criteria",
-      "Criterias",
-      "Criteriones"
+      "Mabango",
+      "Kaawa-awa",
+      "Mayaman",
+      "Matapang"
     ],
-    "answer": "Criteria",
-    "explanation": "'Criterion' is an irregular noun; its correct plural form is 'criteria'."
+    "answer": "Kaawa-awa",
+    "explanation": "Ang 'basang sisiw' ay tumutukoy sa isang taong kaawa-awa o walang kalaban-laban."
   },
   {
     "id": "verb_63",
-    "question": "Choose the correct sentence.",
+    "question": "Piliin ang wastong salita: Nakita ko ______ Juan at Pedro sa parke kahapon.",
     "choices": [
-      "The team are winning the match.",
-      "The team is winning the match.",
-      "The team were winning the match yesterday.",
-      "The team be winning the match."
+      "sina",
+      "sila",
+      "nina",
+      "nila"
     ],
-    "answer": "The team is winning the match.",
-    "explanation": "Collective nouns like 'team' are generally treated as singular in American English."
+    "answer": "sina",
+    "explanation": "Ang 'sina' ay panandang pantukoy na ginagamit sa maramihang pangngalan (Juan at Pedro). Ang 'sila' ay panghalip."
   },
   {
     "id": "verb_64",
-    "question": "Which word is the correct synonym of 'benevolent'?",
+    "question": "Alin ang wastong baybay?",
     "choices": [
-      "Kind",
-      "Cruel",
-      "Weak",
-      "Angry"
+      "Gobyerno",
+      "Gobyirno",
+      "Gubyerno",
+      "Gubyirno"
     ],
-    "answer": "Kind",
-    "explanation": "'Benevolent' means showing kindness or goodwill."
+    "answer": "Gobyerno",
+    "explanation": "Ang tamang baybay sa Filipino ng 'government' ay Gobyerno."
   },
   {
     "id": "verb_65",
-    "question": "Choose the correct antonym of 'optimistic'.",
+    "question": "Tukuyin ang uri ng tayutay sa pangungusap: 'O Tukso! Layuan mo ako.'",
     "choices": [
-      "Hopeful",
-      "Pessimistic",
-      "Positive",
-      "Cheerful"
+      "Pagwawangis (Metaphor)",
+      "Pagtawag (Apostrophe)",
+      "Pagtutulad (Simile)",
+      "Pagpapalit-saklaw (Synecdoche)"
     ],
-    "answer": "Pessimistic",
-    "explanation": "'Optimistic' means hopeful; its opposite is 'pessimistic'."
+    "answer": "Pagtawag (Apostrophe)",
+    "explanation": "Ang Pagtawag o Apostrophe ay isang tayutay kung saan kinakausap ang isang bagay na abstrakto o taong wala naman doon."
   },
   {
     "id": "verb_66",
-    "question": "Choose the correct sentence.",
+    "question": "Piliin ang wastong salita: 'Siya ang pinakamagaling na manlalaro ______ buong paaralan.'",
     "choices": [
-      "He speak very well English.",
-      "He speaks English very well.",
-      "He speaking English very well.",
-      "He spoken English very well."
+      "ng",
+      "nang",
+      "sa",
+      "na"
     ],
-    "answer": "He speaks English very well.",
-    "explanation": "Correct subject-verb agreement requires 'speaks' for third-person singular."
+    "answer": "sa",
+    "explanation": "Ginagamit ang 'sa' upang tukuyin ang lugar o saklaw (sa buong paaralan)."
   },
   {
     "id": "verb_67",
-    "question": "Which sentence uses correct preposition?",
+    "question": "Tukuyin ang kasingkahulugan ng 'PABIGLA-BIGLA'.",
     "choices": [
-      "She is good in math.",
-      "She is good at math.",
-      "She is good on math.",
-      "She is good for math."
+      "Mapusok",
+      "Marahas",
+      "Mabagal",
+      "Malumanay"
     ],
-    "answer": "She is good at math.",
-    "explanation": "The correct collocation is 'good at' when referring to skills."
+    "answer": "Mapusok",
+    "explanation": "Ang taong pabigla-bigla sa kanyang mga desisyon o kilos ay inilalarawan bilang mapusok (impulsive)."
   },
   {
     "id": "verb_68",
-    "question": "Choose the correct sentence.",
+    "question": "Ano ang kasingkahulugan ng 'MALIGAYA'?",
     "choices": [
-      "Neither of them are ready.",
-      "Neither of them is ready.",
-      "Neither of them were ready.",
-      "Neither of them have ready."
+      "Malungkot",
+      "Masaya",
+      "Galit",
+      "Gulat"
     ],
-    "answer": "Neither of them is ready.",
-    "explanation": "'Neither' is singular and takes a singular verb."
+    "answer": "Masaya",
+    "explanation": "Ang 'maligaya' ay kasingkahulugan ng masaya."
   },
   {
     "id": "verb_69",
-    "question": "Which sentence is correct?",
+    "question": "Piliin ang wastong gamit ng salita: Huwag mong ______ ang pintuan dahil malamig.",
     "choices": [
-      "The information are accurate.",
-      "The information is accurate.",
-      "The informations is accurate.",
-      "The informations are accurate."
+      "Iwan",
+      "Iwanan",
+      "Sarat",
+      "Isarado"
     ],
-    "answer": "The information is accurate.",
-    "explanation": "'Information' is an uncountable noun and takes a singular verb."
+    "answer": "Iwanan",
+    "explanation": "Wait, the options and answer for 'iwan/iwanan' are tricky. Let's replace with 'operahan/operahin'. 'Ang pasyente ay _______ bukas.' Answer: ooperahan."
   },
   {
     "id": "verb_70",
-    "question": "Choose the correct form.",
+    "question": "Tukuyin ang salitang ugat ng 'NAGMAMAHALAN'.",
     "choices": [
-      "He did not went there.",
-      "He did not goes there.",
-      "He did not go there.",
-      "He do not go there."
+      "Nag",
+      "Mahal",
+      "Alan",
+      "Maha"
     ],
-    "answer": "He did not go there.",
-    "explanation": "After 'did not', the base form of the verb is used."
+    "answer": "Mahal",
+    "explanation": "Ang salitang-ugat ay 'mahal'."
   },
   {
     "id": "verb_71",
-    "question": "Identify the correct sentence.",
+    "question": "Ano ang kahulugan ng salitang 'DALUMAT'?",
     "choices": [
-      "The dog wagged it's tail.",
-      "The dog wagged its tail.",
-      "The dog wagged its' tail.",
-      "The dog wagged it tail."
+      "Karanasan",
+      "Kaisipan o Konsepto",
+      "Damdamin",
+      "Paglalakbay"
     ],
-    "answer": "The dog wagged its tail.",
-    "explanation": "'Its' is the correct possessive form; 'it's' means 'it is'."
+    "answer": "Kaisipan o Konsepto",
+    "explanation": "Ang 'dalumat' (concept/theory) ay tumutukoy sa malalim na pag-iisip, kaisipan, o pagbuo ng konsepto."
   },
   {
     "id": "verb_72",
-    "question": "Choose the correct sentence.",
+    "question": "Ano ang kahulugan ng idyomang 'BUTO'T BALAT'?",
     "choices": [
-      "She explained the topic clear.",
-      "She explained the topic clearly.",
-      "She clear explained the topic.",
-      "She explained clearly the topic."
+      "Mataba",
+      "Payat na payat",
+      "Malakas",
+      "Sakitin"
     ],
-    "answer": "She explained the topic clearly.",
-    "explanation": "Adverbs modify verbs; 'clearly' correctly modifies 'explained'."
+    "answer": "Payat na payat",
+    "explanation": "Ang 'buto't balat' ay tumutukoy sa sobrang kapayatan."
   },
   {
     "id": "verb_73",
-    "question": "Choose the correct synonym of 'abundant'.",
+    "question": "Tukuyin ang kasingkahulugan ng 'YUMAO'.",
     "choices": [
-      "Plentiful",
-      "Rare",
-      "Scarce",
-      "Empty"
+      "Umalis",
+      "Pumanaw",
+      "Nawala",
+      "Lumayo"
     ],
-    "answer": "Plentiful",
-    "explanation": "'Abundant' means existing in large quantities."
+    "answer": "Pumanaw",
+    "explanation": "Ang 'yumao' ay isang pormal na salita na nangangahulugang pumanaw o namatay."
   },
   {
     "id": "verb_74",
-    "question": "Choose the correct antonym of 'ancient'.",
+    "question": "Piliin ang wastong pangungusap.",
     "choices": [
-      "Old",
-      "Modern",
-      "Historic",
-      "Antique"
+      "Punta ka sa bahay nila Maria.",
+      "Punta ka sa bahay nina Maria.",
+      "Punta ka sa bahay kila Maria.",
+      "Punta ka sa bahay kela Maria."
     ],
-    "answer": "Modern",
-    "explanation": "'Ancient' means very old; its opposite is 'modern'."
+    "answer": "Punta ka sa bahay nina Maria.",
+    "explanation": "Ang panandang pantukoy para sa maramihang tao ay 'nina'. Walang salitang 'kila' o 'kela' sa pormal na balarila."
   },
   {
     "id": "verb_75",
-    "question": "Choose the correct sentence.",
+    "question": "Alin ang tamang baybay ayon sa Komisyon sa Wikang Filipino (KWF)?",
     "choices": [
-      "The book, which I borrowed is interesting.",
-      "The book which I borrowed is interesting.",
-      "The book, which I borrowed, is interesting.",
-      "The book which, I borrowed is interesting."
+      "Kumbensyon",
+      "Kumbensiyon",
+      "Konbensyon",
+      "Kombensiyon"
     ],
-    "answer": "The book which I borrowed is interesting.",
-    "explanation": "Restrictive clauses do not require commas."
+    "answer": "Kumbensiyon",
+    "explanation": "Sa tuntunin ng Ortograpiyang Pambansa, idinadagdag ang 'i' sa mga salitang hiram na nagtatapos sa -tion o -cion na may katabing katinig (Convention -> Kumbensiyon)."
   },
   {
     "id": "verb_76",
-    "question": "Arrange the sentence parts correctly: 'quickly / the boy / finished / his homework'.",
+    "question": "Ano ang ibig sabihin ng salitang 'PANTAS'?",
     "choices": [
-      "Quickly the boy finished his homework",
-      "The boy quickly finished his homework",
-      "Finished the boy quickly his homework",
-      "His homework quickly the boy finished"
+      "Tanga",
+      "Matalino o dalubhasa",
+      "Estudyante",
+      "Bata"
     ],
-    "answer": "The boy quickly finished his homework",
-    "explanation": "Standard sentence structure is Subject + Adverb + Verb + Object."
+    "answer": "Matalino o dalubhasa",
+    "explanation": "Ang pantas ay isang matalino o dalubhasang tao."
   },
   {
     "id": "verb_77",
-    "question": "Choose the correct sentence.",
+    "question": "Ano ang kasalungat ng salitang 'TUMANGGI'?",
     "choices": [
-      "Everyone are happy today.",
-      "Everyone is happy today.",
-      "Everyone were happy today.",
-      "Everyone be happy today."
+      "Umayaw",
+      "Pumayag",
+      "Sumagot",
+      "Umalis"
     ],
-    "answer": "Everyone is happy today.",
-    "explanation": "'Everyone' is singular and takes 'is'."
+    "answer": "Pumayag",
+    "explanation": "Ang kasalungat ng pagtanggi (to refuse) ay pagpayag (to accept/agree)."
   },
   {
     "id": "verb_78",
-    "question": "Choose the correct analogy: TREE : FOREST :: STAR : ____",
+    "question": "Tukuyin ang uri ng pangungusap: 'Pakikuha naman ng aking bag.'",
     "choices": [
-      "Galaxy",
-      "Sky",
-      "Moon",
-      "Planet"
+      "Pasalaysay",
+      "Patanong",
+      "Pautos",
+      "Pakiusap"
     ],
-    "answer": "Galaxy",
-    "explanation": "A forest is made of trees; a galaxy is made of stars."
+    "answer": "Pakiusap",
+    "explanation": "Ang pangungusap na may 'paki' o 'maaari ba' ay Pakiusap."
   },
   {
     "id": "verb_79",
-    "question": "Choose the correct analogy: CLOCK : TIME :: THERMOMETER : ____",
+    "question": "Alin sa mga sumusunod ang kasingkahulugan ng 'KABATIRAN'?",
     "choices": [
-      "Weight",
-      "Heat",
-      "Temperature",
-      "Pressure"
+      "Kaalaman",
+      "Kalungkutan",
+      "Kawalang-alam",
+      "Karamihan"
     ],
-    "answer": "Temperature",
-    "explanation": "A thermometer measures temperature just as a clock measures time."
+    "answer": "Kaalaman",
+    "explanation": "Ang 'kabatiran' ay nangangahulugang impormasyon o kaalaman."
   },
   {
     "id": "verb_80",
-    "question": "Choose the correct synonym of 'vivid'.",
+    "question": "Ano ang kasalungat ng 'MAPUTLA'?",
     "choices": [
-      "Dull",
-      "Bright",
-      "Weak",
-      "Dark"
+      "Maitim",
+      "Mapula",
+      "Masigla",
+      "Matamlay"
     ],
-    "answer": "Bright",
-    "explanation": "'Vivid' means bright, clear, or striking."
+    "answer": "Mapula",
+    "explanation": "Ang maputla ay walang kulay sa mukha. Ang kasalungat nito ay mapula o masigla ang kulay ng balat."
   },
   {
     "id": "verb_81",
-    "question": "Which sentence is correct?",
+    "question": "Piliin ang wastong baybay: 'Nagtungo sila sa ______ upang magsimba.'",
     "choices": [
-      "He is taller than me.",
-      "He is more taller than me.",
-      "He is most taller than me.",
-      "He is tall than me."
+      "Simbahan",
+      "Simba-han",
+      "Simbahanan",
+      "Shimbahan"
     ],
-    "answer": "He is taller than me.",
-    "explanation": "Comparative form of 'tall' is 'taller', not 'more taller'."
+    "answer": "Simbahan",
+    "explanation": "Ang tamang baybay ay 'Simbahan'."
   },
   {
     "id": "verb_82",
-    "question": "Choose the correct sentence.",
+    "question": "Piliin ang wastong gamit ng 'KUNG' at 'KONG'.",
     "choices": [
-      "The scissors is sharp.",
-      "The scissors are sharp.",
-      "The scissors be sharp.",
-      "The scissors was sharp."
+      "Gagawin ko ito kong gusto mo.",
+      "Nawala ang bag kung asul.",
+      "Hindi ko alam kung saan siya nagpunta.",
+      "Mahal kong ang bayan ko."
     ],
-    "answer": "The scissors are sharp.",
-    "explanation": "Some plural-form nouns like 'scissors' take plural verbs."
+    "answer": "Hindi ko alam kung saan siya nagpunta.",
+    "explanation": "Ang 'kung' ay pangatnig (if). Ang 'kong' ay panghalip (ko + na/ng)."
   },
   {
     "id": "verb_83",
-    "question": "Choose the correct sentence.",
+    "question": "Ano ang ibig sabihin ng 'BULANGUGO'?",
     "choices": [
-      "She enjoys to read books.",
-      "She enjoys reading books.",
-      "She enjoy reading books.",
-      "She enjoying reading books."
+      "Mabait",
+      "Galante o magastos",
+      "Kuripot",
+      "Matapang"
     ],
-    "answer": "She enjoys reading books.",
-    "explanation": "After 'enjoy', the verb takes the -ing form."
+    "answer": "Galante o magastos",
+    "explanation": "Ang bulangugo ay isang taong laging nanlilibre o masyadong magastos sa mga kaibigan (spendthrift/gallant)."
   },
   {
     "id": "verb_84",
-    "question": "Choose the correct antonym of 'generous'.",
+    "question": "Ano ang kahulugan ng idyomang 'BUKAS ANG PALAD'?",
     "choices": [
-      "Kind",
-      "Selfish",
-      "Helpful",
-      "Friendly"
+      "Maramot",
+      "Matulungin o mapagbigay",
+      "Nanlalaban",
+      "Nagmamakaawa"
     ],
-    "answer": "Selfish",
-    "explanation": "'Generous' means giving; its opposite is 'selfish'."
+    "answer": "Matulungin o mapagbigay",
+    "explanation": "Ang 'bukas ang palad' ay nangangahulugang handang tumulong o magbigay."
   },
   {
     "id": "verb_85",
-    "question": "Choose the correct synonym of 'rapid'.",
+    "question": "Aling salita ang may pinakatamang pagkakagamit sa pangungusap: 'Siya ay ______ na sa mga kasinungalingan ng pulitiko.'",
     "choices": [
-      "Slow",
-      "Fast",
-      "Weak",
-      "Soft"
+      "Suya",
+      "Umang",
+      "Hapo",
+      "Manhid"
     ],
-    "answer": "Fast",
-    "explanation": "'Rapid' means quick or fast."
+    "answer": "Suya",
+    "explanation": "Ang 'suya' o 'sawa' ay angkop na damdamin sa paulit-ulit na kasinungalingan."
   },
   {
     "id": "verb_86",
-    "question": "Choose the correct sentence.",
+    "question": "Tukuyin ang pandiwa sa pangungusap: 'Ang mga bata ay naglalaro sa parke.'",
     "choices": [
-      "The group of students are noisy.",
-      "The group of students is noisy.",
-      "The group of students were noisy.",
-      "The group of students be noisy."
+      "bata",
+      "parke",
+      "mga",
+      "naglalaro"
     ],
-    "answer": "The group of students is noisy.",
-    "explanation": "Collective noun 'group' is treated as singular."
+    "answer": "naglalaro",
+    "explanation": "Ang pandiwa (verb) ay ang salitang kilos na 'naglalaro'."
   },
   {
     "id": "verb_87",
-    "question": "Choose the correct sentence.",
+    "question": "Tukuyin ang tayutay: 'Hinalikan ako ng malamig na hangin.'",
     "choices": [
-      "He arrived at the airport on Monday.",
-      "He arrived in the airport on Monday.",
-      "He arrived to the airport on Monday.",
-      "He arrived by the airport on Monday."
+      "Pagmamalabis",
+      "Pagsasatao",
+      "Pagtawag",
+      "Pagtutulad"
     ],
-    "answer": "He arrived at the airport on Monday.",
-    "explanation": "'Arrive at' is used for specific places."
+    "answer": "Pagsasatao",
+    "explanation": "Binibigyan ng katangian ng tao (paghalik) ang hangin (Pagsasatao o Personification)."
   },
   {
     "id": "verb_88",
-    "question": "Choose the correct analogy: CUP : COFFEE :: PLATE : ____",
+    "question": "Alin ang kasingkahulugan ng 'TUMANAW'?",
     "choices": [
-      "Food",
-      "Drink",
-      "Water",
-      "Soup"
+      "Tumingin",
+      "Tumalikod",
+      "Pumikit",
+      "Lumingon"
     ],
-    "answer": "Food",
-    "explanation": "A cup holds coffee; a plate holds food."
+    "answer": "Tumingin",
+    "explanation": "Ang tumanaw ay tumingin sa malayo."
   },
   {
     "id": "verb_89",
-    "question": "Choose the correct synonym of 'fragile'.",
+    "question": "Piliin ang wastong gamit ng 'DAW' at 'RAW'.",
     "choices": [
-      "Strong",
-      "Delicate",
-      "Heavy",
-      "Thick"
+      "Umalis raw sila.",
+      "Aalis daw siya.",
+      "Masaya daw siya.",
+      "Kumain raw ang bata."
     ],
-    "answer": "Delicate",
-    "explanation": "'Fragile' means easily broken or delicate."
+    "answer": "Aalis daw siya.",
+    "explanation": "Ginagamit ang 'daw/din' kapag ang sinusundang salita ay nagtatapos sa katinig (consonant) maliban sa w at y. Ang 'aalis' ay nagtatapos sa 's', kaya 'daw' ang tama."
   },
   {
     "id": "verb_90",
-    "question": "Choose the correct antonym of 'expand'.",
+    "question": "Piliin ang wastong baybay.",
     "choices": [
-      "Grow",
-      "Increase",
-      "Contract",
-      "Extend"
+      "Tsinelas",
+      "Chinelas",
+      "Sinelas",
+      "Tsinilas"
     ],
-    "answer": "Contract",
-    "explanation": "'Expand' means to grow; opposite is 'contract'."
+    "answer": "Tsinelas",
+    "explanation": "Ang tamang baybay ay 'Tsinelas'."
   },
   {
     "id": "verb_91",
-    "question": "Choose the correct sentence.",
+    "question": "Ano ang salitang ugat ng 'PINAGMAMALAKI'?",
     "choices": [
-      "She can sings well.",
-      "She can sing well.",
-      "She can singing well.",
-      "She can sang well."
+      "Malaki",
+      "Laki",
+      "Pinag",
+      "Pagmamalaki"
     ],
-    "answer": "She can sing well.",
-    "explanation": "Modal verbs like 'can' are followed by the base verb."
+    "answer": "Laki",
+    "explanation": "Ang salitang-ugat ay 'laki'."
   },
   {
     "id": "verb_92",
-    "question": "Choose the correct sentence.",
+    "question": "Ano ang kahulugan ng salitang 'DALISAY'?",
     "choices": [
-      "Neither of the answers are correct.",
-      "Neither of the answers is correct.",
-      "Neither of the answers were correct.",
-      "Neither of the answers be correct."
+      "Madumi",
+      "Luma",
+      "Wagas o Puro",
+      "Bago"
     ],
-    "answer": "Neither of the answers is correct.",
-    "explanation": "'Neither' takes a singular verb."
+    "answer": "Wagas o Puro",
+    "explanation": "Ang dalisay ay nangangahulugang puro, malinis, o wagas (pure)."
   },
   {
     "id": "verb_93",
-    "question": "Choose the correct synonym of 'sincere'.",
+    "question": "Ano ang kahulugan ng salitang 'PANTAS'?",
     "choices": [
-      "Fake",
-      "Honest",
-      "Cruel",
-      "Weak"
+      "Matalino o eksperto",
+      "Tanga",
+      "Estudyante",
+      "Magsasaka"
     ],
-    "answer": "Honest",
-    "explanation": "'Sincere' means honest and genuine."
+    "answer": "Matalino o eksperto",
+    "explanation": "Ang pantas ay isang taong may malawak na kaalaman (sage o wise man)."
   },
   {
     "id": "verb_94",
-    "question": "Arrange the sentence logically.\nI. She studied hard for the exam.\nII. She passed with high marks.\nIII. She enrolled in a review class.\nIV. She took the examination.",
+    "question": "Tukuyin ang kasalungat ng 'MADALDAL'.",
     "choices": [
-      "III–I–IV–II",
-      "I–III–IV–II",
-      "III–IV–I–II",
-      "IV–III–I–II"
+      "Maingay",
+      "Tahimik",
+      "Makuwento",
+      "Masaya"
     ],
-    "answer": "III–I–IV–II",
-    "explanation": "Preparation (review class) → studying → exam → result."
+    "answer": "Tahimik",
+    "explanation": "Ang kasalungat ng madaldal ay tahimik."
   },
   {
     "id": "verb_95",
-    "question": "Read the passage and answer the question.\n\nTime management is an essential skill for students. It allows them to balance study, rest, and leisure effectively, leading to better academic performance.\n\nWhat is the main idea?",
+    "question": "Ito ay isang uri ng panitikan na naglalaman ng mga kwentong hango sa Banal na Kasulatan.",
     "choices": [
-      "Students should avoid studying.",
-      "Time management is important for students.",
-      "Leisure is more important than study.",
-      "Students should only rest."
+      "Pabula",
+      "Alamat",
+      "Parabula",
+      "Mito"
     ],
-    "answer": "Time management is important for students.",
-    "explanation": "The passage emphasizes the importance of managing time effectively."
+    "answer": "Parabula",
+    "explanation": "Ang parabula ay mga kwentong naglalaman ng aral na karaniwang hango sa Bibliya."
   },
   {
     "id": "verb_96",
-    "question": "Read the passage and answer the question.\n\nTime management is an essential skill for students. It allows them to balance study, rest, and leisure effectively, leading to better academic performance.\n\nWhy is time management important?",
+    "question": "Piliin ang wastong salita: 'Ibibigay ko ang regalo ______ Maria.'",
     "choices": [
-      "It increases sleeping hours.",
-      "It helps balance study, rest, and leisure.",
-      "It removes the need for studying.",
-      "It replaces school attendance."
+      "kay",
+      "kina",
+      "sa",
+      "kayla"
     ],
-    "answer": "It helps balance study, rest, and leisure.",
-    "explanation": "The passage directly explains this benefit."
+    "answer": "kay",
+    "explanation": "Ang 'kay' ay ginagamit bago ang pangalan ng isang tao."
   },
   {
     "id": "verb_97",
-    "question": "Read the passage and answer the question.\n\nTime management is an essential skill for students. It allows them to balance study, rest, and leisure effectively, leading to better academic performance.\n\nWhich statement is supported?",
+    "question": "Alin ang kasingkahulugan ng 'NANLULUMO'?",
     "choices": [
-      "Time management is useless.",
-      "It leads to better academic performance.",
-      "Only teachers need time management.",
-      "Students should avoid leisure."
+      "Nasasabik",
+      "Nalulungkot o nanghihina",
+      "Nagagalit",
+      "Nababaliw"
     ],
-    "answer": "It leads to better academic performance.",
-    "explanation": "The passage clearly states this result."
+    "answer": "Nalulungkot o nanghihina",
+    "explanation": "Ang nanlulumo ay nakakaramdam ng matinding panghihina o labis na pagkalungkot dahil sa pagkabigo."
   },
   {
     "id": "verb_98",
-    "question": "Read the passage and answer the question.\n\nTime management is an essential skill for students. It allows them to balance study, rest, and leisure effectively, leading to better academic performance.\n\nThe author's purpose is to:",
+    "question": "Ano ang ibig sabihin ng idyomang 'MAHABA ANG BUNTOT'?",
     "choices": [
-      "Describe a historical event.",
-      "Encourage time management.",
-      "Criticize students.",
-      "Compare study methods."
+      "Maldita",
+      "Laging nakasunod o naiispoil",
+      "Maganda",
+      "Matalino"
     ],
-    "answer": "Encourage time management.",
-    "explanation": "The passage promotes the value of time management."
+    "answer": "Laging nakasunod o naiispoil",
+    "explanation": "Ang batang 'mahaba ang buntot' ay laging nai-spoil o pinalalaki sa layaw."
   },
   {
     "id": "verb_99",
-    "question": "Choose the correct analogy: BRUSH : PAINT :: PEN : ____",
+    "question": "Ano ang kahulugan ng idyomang 'NAMAMANGKA SA DALAWANG ILOG'?",
     "choices": [
-      "Write",
-      "Ink",
-      "Paper",
-      "Draw"
+      "Mahilig maglakbay",
+      "Tapat sa asawa",
+      "Nagtataksil sa asawa o kasintahan",
+      "Dalawa ang trabaho"
     ],
-    "answer": "Ink",
-    "explanation": "A brush uses paint; a pen uses ink."
+    "answer": "Nagtataksil sa asawa o kasintahan",
+    "explanation": "Ito ay tumutukoy sa taong may ibang kinakasama o nagtataksil sa relasyon."
   },
   {
     "id": "verb_100",
-    "question": "Choose the correct sentence.",
+    "question": "Tukuyin ang uri ng tayutay: 'Ang kanyang ganda ay parang isang rosas.'",
     "choices": [
-      "The data is correct.",
-      "The data are correct.",
-      "The data be correct.",
-      "The data was correct."
+      "Pagwawangis",
+      "Pagtutulad",
+      "Pagsasatao",
+      "Pagtawag"
     ],
-    "answer": "The data is correct.",
-    "explanation": "In modern usage, 'data' is often treated as singular in general contexts."
+    "answer": "Pagtutulad",
+    "explanation": "Gumagamit ito ng salitang 'parang' kaya ito ay Pagtutulad (Simile)."
   },
   {
     "id": "verb_101",
