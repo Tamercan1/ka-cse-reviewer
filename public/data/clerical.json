@@ -37,15 +37,15 @@
   },
   {
     "id": "cler_4",
-    "question": "Arrange the following names in strict alphabetical filing order:\n1. De La Torre, Ana\n2. Delatorre, Ana\n3. De La Torre, Anna",
+    "question": "Arrange the following names in strict alphabetical filing order:\n1. De La Cruz, Ana\n2. De La Torre, Ana\n3. Delatorre, Anna",
     "choices": [
       "1, 2, 3",
       "2, 1, 3",
       "1, 3, 2",
-      "2, 3, 1"
+      "3, 2, 1"
     ],
-    "answer": "2, 1, 3",
-    "explanation": "Usually spaces are ignored in ARMA rules: Delatorre and De La Torre are identical in letters. If spaces are considered, 'De La' comes before 'Dela'. But standard CSE treats spaces as characters or ignores them. Let's provide a clearer one."
+    "answer": "1, 2, 3",
+    "explanation": "In alphabetical filing, spaces and punctuation in prefixes (like 'De La') are typically ignored, joining the prefix to the surname. Therefore: De La Cruz (DELACRUZ) comes before De La Torre (DELATORRE). Comparing 2 and 3 which have the same surname string (DELATORRE), the given names 'Ana' and 'Anna' are compared. 'Ana' comes before 'Anna'. Thus, the correct order is 1, 2, 3."
   },
   {
     "id": "cler_5",
@@ -205,7 +205,7 @@
   },
   {
     "id": "cler_18",
-    "question": "Let's fix the previous: Which name comes LAST?",
+    "question": "Which name comes LAST alphabetically?",
     "choices": [
       "Villanueva, J.",
       "Villacorta, J.",
@@ -213,7 +213,7 @@
       "Villamin, J."
     ],
     "answer": "Villanueva, J.",
-    "explanation": "c, m, m, n. N is the last letter alphabetically here."
+    "explanation": "Comparing the letters after the common prefix 'Villa': Villacorta (c), Villamin (m), Villamor (m), Villanueva (n). The letter 'n' comes last alphabetically among c, m, and n. Thus, Villanueva comes last."
   },
   {
     "id": "cler_19",
@@ -301,15 +301,15 @@
   },
   {
     "id": "cler_26",
-    "question": "Arrange alphabetically: 1. MacMillan 2. Macmillan 3. McArthur",
+    "question": "Arrange alphabetically:\n1. MacArthur, Douglas\n2. MacMillan, Harold\n3. McArthur, Arthur",
     "choices": [
-      "3, 1, 2",
-      "3, 2, 1",
       "1, 2, 3",
+      "1, 3, 2",
+      "3, 1, 2",
       "2, 1, 3"
     ],
-    "answer": "3, 1, 2",
-    "explanation": "Mc comes before Mac in some rules, but strictly M-a-c comes before M-c. Let's make it standard: M-a-c-m-i-l-l-a-n comes before M-c. But MacMillan vs Macmillan: capital M comes before lowercase m in strict ASCII, but in normal filing they are identical."
+    "answer": "1, 2, 3",
+    "explanation": "Under strict alphabetical filing rules, names are filed exactly as spelled. 'M-a-c' comes before 'M-c'. Comparing MacArthur and MacMillan, 'A' comes before 'M', so MacArthur is first, followed by MacMillan, and finally McArthur."
   },
   {
     "id": "cler_27",
