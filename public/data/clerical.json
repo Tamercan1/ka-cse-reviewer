@@ -325,15 +325,15 @@
   },
   {
     "id": "cler_28",
-    "question": "Let's fix 13: Arrange alphabetically: 1. Santos, Ma. Clara 2. Santos, Maria Clara 3. Santos, Mary",
+    "question": "Arrange alphabetically:\n1. Santos, Ma. Clara\n2. Santos, Maria Clara\n3. Santos, Mary",
     "choices": [
       "1, 2, 3",
       "2, 1, 3",
       "2, 3, 1",
       "1, 3, 2"
     ],
-    "answer": "2, 1, 3",
-    "explanation": "'Ma.' is often treated as 'Maria'. If spelled as 'Ma.', M-a-. comes before M-a-r-i-a. So 1, 2, 3. Let's use a non-ambiguous one: 1. Bautista 2. Baustista 3. Bautisata."
+    "answer": "1, 2, 3",
+    "explanation": "When filing alphabetically, words are usually sorted exactly as spelled. 'Ma.' (M-a-.) comes before 'Maria' (M-a-r), which comes before 'Mary' (M-a-r-y). Therefore, the correct alphabetical order is 1, 2, 3."
   },
   {
     "id": "cler_29",
@@ -500,8 +500,8 @@
       "4, 1, 3, 2",
       "1, 4, 3, 2"
     ],
-    "answer": "1, 3, 2, 4",
-    "explanation": "Ignoring spaces and punctuation: DELACRUZ (1), DELOSREYES (3), DELROSARIO (2), DELATORRE (Wait, let's look closer. D-e-l-a-T-o-r-r-e -> DELATORRE. D-e-L-a-C-r-u-z -> DELACRUZ. D-e-l-o-s-R-e-y-e-s -> DELOSREYES. D-e-l-R-o-s-a-r-i-o -> DELROSARIO. Wait. DELACRUZ vs DELATORRE. C comes before T. So 1 before 4. DELOSREYES vs DELROSARIO. O before R. So 3 before 2. Order: DELACRUZ (1), DELATORRE (4), DELOSREYES (3), DELROSARIO (2). Let's fix the options to match this.)"
+    "answer": "1, 4, 3, 2",
+    "explanation": "In standard filing rules, prefixes such as 'De La', 'Del', and 'De los' are combined with the surname and spaces are ignored. The sorted strings are DELACRUZ (1), DELATORRE (4), DELOSREYES (3), and DELROSARIO (2). This gives the order 1, 4, 3, 2."
   },
   {
     "id": "cler_43",
@@ -525,7 +525,7 @@
       "San Jose, Carlos"
     ],
     "answer": "St. John, Mark",
-    "explanation": "In filing, 'St.' is often treated as 'Saint'. SAINTJOHN, SAINTLUKE, SAINTS, SANJOSE. Actually, if not expanded, 'St.' is S-t. S-a comes before S-t. So 'St. John' is last."
+    "explanation": "In strictly literal alphabetical filing (where 'St.' is not expanded to 'Saint'), 'St.' begins with 'S-t', which comes alphabetically after 'S-a' (as in 'Saint' and 'San'). Therefore, 'St. John, Mark' comes last."
   },
   {
     "id": "cler_45",

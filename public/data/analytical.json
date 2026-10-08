@@ -117,7 +117,7 @@
       "It is back at the start"
     ],
     "answer": "North-East",
-    "explanation": "Facing North, a 135 deg CW turn points South-East. Flying 10km SE from a point 10km North puts it exactly East of the start? Wait. Let's do the math. 10km North (y=10). Turn 135 CW = SE angle. Fly 10km. x = 10*sin(45) = 7.07. y = 10 - 10*cos(45) = 10 - 7.07 = 2.93. So it's at (7.07, 2.93), which is North-East of the origin (0,0). Correct."
+    "explanation": "Facing North, a 135-degree clockwise turn points South-East. Flying 10km South-East from a point 10km North results in a position that is North-East relative to the starting point."
   },
   {
     "id": "anal_11",
@@ -169,7 +169,7 @@
   },
   {
     "id": "anal_15",
-    "question": "Seating Arrangement: Five friends A, B, C, D, and E are sitting in a row. A is next to B, C is next to D, D is not sitting with E. If E is on the left end and C is on the right end, who is sitting in the middle?",
+    "question": "Seating Arrangement: Five friends A, B, C, D, and E are sitting in a row. A is next to B, C is next to D, D is not sitting with E. E is on the left end, C is on the right end, and A is to the right of B. Who is sitting in the middle?",
     "choices": [
       "A",
       "B",
@@ -177,11 +177,11 @@
       "D"
     ],
     "answer": "A",
-    "explanation": "E is at the far left. C is at the far right. So it's E _ _ _ C. Since C is next to D, it's E _ _ D C. Since A is next to B, the remaining two are A and B. E B A D C or E A B D C. Actually, wait. The question is a bit ambiguous if B or A is next to E. But usually A and B are in the middle. Let's make it clearer: 'A is exactly in the middle'. I'll replace this item."
+    "explanation": "E is at the far left (position 1) and C is at the far right (position 5). Since C is next to D, D must be at position 4. A and B occupy positions 2 and 3. Since A is to the right of B, B is at position 2 and A is at position 3. Therefore, A is in the middle."
   },
   {
     "id": "anal_16",
-    "question": "Seating Arrangement: Eight friends sit around a circular table facing the center. A is second to the right of B, who is third to the left of C. D is second to the left of A. Who sits opposite to A?",
+    "question": "Seating Arrangement: Eight friends sit around a circular table facing the center. A is second to the right of B, who is third to the left of C. D is second to the right of A. Who sits opposite to A?",
     "choices": [
       "B",
       "C",
@@ -189,19 +189,19 @@
       "Data inadequate"
     ],
     "answer": "Data inadequate",
-    "explanation": "We only know the relative positions of A, B, C, and D. The remaining 4 people are not placed, so we cannot definitively determine who sits opposite A. Wait, in an 8-person circle, position is fixed relative to 8 slots. C_ _ B _ A _ D. Let's map it: B is at 1. C is at 4 (since B is 3rd to left of C). A is at 3 (2nd to right of B). D is at 1? Wait, A is 3. 2nd to left of A is 1. But B is at 1! Contradiction! Let's change the answer to 'Data inadequate / Invalid'."
+    "explanation": "Mapping the positions in an 8-person circle: If B is at position 1, A is at position 3 (second to the right). Since B is third to the left of C, C must be at position 4. D is second to the right of A, so D is at position 5. The position opposite to A (position 3) is position 7. Since we do not have information on who occupies position 7, the data is inadequate to determine who sits opposite A."
   },
   {
     "id": "anal_17",
-    "question": "Seating Arrangement: P, Q, R, S, and T are sitting in a line. P is sitting next to Q but not T. R is sitting next to S, who is on the extreme left. If T is not next to P, who is sitting in the middle?",
+    "question": "Seating Arrangement: P, Q, R, S, and T are sitting in a line. S is on the extreme left, and R is sitting next to S. T is on the extreme right, and P is not sitting next to T. Who is sitting in the middle?",
     "choices": [
       "P",
       "Q",
       "R",
       "T"
     ],
-    "answer": "R",
-    "explanation": "S is on extreme left. S is next to R (S, R, _, _, _). P is next to Q, but not T. If T is on the extreme right, then it's S, R, P, Q, T. Middle is P. Wait, let me rewrite this question clearly."
+    "answer": "P",
+    "explanation": "S is on the extreme left (position 1) and R is next to S (position 2). T is on the extreme right (position 5). The remaining positions 3 and 4 are for P and Q. Since P cannot be next to T, P must be at position 3 and Q at position 4. The arrangement is S, R, P, Q, T. Therefore, P is in the middle."
   },
   {
     "id": "anal_18",
@@ -813,7 +813,7 @@
       "A"
     ],
     "answer": "Y",
-    "explanation": "C(+6)=I. I(+5)=N. N(+6)=T. T(+5)=Y. Y(+6)=E. Wait, C=3, I=9 (+6). I=9, N=14 (+5). N=14, T=20 (+6). T=20, Y=25 (+5). Y=25, D=4 (wait, 25+6=31=E). 31-26=5=E. It perfectly works."
+    "explanation": "The sequence follows an alternating pattern of adding 6 and adding 5 to the alphabetical position of the letters. C(+6)=I, I(+5)=N, N(+6)=T. Therefore, the next letter is T(+5)=Y. Continuing the pattern, Y(+6)=E (25+6=31, 31-26=5=E)."
   },
   {
     "id": "anal_69",
@@ -1029,7 +1029,7 @@
       "D"
     ],
     "answer": "A",
-    "explanation": "E is at pos 1. C is at pos 4. D is next to C, so D must be at 5 (can't be 3 because D is not with E, wait, E is 1). So E, B, A, C, D. Center is A."
+    "explanation": "E is on the left end (position 1). C is on the second position from the right (position 4). Since A and B must sit together and A is to the right of B, they must occupy positions 2 and 3 respectively (B at 2, A at 3). D is next to C, so D must be at position 5. The final arrangement is E, B, A, C, D. Thus, A sits in the center."
   },
   {
     "id": "anal_87",
@@ -1737,7 +1737,7 @@
       "BOTH statements TOGETHER are NOT sufficient."
     ],
     "answer": "BOTH statements TOGETHER are sufficient.",
-    "explanation": "From both, 'is red' corresponds to 'pa ta' (in no exact order). That leaves 'apple' as 'na' in statement 1. Wait, if 'is red' = 'pa ta', then 'apple' must be 'na'. So both together ARE sufficient! Correct answer provided in options is usually structured this way."
+    "explanation": "From both statements, we can deduce that the common words 'is red' correspond to the common codes 'pa ta' (in no particular order). Looking at Statement 1 ('apple is red' = 'na pa ta'), the remaining word 'apple' must correspond to the remaining code 'na'. Therefore, both statements together are necessary and sufficient to find the code for 'apple'."
   },
   {
     "id": "anal_146",

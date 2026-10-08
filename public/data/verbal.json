@@ -246,10 +246,10 @@
       "Whomever is responsible for this mess must clean it up.",
       "The award will be given to whoever the committee selects.",
       "I will hire whomever proves to be the most competent.",
-      "He is the man whom I believe stole the documents."
+      "He is the man who I believe stole the documents."
     ],
-    "answer": "The award will be given to whoever the committee selects.",
-    "explanation": "Wait. 'Whoever' is the subject of the clause. Let's look closer: 'the committee selects [him]'. It should be 'whomever'. Let me provide a clear correct sentence: 'He is the man who I believe stole the documents'. Let me replace this question."
+    "answer": "He is the man who I believe stole the documents.",
+    "explanation": "In the sentence 'He is the man who I believe stole the documents', 'who' is correctly used as the subject of the verb 'stole' (the phrase 'I believe' is parenthetical). The other options misuse who/whom: 'whoever' should be used when it is the subject of a verb ('Whoever is responsible', 'whoever proves'), and 'whomever' should be used when it is the object ('whomever the committee selects')."
   },
   {
     "id": "verb_22",
@@ -817,15 +817,15 @@
   },
   {
     "id": "verb_69",
-    "question": "Piliin ang wastong gamit ng salita: Huwag mong ______ ang pintuan dahil malamig.",
+    "question": "Piliin ang wastong gamit ng salita: Ang pasyente ay _______ bukas.",
     "choices": [
-      "Iwan",
-      "Iwanan",
-      "Sarat",
-      "Isarado"
+      "operahan",
+      "operahin",
+      "inopera",
+      "pag-oopera"
     ],
-    "answer": "Iwanan",
-    "explanation": "Wait, the options and answer for 'iwan/iwanan' are tricky. Let's replace with 'operahan/operahin'. 'Ang pasyente ay _______ bukas.' Answer: ooperahan."
+    "answer": "operahan",
+    "explanation": "Ginagamit ang hulaping '-an' (operahan) kapag ang tinutukoy ay ang tao o bahagi ng katawan na sasailalim sa operasyon. Ang '-in' (operahin) ay karaniwang ginagamit para sa sakit o tumor na aalisin (hal. 'ooperahin ang bukol'). Dahil pasyente ang pinag-uusapan, 'operahan' ang wasto."
   },
   {
     "id": "verb_70",
