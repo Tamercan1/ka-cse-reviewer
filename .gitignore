@@ -1,11 +1,9 @@
 # Project specific
 *.py
-design-changelog.md
-working.md
-state-saving-feature.md
-exam-shuffling-logic.md
-quiz-shuffling-logic.md
-clerical_issues.md
+__pycache__/
+*.pyc
+*.pyo
+scripts/
 review_state.json
 .agents/
 _old_js/
@@ -31,6 +29,7 @@ dist-ssr/
 *.local
 .env
 .env.*
+!.env.example
 
 # OS files
 .DS_Store

@@ -1,4 +1,5 @@
 import { getElement } from '../utils/dom';
+import { EXTERNAL_LINKS } from '../config';
 
 export function isRootDirectory(): boolean {
   return window.location.pathname.endsWith('index.html') || window.location.pathname === '/';
@@ -91,7 +92,9 @@ export function renderFooter(): void {
             <div class="flex items-center justify-center space-x-4 text-sm font-medium text-slate-500">
                 <a href="${pagesPath}about.html" class="hover:text-blue-600 transition-colors">About the Creator</a>
                 <span class="text-slate-300">&middot;</span>
-                <a href="https://github.com/Tamercan1/ka-cse-reviewer" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 transition-colors">GitHub</a>
+                <a href="${EXTERNAL_LINKS.PORTFOLIO}" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 transition-colors">Portfolio</a>
+                <span class="text-slate-300">&middot;</span>
+                <a href="${EXTERNAL_LINKS.GITHUB}" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 transition-colors">GitHub</a>
             </div>
         </div>
     </footer>

@@ -29,3 +29,12 @@ export const LIMITS = {
   /** Timer warning threshold in seconds (10 minutes) */
   TIMER_WARNING: 600,
 } as const;
+
+/**
+ * External links used across the application.
+ * Portfolio URL is configurable via VITE_PORTFOLIO_URL env variable in Netlify.
+ */
+export const EXTERNAL_LINKS = {
+  PORTFOLIO: (import.meta.env.VITE_PORTFOLIO_URL as string | undefined) || 'https://tamercan.vercel.app',
+  GITHUB: 'https://github.com/Tamercan1',
+} as const;
