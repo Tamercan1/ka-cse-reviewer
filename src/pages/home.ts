@@ -39,14 +39,38 @@ function updateHomeUI(): void {
   // 1. Update Vocabulary Progress
   const mastered = load<string[]>(STORAGE_KEYS.MASTERED_WORDS, []);
   setText('stat-vocab-progress', `${mastered.length} Mastered`);
+  const vocabBar = getElement<HTMLElement>('stat-vocab-bar');
+  if (vocabBar) {
+    const vocabPct = Math.min(100, Math.round((mastered.length / 400) * 100));
+    vocabBar.style.width = `${vocabPct}%`;
+  }
 
   // 2. Update Exam High Score
   const history = load<ExamHistoryEntry[]>(STORAGE_KEYS.EXAM_HISTORY, []);
+  const highScoreBar = getElement<HTMLElement>('stat-high-score-bar');
+  const highScoreBadge = getElement<HTMLElement>('stat-high-score-badge');
+
   if (history.length > 0) {
     const highScoreEntry = history.reduce((max, current) => current.percentage > max.percentage ? current : max, history[0]);
     setText('stat-high-score', `${highScoreEntry.percentage}% (${highScoreEntry.score} / ${highScoreEntry.total})`);
+    if (highScoreBar) {
+      highScoreBar.style.width = `${Math.min(100, highScoreEntry.percentage)}%`;
+    }
+    if (highScoreBadge) {
+      highScoreBadge.textContent = highScoreEntry.passed ? 'Passed' : `${highScoreEntry.percentage}% Score`;
+      highScoreBadge.className = highScoreEntry.passed
+        ? 'px-2 py-0.5 text-[10px] font-bold rounded-full bg-emerald-50 text-emerald-600 border border-emerald-100'
+        : 'px-2 py-0.5 text-[10px] font-bold rounded-full bg-blue-50 text-blue-700 border border-blue-100';
+    }
   } else {
     setText('stat-high-score', `0% (0 / 0)`);
+    if (highScoreBar) {
+      highScoreBar.style.width = '0%';
+    }
+    if (highScoreBadge) {
+      highScoreBadge.textContent = 'No Exam Yet';
+      highScoreBadge.className = 'px-2 py-0.5 text-[10px] font-bold rounded-full bg-slate-100 text-slate-500';
+    }
   }
 
   // 3. Update Best Practice Score
@@ -63,6 +87,10 @@ function updateHomeUI(): void {
     if (value > best) best = value;
   }
   setText('stat-best-score', `${best}%`);
+  const bestScoreBar = getElement<HTMLElement>('stat-best-score-bar');
+  if (bestScoreBar) {
+    bestScoreBar.style.width = `${Math.min(100, best)}%`;
+  }
 
   // 4. Render Activity History (Mock Exams)
   const activityList = getElement('recent-activity-list');

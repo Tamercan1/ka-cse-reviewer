@@ -83,71 +83,170 @@
         <!-- Compact Greeting & Continue Learning Card -->
         <div class="flex flex-col sm:flex-row justify-between sm:items-end gap-6 mb-10 mt-2">
             <div>
-                <h1 class="text-2xl sm:text-3xl font-extrabold text-slate-800 tracking-tight">Good day, Ka-CSE</h1>
-                <p class="text-sm text-slate-500 mt-1">Ano, tara? Simulan na natin mag-review!</p>
+                <h1 class="text-2xl sm:text-3xl font-extrabold text-slate-800 tracking-tight flex items-center gap-2 flex-wrap">
+                    <span>Good day,</span>
+                    <span class="bg-gradient-to-r from-violet-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">Ka-CSE!</span>
+                    <span class="inline-block hover:rotate-12 transition-transform cursor-default select-none">👋</span>
+                </h1>
+                <p class="text-sm text-slate-500 mt-1 font-medium">Ano, tara? Simulan na natin mag review!</p>
             </div>
             <!-- Compact Quick Actions Group -->
-            <div class="flex flex-col sm:flex-row items-center gap-3 w-full sm:w-auto">
-                <!-- Practice Quiz Button (Theme: Violet) -->
+            <!-- Mobile Stacked Pill Buttons (< sm) -->
+            <div class="flex flex-col gap-3 w-full sm:hidden">
+                <!-- Practice Quiz Button -->
                 <a href="pages/practice.html"
-                    class="w-full sm:w-auto inline-flex items-center justify-center px-4 py-2.5 bg-violet-500 hover:bg-violet-700 text-white font-bold rounded-xl shadow-sm shadow-blue-100 transition-all hover:scale-[1.02] active:scale-[0.98] text-xs cursor-pointer whitespace-nowrap">
-                    <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                    class="w-full flex items-center justify-between px-5 py-3.5 bg-[#b040f7] hover:bg-[#a02ee8] active:scale-[0.98] text-white font-semibold rounded-2xl shadow-sm transition-all cursor-pointer">
+                    <div class="flex items-center space-x-3.5">
+                        <svg class="w-5 h-5 shrink-0 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M13 2L3 14h8l-2 8 10-12h-8l2-8z" />
+                        </svg>
+                        <span class="text-sm font-semibold tracking-wide">Practice Quiz</span>
+                    </div>
+                    <svg class="w-4 h-4 shrink-0 text-white ml-auto" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                     </svg>
-                    Practice Quiz
                 </a>
 
-                <!-- Exam Simulation Button (Theme: Indigo) -->
+                <!-- Exam Simulation Button -->
                 <a href="pages/exam.html"
-                    class="w-full sm:w-auto inline-flex items-center justify-center px-4 py-2.5 bg-blue-500 hover:bg-blue-700 text-white font-bold rounded-xl shadow-sm shadow-indigo-100 transition-all hover:scale-[1.02] active:scale-[0.98] text-xs cursor-pointer whitespace-nowrap">
-                    <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    class="w-full flex items-center justify-between px-5 py-3.5 bg-[#7e52f5] hover:bg-[#6c3ee3] active:scale-[0.98] text-white font-semibold rounded-2xl shadow-sm transition-all cursor-pointer">
+                    <div class="flex items-center space-x-3.5">
+                        <svg class="w-5 h-5 shrink-0 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <span class="text-sm font-semibold tracking-wide">Exam Simulation</span>
+                    </div>
+                    <svg class="w-4 h-4 shrink-0 text-white ml-auto" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                     </svg>
-                    Exam Simulation
                 </a>
 
-                <!-- Vocabulary Digest Button (Theme: Violet) -->
+                <!-- Vocabulary Digest Button -->
                 <a href="pages/vocabulary.html"
-                    class="w-full sm:w-auto inline-flex items-center justify-center px-4 py-2.5 bg-indigo-500 hover:bg-indigo-700 text-white font-bold rounded-xl shadow-sm shadow-violet-100 transition-all hover:scale-[1.02] active:scale-[0.98] text-xs cursor-pointer whitespace-nowrap">
-                    <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    class="w-full flex items-center justify-between px-5 py-3.5 bg-[#5072f6] hover:bg-[#3c61eb] active:scale-[0.98] text-white font-semibold rounded-2xl shadow-sm transition-all cursor-pointer">
+                    <div class="flex items-center space-x-3.5">
+                        <svg class="w-5 h-5 shrink-0 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg>
+                        <span class="text-sm font-semibold tracking-wide">Vocabulary Digest</span>
+                    </div>
+                    <svg class="w-4 h-4 shrink-0 text-white ml-auto" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                     </svg>
-                    Vocabulary Digest
+                </a>
+            </div>
+
+            <!-- Desktop Quick Actions Group (>= sm) -->
+            <div class="hidden sm:flex sm:flex-row items-center gap-3 w-auto">
+                <!-- Practice Quiz Button -->
+                <a href="pages/practice.html"
+                    class="inline-flex items-center justify-between px-4 py-2.5 bg-[#b040f7] hover:bg-[#a02ee8] text-white font-bold rounded-xl shadow-sm transition-all hover:scale-[1.02] active:scale-[0.98] text-xs cursor-pointer whitespace-nowrap space-x-2">
+                    <div class="flex items-center space-x-2">
+                        <svg class="w-4 h-4 shrink-0 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M13 2L3 14h8l-2 8 10-12h-8l2-8z" />
+                        </svg>
+                        <span>Practice Quiz</span>
+                    </div>
+                    <svg class="w-3.5 h-3.5 shrink-0 text-white opacity-90 ml-1.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                    </svg>
+                </a>
+
+                <!-- Exam Simulation Button -->
+                <a href="pages/exam.html"
+                    class="inline-flex items-center justify-between px-4 py-2.5 bg-[#7e52f5] hover:bg-[#6c3ee3] text-white font-bold rounded-xl shadow-sm transition-all hover:scale-[1.02] active:scale-[0.98] text-xs cursor-pointer whitespace-nowrap space-x-2">
+                    <div class="flex items-center space-x-2">
+                        <svg class="w-4 h-4 shrink-0 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <span>Exam Simulation</span>
+                    </div>
+                    <svg class="w-3.5 h-3.5 shrink-0 text-white opacity-90 ml-1.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                    </svg>
+                </a>
+
+                <!-- Vocabulary Digest Button -->
+                <a href="pages/vocabulary.html"
+                    class="inline-flex items-center justify-between px-4 py-2.5 bg-[#5072f6] hover:bg-[#3c61eb] text-white font-bold rounded-xl shadow-sm transition-all hover:scale-[1.02] active:scale-[0.98] text-xs cursor-pointer whitespace-nowrap space-x-2">
+                    <div class="flex items-center space-x-2">
+                        <svg class="w-4 h-4 shrink-0 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg>
+                        <span>Vocabulary Digest</span>
+                    </div>
+                    <svg class="w-3.5 h-3.5 shrink-0 text-white opacity-90 ml-1.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                    </svg>
                 </a>
             </div>
         </div>
 
         <!-- Dashboard Stats Section -->
-        <div class="bg-white border border-slate-200 rounded-2xl mb-12 shadow-sm overflow-hidden">
-            <div class="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-slate-100">
-                <!-- Exam High Score Card -->
-                <div class="p-6">
-                    <span class="text-slate-400 text-xs font-semibold uppercase tracking-wider block mb-2">Exam High
-                        Score</span>
-                    <h3 id="stat-high-score" class="text-2xl font-extrabold text-slate-800 mb-1">0% (0 / 0)</h3>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 mb-12">
+            <!-- Exam High Score Card (Featured full-width on mobile, 1 col on desktop) -->
+            <div class="col-span-2 md:col-span-1 bg-white border border-slate-200/90 rounded-2xl p-4 sm:p-5 shadow-xs hover:shadow-sm transition-all flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-3">
+                        <div class="flex items-center space-x-2.5">
+                            <div class="w-8 h-8 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.504-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.004-7.125a4.875 4.875 0 00-9.75 0c0 2.217 1.47 4.093 3.5 4.673v1.827h2.75v-1.827c2.03-.58 3.5-2.456 3.5-4.673zM5.25 6h-.75a2.25 2.25 0 00-2.25 2.25v.75a2.25 2.25 0 002.25 2.25h.75m13.5-5.25h.75a2.25 2.25 0 012.25 2.25v.75a2.25 2.25 0 01-2.25 2.25h-.75" />
+                                </svg>
+                            </div>
+                            <span class="text-slate-400 text-[10px] sm:text-xs font-bold uppercase tracking-wider block">Exam High Score</span>
+                        </div>
+                        <span id="stat-high-score-badge" class="px-2 py-0.5 text-[10px] font-bold rounded-full bg-slate-100 text-slate-500">No Exam Yet</span>
+                    </div>
+                    <h3 id="stat-high-score" class="text-xl sm:text-2xl font-extrabold text-slate-800 mb-0.5 tracking-tight">0% (0 / 0)</h3>
                     <p class="text-[11px] text-slate-500">Your highest mock exam score.</p>
                 </div>
-
-                <!-- Vocabulary Progress Card -->
-                <div class="p-6">
-                    <span class="text-slate-400 text-xs font-semibold uppercase tracking-wider block mb-2">Vocabulary
-                        Progress</span>
-                    <h3 id="stat-vocab-progress" class="text-2xl font-extrabold text-slate-800 mb-1">0 / 0 Mastered</h3>
-                    <p class="text-[11px] text-slate-500">Mastered words from the digest.</p>
+                <div class="mt-3.5 w-full bg-slate-100 rounded-full h-1.5 overflow-hidden">
+                    <div id="stat-high-score-bar" class="bg-blue-600 h-1.5 rounded-full transition-all duration-500" style="width: 0%;"></div>
                 </div>
+            </div>
 
-                <!-- Best Practice Card -->
-                <div class="p-6">
-                    <span class="text-slate-400 text-xs font-semibold uppercase tracking-wider block mb-2">Best Practice
-                        Score</span>
-                    <h3 id="stat-best-score" class="text-2xl font-extrabold text-slate-800 mb-1 truncate">0%</h3>
-                    <p class="text-[11px] text-slate-500">Your highest score across categories.</p>
+            <!-- Vocabulary Progress Card (Left column on mobile, 1 col on desktop) -->
+            <div class="col-span-1 bg-white border border-slate-200/90 rounded-2xl p-4 sm:p-5 shadow-xs hover:shadow-sm transition-all flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center space-x-2 mb-3">
+                        <div class="w-8 h-8 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center shrink-0">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <span class="text-slate-400 text-[10px] sm:text-xs font-bold uppercase tracking-wider block truncate">Vocabulary</span>
+                    </div>
+                    <h3 id="stat-vocab-progress" class="text-base sm:text-2xl font-extrabold text-slate-800 mb-0.5 tracking-tight truncate">0 Mastered</h3>
+                    <p class="text-[11px] text-slate-500 truncate">Mastered words.</p>
+                </div>
+                <div class="mt-3.5 w-full bg-slate-100 rounded-full h-1.5 overflow-hidden">
+                    <div id="stat-vocab-bar" class="bg-indigo-500 h-1.5 rounded-full transition-all duration-500" style="width: 0%;"></div>
+                </div>
+            </div>
+
+            <!-- Best Practice Card (Right column on mobile, 1 col on desktop) -->
+            <div class="col-span-1 bg-white border border-slate-200/90 rounded-2xl p-4 sm:p-5 shadow-xs hover:shadow-sm transition-all flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center space-x-2 mb-3">
+                        <div class="w-8 h-8 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center shrink-0">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                            </svg>
+                        </div>
+                        <span class="text-slate-400 text-[10px] sm:text-xs font-bold uppercase tracking-wider block truncate">Practice</span>
+                    </div>
+                    <h3 id="stat-best-score" class="text-base sm:text-2xl font-extrabold text-slate-800 mb-0.5 tracking-tight truncate">0%</h3>
+                    <p class="text-[11px] text-slate-500 truncate">Best category score.</p>
+                </div>
+                <div class="mt-3.5 w-full bg-slate-100 rounded-full h-1.5 overflow-hidden">
+                    <div id="stat-best-score-bar" class="bg-violet-500 h-1.5 rounded-full transition-all duration-500" style="width: 0%;"></div>
                 </div>
             </div>
         </div>
