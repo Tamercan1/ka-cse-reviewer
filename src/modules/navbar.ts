@@ -1,6 +1,6 @@
 import { getElement } from '../utils/dom';
 import { EXTERNAL_LINKS } from '../config';
-import { initPWA } from '../services/pwa';
+import { initPWA, setupInstallButtons } from '../services/pwa';
 
 export function isRootDirectory(): boolean {
   return window.location.pathname.endsWith('index.html') || window.location.pathname === '/';
@@ -46,8 +46,17 @@ export function renderNavbar(): void {
                     </div>
                 </div>
                 
-                <!-- Mobile Menu Trigger -->
-                <div class="flex items-center space-x-2 sm:space-x-4">
+                <!-- Action Group & Mobile Trigger -->
+                <div class="flex items-center space-x-2 sm:space-x-3">
+                    <!-- Dedicated Desktop Install Button (Starts Hidden until beforeinstallprompt) -->
+                    <button id="pwa-install-btn-desktop" class="hidden items-center space-x-1.5 px-3 py-1.5 text-xs font-semibold text-purple-700 bg-purple-50 hover:bg-purple-100 border border-purple-200 rounded-xl transition-all shadow-sm cursor-pointer select-none">
+                        <svg class="w-4 h-4 text-purple-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                        </svg>
+                        <span>Install App</span>
+                    </button>
+
+                    <!-- Mobile Menu Trigger -->
                     <button id="mobile-menu-toggle" class="md:hidden p-1.5 text-slate-600 hover:text-slate-800 focus:outline-none cursor-pointer">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
@@ -64,12 +73,23 @@ export function renderNavbar(): void {
             <a href="${pagesPath}exam.html" class="block px-3 py-2 rounded-md text-base font-medium ${activePage === 'exam' ? 'bg-blue-50 text-blue-700' : 'text-slate-600 hover:bg-slate-100'}" data-page="exam">Exam Simulation</a>
             <a href="${pagesPath}vocabulary.html" class="block px-3 py-2 rounded-md text-base font-medium ${activePage === 'vocabulary' ? 'bg-blue-50 text-blue-700' : 'text-slate-600 hover:bg-slate-100'}" data-page="vocabulary">Vocabulary Digest</a>
             <a href="${pagesPath}dashboard.html" class="block px-3 py-2 rounded-md text-base font-medium ${activePage === 'dashboard' ? 'bg-blue-50 text-blue-700' : 'text-slate-600 hover:bg-slate-100'}" data-page="dashboard">Results</a>
+            
+            <!-- Dedicated Mobile Install Button (Starts Hidden until beforeinstallprompt) -->
+            <button id="pwa-install-btn-mobile" class="hidden w-full items-center justify-center space-x-2 px-3 py-2.5 mt-2 text-sm font-semibold text-purple-700 bg-purple-100/70 hover:bg-purple-200/70 border border-purple-200 rounded-xl transition-all cursor-pointer select-none">
+                <svg class="w-4 h-4 text-purple-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                </svg>
+                <span>Install Ka-CSE App</span>
+            </button>
         </div>
     </nav>
   `;
 
   placeholder.className = "sticky top-0 z-50";
   placeholder.innerHTML = navbarHTML;
+
+  // Initialize install button handlers
+  setupInstallButtons();
 
   const mobileBtn = getElement('mobile-menu-toggle');
   const mobileMenu = getElement('mobile-menu');
