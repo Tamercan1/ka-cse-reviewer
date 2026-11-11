@@ -42,17 +42,27 @@ More importantly, the project taught me that a useful application doesn't necess
 
 ---
 
+## Features
+
+* **Installable Progressive Web App (PWA)**: Install directly to desktop or mobile home screens for a distraction-free app experience.
+* **Full Offline Support**: Practice quizzes, 170-item mock exams, and vocabulary digests work offline with cached questions.
+* **Exam Simulation**: Timed 170-question mock exam mirroring the official Philippine Civil Service Professional Examination.
+* **Subject Practice Quizzes**: Category-targeted drills for Numerical, Verbal, Analytical, General Information, and Clerical operations.
+* **Vocabulary Digest & Daily Challenge**: Curated word lists with meanings, context sentences, and timed multiple-choice quizzes.
+* **Local Persistence**: Browser-based tracking for test scores and review history without requiring accounts or subscriptions.
+
+---
+
 ## Project Status
 
-**Active — v1**
+**Active — v1 (PWA Enabled)**
 
-Ka-CSE Reviewer is currently a frontend-only application with browser-based data and progress persistence.
+Ka-CSE Reviewer is a frontend-first Progressive Web App with offline caching and browser-based progress persistence.
 
 The question bank and content are actively being improved based on accuracy, relevance, difficulty, and coverage.
 
 Future versions may explore features such as:
 
-* Progressive Web App (PWA) support
 * Backend services
 * User accounts
 * Cloud-based progress synchronization

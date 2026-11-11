@@ -1,11 +1,15 @@
 import { getElement } from '../utils/dom';
 import { EXTERNAL_LINKS } from '../config';
+import { initPWA } from '../services/pwa';
 
 export function isRootDirectory(): boolean {
   return window.location.pathname.endsWith('index.html') || window.location.pathname === '/';
 }
 
 export function renderNavbar(): void {
+  // Initialize PWA service worker and connectivity listeners on all pages
+  initPWA();
+
   const placeholder = getElement('navbar-placeholder');
   if (!placeholder) return;
 
