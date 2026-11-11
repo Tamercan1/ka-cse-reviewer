@@ -1,0 +1,13 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Allow: /pages/practice.html
+Allow: /pages/exam.html
+Allow: /pages/vocabulary.html
+Allow: /pages/vocab-quiz.html
+Allow: /pages/about.html
+Disallow: /pages/dashboard.html
+
+# XML Sitemap
+Sitemap: https://kacsereviewer.netlify.app/sitemap.xml
+

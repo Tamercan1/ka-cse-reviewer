@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage / Landing & Reviewer Dashboard -->
+  <url>
+    <loc>https://kacsereviewer.netlify.app/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Full Exam Simulation (170 items, timed) -->
+  <url>
+    <loc>https://kacsereviewer.netlify.app/pages/exam.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- Subject-Specific Practice Quiz -->
+  <url>
+    <loc>https://kacsereviewer.netlify.app/pages/practice.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- Vocabulary Digest -->
+  <url>
+    <loc>https://kacsereviewer.netlify.app/pages/vocabulary.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Daily Vocabulary Quiz Challenge -->
+  <url>
+    <loc>https://kacsereviewer.netlify.app/pages/vocab-quiz.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- About the Creator & Reviewer Overview -->
+  <url>
+    <loc>https://kacsereviewer.netlify.app/pages/about.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>
+

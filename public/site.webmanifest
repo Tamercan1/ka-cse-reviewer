@@ -1,0 +1,22 @@
+{
+  "name": "Ka-CSE Reviewer - Philippine Civil Service Exam Prep",
+  "short_name": "Ka-CSE Reviewer",
+  "description": "Free Philippine Civil Service Examination practice quizzes, 170-item mock exam simulations, and vocabulary digests.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#9333ea",
+  "icons": [
+    {
+      "src": "/img/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/cse-reviewer-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
